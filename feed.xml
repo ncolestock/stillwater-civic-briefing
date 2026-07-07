@@ -3,14 +3,14 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stillwater-Oakdale Civic Briefing</title>
+    <title>Stillwater Civic Briefing</title>
     <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
     <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <description>A weekly Christian-worldview briefing on local government and schools across the Stillwater-to-Oakdale corridor — Washington County, Stillwater, Oakdale, and school districts ISD 834 and ISD 622. Hosted by Artie Fishel. Stay aware; stay engaged.</description>
-    <lastBuildDate>Tue, 07 Jul 2026 01:17:08 +0000</lastBuildDate>
+    <description>A weekly local-news briefing on government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oakdale, and the local school districts. Just the facts: what was decided, what it costs, and who's responsible. Hosted by Artie Fishel.</description>
+    <lastBuildDate>Tue, 07 Jul 2026 01:35:48 +0000</lastBuildDate>
     <itunes:author>Artie Fishel</itunes:author>
-    <itunes:summary>A weekly Christian-worldview briefing on local government and schools across the Stillwater-to-Oakdale corridor — Washington County, Stillwater, Oakdale, and school districts ISD 834 and ISD 622. Hosted by Artie Fishel. Stay aware; stay engaged.</itunes:summary>
+    <itunes:summary>A weekly local-news briefing on government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oakdale, and the local school districts. Just the facts: what was decided, what it costs, and who's responsible. Hosted by Artie Fishel.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg"/>
@@ -21,17 +21,39 @@
     </itunes:owner>
     <image>
       <url>https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg</url>
-      <title>Stillwater-Oakdale Civic Briefing</title>
+      <title>Stillwater Civic Briefing</title>
       <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
     </image>
     <item>
-      <title>Civic Briefing — Week of July 6, 2026: Sports Fees, Road Money, and Oakdale Moves Out</title>
-      <description>Middle-school sports fees rise to about $200 a sport in Stillwater's district 834; Washington County lines up roughly $4 million in road-project decisions July 7 with public comment open; and Oakdale's City Hall and police lobby relocate for a year-and-a-half rebuild funded by a voter-approved sales tax. Plus a class-size change, two county comment windows closing this week, and where to show up. Hosted by Artie Fishel.</description>
-      <itunes:summary>Middle-school sports fees rise to about $200 a sport in Stillwater's district 834; Washington County lines up roughly $4 million in road-project decisions July 7 with public comment open; and Oakdale's City Hall and police lobby relocate for a year-and-a-half rebuild funded by a voter-approved sales tax. Plus a class-size change, two county comment windows closing this week, and where to show up. Hosted by Artie Fishel.</itunes:summary>
+      <title>Week of July 6, 2026: County Road Money, School Sports Fees, and Oakdale City Hall</title>
+      <description>This week: the Washington County Board weighs nearly $4 million in road-project spending (July 7); the Stillwater school district raises middle-school sports fees to about $200 per sport; Oakdale's City Hall and police lobby relocate for an 18-month, voter-tax-funded rebuild; and the Stillwater City Council's July 7 consent agenda includes several contract awards and a school resource officer agreement.
+
+HOW TO GET INVOLVED
+- Washington County Board: Tue, July 7, 9:00 AM, County Board Room, Government Center, Stillwater. Public comment period; fill out a comment card before the meeting.
+- Stillwater City Council: Tue, July 7, workshop 4:30 PM / regular 7:00 PM, Stillwater City Hall.
+- Oakdale Planning Commission: Thu, July 9; two public hearings scheduled.
+- County public-comment windows (online at washingtoncountymn.gov): proposed regional trail (Middle St. Croix Valley to Phalen-Keller) closes July 10; County Road 10/17 intersection near Lake Elmo closes July 12.
+- Stillwater middle-school sports fee: the final amount is set before mid-July registration; watch the district's Community Education page.
+- Stuff the Bus school-supply help: register through July 23 at uwwce.org/stuff-the-bus.
+- Also coming up: County Board and Oakdale City Council on July 14; Stillwater City Council July 21; Stillwater school board July 28.
+
+Hosted by Artie Fishel. Sources: official city, county, and school-district agendas and minutes.</description>
+      <itunes:summary>This week: the Washington County Board weighs nearly $4 million in road-project spending (July 7); the Stillwater school district raises middle-school sports fees to about $200 per sport; Oakdale's City Hall and police lobby relocate for an 18-month, voter-tax-funded rebuild; and the Stillwater City Council's July 7 consent agenda includes several contract awards and a school resource officer agreement.
+
+HOW TO GET INVOLVED
+- Washington County Board: Tue, July 7, 9:00 AM, County Board Room, Government Center, Stillwater. Public comment period; fill out a comment card before the meeting.
+- Stillwater City Council: Tue, July 7, workshop 4:30 PM / regular 7:00 PM, Stillwater City Hall.
+- Oakdale Planning Commission: Thu, July 9; two public hearings scheduled.
+- County public-comment windows (online at washingtoncountymn.gov): proposed regional trail (Middle St. Croix Valley to Phalen-Keller) closes July 10; County Road 10/17 intersection near Lake Elmo closes July 12.
+- Stillwater middle-school sports fee: the final amount is set before mid-July registration; watch the district's Community Education page.
+- Stuff the Bus school-supply help: register through July 23 at uwwce.org/stuff-the-bus.
+- Also coming up: County Board and Oakdale City Council on July 14; Stillwater City Council July 21; Stillwater school board July 28.
+
+Hosted by Artie Fishel. Sources: official city, county, and school-district agendas and minutes.</itunes:summary>
       <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-06.m4a" length="3886987" type="audio/x-m4a"/>
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-06.m4a" length="2352008" type="audio/x-m4a"/>
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-06</guid>
-      <itunes:duration>8:07</itunes:duration>
+      <itunes:duration>4:57</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
