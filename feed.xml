@@ -7,16 +7,16 @@
     <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
     <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <description>A weekly local-news briefing on government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oakdale, and the local school districts. Just the facts: what was decided, what it costs, and who's responsible. Hosted by Artie Fishel.</description>
-    <lastBuildDate>Tue, 07 Jul 2026 02:49:19 +0000</lastBuildDate>
-    <itunes:author>Artie Fishel</itunes:author>
-    <itunes:summary>A weekly local-news briefing on government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oakdale, and the local school districts. Just the facts: what was decided, what it costs, and who's responsible. Hosted by Artie Fishel.</itunes:summary>
+    <description>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</description>
+    <lastBuildDate>Sat, 11 Jul 2026 16:00:10 +0000</lastBuildDate>
+    <itunes:author>Stillwater Civic Briefing</itunes:author>
+    <itunes:summary>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg"/>
     <itunes:category text="News"/>
     <itunes:owner>
-      <itunes:name>Artie Fishel</itunes:name>
+      <itunes:name>Stillwater Civic Briefing</itunes:name>
       <itunes:email>nathan0colestock@gmail.com</itunes:email>
     </itunes:owner>
     <image>
@@ -24,6 +24,20 @@
       <title>Stillwater Civic Briefing</title>
       <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
     </image>
+    <item>
+      <title>Profile: Ted Kozlowski, Mayor of Stillwater</title>
+      <description>A factual portrait of Ted Kozlowski, mayor of Stillwater since 2014, drawn from the public record and his own words. Covers his upbringing and digital-marketing career, Stillwater's mayor-council-administrator form of government, his 2012 council election and his 2014, 2018, and 2022 mayoral elections (with margins), and his record on the downtown riverfront and the St. Croix Crossing project, quoted from his own public statements.
+
+Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.</description>
+      <itunes:summary>A factual portrait of Ted Kozlowski, mayor of Stillwater since 2014, drawn from the public record and his own words. Covers his upbringing and digital-marketing career, Stillwater's mayor-council-administrator form of government, his 2012 council election and his 2014, 2018, and 2022 mayoral elections (with margins), and his record on the downtown riverfront and the St. Croix Crossing project, quoted from his own public statements.
+
+Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.</itunes:summary>
+      <pubDate>Sat, 11 Jul 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-11.m4a" length="7840943" type="audio/x-m4a"/>
+      <guid isPermaLink="false">stillwater-civic-briefing-2026-07-11-profile</guid>
+      <itunes:duration>5:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Week of July 6, 2026: County Road Money, Stillwater's Packet, and Two New Cities</title>
       <description>Going deeper this week: Washington County votes on ~$4 million in road work (July 7); Stillwater's council packet has a new Parks Master Plan, two paving contracts to Miller Excavating, a water-tower painting change order now at ~$642K (tied to the city's PFAS response), and a school resource officer renewal; Lake Elmo holds a closed session on threatened litigation and receives its 2025 audit; and Woodbury weighs the Bailey West rezoning/plat at a public hearing. Plus Oakdale's City Hall rebuild and the Stillwater district's sports-fee and class-size changes.
