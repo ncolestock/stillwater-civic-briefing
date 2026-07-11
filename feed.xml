@@ -8,7 +8,7 @@
     <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</description>
-    <lastBuildDate>Sat, 11 Jul 2026 16:08:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 16:09:15 +0000</lastBuildDate>
     <itunes:author>Stillwater Civic Briefing</itunes:author>
     <itunes:summary>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -78,6 +78,40 @@ Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometow
       <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-11.m4a" length="7840943" type="audio/x-m4a"/>
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-11-profile</guid>
       <itunes:duration>5:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Digging Deeper: The Stillwater Parks Master Plan</title>
+      <description>One local issue, followed all the way down: Stillwater's new Parks Master Plan — the 20-year, system-wide study of the city's 44 parks and open spaces that went to the City Council for adoption on July 7, 2026. How it started (a 2025 request for proposals, nine bids from $84,000 to about $182,000, and a $97,300 contract with the Minneapolis firm HKGi paid from the Parks Fund), what the study found and what residents asked for (a pool or splash pad, urban agriculture, trail connections and wayfinding, accessibility, and upkeep), what it prioritizes, and the money question it hands to elected officials — whether to fund parks incrementally out of the general fund or ask voters for a levy or local sales tax. The plan carries no single price tag by design; it tags projects with cost ranges and phases them over 20 years. Where it stands: approved by the Parks and Recreation Commission on June 22 and recommended for adoption on July 7; the final council vote is not yet in the posted public record.
+
+SOURCES / DOCUMENTS
+- Stillwater Parks Master Plan, Final Document, July 2026 (163 pp) — attached to the July 7, 2026 City Council packet via the city's Granicus portal (MetaViewer meta_id 149116). Source of the vision, needs assessment, per-park recommendations, phasing/cost ranges, funding chapter, and staffing recommendation.
+- July 7, 2026 staff report, "Stillwater Parks Master Plan Approval," Assistant City Administrator Shawn Sanders — HKGi hired July 2025; more than 40 parks; Park &amp; Recreation Board approval June 22; HKGi presentation at the 4:30 p.m. workshop; staff recommendation to "review, discuss and approve."
+- July 1, 2025 staff report and Professional Services Agreement (Granicus council agenda clip_id 1842, item 30; document meta_id 141850) — request for proposals; nine proposals ranging $84,000 to $182,344; HKGi selected at $97,300; budgeted $100,000 from the Parks Fund; nine-month timeline.
+- Prior planning referenced within the master plan: Lowell Park Master Plan (2012), Bridgeview Park Master Plan (2015), Lumberjack Landing design work (HKGi), and the City of Stillwater 2040 Comprehensive Plan (2019), parks and trails chapter.
+
+HOW TO FOLLOW IT
+- The plan and the July 7 council packet are on the city's Granicus meeting portal (cityofstillwater.granicus.com). The final council vote will appear in the July 7, 2026 City Council minutes once approved and posted — typically at a following meeting.
+- Stillwater City Council next meets Tuesday, July 21, 2026. The Parks and Recreation Commission next meets July 27, 2026.
+
+Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.</description>
+      <itunes:summary>One local issue, followed all the way down: Stillwater's new Parks Master Plan — the 20-year, system-wide study of the city's 44 parks and open spaces that went to the City Council for adoption on July 7, 2026. How it started (a 2025 request for proposals, nine bids from $84,000 to about $182,000, and a $97,300 contract with the Minneapolis firm HKGi paid from the Parks Fund), what the study found and what residents asked for (a pool or splash pad, urban agriculture, trail connections and wayfinding, accessibility, and upkeep), what it prioritizes, and the money question it hands to elected officials — whether to fund parks incrementally out of the general fund or ask voters for a levy or local sales tax. The plan carries no single price tag by design; it tags projects with cost ranges and phases them over 20 years. Where it stands: approved by the Parks and Recreation Commission on June 22 and recommended for adoption on July 7; the final council vote is not yet in the posted public record.
+
+SOURCES / DOCUMENTS
+- Stillwater Parks Master Plan, Final Document, July 2026 (163 pp) — attached to the July 7, 2026 City Council packet via the city's Granicus portal (MetaViewer meta_id 149116). Source of the vision, needs assessment, per-park recommendations, phasing/cost ranges, funding chapter, and staffing recommendation.
+- July 7, 2026 staff report, "Stillwater Parks Master Plan Approval," Assistant City Administrator Shawn Sanders — HKGi hired July 2025; more than 40 parks; Park &amp; Recreation Board approval June 22; HKGi presentation at the 4:30 p.m. workshop; staff recommendation to "review, discuss and approve."
+- July 1, 2025 staff report and Professional Services Agreement (Granicus council agenda clip_id 1842, item 30; document meta_id 141850) — request for proposals; nine proposals ranging $84,000 to $182,344; HKGi selected at $97,300; budgeted $100,000 from the Parks Fund; nine-month timeline.
+- Prior planning referenced within the master plan: Lowell Park Master Plan (2012), Bridgeview Park Master Plan (2015), Lumberjack Landing design work (HKGi), and the City of Stillwater 2040 Comprehensive Plan (2019), parks and trails chapter.
+
+HOW TO FOLLOW IT
+- The plan and the July 7 council packet are on the city's Granicus meeting portal (cityofstillwater.granicus.com). The final council vote will appear in the July 7, 2026 City Council minutes once approved and posted — typically at a following meeting.
+- Stillwater City Council next meets Tuesday, July 21, 2026. The Parks and Recreation Commission next meets July 27, 2026.
+
+Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.</itunes:summary>
+      <pubDate>Fri, 10 Jul 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-10.m4a" length="14046891" type="audio/x-m4a"/>
+      <guid isPermaLink="false">stillwater-civic-briefing-2026-07-10-deep-dive</guid>
+      <itunes:duration>10:07</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
