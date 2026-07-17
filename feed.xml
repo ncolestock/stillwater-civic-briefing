@@ -8,7 +8,7 @@
     <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <description>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</description>
-    <lastBuildDate>Sat, 11 Jul 2026 16:09:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 19:31:51 +0000</lastBuildDate>
     <itunes:author>Stillwater Civic Briefing</itunes:author>
     <itunes:summary>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -24,6 +24,36 @@
       <title>Stillwater Civic Briefing</title>
       <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
     </image>
+    <item>
+      <title>Digging Deeper: Stillwater's Parks Master Plan</title>
+      <description>The Stillwater City Council approved a new Parks Master Plan on July 7, 2026. This Digging Deeper follows it all the way down: what a master plan is, how it started, who produced it, what it cost, what it recommends, and how the city intends to pay for any of it.
+
+What it is: a long-range guiding document for Stillwater's park system of more than 40 parks and open spaces, prepared by the Minneapolis planning firm HKGi, dated July 2026, intended to guide the parks for the next 20 years and to inform the parks chapter of the city's comprehensive plan.
+
+The money to write it: the city issued an RFP in spring 2025; nine firms bid, from about $84,000 to $182,344; HKGi was selected and its proposal was $97,300, against a $100,000 budget, paid from the Parks Fund. The council approved the professional-services agreement on July 1, 2025.
+
+Who approved the plan: the Parks and Recreation Commission adopted it June 22, 2026; the City Council approved it July 7, 2026 at a 4:30 p.m. workshop, on a motion by Councilmember Larry Odebrecht, seconded by Councilmember Ryan Collins, unanimous (Mayor Ted Kozlowski and members Collins, Lindsay Belland, Odebrecht, and Michael Polehna present). Consultant Sarah Evenson of HKGi presented; Assistant City Administrator Shawn Sanders was staff lead.
+
+What it recommends and costs: dozens of projects sorted into immediate / short-term / mid-term / long-term timelines, each with an order-of-magnitude cost range in 2026 dollars ($ = &lt;=$25k; $$ = $25k-100k; $$$ = $100k-500k; $$$$ = $500k+). No single grand total, by design. Immediate (2026-2027, already in the CIP): website park maps and one added full-time maintenance employee; a study of a possible full-size youth ballfield at Washington Ave &amp; Orleans St. Short-term: an accessibility study and a wayfinding/signage plan. Mid-term: an inclusive-playground study. Funding paths: grants (DNR, Legacy), partnerships, donations, transportation funds, and larger levers — bonding, a dedicated parks levy, or a local option sales tax (the last two requiring a public vote); the plan frames the choice as incremental CIP increases vs. a large dedicated source, and leaves the decision to the council.
+
+Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).</description>
+      <itunes:summary>The Stillwater City Council approved a new Parks Master Plan on July 7, 2026. This Digging Deeper follows it all the way down: what a master plan is, how it started, who produced it, what it cost, what it recommends, and how the city intends to pay for any of it.
+
+What it is: a long-range guiding document for Stillwater's park system of more than 40 parks and open spaces, prepared by the Minneapolis planning firm HKGi, dated July 2026, intended to guide the parks for the next 20 years and to inform the parks chapter of the city's comprehensive plan.
+
+The money to write it: the city issued an RFP in spring 2025; nine firms bid, from about $84,000 to $182,344; HKGi was selected and its proposal was $97,300, against a $100,000 budget, paid from the Parks Fund. The council approved the professional-services agreement on July 1, 2025.
+
+Who approved the plan: the Parks and Recreation Commission adopted it June 22, 2026; the City Council approved it July 7, 2026 at a 4:30 p.m. workshop, on a motion by Councilmember Larry Odebrecht, seconded by Councilmember Ryan Collins, unanimous (Mayor Ted Kozlowski and members Collins, Lindsay Belland, Odebrecht, and Michael Polehna present). Consultant Sarah Evenson of HKGi presented; Assistant City Administrator Shawn Sanders was staff lead.
+
+What it recommends and costs: dozens of projects sorted into immediate / short-term / mid-term / long-term timelines, each with an order-of-magnitude cost range in 2026 dollars ($ = &lt;=$25k; $$ = $25k-100k; $$$ = $100k-500k; $$$$ = $500k+). No single grand total, by design. Immediate (2026-2027, already in the CIP): website park maps and one added full-time maintenance employee; a study of a possible full-size youth ballfield at Washington Ave &amp; Orleans St. Short-term: an accessibility study and a wayfinding/signage plan. Mid-term: an inclusive-playground study. Funding paths: grants (DNR, Legacy), partnerships, donations, transportation funds, and larger levers — bonding, a dedicated parks levy, or a local option sales tax (the last two requiring a public vote); the plan frames the choice as incremental CIP increases vs. a large dedicated source, and leaves the decision to the council.
+
+Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).</itunes:summary>
+      <pubDate>Fri, 17 Jul 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-17.m4a" length="14610833" type="audio/x-m4a"/>
+      <guid isPermaLink="false">stillwater-civic-briefing-2026-07-17-deep-dive</guid>
+      <itunes:duration>10:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Week of July 13, 2026: County Road-and-Design Money, Woodbury's Bailey West, and Oakdale's PFAS Grants</title>
       <description>This week's civic news across the Stillwater–Oakdale area: Washington County lines up road and engineering money at its July 7 board meeting; Woodbury holds a public hearing on the Bailey West rezoning and plat; Lake Elmo receives its 2025 audit and keeps its street projects moving; and Oakdale prepares to accept nearly $2.4 million in state grants to keep treating its drinking water for PFAS.
