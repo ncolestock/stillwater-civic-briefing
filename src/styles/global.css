@@ -7,11 +7,7 @@ html { background: var(--paper); }
 body {
   margin: 0;
   color: var(--ink);
-  background-color: var(--paper);
-  background-image:
-    radial-gradient(rgba(26, 22, 18, 0.045) 0.55px, transparent 0.65px),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='880' height='880'%3E%3Cg fill='none' stroke='%231A1612' stroke-opacity='0.045' stroke-width='1'%3E%3Cellipse cx='190' cy='150' rx='170' ry='78'/%3E%3Cellipse cx='190' cy='150' rx='124' ry='54'/%3E%3Cellipse cx='640' cy='540' rx='210' ry='96'/%3E%3Cellipse cx='640' cy='540' rx='150' ry='66'/%3E%3Cpath d='M30 720 C 180 660, 340 780, 540 710 S 800 650, 860 730'/%3E%3C/g%3E%3C/svg%3E");
-  background-size: 3px 3px, 880px 880px;
+  background: var(--paper);
   font-family: var(--serif);
   font-size: var(--fs-body);
   line-height: var(--lh-body);
@@ -24,10 +20,11 @@ a { color: var(--ink); }
 a:hover { color: var(--oxblood-hover); }
 
 .wrap {
+  --wrap-pad: 0.9rem;
   width: 100%;
   max-width: var(--page);
   margin: 0 auto;
-  padding-inline: 0.9rem;
+  padding-inline: var(--wrap-pad);
 }
 
 .front > *,
@@ -52,6 +49,8 @@ a:hover { color: var(--oxblood-hover); }
 .bridge-lockup {
   position: relative;
   container-type: inline-size;
+  margin-inline: calc(var(--wrap-pad) * -1);
+  background: var(--paper);
 }
 
 .nameplate .flag {
@@ -108,28 +107,13 @@ a:hover { color: var(--oxblood-hover); }
   margin: 0.55rem 0 0;
 }
 
-.dateline {
-  display: block;
-  text-align: center;
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  letter-spacing: 0.11em;
-  line-height: 1.45;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-  border-bottom: 0;
-  max-width: 46rem;
-  margin: 0.2rem auto 0;
-  padding: 0 0.4rem 0.05rem;
-}
-
 .edition-date {
   text-align: center;
   font-family: var(--sans);
   font-size: 0.68rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  margin: 0.12rem 0 0;
+  margin: 0.4rem 0 0;
 }
 
 .double-rule {
@@ -323,14 +307,12 @@ footer.site {
   .front { grid-template-columns: 1fr; }
   .columns { column-count: 1; }
   .side { border-left: 0; padding-left: 0; border-top: 1px solid var(--ink); padding-top: 1rem; }
-  .wrap { padding-inline: 0.75rem; }
-  .dateline { text-align: center; }
+  .wrap { --wrap-pad: 0.75rem; }
   nav.desks {
     font-size: 0.72rem;
     letter-spacing: 0.06em;
     gap: 0.25rem 0;
   }
-  .dateline { letter-spacing: 0.04em; font-size: 0.6rem; }
   .lead h2 { font-size: 1.38rem; }
   .nameplate .edition {
     font-size: 0.62rem;
@@ -342,7 +324,6 @@ footer.site {
     letter-spacing: 0.05em;
     gap: 0.35rem 0.65rem;
   }
-  .dateline { font-size: 0.68rem; }
 }
 
 @media (max-width: 340px) {

@@ -17,11 +17,9 @@ Grok Build: treat this folder as brand law. Do not invent a new look.
 
 Do not revive "Artie Fishel." Do not add "The" to the official name except on the classic banner lockup (`nameplate-classic-banner.jpg`), where it is ornamental.
 
-## Geography line (dateline)
+## Geography
 
-Stillwater · Lake Elmo · Oakdale · Woodbury · Hudson · Bayport · Oak Park Heights
-
-Oak Park Heights may wrap on small screens. Washington County / St. Croix County belong in body copy and section labels, not in the flag.
+Stillwater, Lake Elmo, Oakdale, Woodbury, Hudson, Bayport, and Oak Park Heights are the towns the paper covers. They do not print as a line under the bridge. The edition date sits under the bridge. Washington County and St. Croix County belong in body copy and section labels, not on the flag.
 
 ## Color
 
@@ -29,7 +27,7 @@ Oak Park Heights may wrap on small screens. Washington County / St. Croix County
 |---|---|---|
 | Ink | `#1A1612` | Type, rules, engraved bridge |
 | Ink soft | `#3A342C` | Secondary type, captions |
-| Cream | `#F2EAD8` | Page field. Sampled from the sky of `public/brand/bridge-wide.jpg`. Warm `#F0E4D8` family. |
+| Cream | `#F6EEDB` | Page field. Sampled from the paper margin at the corners of `public/brand/bridge-wide.jpg` (top-left and bottom-right `#F6EEDB`). The engraved sky is darker, about `#E1DAC9`. Do not average the sky into the field. |
 | Cream dark | `#E6D9C6` | Alternate rows, rails, calendar heads |
 | Rule | `#C4B8A4` | Hairline rules between items |
 | Oxblood | `#7A1F2B` | Accent rules, links, stars, section kickers |
@@ -46,7 +44,7 @@ Load from Google Fonts (wired in `src/layouts/Base.astro`):
 - **Nameplate (live masthead):** Cinzel, one line — New Saint Croix Union — overlaid on the upper band of the bridge (sky and upper towers). Tracking is open and the size scales with the engraving so the line stays one line, and wraps only on a very narrow screen. A soft cream gradient sits behind the type. The bridge stays the hero field at full width. Do not stack the name above the image. Do not set body copy in Cinzel.
 - **Display fallback:** Old Standard TT. Headlines may use it. It is not the nameplate.
 - **Body:** Source Serif 4, 18px / 1.55, measure ~38rem.
-- **UI, nav, dateline, blotter labels:** Source Sans 3, small caps or tracked uppercase.
+- **UI, nav, edition date, blotter labels:** Source Sans 3, small caps or tracked uppercase.
 - Do **not** use blackletter (Unifraktur, Fraktur, Old English) as a primary face.
 
 Print feel: one tracked line on the engraving (`--tracking-flag`, `0.18em`). Scale it down before it wraps. A giant flag looks like a billboard.
@@ -95,14 +93,14 @@ Canonical engraved references in this packet:
 
 **Podcast cover decision:** use `podcast-cover-weekly-briefing.jpg` as `cover.jpg`. It is old-timey, square, has the accurate lift, and reads at 200 px in a podcast app. The wood-type stacked lockup is the second choice if you want the words larger than the picture.
 
-**Home masthead decision:** the live name is Cinzel, one line, New Saint Croix Union, overlaid on the top of `public/brand/bridge-wide.jpg`. The engraving stays full width and is the hero field. The dateline and the edition date sit under the bridge. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
+**Home masthead decision:** the live name is Cinzel, one line, New Saint Croix Union, overlaid on the top of `public/brand/bridge-wide.jpg`. The engraving stays full width and is the hero field. The edition date sits under the bridge. Do not print the town list there. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
 
 ## Website newspaper look
 
 The site should feel like a small-city broadsheet, not a blog and not a dashboard.
 
-- Cream page `#F2EAD8`, black ink, oxblood hairlines. A faint grain and a faint contour sit in the page background. The bridge image stays clean.
-- Centered masthead: the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`), with New Saint Croix Union in one Cinzel line across the upper band of the engraving. Do not swap in the seal. Do not shrink the bridge to a tiny mark. Do not stack the name on the cream above the image. Under the bridge: a tracked dateline of towns, the edition date, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). Roads joins that nav only when a roads story is published.
+- Cream page `#F6EEDB`, black ink, oxblood hairlines. The page field is flat so it meets the engraving's paper margin. Do not add a grain or a contour. The bridge image stays clean, and the lockup runs to the edges of the content column.
+- Centered masthead: the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`), with New Saint Croix Union in one Cinzel line across the upper band of the engraving. Do not swap in the seal. Do not shrink the bridge to a tiny mark. Do not stack the name on the cream above the image. Under the bridge: the edition date, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). No town list. Roads joins that nav only when a roads story is published.
 - Home is a front page: one lede, then one continuous list of the other stories. No "Also filed." The rail is events, then blotter.
 - Body in a readable serif. Headlines stay modest. Decks and kickers in sans small caps. Spacing is tight, like an almanac column, not a poster.
 - No hero video. No card drop shadows. No rounded-everything UI kit.
@@ -141,7 +139,7 @@ Do not put it at the end of an article, in a booking, or in an episode's show no
 
 - Keep cream / ink / oxblood.
 - Draw the real lift bridge.
-- Use tracked small caps for desks and datelines.
+- Use tracked small caps for desks and the edition date.
 - Put source links in the story, not only in a footer.
 - Keep the column tight. The bridge gets the room. The name is one line on the engraving. It does not shout.
 

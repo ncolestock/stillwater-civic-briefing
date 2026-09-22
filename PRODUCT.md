@@ -22,7 +22,7 @@ If the GitHub connector cannot write, the automation puts the markdown in a Goog
 
 - Articles: `src/content/articles/YYYY-MM-DD-slug.md`
 - Desks: Meetings, Schools, Land, Blotter, Calendar. Roads is in the nav only when a roads story is published.
-- Masthead: one Cinzel line, New Saint Croix Union, overlaid on the upper band of the full-width engraving `public/brand/bridge-wide.jpg`. The bridge is the hero field. The dateline sits under the bridge. The seal is a favicon and a lettermark, not the home masthead. The GitHub repo and the Pages path stay `stillwater-civic-briefing`.
+- Masthead: one Cinzel line, New Saint Croix Union, overlaid on the upper band of the full-width engraving `public/brand/bridge-wide.jpg`. The bridge is the hero field. The edition date sits under the bridge. The town list does not. The seal is a favicon and a lettermark, not the home masthead. The GitHub repo and the Pages path stay `stillwater-civic-briefing`.
 - Geography: Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, Stillwater Area Public Schools, North St. Paul–Maplewood–Oakdale schools.
 - South Washington County Schools uses `district833.org` on its own site. It is not in v1 until Nathan adds it.
 - Blotter: adult name, charge as written, one plain-English sentence per charge, booking date, source. Never guilty. A booking is not a conviction.

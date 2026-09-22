@@ -1,10 +1,13 @@
 /* New Saint Croix Union — the only :root.
-   --scb-paper is the sky of public/brand/bridge-wide.jpg (#F2EAD8),
-   in the warm #F0E4D8 family. Component CSS uses the short names.
+   --scb-paper is the paper margin of public/brand/bridge-wide.jpg.
+   Top-left and bottom-right corner pixels are #F6EEDB (12px patches
+   average the same). The engraved sky is darker, about #E1DAC9.
+   Do not average the sky into the page field.
+   Component CSS uses the short names.
    --rule is the oxblood accent. Hairlines use --rule-thin. */
 
 :root {
-  --scb-paper: #F2EAD8;
+  --scb-paper: #F6EEDB;
   --scb-paper-dark: #E6D9C6;
   --scb-paper-shadow: #D4C4AE;
   --scb-ink: #1A1612;

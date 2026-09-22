@@ -78,3 +78,7 @@ The live flag is a small two-line Cinzel lockup, New Saint Croix / Union, with o
 Each of the 14 blotter pages now prints the charge as filed and one plain-English sentence per statute. None says guilty.
 
 Recorded episode audio still speaks the former name. New Monday and Wednesday scripts open with New Saint Croix Union. The archived landing page at `public/archive/legacy.html` keeps its old title as the previous page.
+
+## 2026-09-22 paper
+
+Page field is `#F6EEDB`, the corner margin of `public/brand/bridge-wide.jpg`. `#F2EAD8` was the engraved sky and left a seam against the JPG. The page grain and contour are gone. The town line under the bridge is gone. The edition date stays. The name stays one Cinzel line on the engraving.
