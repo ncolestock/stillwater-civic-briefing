@@ -18,6 +18,7 @@ const articles = defineCollection({
     ai_generated: z.literal(true),
     briefing: z.string().optional(),
     checked: z.string().optional(),
+    charge: z.string().optional(),
     correction: z.string().optional(),
     upcoming: z
       .array(

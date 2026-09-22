@@ -12,7 +12,9 @@ const lead = articles.find((article) => article.data.desk === "meetings") ?? art
 const briefs = articles.filter(
   (article) => article !== lead && article.data.desk !== "blotter" && article.data.desk !== "calendar",
 );
-const blotter = articles.filter((article) => article.data.desk === "blotter");
+const blotter = articles
+  .filter((article) => article.data.desk === "blotter")
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const calendar = articles.find((article) => article.data.desk === "calendar");
 const episode = loadEpisodes().find((item) => !item.proof && item.duration > 0);
 const excerpt = (body: string | undefined) => {
@@ -47,10 +49,14 @@ const excerpt = (body: string | undefined) => {
             <p class="kicker">Blotter</p>
             <h3>Adult bookings</h3>
             <ul>
-              {blotter.map((article) => (
-                <li><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></li>
+              {blotter.slice(0, 6).map((article) => (
+                <li>
+                  <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
+                  {article.data.charge ? <><br /><span class="meta">{article.data.charge}</span></> : null}
+                </li>
               ))}
             </ul>
+            <p><a href={withBase("blotter/")}>All bookings</a></p>
           </section>
         )}
         {calendar?.data.upcoming && calendar.data.upcoming.length > 0 && (

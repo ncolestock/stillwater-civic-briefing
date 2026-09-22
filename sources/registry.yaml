@@ -93,6 +93,21 @@ blotter:
     url: https://www.washingtoncountymn.gov/3220/Daily-Jail-Booking-Report
     status: 200
     note: "Links weekday PDFs such as Monday.pdf. Those filenames are replaced the following week."
+  - id: cad
+    name: Sheriff dispatch calls
+    url: https://web1.co.washington.mn.us/MediaReports/CAD/
+    status: 200
+    note: "Weekly CSV. Columns are jurisdiction, incident number, time, problem type, case number, disposition, address, city. No person names. Addresses are partly masked. Do not attach a row to a booking."
+  - id: rms
+    name: Sheriff incident summaries
+    url: https://web1.co.washington.mn.us/MediaReports/RMS/
+    status: 200
+    note: "Weekly CSV through 2026-09-16 when checked on 2026-09-22. Agency, city, time, case number, masked address, a short event description. No person names. Do not attach a row to a booking."
+  - id: mcro
+    name: Minnesota Court Records Online
+    url: https://publicaccess.courts.state.mn.us/
+    status: not-fetched
+    note: "Public criminal complaints live here after a case is filed. Link a case only after opening it and matching the name and charge."
   - id: monday-pdf
     name: Monday book-in report
     url: https://web1.co.washington.mn.us/WCBookings/Monday.pdf

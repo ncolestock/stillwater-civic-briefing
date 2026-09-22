@@ -1,4 +1,46 @@
 ---
-import DeskIndex from "../components/DeskIndex.astro";
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { formatDateline, withBase } from "../lib/site";
+
+const bookings = (await getCollection("articles"))
+  .filter((article) => article.data.status === "published" && article.data.desk === "blotter")
+  .sort((a, b) => {
+    const byDate = b.data.date.valueOf() - a.data.date.valueOf();
+    return byDate !== 0 ? byDate : a.data.title.localeCompare(b.data.title);
+  });
+
+const days: { label: string; items: typeof bookings }[] = [];
+for (const booking of bookings) {
+  const label = formatDateline(booking.data.date);
+  const last = days[days.length - 1];
+  if (last && last.label === label) last.items.push(booking);
+  else days.push({ label, items: [booking] });
+}
 ---
-<DeskIndex desk="blotter" />
+
+<Base title="Blotter — Stillwater Civic Briefing">
+  <p class="kicker">Blotter</p>
+  <h1 style="font-family: var(--display); font-size: 2.4rem; margin-top: 0;">Bookings</h1>
+  <p>
+    Each name is one adult booked at the Washington County jail, taken from the sheriff’s daily book-in report.
+    The list stays up. A booking is an allegation, not a conviction.
+  </p>
+  {days.length === 0 ? (
+    <p class="empty">No bookings are filed.</p>
+  ) : (
+    days.map((day) => (
+      <section>
+        <h2 style="font-family: var(--display); font-size: 1.35rem;">{day.label}</h2>
+        <ul class="index-list">
+          {day.items.map((booking) => (
+            <li>
+              <h2><a href={withBase(`articles/${booking.id}/`)}>{booking.data.title}</a></h2>
+              <p>{booking.data.charge}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  )}
+</Base>

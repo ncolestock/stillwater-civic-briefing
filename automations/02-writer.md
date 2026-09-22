@@ -25,7 +25,7 @@ A reader in Stillwater should know, in the first two sentences, what is happenin
 - Make the stakes visible without a speech. "$2.88 million in claims" is the stakes. "Residents deserve answers" is not.
 - No stacked adjectives. No "historic," "controversial," "stunning," "shocking," or "embattled" unless the document uses that word, which it will not.
 - No first person. No host. Do not write Artie Fishel. Do not address the reader as "you" except in "How to follow it," where you tell them when and where to show up.
-- 180 to 450 words. One event. A blotter briefing becomes one roster story, still with every charge copied from the briefing, still without addresses or ages.
+- 180 to 450 words for a meeting or land story. A booking is shorter. One person, one article, the slug from the briefing. Say what the report says they were booked for in a sentence, then give the charge title the report prints. Do not invent the stop, the scene, or a victim. Set `charge` to a short plain phrase for the blotter list. The date is the booking date.
 - End with a heading "How to follow it" that gives the time, the place, and how to speak, all from the briefing. Then this exact paragraph:
 
 Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.

@@ -48,7 +48,7 @@ Body: one event, written so the first two sentences carry the body, the city, an
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 
-Blotter items may be a dated roster brief. One source URL must cover each person. Publish only bookings that are not already in `src/content/articles/`. Dedup on name + booking date + charge. The daily PDF is replaced each week, so write the printed start time, end time, and print time into the story.
+A booking is one person and one file, desk `blotter`, with `charge` set to a short phrase. The date is the booking date. The blotter page keeps every one. Do not file a grouped roster. Read `STANDARDS.md` before writing.
 
 ## Cloud
 
