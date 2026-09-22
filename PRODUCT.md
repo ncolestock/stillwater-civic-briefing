@@ -21,11 +21,12 @@ If the GitHub connector cannot write, the automation puts the markdown in a Goog
 ## What ships
 
 - Articles: `src/content/articles/YYYY-MM-DD-slug.md`
-- Desks: Meetings, Schools, Land, Blotter, Calendar. Roads only when a packet is a road story.
+- Desks: Meetings, Schools, Land, Blotter, Calendar. Roads is in the nav only when a roads story is published.
+- Masthead: full-width `public/brand/bridge-wide.jpg` under the Cinzel stacked name Stillwater / Civic / Briefing. The seal is a favicon and a lettermark, not the home masthead.
 - Geography: Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, Stillwater Area Public Schools, North St. Paul–Maplewood–Oakdale schools.
 - South Washington County Schools uses `district833.org` on its own site. It is not in v1 until Nathan adds it.
 - Blotter: adult name, charge as written, booking date, source. Nothing else.
-- The AI disclaimer is the site footer (`src/lib/site.ts`). It is not inside an article. The podcast show description in `podcast.json` carries it once.
+- The AI disclaimer is the site footer (`src/lib/site.ts`) and, once, the podcast show description in `podcast.json`. It is not inside an article, a booking, or an episode's show notes.
 
 ## Later
 

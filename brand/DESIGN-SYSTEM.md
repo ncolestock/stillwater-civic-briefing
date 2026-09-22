@@ -13,7 +13,7 @@ Grok Build: treat this folder as brand law. Do not invent a new look.
 | Podcast line | A weekly account of the valley |
 | Host | **None.** No person, no persona, no byline name. Institutional masthead only. |
 | Voice | Public-record clerk, not a morning-show host. |
-| Tone of the mark | 1931 letterpress / municipal seal / broadsheet flag |
+| Tone of the mark | 1931 letterpress / engraved lift bridge / broadsheet flag |
 
 Do not revive "Artie Fishel." Do not add "The" to the official name except on the classic banner lockup (`nameplate-classic-banner.jpg`), where it is ornamental.
 
@@ -41,12 +41,12 @@ No bright green (`#0b5` from the old landing page). No neon. No dark-mode invers
 
 ## Type
 
-Load from Google Fonts (already wired in `css/newspaper.css`):
+Load from Google Fonts (wired in `src/layouts/Base.astro`):
 
-- **Display / nameplate:** Old Standard TT (bold). Fallback Source Serif 4.
+- **Nameplate (live masthead):** Cinzel, stacked, one word to a line — Stillwater / Civic / Briefing — with a small oxblood rule between the words. Do not set body copy in Cinzel.
+- **Display fallback:** Old Standard TT. Headlines may use it. It is not the nameplate.
 - **Body:** Source Serif 4, 18px / 1.55, measure ~38rem.
 - **UI, nav, dateline, blotter labels:** Source Sans 3, small caps or tracked uppercase.
-- **Wood-type lockup (podcast stacked wordmark only):** Cinzel. Do not set body copy in Cinzel.
 - Do **not** use blackletter (Unifraktur, Fraktur, Old English) as a primary face.
 
 Print feel: slightly loose letter-spacing on the flag (`0.04em`–`0.08em` on STILLWATER). Tight tracking looks like a SaaS landing page.
@@ -83,10 +83,11 @@ Canonical engraved references in this packet:
 
 | File | Role | Where it goes in the repo |
 |---|---|---|
+| `public/brand/bridge-wide.jpg` | **Live home masthead.** Full-width engraved lift under the Cinzel name. | Do not replace it with the seal. Do not shrink it to a tiny mark. |
 | `assets/podcast-cover-weekly-briefing.jpg` | **Primary podcast cover** | `cover.jpg` at repo root (overwrite the existing file). Also `public/brand/podcast-cover.jpg`. Apple/Spotify 3000×3000 after upscale. |
 | `assets/podcast-cover-woodtype.jpg` | Alternate podcast / social square | `public/brand/podcast-lockup.jpg` |
-| `assets/seal-civic.jpg` | Primary mark, favicon source, apple-touch | `public/brand/seal.jpg` |
-| `assets/nameplate-wide.jpg` | Front-page flag art if you use a raster masthead | `public/brand/nameplate.jpg` |
+| `assets/seal-civic.jpg` | Favicon, lettermark, podcast adjunct. Not the home masthead. | `public/brand/seal.jpg` |
+| `assets/nameplate-wide.jpg` | Source art for the wide bridge engraving | The shipped masthead file is `public/brand/bridge-wide.jpg` |
 | `assets/wordmark-flag.jpg` | Simple typographic flag | header text can replace this; keep as fallback |
 | `assets/lettermark-scb.jpg` | App icon / social avatar | `public/brand/lettermark.jpg` |
 | `assets/nameplate-classic-banner.jpg` | Optional "The …" banner | interior pages, about, colophon |
@@ -94,12 +95,14 @@ Canonical engraved references in this packet:
 
 **Podcast cover decision:** use `podcast-cover-weekly-briefing.jpg` as `cover.jpg`. It is old-timey, square, has the accurate lift, and reads at 200 px in a podcast app. The wood-type stacked lockup is the second choice if you want the words larger than the picture.
 
+**Home masthead decision:** the live flag is Cinzel, stacked Stillwater / Civic / Briefing, with `public/brand/bridge-wide.jpg` at full width underneath. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
+
 ## Website newspaper look
 
 The site should feel like a small-city broadsheet, not a blog and not a dashboard.
 
 - Cream page, black ink, oxblood hairlines.
-- Centered masthead: seal or tiny bridge, then the name in Old Standard TT, then a tracked dateline of towns, then a double rule, then section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast).
+- Centered masthead: the name in Cinzel, stacked Stillwater / Civic / Briefing, then the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`). Do not swap in the seal. Do not shrink the bridge to a tiny mark. Then a tracked dateline of towns, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). Roads joins that nav only when a roads story is published.
 - Home is a front page: one lede, two secondary, a blotter rail, a calendar rail.
 - Body in a readable serif measure. Decks and kickers in sans small caps.
 - No hero video. No card drop shadows. No rounded-everything UI kit.
@@ -117,20 +120,20 @@ In `podcast.json` and `feed.xml`:
 - Title: Stillwater Civic Briefing
 - Author / owner: Stillwater Civic Briefing (not a person)
 - Category: News / Local
-- Description must include the AI disclaimer (see below)
+- The show description in `podcast.json` includes the AI disclaimer once. Do not repeat it on each episode.
 
 Upscale the provided JPG to 3000×3000 with a cream letterbox if needed. Do not add a microphone cartoon, play button, or "host" headshot.
 
-## Disclaimer (required on every surface)
+## Disclaimer
 
 > Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
 
-Place it:
+Two places only:
 
-- site footer
-- end of every article
-- podcast show description and every episode description
-- RSS `<copyright>` or a dedicated `<description>` suffix
+- the site footer (`src/lib/site.ts`, rendered by `Base.astro`)
+- the podcast show description in `podcast.json`, once, so a subscriber who never opens the site still sees it
+
+Do not put it at the end of an article, in a booking, or in an episode's show notes. `scripts/validate_articles.py` rejects that sentence in a story body. The feed's channel description is the show description; do not add a second copy on `<copyright>` or on each item.
 
 ## Do / don't
 
@@ -157,7 +160,7 @@ Place it:
 1. Copy this whole `scb-design-packet` into the repo as `brand/` (or `docs/brand/` plus `public/brand/` for binaries).
 2. Replace root `cover.jpg` with an upscaled `podcast-cover-weekly-briefing.jpg`.
 3. Point `podcast.json` `image` at `cover.jpg`. Strip any host name.
-4. Rebuild `index.html` / Astro layout using `css/newspaper.css` tokens.
+4. Tokens live in `src/styles/tokens.css` (the only `:root`). Component rules live in `src/styles/global.css`. The layout is `src/layouts/Base.astro`.
 5. Favicon: `svg/favicon.svg` + a 180px apple-touch cropped from the seal.
 6. Open Graph default image: crop `nameplate-wide.jpg` to 1200×630, cream field, name + bridge.
 7. Do not commit "Artie Fishel" in new files.

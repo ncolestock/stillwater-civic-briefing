@@ -46,10 +46,23 @@ votes: null
 status: draft
 ai_generated: true
 briefing: research/YYYY-MM-DD-slug.md
+upcoming:            # only when the briefing already lists the meeting
+  - when: "YYYY-MM-DD 7:00 p.m."
+    what: "Oakdale City Council"
+    where: "Discovery Center"
+    url: https://...
+places:              # only when the briefing already has the coordinates
+  - label: "220 Commercial Street"
+    lat: 45.0571881
+    lng: -92.8074442
+    precise: true
+    note: "What the agenda says this address is for."
 ---
 ```
 
 Copy sources from the briefing. Do not add a source you did not read, and you are not reading new pages in this job. Do not drop a source the briefing used for a fact you kept.
+
+Copy `upcoming` and `places` only when the briefing already has them. `upcoming` is the meeting the story is about, written once. `places` is an address the briefing already located. Do not geocode. Do not invent a latitude. Leave the fields off when the briefing does not give them.
 
 ## Do not
 

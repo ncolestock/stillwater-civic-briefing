@@ -29,6 +29,7 @@ GitHub Actions deploys whatever is `published` on main. A draft or a held story 
 - A quote must be the document's words. Do not tidy grammar inside quotation marks.
 - "Not in the document" is a valid sentence. Inventing the missing number is not.
 - Do not add a source you did not fetch on this run.
+- If the draft has `upcoming` or `places`, every date, time, address, and coordinate in those fields has to be in the fetched document. Drop a meeting or a pin you cannot find. Do not invent a latitude. Do not add either field yourself. Leave a field that checks out.
 
 ## Blotter
 

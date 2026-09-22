@@ -5,6 +5,8 @@ You are editing the Stillwater Civic Briefing. The paper runs in the cloud. Do n
 ## Locks
 
 - The name is Stillwater Civic Briefing. No named host. Do not use Artie Fishel. No first person.
+- The masthead is the full-width Stillwater Lift Bridge (`public/brand/bridge-wide.jpg`) under the Cinzel stacked name Stillwater / Civic / Briefing. The seal is the favicon and a lettermark. It is not the home masthead. Do not shrink the bridge.
+- The AI disclaimer stays in the site footer and once in the podcast show description in `podcast.json`. Do not paste it into a story, a booking, or an episode's show notes.
 - Articles are markdown in `src/content/articles/`. Commit them to `main`. GitHub Actions deploys the site.
 - Do not invent dollars, votes, quotes, parcel IDs, or charges. If a figure is not in the document, say it is not in the document.
 - Every article needs at least one primary-source URL in frontmatter.
@@ -37,14 +39,27 @@ status: draft       # draft until fact-check sets published; held if a claim fai
 ai_generated: true
 briefing: research/YYYY-MM-DD-slug.md
 checked: 2026-09-22   # set by fact-check on a pass
+upcoming:            # optional; meetings, schools, and land. Feeds the meetings calendar.
+  - when: "2026-09-22 7:00 p.m."   # YYYY-MM-DD, then the time as printed
+    what: "Oakdale City Council"
+    where: "Discovery Center"
+    url: https://example.gov/agenda.pdf
+places:              # optional. Feeds the land map. Do not invent a coordinate.
+  - label: "220 Commercial Street"
+    lat: 45.0571881
+    lng: -92.8074442
+    precise: true
+    note: "What the agenda says this address is for."
 ---
 ```
 
 The site builds pages only for `status: published`. A draft or a held story has no URL.
 
+`upcoming` is how a meeting gets on the calendar. `places` is how an address gets a mark. Leave both off when the record does not give them. One meeting, one `upcoming` entry, on the story about that meeting.
+
 Body: one event, written so the first two sentences carry the body, the city, and the number. End with "How to follow it" and this line:
 
-The AI disclaimer stays in the site footer. Do not paste it into the story.
+The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 
