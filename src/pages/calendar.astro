@@ -1,14 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { formatDateline, withBase } from "../lib/site";
+import { SITE_NAME, formatDateline, withBase } from "../lib/site";
 
 const events = (await getCollection("articles"))
   .filter((article) => article.data.status === "published" && article.data.desk === "calendar")
   .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
 ---
 
-<Base title="Calendar — Stillwater Civic Briefing">
+<Base title={`Calendar — ${SITE_NAME}`}>
   <header class="section-banner">
     <p class="kicker">Festivals and civic events</p>
     <h1>Calendar</h1>

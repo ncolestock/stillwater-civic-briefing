@@ -1,6 +1,6 @@
-# Stillwater Civic Briefing
+# New Saint Croix Union
 
-A hyper-local newspaper and two audio episodes a week. Monday is the public events. Wednesday is one officeholder. The name stays. There is no named host.
+A hyper-local newspaper and two audio episodes a week. Monday is the public events. Wednesday is one officeholder. The official name is New Saint Croix Union. In body copy the short name may be NSCU or the Union. There is no named host.
 
 This is a static paper, not an app-factory Next.js app. Astro builds markdown into HTML. GitHub Actions publishes GitHub Pages on every push to `main`. The feed stays at `https://ncolestock.github.io/stillwater-civic-briefing/feed.xml`.
 
@@ -22,10 +22,10 @@ If the GitHub connector cannot write, the automation puts the markdown in a Goog
 
 - Articles: `src/content/articles/YYYY-MM-DD-slug.md`
 - Desks: Meetings, Schools, Land, Blotter, Calendar. Roads is in the nav only when a roads story is published.
-- Masthead: full-width `public/brand/bridge-wide.jpg` under the Cinzel stacked name Stillwater / Civic / Briefing. The seal is a favicon and a lettermark, not the home masthead.
+- Masthead: a small Cinzel flag, New Saint Croix / Union, above the full-width engraving `public/brand/bridge-wide.jpg`. The bridge is the hero. The nameplate does not dominate. The seal is a favicon and a lettermark, not the home masthead. The GitHub repo and the Pages path stay `stillwater-civic-briefing`.
 - Geography: Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, Stillwater Area Public Schools, North St. Paul–Maplewood–Oakdale schools.
 - South Washington County Schools uses `district833.org` on its own site. It is not in v1 until Nathan adds it.
-- Blotter: adult name, charge as written, booking date, source. Nothing else.
+- Blotter: adult name, charge as written, one plain-English sentence per charge, booking date, source. Never guilty. A booking is not a conviction.
 - The AI disclaimer is the site footer (`src/lib/site.ts`) and, once, the podcast show description in `podcast.json`. It is not inside an article, a booking, or an episode's show notes.
 
 ## Later

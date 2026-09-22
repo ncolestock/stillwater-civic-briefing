@@ -16,4 +16,8 @@ ai_generated: true
 charge: "Criminal vehicular operation"
 ---
 
-Booked Sept. 20, 2026. Forest Lake Police Department. Gross misdemeanor, Minn. Stat. 609.2113.2(4), criminal vehicular operation, substantial bodily harm, alcohol 0.08 or more within two hours of driving.
+Booked Sept. 20, 2026. Forest Lake Police Department.
+
+The book-in report lists a gross misdemeanor, Minn. Stat. 609.2113.2(4), criminal vehicular operation, substantial bodily harm, alcohol 0.08 or more within two hours of driving.
+
+In plain words, that law covers a driver accused of causing a serious injury while having an alcohol concentration of 0.08 or more within two hours of driving. The booking records the charge. It is not a conviction.

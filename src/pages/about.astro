@@ -1,15 +1,16 @@
 ---
 import Base from "../layouts/Base.astro";
+import { SITE_NAME } from "../lib/site";
 
 ---
 
-<Base title="About — Stillwater Civic Briefing">
+<Base title={`About — ${SITE_NAME}`}>
   <article class="story">
     <p class="kicker">About</p>
     <h1>What this paper is</h1>
     <div class="prose">
       <p>
-        Stillwater Civic Briefing is a hyper-local paper and two audio episodes a week.
+        The New Saint Croix Union is a hyper-local paper and two audio episodes a week.
         It covers public meetings, schools, land use, the adult jail book-in report,
         and the week’s calendar for Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport,
         Oak Park Heights, Washington County, Hudson and the Town of Hudson in Wisconsin,
@@ -30,7 +31,8 @@ import Base from "../layouts/Base.astro";
       </p>
       <p>
         The blotter publishes adult bookings only: the name, the charge as written
-        on the official report, the booking date, and the source link. It does not
+        on the official report, a plain-English account of what each charge covers,
+        the booking date, and the source link. A booking is not a conviction. It does not
         publish ages, dates of birth, home addresses, mugshots, medical information,
         or the names of juveniles or of victims of sex crimes.
       </p>

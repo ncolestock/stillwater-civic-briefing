@@ -1,12 +1,12 @@
 ---
 import Base from "../layouts/Base.astro";
-import { withBase } from "../lib/site";
+import { SITE_NAME, withBase } from "../lib/site";
 import { clock, loadEpisodes } from "../lib/episodes";
 
 const episodes = loadEpisodes().filter((episode) => !episode.proof);
 ---
 
-<Base title="Archive — Stillwater Civic Briefing">
+<Base title={`Archive — ${SITE_NAME}`}>
   <article class="story">
     <p class="kicker">Archive</p>
     <h1>Earlier episodes</h1>

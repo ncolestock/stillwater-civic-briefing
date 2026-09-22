@@ -1,3 +1,7 @@
+export const SITE_NAME = "New Saint Croix Union";
+export const SITE_TAGLINE = "St. Croix Valley public record";
+export const SITE_DESCRIPTION = `${SITE_NAME}. ${SITE_TAGLINE}.`;
+
 export const DISCLAIMER =
   "Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.";
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Stillwater Civic Briefing seal — Stillwater Lift Bridge">
-  <title>Stillwater Civic Briefing</title>
-  <rect width="512" height="512" fill="#F4EFE4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="New Saint Croix Union seal — Stillwater Lift Bridge">
+  <title>New Saint Croix Union</title>
+  <rect width="512" height="512" fill="#F2EAD8"/>
   <circle cx="256" cy="256" r="244" fill="none" stroke="#1A1612" stroke-width="6"/>
   <circle cx="256" cy="256" r="228" fill="none" stroke="#7A1F2B" stroke-width="4"/>
   <circle cx="256" cy="256" r="214" fill="none" stroke="#1A1612" stroke-width="2"/>
@@ -9,8 +9,8 @@
   <defs>
     <path id="ringTop" d="M256,256 m-186,0 a186,186 0 1,1 372,0 a186,186 0 1,1 -372,0"/>
   </defs>
-  <text fill="#1A1612" font-family="Georgia, 'Old Standard TT', serif" font-size="18" letter-spacing="4">
-    <textPath href="#ringTop" startOffset="18%">STILLWATER CIVIC BRIEFING</textPath>
+  <text fill="#1A1612" font-family="Georgia, 'Old Standard TT', serif" font-size="16" letter-spacing="3.2">
+    <textPath href="#ringTop" startOffset="17%">NEW SAINT CROIX UNION</textPath>
   </text>
   <!-- stars -->
   <circle cx="256" cy="78" r="3" fill="#7A1F2B"/>

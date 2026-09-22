@@ -1,13 +1,13 @@
 ---
 import { getCollection } from "astro:content";
 import "../styles/global.css";
-import { DESKS, DISCLAIMER, deskNav, withBase } from "../lib/site";
+import { DESKS, DISCLAIMER, SITE_DESCRIPTION, SITE_NAME, deskNav, withBase } from "../lib/site";
 
 interface Props {
   title: string;
   description?: string;
 }
-const { title, description = "Stillwater Civic Briefing. St. Croix Valley public record." } = Astro.props;
+const { title, description = SITE_DESCRIPTION } = Astro.props;
 const hasRoads = (await getCollection("articles")).some(
   (article) => article.data.status === "published" && article.data.desk === "roads",
 );
@@ -33,11 +33,11 @@ const edition = today.toLocaleDateString("en-US", {
     <link rel="icon" href={withBase("favicon.svg")} type="image/svg+xml" />
     <link rel="apple-touch-icon" href={withBase("apple-touch-icon.jpg")} />
     <meta property="og:image" content="https://ncolestock.github.io/stillwater-civic-briefing/og.jpg" />
-    <link rel="alternate" type="application/rss+xml" title="Stillwater Civic Briefing" href={withBase("feed.xml")} />
+    <link rel="alternate" type="application/rss+xml" title={SITE_NAME} href={withBase("feed.xml")} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -46,12 +46,10 @@ const edition = today.toLocaleDateString("en-US", {
     <header class="wrap">
       <div class="nameplate">
         <a href={withBase("")}>
-          <h1 class="wood">
-            <span>Stillwater</span>
-            <span class="wood-rule" aria-hidden="true"></span>
-            <span>Civic</span>
-            <span class="wood-rule" aria-hidden="true"></span>
-            <span>Briefing</span>
+          <h1 class="flag">
+            <span class="flag-top">New Saint Croix</span>
+            <span class="flag-rule" aria-hidden="true"></span>
+            <span class="flag-bot">Union</span>
           </h1>
           <img class="bridge" src={withBase("brand/bridge-wide.jpg")} alt="The Stillwater Lift Bridge" />
         </a>

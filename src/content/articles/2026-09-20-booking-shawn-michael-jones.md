@@ -16,4 +16,8 @@ ai_generated: true
 charge: "Driving after cancellation"
 ---
 
-Booked Sept. 20, 2026. Woodbury Police Department. Gross misdemeanor, Minn. Stat. 171.24.5, driving after cancellation, inimical to public safety.
+Booked Sept. 20, 2026. Woodbury Police Department.
+
+The book-in report lists a gross misdemeanor, Minn. Stat. 171.24.5, driving after cancellation, inimical to public safety.
+
+In plain words, that law covers driving after the state has canceled the driver's license as inimical to public safety. The booking records the charge. It is not a conviction.

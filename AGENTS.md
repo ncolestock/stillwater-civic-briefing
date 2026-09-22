@@ -1,11 +1,11 @@
 # Agents
 
-You are editing the Stillwater Civic Briefing. The paper runs in the cloud. Do not tell Nathan to open the laptop for a routine publish.
+You are editing the New Saint Croix Union. The paper runs in the cloud. Do not tell Nathan to open the laptop for a routine publish. The repo and the site path stay `stillwater-civic-briefing`.
 
 ## Locks
 
-- The name is Stillwater Civic Briefing. No named host. Do not use Artie Fishel. No first person.
-- The masthead is the full-width Stillwater Lift Bridge (`public/brand/bridge-wide.jpg`) under the Cinzel stacked name Stillwater / Civic / Briefing. The seal is the favicon and a lettermark. It is not the home masthead. Do not shrink the bridge.
+- The name is New Saint Croix Union. Short forms in body copy: NSCU, or the Union. No named host. Do not use Artie Fishel. No first person.
+- The masthead is a small Cinzel flag, New Saint Croix / Union, over the full-width Stillwater Lift Bridge (`public/brand/bridge-wide.jpg`). The bridge is the hero. Do not shrink the bridge. Do not set the name as a billboard. The seal is the favicon and a lettermark. It is not the home masthead.
 - The AI disclaimer stays in the site footer and once in the podcast show description in `podcast.json`. Do not paste it into a story, a booking, or an episode's show notes.
 - Articles are markdown in `src/content/articles/`. Commit them to `main`. GitHub Actions deploys the site.
 - Do not invent dollars, votes, quotes, parcel IDs, or charges. If a figure is not in the document, say it is not in the document.
@@ -63,7 +63,7 @@ The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not p
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 
-A booking is one person and one file, desk `blotter`, with `charge` set to a short phrase. The date is the booking date. The blotter page keeps every one. Do not file a grouped roster. Read `STANDARDS.md` before writing.
+A booking is one person and one file, desk `blotter`, with `charge` set to a short phrase. The body gives the charge as printed and one "In plain words" sentence per statute. Never guilty. The date is the booking date. The blotter page keeps every one. Do not file a grouped roster. Read `STANDARDS.md` before writing.
 
 ## Cloud
 

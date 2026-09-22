@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { withBase } from "../lib/site";
+import { SITE_NAME, withBase } from "../lib/site";
 import { clock, loadEpisodes, publicSummary } from "../lib/episodes";
 
 const episodes = loadEpisodes().filter((episode) => !episode.proof);
@@ -8,11 +8,11 @@ const sample = loadEpisodes().find((episode) => episode.proof);
 const latest = episodes.find((episode) => episode.duration > 0);
 ---
 
-<Base title="Podcast — Stillwater Civic Briefing">
+<Base title={`Podcast — ${SITE_NAME}`}>
   <article class="story">
     <p class="kicker">Podcast</p>
     <h1>Two episodes a week</h1>
-    <img src={withBase("cover.jpg")} alt="Stillwater Civic Briefing" style="width: min(100%, 16rem); height: auto; display: block; margin: 0 0 1rem; border: 1px solid var(--ink);" />
+    <img src={withBase("cover.jpg")} alt={SITE_NAME} style="width: min(100%, 16rem); height: auto; display: block; margin: 0 0 1rem; border: 1px solid var(--ink);" />
     <p>
       Monday is the week’s events. Wednesday is a short account of one person who holds an office.
       There is no named host.

@@ -16,4 +16,8 @@ ai_generated: true
 charge: "Domestic assault"
 ---
 
-Booked Sept. 20, 2026. Stillwater Police Department. Misdemeanor, Minn. Stat. 609.2242.1(2), domestic assault.
+Booked Sept. 20, 2026. Stillwater Police Department.
+
+The book-in report lists a misdemeanor, Minn. Stat. 609.2242.1(2), domestic assault.
+
+In plain words, that clause covers intentionally inflicting bodily harm on a family or household member, or trying to. The booking records the charge. It is not a conviction.

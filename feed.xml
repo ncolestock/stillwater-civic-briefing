@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Stillwater Civic Briefing</title>
+    <title>New Saint Croix Union</title>
     <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
     <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <copyright>&#xA9; Stillwater Civic Briefing</copyright>
-    <description>Two episodes a week. Monday is the week's public events. Wednesday is a short account of one person who holds an office in the St. Croix valley. Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Hudson, Washington County, and the Stillwater-area and Oakdale-area schools. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
-    <lastBuildDate>Tue, 22 Sep 2026 15:14:46 +0000</lastBuildDate>
+    <copyright>&#xA9; New Saint Croix Union</copyright>
+    <description>New Saint Croix Union. Two episodes a week. Monday is the week's public events. Wednesday is a short account of one person who holds an office in the St. Croix valley. Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Hudson, Washington County, and the Stillwater-area and Oakdale-area schools. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
+    <lastBuildDate>Tue, 22 Sep 2026 17:10:36 +0000</lastBuildDate>
     <generator>stillwater-civic-briefing/scripts/build_feed.py</generator>
-    <itunes:author>Stillwater Civic Briefing</itunes:author>
-    <itunes:summary>Two episodes a week. Monday is the week's public events. Wednesday is a short account of one person who holds an office in the St. Croix valley. Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Hudson, Washington County, and the Stillwater-area and Oakdale-area schools. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+    <itunes:author>New Saint Croix Union</itunes:author>
+    <itunes:summary>New Saint Croix Union. Two episodes a week. Monday is the week's public events. Wednesday is a short account of one person who holds an office in the St. Croix valley. Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Hudson, Washington County, and the Stillwater-area and Oakdale-area schools. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
     <itunes:category text="News" />
     <itunes:owner>
-      <itunes:name>Stillwater Civic Briefing</itunes:name>
+      <itunes:name>New Saint Croix Union</itunes:name>
       <itunes:email>nathan0colestock@gmail.com</itunes:email>
     </itunes:owner>
     <image>
       <url>https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg</url>
-      <title>Stillwater Civic Briefing</title>
+      <title>New Saint Croix Union</title>
       <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
     </image>
     <item>

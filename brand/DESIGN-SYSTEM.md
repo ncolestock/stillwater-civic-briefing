@@ -1,4 +1,4 @@
-# Stillwater Civic Briefing — Design System
+# New Saint Croix Union — Design System
 
 Source of truth for the newspaper website and the weekly TTS podcast.
 Grok Build: treat this folder as brand law. Do not invent a new look.
@@ -7,8 +7,8 @@ Grok Build: treat this folder as brand law. Do not invent a new look.
 
 | Item | Value |
 |---|---|
-| Name | **Stillwater Civic Briefing** |
-| Short | SCB |
+| Name | **New Saint Croix Union** |
+| Short | NSCU, or the Union |
 | Tagline | St. Croix Valley public record |
 | Podcast line | A weekly account of the valley |
 | Host | **None.** No person, no persona, no byline name. Institutional masthead only. |
@@ -29,8 +29,8 @@ Oak Park Heights may wrap on small screens. Washington County / St. Croix County
 |---|---|---|
 | Ink | `#1A1612` | Type, rules, engraved bridge |
 | Ink soft | `#3A342C` | Secondary type, captions |
-| Cream | `#F4EFE4` | Page field, podcast field, paper |
-| Cream dark | `#E8DFCC` | Alternate rows, cards, water tint |
+| Cream | `#F2EAD8` | Page field. Sampled from the sky of `public/brand/bridge-wide.jpg`. Warm `#F0E4D8` family. |
+| Cream dark | `#E6D9C6` | Alternate rows, rails, calendar heads |
 | Rule | `#C4B8A4` | Hairline rules between items |
 | Oxblood | `#7A1F2B` | Accent rules, links, stars, section kickers |
 | Oxblood hover | `#5E1721` | Link hover |
@@ -43,13 +43,13 @@ No bright green (`#0b5` from the old landing page). No neon. No dark-mode invers
 
 Load from Google Fonts (wired in `src/layouts/Base.astro`):
 
-- **Nameplate (live masthead):** Cinzel, stacked, one word to a line — Stillwater / Civic / Briefing — with a small oxblood rule between the words. Do not set body copy in Cinzel.
+- **Nameplate (live masthead):** Cinzel, two lines — New Saint Croix / Union — small, with open tracking and a short oxblood rule between the lines. The bridge underneath is the hero. The nameplate must not dominate. Do not set body copy in Cinzel.
 - **Display fallback:** Old Standard TT. Headlines may use it. It is not the nameplate.
 - **Body:** Source Serif 4, 18px / 1.55, measure ~38rem.
 - **UI, nav, dateline, blotter labels:** Source Sans 3, small caps or tracked uppercase.
 - Do **not** use blackletter (Unifraktur, Fraktur, Old English) as a primary face.
 
-Print feel: slightly loose letter-spacing on the flag (`0.04em`–`0.08em` on STILLWATER). Tight tracking looks like a SaaS landing page.
+Print feel: open tracking on the flag (`0.28em`–`0.46em`). The type stays small. A giant flag looks like a billboard.
 
 ## The mark: Stillwater Lift Bridge
 
@@ -95,16 +95,16 @@ Canonical engraved references in this packet:
 
 **Podcast cover decision:** use `podcast-cover-weekly-briefing.jpg` as `cover.jpg`. It is old-timey, square, has the accurate lift, and reads at 200 px in a podcast app. The wood-type stacked lockup is the second choice if you want the words larger than the picture.
 
-**Home masthead decision:** the live flag is Cinzel, stacked Stillwater / Civic / Briefing, with `public/brand/bridge-wide.jpg` at full width underneath. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
+**Home masthead decision:** the live flag is Cinzel, two lines, New Saint Croix / Union, kept small. `public/brand/bridge-wide.jpg` runs full width underneath and is the hero. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
 
 ## Website newspaper look
 
 The site should feel like a small-city broadsheet, not a blog and not a dashboard.
 
-- Cream page, black ink, oxblood hairlines.
-- Centered masthead: the name in Cinzel, stacked Stillwater / Civic / Briefing, then the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`). Do not swap in the seal. Do not shrink the bridge to a tiny mark. Then a tracked dateline of towns, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). Roads joins that nav only when a roads story is published.
-- Home is a front page: one lede, two secondary, a blotter rail, a calendar rail.
-- Body in a readable serif measure. Decks and kickers in sans small caps.
+- Cream page `#F2EAD8`, black ink, oxblood hairlines. A faint grain and a faint contour sit in the page background. The bridge image stays clean.
+- Centered masthead: a small Cinzel flag, New Saint Croix / Union, then the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`). Do not swap in the seal. Do not shrink the bridge to a tiny mark. Then a tracked dateline of towns, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). Roads joins that nav only when a roads story is published.
+- Home is a front page: one lede, then one continuous list of the other stories. No "Also filed." The rail is events, then blotter.
+- Body in a readable serif. Headlines stay modest. Decks and kickers in sans small caps. Spacing is tight, like an almanac column, not a poster.
 - No hero video. No card drop shadows. No rounded-everything UI kit.
 - Photographs: none required in v1. If you add a photo later, it is a public-domain or city-packet figure, credited, never a mugshot.
 
@@ -117,8 +117,8 @@ Apple Podcasts / Spotify / YouTube Music want a **square** image, 1400–3000 px
 In `podcast.json` and `feed.xml`:
 
 - `<itunes:image href="…/cover.jpg"/>`
-- Title: Stillwater Civic Briefing
-- Author / owner: Stillwater Civic Briefing (not a person)
+- Title: New Saint Croix Union
+- Author / owner: New Saint Croix Union (not a person)
 - Category: News / Local
 - The show description in `podcast.json` includes the AI disclaimer once. Do not repeat it on each episode.
 
@@ -143,7 +143,7 @@ Do not put it at the end of an article, in a booking, or in an episode's show no
 - Draw the real lift bridge.
 - Use tracked small caps for desks and datelines.
 - Put source links in the story, not only in a footer.
-- Leave generous margins. Papers breathe.
+- Keep the column tight. The bridge gets the room. The type does not shout.
 
 **Don't**
 

@@ -62,6 +62,8 @@ def main() -> int:
                 errors.append(f"{path.name}: blotter includes a forbidden field")
             if re.search(r"\bguilty\b", body, re.I):
                 errors.append(f"{path.name}: do not call anyone guilty")
+            if "In plain words" not in body:
+                errors.append(f"{path.name}: blotter needs a plain-English sentence for each charge")
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1

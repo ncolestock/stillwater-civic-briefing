@@ -16,4 +16,8 @@ ai_generated: true
 charge: "Driving after revocation"
 ---
 
-Booked Sept. 20, 2026. Cottage Grove Police Department. Misdemeanor, Minn. Stat. 171.24.2, driving after revocation.
+Booked Sept. 20, 2026. Cottage Grove Police Department.
+
+The book-in report lists a misdemeanor, Minn. Stat. 171.24.2, driving after revocation.
+
+In plain words, that law covers driving after the state has revoked the driver's license. The booking records the charge. It is not a conviction.

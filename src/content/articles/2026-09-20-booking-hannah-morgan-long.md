@@ -16,4 +16,8 @@ ai_generated: true
 charge: "Assault on a peace officer"
 ---
 
-Booked Sept. 20, 2026. Washington County. Felony, Minn. Stat. 609.2231.1(c)(1), fourth-degree assault on a peace officer, demonstrable bodily harm.
+Booked Sept. 20, 2026. Washington County.
+
+The book-in report lists a felony, Minn. Stat. 609.2231.1(c)(1), fourth-degree assault on a peace officer, demonstrable bodily harm.
+
+In plain words, that clause covers physically assaulting a peace officer and causing an injury that can be seen. The booking records the charge. It is not a conviction.

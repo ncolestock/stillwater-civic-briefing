@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { DESKS, formatDateline, withBase, type DeskId } from "../lib/site";
+import { DESKS, SITE_NAME, formatDateline, withBase, type DeskId } from "../lib/site";
 
 interface Props {
   desk: DeskId;
@@ -13,7 +13,7 @@ const articles = (await getCollection("articles"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<Base title={`${label} — Stillwater Civic Briefing`}>
+<Base title={`${label} — ${SITE_NAME}`}>
   <header class="section-banner">
     <h1>{label}</h1>
   </header>

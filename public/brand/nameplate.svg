@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 320">
-  <rect width="1600" height="320" fill="#F4EFE4"/>
+  <rect width="1600" height="320" fill="#F2EAD8"/>
   <line x1="60" y1="36" x2="1540" y2="36" stroke="#1A1612" stroke-width="3"/>
   <line x1="60" y1="42" x2="1540" y2="42" stroke="#1A1612" stroke-width="1"/>
-  <text x="800" y="130" text-anchor="middle" font-family="Georgia, 'Old Standard TT', serif" font-size="72" font-weight="700" fill="#1A1612" letter-spacing="14">STILLWATER</text>
-  <line x1="420" y1="150" x2="1180" y2="150" stroke="#7A1F2B" stroke-width="3"/>
-  <text x="800" y="198" text-anchor="middle" font-family="Georgia, 'Old Standard TT', serif" font-size="36" fill="#1A1612" letter-spacing="10">CIVIC BRIEFING</text>
+  <text x="800" y="118" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#1A1612" letter-spacing="10">NEW SAINT CROIX</text>
+  <line x1="620" y1="142" x2="980" y2="142" stroke="#7A1F2B" stroke-width="2"/>
+  <text x="800" y="196" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#1A1612" letter-spacing="16">UNION</text>
   <text x="800" y="236" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="3" fill="#3F382F">STILLWATER · LAKE ELMO · WOODBURY · OAKDALE · HUDSON · BAYPORT · OAK PARK HEIGHTS</text>
   <line x1="60" y1="278" x2="1540" y2="278" stroke="#1A1612" stroke-width="1"/>
   <line x1="60" y1="284" x2="1540" y2="284" stroke="#1A1612" stroke-width="3"/>

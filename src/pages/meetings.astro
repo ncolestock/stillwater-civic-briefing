@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import { chicagoToday, chooseMonth, collectMeetings, daysInMonth } from "../lib/calendar";
-import { withBase } from "../lib/site";
+import { SITE_NAME, withBase } from "../lib/site";
 
 const articles = await getCollection("articles");
 const meetings = collectMeetings(articles);
@@ -30,7 +30,7 @@ const stories = [...new Map(inMonth.map((item) => [item.articleId, item])).value
 const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 ---
 
-<Base title="Meetings — Stillwater Civic Briefing">
+<Base title={`Meetings — ${SITE_NAME}`}>
   <header class="section-banner">
     <p class="kicker">{monthLabel}</p>
     <h1>Meetings</h1>

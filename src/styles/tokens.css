@@ -1,11 +1,12 @@
-/* Stillwater Civic Briefing — the only :root.
-   Component CSS uses the short names. --rule is the oxblood accent
-   (kickers, top bar, nameplate rules). Hairlines use --rule-thin. */
+/* New Saint Croix Union — the only :root.
+   --scb-paper is the sky of public/brand/bridge-wide.jpg (#F2EAD8),
+   in the warm #F0E4D8 family. Component CSS uses the short names.
+   --rule is the oxblood accent. Hairlines use --rule-thin. */
 
 :root {
-  --scb-paper: #F4EFE4;
-  --scb-paper-dark: #E8DFCC;
-  --scb-paper-shadow: #D7CFBE;
+  --scb-paper: #F2EAD8;
+  --scb-paper-dark: #E6D9C6;
+  --scb-paper-shadow: #D4C4AE;
   --scb-ink: #1A1612;
   --scb-ink-soft: #3A342C;
   --scb-ink-muted: #4A433A;
@@ -48,10 +49,10 @@
   --masthead-rule: 2px;
   --tracking-flag: 0.08em;
 
-  --fs-masthead: clamp(2.1rem, 5vw, 3.6rem);
-  --fs-hed-lead: clamp(1.6rem, 3vw, 2.4rem);
-  --fs-body: 1.125rem;
-  --lh-body: 1.55;
+  --fs-masthead: clamp(1.02rem, 2.2vw, 1.48rem);
+  --fs-hed-lead: clamp(1.4rem, 2.15vw, 1.85rem);
+  --fs-body: 1.0625rem;
+  --lh-body: 1.48;
   --fs-ui: 0.78rem;
   --fs-disclaimer: 0.78rem;
 }

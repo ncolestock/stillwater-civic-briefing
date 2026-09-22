@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { withBase } from "../lib/site";
+import { SITE_NAME, withBase } from "../lib/site";
 
 const places = (await getCollection("articles"))
   .filter((article) => article.data.status === "published" && article.data.places?.length)
@@ -18,7 +18,7 @@ const places = (await getCollection("articles"))
   );
 ---
 
-<Base title="Land — Stillwater Civic Briefing">
+<Base title={`Land — ${SITE_NAME}`}>
   <header class="section-banner">
     <p class="kicker">Addresses named in the agendas</p>
     <h1>Land</h1>

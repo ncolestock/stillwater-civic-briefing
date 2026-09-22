@@ -16,4 +16,12 @@ ai_generated: true
 charge: "First-degree burglary"
 ---
 
-Booked Sept. 21, 2026. Woodbury Police Department. Felony, Minn. Stat. 609.582.1(a), first-degree burglary of an occupied dwelling. Felony, Minn. Stat. 609.595.1(4), first-degree damage to property, value reduced by more than $1,000.
+Booked Sept. 21, 2026. Woodbury Police Department.
+
+The book-in report lists a felony, Minn. Stat. 609.582.1(a), first-degree burglary of an occupied dwelling.
+
+In plain words, that clause covers entering a dwelling without consent, to commit a crime or while committing one, when another person who is not an accomplice is inside.
+
+The report also lists a felony, Minn. Stat. 609.595.1(4), first-degree damage to property, value reduced by more than $1,000.
+
+In plain words, that clause covers intentionally damaging someone else's property, without consent, by more than $1,000 in repair or replacement cost. The booking records the charges. It is not a conviction.

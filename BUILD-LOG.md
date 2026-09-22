@@ -68,3 +68,13 @@ The design notes now match the live masthead: full-width `public/brand/bridge-wi
 The front page leads with one story, then two secondary, then a list. The meetings month and the land map read `upcoming` and `places` on published stories. Roads stays out of the nav until a roads story is published.
 
 `episodes/` has no Monday events file for 2026-09-21 (only `2026-09-21-proof.json`, a voice sample). Wednesday 2026-09-23 was not due yet. This job did not write an episode script.
+
+## 2026-09-22 rename
+
+The public name is New Saint Croix Union. Short forms in the docs are NSCU and the Union. The GitHub repo and the Pages base path stay `/stillwater-civic-briefing`. Geography, desks, and the no-host rule are unchanged.
+
+The live flag is a small two-line Cinzel lockup, New Saint Croix / Union, with open tracking. `public/brand/bridge-wide.jpg` stays full width and is the hero. Page paper is `#F2EAD8`, the average sky of that engraving, in the `#F0E4D8` family. The front page is one lede and a continuous list. Events sit above the blotter. There is no "Also filed."
+
+Each of the 14 blotter pages now prints the charge as filed and one plain-English sentence per statute. None says guilty.
+
+Recorded episode audio still speaks the former name. New Monday and Wednesday scripts open with New Saint Croix Union. The archived landing page at `public/archive/legacy.html` keeps its old title as the previous page.

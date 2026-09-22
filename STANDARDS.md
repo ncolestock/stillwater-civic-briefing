@@ -24,15 +24,15 @@ The first two sentences carry the body, the place, and the fact that matters. A 
 
 ## Length
 
-A booking is two or three sentences: the date, the agency, and the charge as printed. No "how to follow it" section. Sources stay in the source list under the story. A meeting story is as long as the packet supports, usually under 450 words. A thin record stays thin.
+A booking names the date, the agency, and every charge as printed, then one plain-English sentence for each charge. No "how to follow it" section. Sources stay in the source list under the story. A meeting story is as long as the packet supports, usually under 450 words. A thin record stays thin.
 
 ## Blotter
 
 One adult, one page. The blotter list is the archive and it keeps every page.
 
-Say who was booked, on what date, by which agency, and the charge as the book-in report writes it. Put that charge in a sentence first, then the statute title.
+Say who was booked, on what date, by which agency, and the charge as the book-in report writes it. Put that charge in a sentence first, then the statute title. After each charge, add one sentence that begins "In plain words" and says what that statute covers, for a neighbor who does not read the code. The sentence explains the law. It does not say the person did it.
 
-Do not add an address, age, date of birth, officer, arrest location, mugshot, or the word guilty. Leave out juveniles and sex-crime charges.
+Do not add an address, age, date of birth, officer, arrest location, mugshot, or the word guilty. Do not call the booking a conviction. Leave out juveniles and sex-crime charges.
 
 The sheriff's dispatch calls and incident summaries do not name people. Do not pin one of those rows on a booking. A court case gets a link only after that case has been opened and the name and charge match. Minnesota Court Records Online is https://publicaccess.courts.state.mn.us/.
 

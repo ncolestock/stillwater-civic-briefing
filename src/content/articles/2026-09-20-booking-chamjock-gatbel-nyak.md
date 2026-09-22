@@ -16,4 +16,12 @@ ai_generated: true
 charge: "Obstructing legal process"
 ---
 
-Booked Sept. 20, 2026. Washington County. Misdemeanor, Minn. Stat. 609.50.1(1), obstructing legal process. Petty misdemeanor, Minn. Stat. 169.21.5, pedestrian failing to use the sidewalk or the left side of the roadway.
+Booked Sept. 20, 2026. Washington County.
+
+The book-in report lists a misdemeanor, Minn. Stat. 609.50.1(1), obstructing legal process.
+
+In plain words, that clause covers interfering with a lawful arrest or other legal process, or with taking another person into custody.
+
+The report also lists a petty misdemeanor, Minn. Stat. 169.21.5, a pedestrian failing to use the sidewalk or the left side of the roadway.
+
+In plain words, that rule covers a person on foot who does not use a usable sidewalk, or who walks on the wrong side of a road that has no sidewalk. The booking records the charges. It is not a conviction.

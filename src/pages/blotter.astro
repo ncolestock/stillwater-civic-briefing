@@ -1,14 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { formatDateline, withBase } from "../lib/site";
+import { SITE_NAME, formatDateline, withBase } from "../lib/site";
 
 const bookings = (await getCollection("articles"))
   .filter((article) => article.data.status === "published" && article.data.desk === "blotter")
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.title.localeCompare(b.data.title));
 ---
 
-<Base title="Blotter — Stillwater Civic Briefing">
+<Base title={`Blotter — ${SITE_NAME}`}>
   <header class="section-banner">
     <p class="kicker">Washington County Jail</p>
     <h1>Blotter</h1>

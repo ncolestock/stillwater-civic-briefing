@@ -16,4 +16,16 @@ ai_generated: true
 charge: "Assault on a peace officer, obstruction, domestic assault"
 ---
 
-Booked Sept. 20, 2026. Cottage Grove Police Department. Felony, Minn. Stat. 609.2231.1(c)(2), fourth-degree assault on a peace officer. Gross misdemeanor, Minn. Stat. 609.50.1(2), obstructing legal process. Misdemeanor, Minn. Stat. 609.2242.1(2), domestic assault.
+Booked Sept. 20, 2026. Cottage Grove Police Department.
+
+The book-in report lists a felony, Minn. Stat. 609.2231.1(c)(2), fourth-degree assault on a peace officer.
+
+In plain words, that clause covers intentionally throwing or otherwise transferring bodily fluids or feces onto a peace officer.
+
+The report lists a gross misdemeanor, Minn. Stat. 609.50.1(2), obstructing legal process.
+
+In plain words, that clause covers obstructing, resisting, or interfering with a peace officer who is doing official work.
+
+The report lists a misdemeanor, Minn. Stat. 609.2242.1(2), domestic assault.
+
+In plain words, that clause covers intentionally inflicting bodily harm on a family or household member, or trying to. The booking records the charges. It is not a conviction.

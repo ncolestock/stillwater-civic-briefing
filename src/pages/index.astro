@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { DESKS, formatDateline, plainFirstParagraph, withBase } from "../lib/site";
+import { DESKS, SITE_DESCRIPTION, SITE_NAME, formatDateline, plainFirstParagraph, withBase } from "../lib/site";
 
 const stories = (await getCollection("articles"))
   .filter((article) => article.data.status === "published")
@@ -17,12 +17,11 @@ const events = (await getCollection("articles"))
   .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf() || a.id.localeCompare(b.id));
 
 const lead = stories[0];
-const secondary = stories.slice(1, 3);
-const rest = stories.slice(3);
-const deck = lead ? plainFirstParagraph(lead.body, 420) : "";
+const rest = stories.slice(1);
+const deck = lead ? plainFirstParagraph(lead.body, 320) : "";
 ---
 
-<Base title="Stillwater Civic Briefing">
+<Base title={SITE_NAME} description={SITE_DESCRIPTION}>
   <div class="front">
     <section>
       {stories.length === 0 ? (
@@ -37,51 +36,21 @@ const deck = lead ? plainFirstParagraph(lead.body, 420) : "";
               <p class="meta">{formatDateline(lead.data.date)}</p>
             </article>
           )}
-          {secondary.length > 0 && (
-            <div class:list={["columns", { one: secondary.length < 2 }]}>
-              {secondary.map((article) => (
-                <article class="brief">
-                  <p class="kicker">{DESKS[article.data.desk].label} · {article.data.city}</p>
-                  <h3><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h3>
-                  <p class="meta">{formatDateline(article.data.date)}</p>
-                </article>
-              ))}
-            </div>
-          )}
           {rest.length > 0 && (
-            <>
-              <p class="kicker">Also filed</p>
-              <ul class="paper-list">
-                {rest.map((article) => (
-                  <li>
-                    <p class="kicker">{DESKS[article.data.desk].label} · {article.data.city}</p>
-                    <h2><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h2>
-                    <p class="meta">{formatDateline(article.data.date)}</p>
-                  </li>
-                ))}
-              </ul>
-            </>
+            <ul class="paper-list">
+              {rest.map((article) => (
+                <li>
+                  <p class="kicker">{DESKS[article.data.desk].label} · {article.data.city}</p>
+                  <h2><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h2>
+                  <p class="meta">{formatDateline(article.data.date)}</p>
+                </li>
+              ))}
+            </ul>
           )}
         </>
       )}
     </section>
     <aside class="side">
-      <section class="blotter">
-        <p class="kicker">Blotter</p>
-        {blotter.length === 0 ? (
-          <p class="empty">No bookings.</p>
-        ) : (
-          <ul class="blotter-list">
-            {blotter.slice(0, 8).map((article) => (
-              <li>
-                <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
-                <p class="charge">{article.data.charge}</p>
-              </li>
-            ))}
-          </ul>
-        )}
-        <p><a href={withBase("blotter/")}>All bookings</a></p>
-      </section>
       <section>
         <p class="kicker">Events</p>
         {events.length === 0 ? (
@@ -97,6 +66,22 @@ const deck = lead ? plainFirstParagraph(lead.body, 420) : "";
             ))}
           </ul>
         )}
+      </section>
+      <section class="blotter">
+        <p class="kicker">Blotter</p>
+        {blotter.length === 0 ? (
+          <p class="empty">No bookings.</p>
+        ) : (
+          <ul class="blotter-list">
+            {blotter.slice(0, 8).map((article) => (
+              <li>
+                <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
+                <p class="charge">{article.data.charge}</p>
+              </li>
+            ))}
+          </ul>
+        )}
+        <p><a href={withBase("blotter/")}>All bookings</a></p>
       </section>
     </aside>
   </div>

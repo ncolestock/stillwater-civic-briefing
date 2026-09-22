@@ -7,10 +7,14 @@ html { background: var(--paper); }
 body {
   margin: 0;
   color: var(--ink);
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(rgba(26, 22, 18, 0.045) 0.55px, transparent 0.65px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='880' height='880'%3E%3Cg fill='none' stroke='%231A1612' stroke-opacity='0.045' stroke-width='1'%3E%3Cellipse cx='190' cy='150' rx='170' ry='78'/%3E%3Cellipse cx='190' cy='150' rx='124' ry='54'/%3E%3Cellipse cx='640' cy='540' rx='210' ry='96'/%3E%3Cellipse cx='640' cy='540' rx='150' ry='66'/%3E%3Cpath d='M30 720 C 180 660, 340 780, 540 710 S 800 650, 860 730'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 3px 3px, 880px 880px;
   font-family: var(--serif);
-  font-size: 1.125rem;
-  line-height: 1.55;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
   overflow-x: hidden;
 }
 
@@ -23,7 +27,7 @@ a:hover { color: var(--oxblood-hover); }
   width: 100%;
   max-width: var(--page);
   margin: 0 auto;
-  padding-inline: 1rem;
+  padding-inline: 0.9rem;
 }
 
 .front > *,
@@ -35,7 +39,7 @@ a:hover { color: var(--oxblood-hover); }
 }
 
 .nameplate {
-  padding: 1.25rem 0 0.4rem;
+  padding: 0.45rem 0 0.15rem;
   text-align: center;
 }
 
@@ -45,43 +49,58 @@ a:hover { color: var(--oxblood-hover); }
   color: inherit;
 }
 
-.nameplate .wood {
+.nameplate .flag {
   font-family: var(--font-wood);
-  font-weight: 900;
-  font-size: clamp(2.6rem, 8vw, 5.4rem);
-  letter-spacing: 0.06em;
-  line-height: 0.82;
-  margin: 0.15rem 0 0.1rem;
+  font-weight: 700;
+  margin: 0.05rem auto 0.15rem;
   text-transform: uppercase;
+  line-height: 1;
 }
 
-.nameplate .wood span { display: block; }
+.nameplate .flag-top,
+.nameplate .flag-bot {
+  display: block;
+}
 
-.nameplate .wood-rule {
-  width: min(16rem, 46%);
+.nameplate .flag-top {
+  font-size: clamp(0.64rem, 1.25vw, 0.86rem);
+  font-weight: 600;
+  letter-spacing: 0.38em;
+  padding-left: 0.38em;
+}
+
+.nameplate .flag-rule {
+  display: block;
+  width: min(7.5rem, 34%);
   height: 0;
-  margin: 0.28rem auto;
-  border-top: 2px solid var(--rule);
+  margin: 0.22rem auto 0.16rem;
+  border-top: 1px solid var(--rule);
   position: relative;
 }
 
-.nameplate .wood-rule::after {
+.nameplate .flag-rule::after {
   content: "";
   position: absolute;
   left: 50%;
-  top: -4px;
-  width: 7px;
-  height: 7px;
-  margin-left: -3.5px;
+  top: -3px;
+  width: 5px;
+  height: 5px;
+  margin-left: -2.5px;
   background: var(--rule);
   transform: rotate(45deg);
 }
 
+.nameplate .flag-bot {
+  font-size: var(--fs-masthead);
+  letter-spacing: 0.46em;
+  padding-left: 0.46em;
+}
+
 .nameplate .bridge {
-  width: min(100%, 68rem);
+  width: 100%;
   height: auto;
   display: block;
-  margin: 0.15rem auto 0.2rem;
+  margin: 0.28rem auto 0.05rem;
 }
 
 .nameplate .edition {
@@ -102,32 +121,32 @@ a:hover { color: var(--oxblood-hover); }
   display: block;
   text-align: center;
   font-family: var(--sans);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  line-height: 1.55;
+  font-size: 0.68rem;
+  letter-spacing: 0.11em;
+  line-height: 1.45;
   text-transform: uppercase;
   color: var(--ink-soft);
   border-bottom: 0;
   max-width: 46rem;
-  margin: 0.35rem auto 0;
-  padding: 0 0.4rem 0.15rem;
+  margin: 0.2rem auto 0;
+  padding: 0 0.4rem 0.05rem;
 }
 
 .edition-date {
   text-align: center;
   font-family: var(--sans);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  margin: 0.2rem 0 0;
+  margin: 0.12rem 0 0;
 }
 
 .double-rule {
   border: 0;
-  border-top: 3px solid var(--rule);
+  border-top: 2px solid var(--rule);
   border-bottom: 1px solid var(--ink);
-  height: 6px;
-  margin: 0.45rem 0 0;
+  height: 5px;
+  margin: 0.28rem 0 0;
 }
 
 nav.desks {
@@ -142,7 +161,7 @@ nav.desks {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 0.55rem 0;
+  padding: 0.38rem 0;
   border-bottom: 1px solid var(--rule-thin);
 }
 
@@ -160,8 +179,8 @@ nav.desks a { text-decoration: none; }
 
 .front {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(16rem, 0.9fr);
-  gap: 1.5rem 2rem;
+  grid-template-columns: minmax(0, 1.7fr) minmax(15rem, 0.85fr);
+  gap: 0.85rem 1.35rem;
   align-items: start;
 }
 
@@ -177,8 +196,9 @@ nav.desks a { text-decoration: none; }
 
 h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
 
-.lead h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0 0 0.4rem; }
-.front > section > .kicker { margin-top: 1.15rem; }
+.lead h2 { font-size: var(--fs-hed-lead); margin: 0 0 0.28rem; }
+.front > section > .kicker { margin-top: 0.7rem; }
+.lead + .paper-list { margin-top: 0.7rem; }
 .lead h2 a, .brief h3 a, .side h3 a { text-decoration: none; }
 
 .deck {
@@ -216,10 +236,10 @@ h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
 
 .side {
   border-left: 1px solid var(--rule-thin);
-  padding-left: 1rem;
+  padding-left: 0.85rem;
 }
 
-.side section { margin-bottom: 1.2rem; }
+.side section { margin-bottom: 0.85rem; }
 .side h3 { font-size: 1.05rem; margin: 0.2rem 0 0.45rem; }
 
 .side ol, .side ul { margin: 0; padding-left: 1.1rem; }
@@ -232,7 +252,7 @@ h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
 }
 .blotter-list a {
   font-family: var(--display);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   line-height: 1.15;
   text-decoration: none;
 }
@@ -251,9 +271,9 @@ article.story {
 
 article.story h1 {
   font-family: var(--display);
-  font-size: clamp(1.9rem, 4vw, 2.7rem);
-  line-height: 1.05;
-  margin: 0.2rem 0 0.4rem;
+  font-size: clamp(1.5rem, 3vw, 2.05rem);
+  line-height: 1.08;
+  margin: 0.1rem 0 0.3rem;
 }
 
 .prose p { margin: 0 0 0.8rem; }
@@ -282,9 +302,9 @@ article.story h1 {
 }
 
 footer.site {
-  margin-top: 2rem;
-  padding: 1rem 0 2rem;
-  border-top: 3px solid var(--rule);
+  margin-top: 1.25rem;
+  padding: 0.75rem 0 1.4rem;
+  border-top: 2px solid var(--rule);
   font-family: var(--sans);
   font-size: 0.78rem;
   color: var(--ink-soft);
@@ -300,7 +320,7 @@ footer.site {
 
 .index-list { list-style: none; padding: 0; }
 .index-list li { border-top: 1px solid var(--rule-thin); padding: 0.75rem 0; }
-.index-list h2 { font-size: 1.45rem; margin: 0.15rem 0; }
+.index-list h2 { font-size: 1.22rem; margin: 0.1rem 0; }
 .index-list h2 a { text-decoration: none; }
 
 .empty {
@@ -312,16 +332,17 @@ footer.site {
   .front { grid-template-columns: 1fr; }
   .columns { column-count: 1; }
   .side { border-left: 0; padding-left: 0; border-top: 1px solid var(--ink); padding-top: 1rem; }
-  .wrap { padding-inline: 0.85rem; }
+  .wrap { padding-inline: 0.75rem; }
   .dateline { text-align: center; }
   nav.desks {
     font-size: 0.72rem;
     letter-spacing: 0.06em;
     gap: 0.25rem 0;
   }
-  .nameplate .wood { font-size: clamp(1.85rem, 11vw, 2.6rem); letter-spacing: 0.04em; }
-  .dateline { letter-spacing: 0.05em; font-size: 0.64rem; }
-  .lead h2 { font-size: 1.55rem; }
+  .nameplate .flag-top { font-size: 0.58rem; letter-spacing: 0.16em; padding-left: 0.16em; }
+  .nameplate .flag-bot { font-size: 1.02rem; letter-spacing: 0.28em; padding-left: 0.28em; }
+  .dateline { letter-spacing: 0.04em; font-size: 0.6rem; }
+  .lead h2 { font-size: 1.38rem; }
   .nameplate .edition {
     font-size: 0.62rem;
     letter-spacing: 0.04em;
@@ -338,15 +359,15 @@ footer.site {
 .section-banner { border-bottom: 1px solid var(--ink); margin: 0.4rem 0 0.8rem; padding-bottom: 0.35rem; }
 .section-banner h1 {
   font-family: var(--display);
-  font-size: clamp(1.8rem, 4vw, 2.4rem);
-  margin: 0.15rem 0 0;
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  margin: 0.08rem 0 0;
   letter-spacing: 0.03em;
 }
 .section-note { font-family: var(--sans); font-size: 0.92rem; margin: 0 0 1rem; }
 
 .paper-list { list-style: none; padding: 0; margin: 0; }
-.paper-list li { border-top: 1px solid var(--rule-thin); padding: 0.75rem 0; }
-.paper-list h2 { font-family: var(--display); font-size: 1.45rem; margin: 0.1rem 0; line-height: 1.15; }
+.paper-list li { border-top: 1px solid var(--rule-thin); padding: 0.55rem 0; }
+.paper-list h2 { font-family: var(--display); font-size: 1.22rem; margin: 0.08rem 0; line-height: 1.15; }
 .paper-list h2 a { text-decoration: none; }
 
 .month {
@@ -372,7 +393,7 @@ footer.site {
   background: var(--paper-2);
 }
 .day .num { font-family: var(--sans); font-size: 0.75rem; }
-.day.meet { background: #f7f1e4; }
+.day.meet { background: #EFE4D4; }
 .meet-link {
   display: block;
   margin-top: 0.25rem;
