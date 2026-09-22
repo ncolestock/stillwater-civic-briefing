@@ -13,20 +13,13 @@ const bookings = (await getCollection("articles"))
     <p class="kicker">Washington County Jail</p>
     <h1>Blotter</h1>
   </header>
-  <div class="blotter blotter-full">
-    <table>
-      <thead>
-        <tr><th>Booked</th><th>Name</th><th>Charge on the report</th></tr>
-      </thead>
-      <tbody>
-        {bookings.map((booking) => (
-          <tr>
-            <td class="when">{formatDateline(booking.data.date)}</td>
-            <td><a href={withBase(`articles/${booking.id}/`)}>{booking.data.title}</a></td>
-            <td>{booking.data.charge}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
+  <ul class="blotter-list">
+    {bookings.map((booking) => (
+      <li>
+        <a href={withBase(`articles/${booking.id}/`)}>{booking.data.title}</a>
+        <p class="charge">{booking.data.charge}</p>
+        <p class="meta">{formatDateline(booking.data.date)}</p>
+      </li>
+    ))}
+  </ul>
 </Base>

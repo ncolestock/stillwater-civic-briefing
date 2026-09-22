@@ -37,19 +37,14 @@ const events = published.filter((article) => article.data.desk === "calendar");
         {blotter.length === 0 ? (
           <p class="empty">No bookings.</p>
         ) : (
-          <table>
-            <thead>
-              <tr><th>Name</th><th>Charge</th></tr>
-            </thead>
-            <tbody>
-              {blotter.slice(0, 10).map((article) => (
-                <tr>
-                  <td><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></td>
-                  <td>{article.data.charge}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <ul class="blotter-list">
+            {blotter.slice(0, 8).map((article) => (
+              <li>
+                <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
+                <p class="charge">{article.data.charge}</p>
+              </li>
+            ))}
+          </ul>
         )}
         <p><a href={withBase("blotter/")}>All bookings</a></p>
       </section>

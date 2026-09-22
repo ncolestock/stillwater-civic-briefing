@@ -235,22 +235,25 @@ h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
 .side ol, .side ul { margin: 0; padding-left: 1.1rem; }
 .side li { margin: 0 0 0.45rem; font-size: 0.95rem; }
 
-.blotter table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
-.blotter th {
+.blotter-list { list-style: none; padding: 0; margin: 0; }
+.blotter-list li {
+  border-top: 1px solid var(--rule-thin);
+  padding: 0.55rem 0 0.45rem;
+}
+.blotter-list a {
+  font-family: var(--display);
+  font-size: 1.2rem;
+  line-height: 1.15;
+  text-decoration: none;
+}
+.blotter-list .charge {
   font-family: var(--sans);
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-align: left;
-  border-bottom: 1px solid var(--ink);
-  padding: 0.3rem 0.35rem 0.3rem 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  margin: 0.15rem 0 0;
+  color: var(--ink-soft);
 }
-.blotter td {
-  border-bottom: 1px solid var(--rule-thin);
-  padding: 0.4rem 0.35rem 0.4rem 0;
-  vertical-align: top;
-}
-.blotter a { text-decoration: none; }
+.blotter-list .meta { margin: 0.15rem 0 0; }
 
 article.story {
   max-width: var(--measure);
@@ -398,7 +401,6 @@ footer.site {
 .place-list a { font-family: var(--display); font-size: 1.2rem; text-decoration: none; }
 .place-list p { margin: 0.25rem 0 0; font-size: 0.95rem; }
 
-.blotter-full td.when { white-space: nowrap; font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; }
 .event-list { list-style: none; padding: 0; margin: 0; }
 .event-list li { margin: 0 0 0.7rem; }
 .event-list a { text-decoration: none; font-family: var(--display); }
