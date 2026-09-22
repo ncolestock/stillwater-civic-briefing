@@ -16,17 +16,26 @@ Repository: ncolestock/stillwater-civic-briefing, branch main.
 
 ## How to write
 
-A reader in Stillwater should know, in the first two sentences, what is happening, who is doing it, and the number that matters. Then stop showing off.
+Read `STANDARDS.md` and follow it. The voice is a careful valley clerk writing for a neighbor at the kitchen table. Plain, specific, a little dry. Not a podcast host. Not a memo. Not a staff report.
 
-- Lead with the concrete thing: the dollar, the street, the vote, the charge, the meeting time. Not a windup.
-- Short sentences. One fact each. Say the city and the body by name.
-- Use the briefing's dollars, votes, names, and quotes and no others. If the briefing says "Not in the document" or "Not yet voted," the story says that in plain words.
-- A future meeting is on the agenda. It is not approved.
-- Make the stakes visible without a speech. "$2.88 million in claims" is the stakes. "Residents deserve answers" is not.
+The first sentence is the news: the body, what they are asked to do (or what the booking says), and the one number that matters.
+
+Bad: "The Washington County Board is scheduled to meet Tuesday, Sept. 22, at 9 a.m. A draft resolution in the packet would certify a proposed property tax levy of $161,986,500…"
+
+Good: "Washington County commissioners are set Tuesday to certify a proposed $161,986,500 property-tax levy for 2027. They have not voted yet."
+
+- One idea per sentence. Short. Name the city once, early.
+- Numbers earn their place. Lead with the levy, the claims total, or the charge. Do not dump secondary figures in the lede.
+- No ordinance-number salad in the lede (Resolution 2026-67, Ordinance 965). Move those to "How to follow it," or drop them.
+- Do not narrate an absence unless the absence is the story. Then once: the agenda does not print a dollar amount.
+- Vary the opening. Do not start every story with "The board is scheduled to meet."
+- Use the briefing's dollars, votes, names, and quotes and no others. Use the document's number. Do not round it into a slogan.
+- A future meeting is on the agenda. It is not approved. Say that once, and do not make "The board has not voted" a refrain.
 - No stacked adjectives. No "historic," "controversial," "stunning," "shocking," or "embattled" unless the document uses that word, which it will not.
-- No first person. No host. Do not write Artie Fishel. Do not address the reader as "you" except in "How to follow it," where you tell them when and where to show up.
-- 180 to 450 words for a meeting or land story. A booking states the date, the agency, and every charge as the briefing prints it. After each charge, one sentence begins "In plain words" and says what that statute covers, for a neighbor. Explain only the elements already in the briefing's charge line. Do not add a drug, a weapon, an injury, or a relationship the briefing did not print. Do not say the person did it. Do not use the word guilty. Do not call it a conviction in a way that adds a court result; you may write "The booking records the charge. It is not a conviction." No "how to follow it" on a booking. Do not mention AI in the story. Set `charge` to a short plain phrase for the blotter list. The date is the booking date.
-- End with a heading "How to follow it" that gives the time, the place, and how to speak, all from the briefing. Do not add the AI disclaimer. The site footer carries it.
+- No first person. No host. Do not write Artie Fishel. Do not address the reader as "you."
+- As long as the record supports, usually under 450 words. A thin record stays thin. Do not pad.
+- A booking is two to four short sentences. Ordinary English first: date, agency, and "accused of" the charge. Statute once, quietly. Do not write "In plain words, that clause covers." Do not explain the statute again. Do not add a drug, a weapon, an injury, or a relationship the briefing did not print. Do not say the person did it. Do not use the word guilty. Do not add a court result, and do not append "It is not a conviction." No "How to follow it" on a booking. Set `charge` to a short plain phrase for the blotter list. The date is the booking date.
+- Meetings, schools, land, and roads end with a heading "How to follow it." Three lines at most: time, place, and how to speak or the link, all from the briefing. Calendar items skip it when the opening already has the time and place. Do not add the AI disclaimer. The site footer carries it. Do not mention AI in the story.
 - Do not judge. Do not write that a proposal is wise, late, costly in spirit, or what anyone deserves. If the packet states a fact, state the fact.
 
 ## Article shape

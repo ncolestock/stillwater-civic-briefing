@@ -33,7 +33,7 @@ GitHub Actions deploys whatever is `published` on main. A draft or a held story 
 
 ## Blotter
 
-Adult name, every charge as written, one plain-English sentence per charge, booking date, source. The plain sentence starts "In plain words" and restates what that cited statute covers. It is not a new claim that the person did the act. If it adds a drug, a weapon, an injury, a relationship, or any other fact the book-in report did not print, cut that element or hold the story. If a draft includes a street address, an age, a date of birth, an officer, an arrest location, or the word guilty, that is a hold until those words are gone. If you can remove them without losing a charge or its plain-English sentence, fix and then re-check the charges against the PDF before you pass.
+Adult name, every charge the book-in report prints, booking date, agency, source. The body is two to four short sentences. Ordinary English first ("accused of …"), then the statute once. Hold a draft that still uses "In plain words," that explains the statute a second time, or that adds "It is not a conviction" as a refrain. The plain sentence is not a new claim that the person did the act. If it adds a drug, a weapon, an injury, a relationship, or any other fact the book-in report did not print, cut that element or hold the story. If a draft includes a street address, an age, a date of birth, an officer, an arrest location, a "How to follow it" section, or the word guilty, that is a hold until those words are gone. If you can remove them without losing a charge, fix and then re-check the charges against the PDF before you pass.
 
 ## Do not
 

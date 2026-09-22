@@ -16,12 +16,4 @@ ai_generated: true
 charge: "Fourth-degree DWI"
 ---
 
-Booked Sept. 20, 2026. Washington County.
-
-The book-in report lists three misdemeanors.
-
-Minn. Stat. 169A.20.1(1), driving while impaired. In plain words, that clause covers driving a motor vehicle while under the influence of alcohol.
-
-Minn. Stat. 169A.20.1(5), alcohol concentration 0.08 within two hours. In plain words, that clause covers driving with an alcohol concentration of 0.08 or more as measured within two hours.
-
-Minn. Stat. 169A.27.1, fourth-degree driving while impaired. In plain words, fourth degree is the misdemeanor grade of a driving-while-impaired charge. The booking records the charges. It is not a conviction.
+Washington County booked Carter Henry Houle on Sept. 20, accused of fourth-degree driving while impaired. The report lists three misdemeanors: driving while impaired, an alcohol concentration of 0.08 within two hours, and fourth-degree DWI. It cites Minn. Stat. 169A.20.1(1), 169A.20.1(5), and 169A.27.1.

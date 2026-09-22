@@ -62,8 +62,18 @@ def main() -> int:
                 errors.append(f"{path.name}: blotter includes a forbidden field")
             if re.search(r"\bguilty\b", body, re.I):
                 errors.append(f"{path.name}: do not call anyone guilty")
-            if "In plain words" not in body:
-                errors.append(f"{path.name}: blotter needs a plain-English sentence for each charge")
+            if re.search(r"In plain words", body, re.I):
+                errors.append(f"{path.name}: drop the 'In plain words' refrain; accuse in ordinary English")
+            if re.search(r"How to follow it", body, re.I):
+                errors.append(f"{path.name}: blotter has no How to follow it section")
+            if "accused of" not in body.lower():
+                errors.append(f"{path.name}: blotter should say accused of the charge")
+        if (
+            desk in {"meetings", "schools", "land", "roads"}
+            and "status: published" in fm
+            and "## How to follow it" not in body
+        ):
+            errors.append(f"{path.name}: published meeting, school, land, or roads story needs How to follow it")
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1

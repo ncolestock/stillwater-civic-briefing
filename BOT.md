@@ -49,7 +49,7 @@ Desks:
 - Meetings: a calendar of public meetings, plus a short factual story of what the agendas ask those bodies to decide.
 - Schools, roads: stories when a record exists.
 - Land: a map of addresses named in the records. Hovering the line and the mark highlights both. A mark is the agenda address. Do not draw a parcel line you do not have.
-- Blotter: one adult, one page. The list is the name in the display face and the charge underneath in the sans-serif. Not a table. Date, agency, the charge as printed, then one plain-English sentence per statute that starts "In plain words." Never guilty. No "how to follow it."
+- Blotter: one adult, one page. The list is the name in the display face and the charge underneath in the sans-serif. Not a table. Two to four sentences: date, agency, "accused of" the charge in ordinary English, statute once. Never "In plain words." Never guilty. No "how to follow it."
 - Calendar: festivals and civic events. Not meetings.
 
 The masthead is one Cinzel line, New Saint Croix Union, overlaid on the upper band of the engraved Stillwater Lift Bridge. The bridge stays full width and is the hero field (`public/brand/bridge-wide.jpg`). The edition date sits under the bridge. Do not print the town list on the flag. Cream `#F6EEDB` (the paper margin at the corners of the engraving, not the darker sky), ink `#1A1612`, oxblood `#7A1F2B`. The page field is flat. Do not put a grain or a contour behind it. Do not stack the name above the image. Do not put the small seal back in place of the bridge. Do not put a host, a microphone, or a dark theme on the paper.

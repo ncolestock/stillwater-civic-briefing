@@ -1,5 +1,5 @@
 ---
-title: "Stillwater-area school board agenda lists a preliminary levy"
+title: "Stillwater-area schools to set a 2027 levy, with no dollar printed"
 date: 2026-09-21
 desk: schools
 city: Stillwater
@@ -18,16 +18,18 @@ upcoming:
     url: "https://meetings.boardbook.org/Public/Agenda/2592?meeting=765266"
 ---
 
-The Stillwater Area Public Schools board holds a business meeting Tuesday, Sept. 22, at 5:30 p.m. at the Oak Park Learning Center, 6355 Osman Avenue North in Stillwater. The agenda lists an action to adopt the preliminary proposed property-tax levy for taxes payable in 2027. The agenda does not print a dollar amount.
+The Stillwater-area school board is set Tuesday to adopt a preliminary property-tax levy for 2027. The agenda does not print a dollar amount.
 
-The agenda says state law requires the board to adopt a proposed levy by Sept. 30, 2026, and that this levy provides revenue for the 2027–2028 school year. It says the board may adopt a preliminary levy from September estimates or may adopt a levy that states “Maximum.” If a dollar amount is adopted in September, later adjustments that would increase the levy are not allowed. The agenda says the board has historically adopted “Maximum” in September.
+The meeting is at 5:30 p.m. at Oak Park Learning Center in Stillwater. State law requires a proposed levy by Sept. 30. The agenda says this levy provides revenue for the 2027–2028 school year.
 
-A second action would set the truth-in-taxation meeting for Dec. 8, 2026, at 6 p.m. at the same building. The consent agenda includes a field-trip request for the Stillwater Area High School band and orchestra to New Orleans on March 23–27, 2026. No cost for that trip is printed on the agenda page.
+The board may adopt September estimates, or it may adopt a levy that says “Maximum.” A dollar amount set in September cannot be raised later. The agenda says the board has historically adopted “Maximum” in September.
 
-The agenda also schedules a closed session under Minn. Stat. § 13D.05, subd. 3(c)(3), to develop or consider an offer to purchase or sell real property. It does not describe the property.
+A second action would set the truth-in-taxation meeting for Dec. 8 at 6 p.m. in the same building.
 
-Public comment is limited to fifteen speakers, three minutes each. The agenda says the board will not discuss individual employees or students in the public meeting.
+The consent agenda includes a Stillwater Area High School band and orchestra trip to New Orleans on March 23–27, 2026.
+
+The board is also scheduled to close the meeting to consider an offer to buy or sell real property.
 
 ## How to follow it
 
-Tuesday, Sept. 22, 2026, 5:30 p.m., Oak Park Learning Center, 6355 Osman Avenue North, Stillwater. The truth-in-taxation hearing on the agenda is Dec. 8, 2026, at 6 p.m. in the same building. The agenda is linked below.
+Tuesday, Sept. 22, 5:30 p.m., Oak Park Learning Center, 6355 Osman Avenue North. Public comment is fifteen speakers, three minutes each. The board will not discuss individual employees or students in the public meeting.

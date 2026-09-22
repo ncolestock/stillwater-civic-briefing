@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Domestic assault"
 ---
 
-Booked Sept. 20, 2026. Stillwater Police Department.
-
-The book-in report lists a misdemeanor, Minn. Stat. 609.2242.1(2), domestic assault.
-
-In plain words, that clause covers intentionally inflicting bodily harm on a family or household member, or trying to. The booking records the charge. It is not a conviction.
+Stillwater police booked Shannon Marie Kiesner on Sept. 20, accused of domestic assault. The count is a misdemeanor under Minn. Stat. 609.2242.1(2).

@@ -57,13 +57,11 @@ The site builds pages only for `status: published`. A draft or a held story has 
 
 `upcoming` is how a meeting gets on the calendar. `places` is how an address gets a mark. Leave both off when the record does not give them. One meeting, one `upcoming` entry, on the story about that meeting.
 
-Body: one event, written so the first two sentences carry the body, the city, and the number. End with "How to follow it" and this line:
-
-The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
+Body: read `STANDARDS.md`. The first sentence is the news — the body, what they are asked to do, and the one number that matters. One idea per sentence. Meetings, schools, land, and roads end with "How to follow it," three lines at most. The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 
-A booking is one person and one file, desk `blotter`, with `charge` set to a short phrase. The body gives the charge as printed and one "In plain words" sentence per statute. Never guilty. The date is the booking date. The blotter page keeps every one. Do not file a grouped roster. Read `STANDARDS.md` before writing.
+A booking is one person and one file, desk `blotter`, with `charge` set to a short phrase. Two to four sentences: date, agency, "accused of" the charge in ordinary English, statute once. Do not write "In plain words." Never guilty. No "How to follow it." The date is the booking date. The blotter page keeps every one. Do not file a grouped roster. Read `STANDARDS.md` before writing.
 
 ## Cloud
 
@@ -79,4 +77,4 @@ Monday audio is the week's events. Wednesday audio is one officeholder. Commit `
 
 ## Voice
 
-Plain, specific, local. Facts only. "The council is scheduled to vote" when it has not voted. "The council voted 5–0" only when the minutes say so. Do not praise or condemn.
+A careful valley clerk for a neighbor at the kitchen table. Plain, specific, a little dry. Not a host, not a memo, not a staff report. Facts only. A future meeting is on the agenda. "The council voted 5–0" only when the minutes say so. Do not praise or condemn. Do not open every story the same way.

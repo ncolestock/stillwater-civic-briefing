@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Violating a no-contact order"
 ---
 
-Booked Sept. 20, 2026. Oakdale Police Department.
-
-The book-in report lists a misdemeanor, Minn. Stat. 629.75.2(b), violating a domestic-abuse no-contact order.
-
-In plain words, that clause covers a person who knows a court issued a domestic-abuse no-contact order and is accused of breaking it. The booking records the charge. It is not a conviction.
+Oakdale police booked Dontae Cordaerall Coleman on Sept. 20, accused of violating a domestic-abuse no-contact order. The count is a misdemeanor under Minn. Stat. 629.75.2(b).

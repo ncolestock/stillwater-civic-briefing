@@ -1,5 +1,5 @@
 ---
-title: "What is on the agendas for Sept. 22 and 23"
+title: "Tuesday agendas: a county levy, a school levy, and Oakdale claims"
 date: 2026-09-21
 desk: meetings
 city: Washington County
@@ -25,12 +25,16 @@ status: published
 ai_generated: true
 ---
 
-Four public bodies meet Tuesday and Wednesday. Each agenda asks for a decision that changes a tax bill, a piece of land, or a city account.
+Tuesday's agendas put a $161,986,500 county levy, a Stillwater-area school levy with no dollar printed, and $2,884,832.62 in Oakdale claims before three boards. None of it has been voted. Wednesday, Stillwater's planning commission hears a gym and a food truck.
 
-Tuesday at 9 a.m. the Washington County Board has a draft resolution to certify a proposed property-tax levy of $161,986,500 for taxes payable in 2027. The same packet lists a net levy of $148.9 million for 2026 and $160.7 million as the 2027 estimate. Also on that agenda: a $359,796.75 contract with Valley Paving for a traffic signal at Valley Creek Road and Eagle Creek Lane.
+Washington County commissioners meet at 9 a.m. A draft resolution would certify the proposed property-tax levy for 2027. The packet lists a net levy of $148.9 million for 2026 and $160.7 million as the 2027 estimate. A $359,796.75 Valley Paving contract would add a traffic signal at Valley Creek Road and Eagle Creek Lane.
 
-Tuesday at 5:30 p.m. the Stillwater-area school board is asked to adopt a preliminary levy for taxes payable in 2027. The agenda does not print a dollar amount. It sets a truth-in-taxation hearing for Dec. 8 at 6 p.m.
+The Stillwater-area school board meets at 5:30 p.m. It is asked to adopt a preliminary levy for 2027. The same agenda would set a truth-in-taxation hearing for Dec. 8 at 6 p.m.
 
-Tuesday at 7 p.m. the Oakdale council is asked to rezone and plat 6815 55th Street North for Hadley Storage, and to approve $2,884,832.62 in claims.
+Oakdale's council meets at 7 p.m. It is asked to rezone and plat 6815 55th Street North for Hadley Storage, and to approve the claims.
 
-Wednesday at 7 p.m. the Stillwater Planning Commission holds hearings on a gym at 220 Commercial Street and a food truck at 225 Main Street North.
+The planning commission meets Wednesday at 7 p.m. The hearings are a gym at 220 Commercial Street and a food truck at 225 Main Street North.
+
+## How to follow it
+
+Tuesday: county board, 9 a.m., County Board Room; school board, 5:30 p.m., Oak Park Learning Center; Oakdale council, 7 p.m., Discovery Center. Wednesday: Stillwater Planning Commission, 7 p.m., 216 4th Street North. The agendas are linked below.

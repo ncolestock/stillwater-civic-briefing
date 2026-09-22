@@ -65,7 +65,7 @@ Adults only, from the weekday book-in PDF, not the inmate roster. The roster has
 
 One briefing per person, slug `YYYY-MM-DD-booking-first-last`. Do not file a grouped roster. The blotter page is the archive, and it only grows if each person is a separate file.
 
-For each person you may record: name, every charge as written, booking date, arresting agency as printed, and the PDF URL. You may use age only to drop anyone under 18. Do not put the age, a date of birth, a home address, an officer name, an arrest location, or a mugshot in the briefing. Drop a sex-crime charge entirely. Do not write "guilty." Skip a person who is already in a briefing or article under the same name, booking date, and charge.
+For each person you may record: name, every charge as written, the statute number as printed, booking date, arresting agency as printed, and the PDF URL. You may use age only to drop anyone under 18. Do not put the age, a date of birth, a home address, an officer name, an arrest location, or a mugshot in the briefing. Drop a sex-crime charge entirely. Do not write "guilty." Do not write an "In plain words" sentence. The writer turns the charge into ordinary English. Skip a person who is already in a briefing or article under the same name, booking date, and charge.
 
 The sheriff's dispatch file and incident summaries do not include names: https://web1.co.washington.mn.us/MediaReports/CAD/ and https://web1.co.washington.mn.us/MediaReports/RMS/ . Do not attach a call or an incident row to a person. Court complaints, when a case exists, are on Minnesota Court Records Online at https://publicaccess.courts.state.mn.us/ . Link a case only when you have opened that case and the name and charge match. Otherwise write "No court case matched on this run."
 

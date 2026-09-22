@@ -16,16 +16,4 @@ ai_generated: true
 charge: "Driving after cancellation"
 ---
 
-Booked Sept. 20, 2026. Woodbury Police Department.
-
-The book-in report lists a gross misdemeanor, Minn. Stat. 171.09.1(g), driving without an ignition interlock.
-
-In plain words, that clause covers driving a vehicle that does not have a working ignition-interlock device when the license requires one.
-
-The report lists a gross misdemeanor, Minn. Stat. 171.24.5, driving after cancellation.
-
-In plain words, that subdivision covers driving after the state has canceled the license as inimical to public safety.
-
-The report lists a misdemeanor, Minn. Stat. 169.791.2(a), failing to carry proof of insurance.
-
-In plain words, that clause covers driving without the required proof of insurance in the vehicle. The booking records the charges. It is not a conviction.
+Woodbury police booked Seleban Mohamed Salah on Sept. 20, accused of driving without an ignition interlock, of driving after cancellation, and of failing to carry proof of insurance. The interlock and cancellation counts are gross misdemeanors. The insurance count is a misdemeanor. The report cites Minn. Stat. 171.09.1(g), 171.24.5, and 169.791.2(a).
