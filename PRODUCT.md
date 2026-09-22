@@ -25,7 +25,8 @@ If the GitHub connector cannot write, the automation puts the markdown in a Goog
 - Masthead: one Cinzel line, New Saint Croix Union, overlaid on the upper band of the full-width engraving `public/brand/bridge-wide.jpg`. The bridge is the hero field. The edition date sits under the bridge. The town list does not. The seal is a favicon and a lettermark, not the home masthead. The GitHub repo and the Pages path stay `stillwater-civic-briefing`.
 - Geography: Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, Stillwater Area Public Schools, North St. Paul–Maplewood–Oakdale schools.
 - South Washington County Schools uses `district833.org` on its own site. It is not in v1 until Nathan adds it.
-- Blotter: adult name, booking date, agency, "accused of" the charge in ordinary English, statute once, source. Two to four sentences. Never guilty. A booking is not a conviction. No "In plain words" refrain.
+- Stories put the meeting time, the place, and how to speak in the body. They do not end with a "How to follow it" section.
+- Blotter: adult name, booking date, agency, "accused of" the charge in ordinary English, statute once, source. Two to four sentences. Never guilty. A booking is not a conviction. No "In plain words" refrain. No "How to follow it."
 - The AI disclaimer is the site footer (`src/lib/site.ts`) and, once, the podcast show description in `podcast.json`. It is not inside an article, a booking, or an episode's show notes.
 
 ## Later

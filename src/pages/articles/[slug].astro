@@ -30,11 +30,13 @@ const description = plainFirstParagraph(article.body) || article.data.title;
     <div class="prose">
       <Content />
     </div>
-    <h2>Sources</h2>
-    <ul class="sources">
-      {article.data.sources.map((source) => (
-        <li><a href={source.url}>{source.label}</a></li>
-      ))}
-    </ul>
+    <aside class="sources-block" aria-label="Sources">
+      <p class="sources-label">Sources</p>
+      <ul class="sources">
+        {article.data.sources.map((source) => (
+          <li><a href={source.url}>{source.label}</a></li>
+        ))}
+      </ul>
+    </aside>
   </article>
 </Base>

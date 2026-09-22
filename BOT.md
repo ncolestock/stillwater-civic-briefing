@@ -46,7 +46,7 @@ Geography: Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, 
 
 Desks:
 
-- Meetings: a calendar of public meetings, plus a short factual story of what the agendas ask those bodies to decide.
+- Meetings: a calendar of public meetings, plus a short factual story of what the agendas ask those bodies to decide. Time, place, and how to speak go in the body. There is no "How to follow it" heading.
 - Schools, roads: stories when a record exists.
 - Land: a map of addresses named in the records. Hovering the line and the mark highlights both. A mark is the agenda address. Do not draw a parcel line you do not have.
 - Blotter: one adult, one page. The list is the name in the display face and the charge underneath in the sans-serif. Not a table. Two to four sentences: date, agency, "accused of" the charge in ordinary English, statute once. Never "In plain words." Never guilty. No "how to follow it."

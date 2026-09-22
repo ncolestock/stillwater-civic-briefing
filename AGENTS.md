@@ -57,7 +57,7 @@ The site builds pages only for `status: published`. A draft or a held story has 
 
 `upcoming` is how a meeting gets on the calendar. `places` is how an address gets a mark. Leave both off when the record does not give them. One meeting, one `upcoming` entry, on the story about that meeting.
 
-Body: read `STANDARDS.md`. The first sentence is the news — the body, what they are asked to do, and the one number that matters. One idea per sentence. Meetings, schools, land, and roads end with "How to follow it," three lines at most. The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
+Body: read `STANDARDS.md`. Lead with what is happening, to whom, and the one number that matters. One idea per sentence. Meeting time, place, and how to speak go in ordinary sentences in the body. There is no "How to follow it" heading. The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 

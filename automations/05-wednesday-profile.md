@@ -16,6 +16,8 @@ Repository: ncolestock/stillwater-civic-briefing, branch main.
 
 ## Spoken script
 
+The voice is the same kitchen-table newspaper, read aloud. A plain spoken account of the office and the person, from the official page only. Warm and dry. Not a radio host. Not a LinkedIn bio. Do not say Stillwater Civic Briefing.
+
 Open with: "This is the New Saint Croix Union. Wednesday's account is [Name], [office]."
 Close with: "The office's own page is in the show notes."
 

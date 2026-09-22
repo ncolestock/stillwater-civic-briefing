@@ -1,5 +1,5 @@
 ---
-title: "Oakdale council to take up Hadley Storage and $2.88 million in claims"
+title: "Oakdale council to take up Hadley Storage and $2,884,832.62 in claims"
 date: 2026-09-21
 desk: meetings
 city: Oakdale
@@ -7,7 +7,7 @@ bodies: ["Oakdale City Council"]
 sources:
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_09222026-916
     label: "City Council agenda packet, Sept. 22, 2026"
-dollars: "Claims $2,884,832.62 recommended; Planet Fitness donation about $157,438"
+dollars: "Claims $2,884,832.62; bond sale up to $20,000,000; Planet Fitness donation about $157,438"
 votes: null
 status: published
 ai_generated: true
@@ -24,18 +24,12 @@ places:
     note: "Hadley Storage rezoning and plat, Oakdale City Council, Sept. 22. The map mark is on 55th Street North. The house number did not resolve to a parcel."
 ---
 
-Oakdale's city council is set Tuesday to approve $2,884,832.62 in claims. A rezoning for a storage site on 55th Street North is on the same agenda. The council has not voted.
+Oakdale's city council meets Tuesday at 7 p.m. at the Discovery Center, 4444 Hadley Avenue North, to consider a self-storage building at 6815 55th Street North and $2,884,832.62 in claims for Sept. 9 through Sept. 22.
 
-The land request covers 6815 55th Street North, the Hadley Storage site. It asks for a comprehensive-plan amendment, a rezoning from General Industrial to Light Industrial, a variance, and a preliminary plat.
+P 4 Properties LLC wants a three-story building with a 26,000-square-foot footprint and a rental office on the site. The lot is vacant, about 8.2 acres, with about three acres of wetlands on the east half. It is zoned general industrial, and self-storage is not allowed there. The request would rezone it to light industrial, shift the comprehensive-plan guidance to industrial/office, grant a setback variance, and approve a preliminary plat. The code requires 350 feet from the nearest residential property. The nearest one is about 253 feet away. Land to the west is generally guided for low-density housing. A final plat and a site plan would still come later.
 
-The claims cover Sept. 9 through Sept. 22.
+The council would also let the city administrator and the finance director sell up to $20,000,000 in bonds for improvements, the local sales tax, and capital projects. The sale is proposed for Oct. 15, if the interest rate stays at or below 5.5 percent. The bonds would mature no later than Feb. 1, 2053.
 
-The council is also asked to authorize a 2026 bond sale for improvements, the local sales tax, and capital projects, and to name a pricing committee.
+Planet Fitness has offered 21 pieces of used fitness equipment, about $157,438, for the fitness room in the new city hall and police department. Accepting the gift takes a two-thirds vote.
 
-Two donations each need a two-thirds vote. One is fitness equipment from Planet Fitness, valued at approximately $157,438. The other is two bicycle repair stations and mounting posts from Park Tool, valued at approximately $1,600.
-
-A recreation item accepts $2,400 in sponsorships for a Family Fun Flatables event.
-
-## How to follow it
-
-Tuesday, Sept. 22, 7 p.m., Discovery Center, 4444 Hadley Avenue North. The open forum allows three minutes a speaker. The council will not act on items raised only in that period.
+Speakers at the open forum get three minutes. The council does not act on items raised only in that period.

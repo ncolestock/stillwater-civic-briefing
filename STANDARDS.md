@@ -1,6 +1,6 @@
 # Writing standard
 
-Draft for Nathan to mark up. The automations follow this file.
+The live standard. The automations follow this file.
 
 ## What a story is
 
@@ -8,43 +8,68 @@ A careful valley clerk, writing for a neighbor at the kitchen table. Plain, spec
 
 The record does the talking. The writing makes that record readable.
 
-The first sentence is the news. Name the body, what they are asked to do (or what the booking says), and the one number that matters.
+Someone skimming at the table should learn what is happening, to whom and where, what it costs or changes, when they can show up or speak, and what happens next. All of that comes from the source. Nothing is invented.
 
-Washington County commissioners are set Tuesday to certify a proposed $161,986,500 property-tax levy for 2027. They have not voted yet.
+Lead with the decision that hits a tax bill, the land next door, the schools, or a road, and the one number that matters. If the when and where are part of the news, they can sit in that sentence. Do not open on the meeting time and bury the levy.
 
-That is the shape. Not "The board is scheduled to meet at 9 a.m." and then the levy.
+If the packet prints a year-over-year figure or a recommended change, use it, so the big number means something. If it does not print a homeowner impact, do not invent one.
+
+For land, rezoning, a plat, or a permit, say the address, the ask, and what is there now if the packet says.
+
+Weave the logistics into ordinary sentences, usually near the end, or once early if the time and place are the news. "The board meets Tuesday at 9 a.m. in the County Board Room. Speakers fill out a comment card and are asked to finish within five minutes."
+
+## Do not
+
+- A separate `## How to follow it` heading. Never. Not on a meeting, a school item, a land item, a road, a booking, or a calendar note.
+- Closing or opening with "They have not voted yet" or "The council has not voted" as a tagline. A future agenda item is news of what is on the agenda. It is not a disclaimer refrain. A meeting that has not happened is not a vote. Write the agenda. Do not hang the same sentence on every story.
+- Making "the staff report," "the packet," "a summary page," or "the agenda" the grammatical subject of every sentence. Name the body and the decision. Attribute a figure when the reader needs to know where it came from, then move on.
+- Inventorying every consent item. Pick what a neighbor would care about: money, land next door, schools, a road they drive.
+- Narrating document quirks, including a payable-year typo, unless the reader would otherwise get the wrong year. Then one clear sentence, not a puzzle.
+- "Also Tuesday:", "In that paragraph…", "The claims cover Sept. 9 through…", and stacked "is set to" / "is asked to".
+- Ordinance and resolution numbers in the lede. Leave them out unless the number is the only way to tell two items apart.
+- The blotter glossary refrain ("In plain words…"). Say who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Name the statute once, after that. Do not explain it a second time.
+- "Historic," "controversial," "stunning," "embattled," "raises questions," "comes as," "underscores," "community members," or "residents deserve."
+- First person. A host. The paper is not a person. Do not write Artie Fishel. Do not address the reader as "you."
+- Value judgments. Do not say a decision is good, bad, overdue, welcome, troubling, or what anyone deserves.
+- The AI disclaimer in the story, a booking, or an episode's show notes. It lives in the site footer, and once in the podcast show description in `podcast.json`.
 
 ## Sound
 
-- One idea per sentence. Short.
+- One idea per sentence. Short. Prefer fewer, clearer sentences over a longer paraphrase of the PDF.
 - Name the city once, early.
-- Numbers earn their place. Lead with the levy, the claims total, or the charge. Leave secondary figures out of the lede.
-- No ordinance-number salad in the lede. Resolution 2026-67 and Ordinance 965 do not belong in the opening. Put them under "How to follow it," or leave them out.
-- Do not narrate what a packet lacks, unless that absence is the story. Then say it once: the agenda does not print a dollar amount.
+- Numbers earn their place. Use the document's number. Do not round it into a slogan. If the document says "approximately" or "about," you may say about.
 - Vary the opening. Do not start every story with "The board is scheduled to meet."
-- Use the document's number. Do not round it into a slogan.
-- A meeting that has not happened is not a vote. Say so once, and do not use the same sentence on every story.
 - Quotes are rare, short, and exact. If the words are not in the document, there is no quote.
-- No "historic," "controversial," "stunning," "embattled," "raises questions," "comes as," "underscores," "community members," or "residents deserve."
-- No first person. No host. The paper is not a person.
-- No value judgments. Do not say a decision is good, bad, overdue, welcome, troubling, or what residents deserve. Report the fact and the number.
-- The disclaimer is not in the story, a booking, or an episode's show notes. It lives in the site footer, and once in the podcast show description in `podcast.json`.
+
+## Examples
+
+Bad. Staff-report narration, a vote tagline, and a how-to block:
+
+Washington County commissioners are set Tuesday to certify a proposed $161,986,500 property-tax levy for 2027. They have not voted yet.
+
+The staff report recommends a 4.7 percent levy change for the Land and Water Legacy Program. In that paragraph the report refers to taxes payable in 2026.
 
 ## How to follow it
 
-Meetings, schools, land, and roads end with "How to follow it." Three lines at most: the time, the place, and how to speak or where the agenda is. A booking has none. A calendar item has none when the time and place are already in the opening.
+Tuesday, Sept. 22, 9 a.m., County Board Room.
+
+Better. The levy, the change the packet prints, and how to speak, in the body:
+
+Washington County commissioners meet Tuesday at 9 a.m. in the County Board Room to certify a proposed property-tax levy of $161,986,500 for taxes payable in 2027.
+
+The net levy moves from $148.9 million in 2026 to $160.7 million in 2027, a 7.9 percent change. Speakers fill out a comment card before the meeting and are asked to finish within five minutes.
+
+That is one story's shape. The dollars still have to be in the document in front of you. Do not paste this lede onto a different packet.
 
 ## Length
 
-A meeting story is as long as the packet supports, usually under 450 words. A thin record stays thin. Do not pad to a word count.
+As long as the record supports useful facts. A thin packet stays short. Do not pad to a word count. Do not walk through every page.
 
 A booking is two to four short sentences.
 
 ## Blotter
 
 One adult, one page. The blotter list is the archive and it keeps every page.
-
-Ordinary English first. Who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Name the statute once, quietly, after that. Do not write "In plain words, that clause covers." Do not explain the statute a second time.
 
 `charge` in the frontmatter stays a short plain phrase for the list.
 
