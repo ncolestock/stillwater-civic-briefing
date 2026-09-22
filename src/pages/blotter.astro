@@ -6,40 +6,27 @@ import { formatDateline, withBase } from "../lib/site";
 const bookings = (await getCollection("articles"))
   .filter((article) => article.data.status === "published" && article.data.desk === "blotter")
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.title.localeCompare(b.data.title));
-
-const days: { label: string; items: typeof bookings }[] = [];
-for (const booking of bookings) {
-  const label = formatDateline(booking.data.date);
-  const last = days[days.length - 1];
-  if (last && last.label === label) last.items.push(booking);
-  else days.push({ label, items: [booking] });
-}
 ---
 
 <Base title="Blotter — Stillwater Civic Briefing">
-  <p class="kicker">Blotter</p>
-  <h1 style="font-family: var(--display); font-size: 2.4rem; margin-top: 0;">Bookings</h1>
-  <p>Adults booked at the Washington County jail, from the sheriff’s daily book-in report. The list stays.</p>
-  {days.length === 0 ? (
-    <p class="empty">No bookings are filed.</p>
-  ) : (
-    days.map((day) => (
-      <section class="blotter">
-        <h2 style="font-family: var(--display); font-size: 1.25rem;">{day.label}</h2>
-        <table>
-          <thead>
-            <tr><th>Name</th><th>Charge</th></tr>
-          </thead>
-          <tbody>
-            {day.items.map((booking) => (
-              <tr>
-                <td><a href={withBase(`articles/${booking.id}/`)}>{booking.data.title}</a></td>
-                <td>{booking.data.charge}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </section>
-    ))
-  )}
+  <header class="section-banner">
+    <p class="kicker">Washington County Jail</p>
+    <h1>Blotter</h1>
+  </header>
+  <div class="blotter blotter-full">
+    <table>
+      <thead>
+        <tr><th>Booked</th><th>Name</th><th>Charge on the report</th></tr>
+      </thead>
+      <tbody>
+        {bookings.map((booking) => (
+          <tr>
+            <td class="when">{formatDateline(booking.data.date)}</td>
+            <td><a href={withBase(`articles/${booking.id}/`)}>{booking.data.title}</a></td>
+            <td>{booking.data.charge}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
 </Base>

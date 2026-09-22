@@ -38,10 +38,12 @@ const edition = today.toLocaleDateString("en-US", {
     <div class="topbar"></div>
     <header class="wrap">
       <div class="nameplate">
-        <a href={withBase("")}>
-          <img class="seal" src={withBase("brand/seal.svg")} alt="" />
-          <h1>Stillwater</h1>
-          <p class="subflag">Civic Briefing</p>
+        <a class="flag-row" href={withBase("")}>
+          <img class="seal" src={withBase("brand/seal.jpg")} alt="Lift bridge seal" />
+          <span>
+            <h1>Stillwater</h1>
+            <p class="subflag">Civic Briefing</p>
+          </span>
         </a>
         <p class="dateline">Stillwater · Lake Elmo · Oakdale · Woodbury · Hudson · Bayport · Oak Park Heights</p>
         <p class="edition-date">{edition}</p>

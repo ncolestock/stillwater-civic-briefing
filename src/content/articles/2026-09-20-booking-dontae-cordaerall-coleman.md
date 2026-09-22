@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Violating a no-contact order"
 ---
 
-Dontae Cordaerall Coleman was booked at the Washington County jail on Sept. 20, 2026. The Oakdale Police Department is the agency on the report. The charge is a misdemeanor for violating a domestic-abuse no-contact order, Minn. Stat. 629.75.2(b).
-
-## How to follow it
-
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).
+Booked Sept. 20, 2026. Oakdale Police Department. Misdemeanor, Minn. Stat. 629.75.2(b), violating a domestic-abuse no-contact order.

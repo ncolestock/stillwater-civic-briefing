@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Driving after revocation"
 ---
 
-The Cottage Grove Police Department is the agency on Kilian Chukwuemeka Okoro's booking of Sept. 20, 2026. The charge is a misdemeanor, driving after revocation, Minn. Stat. 171.24.2.
-
-## How to follow it
-
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).
+Booked Sept. 20, 2026. Cottage Grove Police Department. Misdemeanor, Minn. Stat. 171.24.2, driving after revocation.

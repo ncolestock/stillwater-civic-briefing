@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Assault on a peace officer"
 ---
 
-Hannah Morgan Long was booked at the Washington County jail on Sept. 20, 2026. The report lists a felony: fourth-degree assault on a peace officer causing demonstrable bodily harm, Minn. Stat. 609.2231.1(c)(1). That is the only charge on her line.
-
-## How to follow it
-
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).
+Booked Sept. 20, 2026. Washington County. Felony, Minn. Stat. 609.2231.1(c)(1), fourth-degree assault on a peace officer, demonstrable bodily harm.

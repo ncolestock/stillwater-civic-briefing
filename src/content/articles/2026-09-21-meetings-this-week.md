@@ -1,7 +1,7 @@
 ---
-title: "Meetings on the books for Sept. 22 and 23"
+title: "What is on the agendas for Sept. 22 and 23"
 date: 2026-09-21
-desk: calendar
+desk: meetings
 city: Washington County
 bodies:
   - "Washington County Board of Commissioners"
@@ -11,47 +11,26 @@ bodies:
 sources:
   - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_09222026-1946
     label: "Washington County Board agenda, Sept. 22, 2026"
+  - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_09222026-1945
+    label: "Washington County Board packet, Sept. 22, 2026"
   - url: https://meetings.boardbook.org/Public/Agenda/2592?meeting=765266
     label: "Stillwater Area Public Schools agenda, Sept. 22, 2026"
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_09222026-916
     label: "Oakdale City Council agenda, Sept. 22, 2026"
   - url: https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1440
     label: "Stillwater Planning Commission agenda, Sept. 23, 2026"
-dollars: null
+dollars: "$161,986,500 proposed county levy; Oakdale claims $2,884,832.62"
 votes: null
 status: published
 ai_generated: true
-upcoming:
-  - when: "Tuesday, Sept. 22, 9:00 a.m."
-    what: "Washington County Board"
-    where: "County Board Room"
-    url: "https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_09222026-1946"
-  - when: "Tuesday, Sept. 22, 5:30 p.m."
-    what: "Stillwater-area school board"
-    where: "Oak Park Learning Center, 6355 Osman Avenue North, Stillwater"
-    url: "https://meetings.boardbook.org/Public/Agenda/2592?meeting=765266"
-  - when: "Tuesday, Sept. 22, 7:00 p.m."
-    what: "Oakdale City Council"
-    where: "Discovery Center, 4444 Hadley Avenue North"
-    url: "https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_09222026-916"
-  - when: "Wednesday, Sept. 23, 7:00 p.m."
-    what: "Stillwater Planning Commission"
-    where: "216 4th Street North"
-    url: "https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1440"
 ---
 
-Four public meetings are on official agendas for Tuesday and Wednesday.
+Four public bodies meet Tuesday and Wednesday. Each agenda asks for a decision that changes a tax bill, a piece of land, or a city account.
 
-The Washington County Board meets Tuesday, Sept. 22, at 9 a.m. in the County Board Room. Comment cards are taken before the meeting. The agenda asks speakers to stay within five minutes. A workshop on the library strategic facility plan is listed after the meeting.
+Tuesday at 9 a.m. the Washington County Board has a draft resolution to certify a proposed property-tax levy of $161,986,500 for taxes payable in 2027. The same packet lists a net levy of $148.9 million for 2026 and $160.7 million as the 2027 estimate. Also on that agenda: a $359,796.75 contract with Valley Paving for a traffic signal at Valley Creek Road and Eagle Creek Lane.
 
-The Stillwater-area school board meets Tuesday at 5:30 p.m. at the Oak Park Learning Center, 6355 Osman Avenue North, Stillwater. Up to fifteen people may speak, three minutes each.
+Tuesday at 5:30 p.m. the Stillwater-area school board is asked to adopt a preliminary levy for taxes payable in 2027. The agenda does not print a dollar amount. It sets a truth-in-taxation hearing for Dec. 8 at 6 p.m.
 
-The Oakdale City Council meets Tuesday at 7 p.m. at the Discovery Center, 4444 Hadley Avenue North. The open forum allows three minutes per person.
+Tuesday at 7 p.m. the Oakdale council is asked to rezone and plat 6815 55th Street North for Hadley Storage, and to approve $2,884,832.62 in claims.
 
-The Stillwater Planning Commission meets Wednesday, Sept. 23, at 7 p.m. The notice places the meeting at 216 4th Street North. Open forum is five minutes. Public hearings are ten minutes.
-
-Lake Elmo, Woodbury, Bayport, Oak Park Heights, and Hudson did not yield a packet for this window in the check on Sept. 21.
-
-## How to follow it
-
-The four agendas are linked below. The county agenda lists (651) 430-6000 for disability or language assistance.
+Wednesday at 7 p.m. the Stillwater Planning Commission holds hearings on a gym at 220 Commercial Street and a food truck at 225 Main Street North.

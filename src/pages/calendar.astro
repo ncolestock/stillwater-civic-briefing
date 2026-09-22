@@ -1,4 +1,30 @@
 ---
-import DeskIndex from "../components/DeskIndex.astro";
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { formatDateline, withBase } from "../lib/site";
+
+const events = (await getCollection("articles"))
+  .filter((article) => article.data.status === "published" && article.data.desk === "calendar")
+  .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
 ---
-<DeskIndex desk="calendar" />
+
+<Base title="Calendar — Stillwater Civic Briefing">
+  <header class="section-banner">
+    <p class="kicker">Festivals and civic events</p>
+    <h1>Calendar</h1>
+  </header>
+  <p class="section-note">Meetings are on the meetings calendar. This page is everything else.</p>
+  {events.length === 0 ? (
+    <p class="empty">No festivals or civic events are filed.</p>
+  ) : (
+    <ul class="paper-list">
+      {events.map((article) => (
+        <li>
+          <p class="kicker">{article.data.city}</p>
+          <h2><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h2>
+          <p class="meta">{formatDateline(article.data.date)}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>

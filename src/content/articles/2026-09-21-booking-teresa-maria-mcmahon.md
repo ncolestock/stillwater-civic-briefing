@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Third-degree DWI, test refusal"
 ---
 
-Teresa Maria McMahon was booked in the early morning of Sept. 21, 2026. The Stillwater Police Department is the agency on the report. The charge is a gross misdemeanor, third-degree driving while impaired for refusing a chemical test, Minn. Stat. 169A.26.1(b).
-
-## How to follow it
-
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).
+Booked Sept. 21, 2026. Stillwater Police Department. Gross misdemeanor, Minn. Stat. 169A.26.1(b), third-degree driving while impaired, refusing a chemical test.

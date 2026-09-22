@@ -1,4 +1,49 @@
 ---
-import DeskIndex from "../components/DeskIndex.astro";
+import Base from "../layouts/Base.astro";
+
+const year = 2026;
+const month = 8; // September
+const first = new Date(Date.UTC(year, month, 1)).getUTCDay();
+const daysInMonth = 30;
+const cells: Array<number | null> = [
+  ...Array.from({ length: first }, () => null),
+  ...Array.from({ length: daysInMonth }, (_, i) => i + 1),
+];
+while (cells.length % 7) cells.push(null);
+
+const items: Record<number, { time: string; name: string; where: string; url: string }[]> = {
+  22: [
+    { time: "9:00 a.m.", name: "Washington County Board", where: "County Board Room", url: "https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_09222026-1946" },
+    { time: "5:30 p.m.", name: "Stillwater-area school board", where: "Oak Park Learning Center", url: "https://meetings.boardbook.org/Public/Agenda/2592?meeting=765266" },
+    { time: "7:00 p.m.", name: "Oakdale City Council", where: "Discovery Center", url: "https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_09222026-916" },
+  ],
+  23: [
+    { time: "7:00 p.m.", name: "Stillwater Planning Commission", where: "216 4th Street North", url: "https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1440" },
+  ],
+};
+const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 ---
-<DeskIndex desk="meetings" />
+
+<Base title="Meetings — Stillwater Civic Briefing">
+  <header class="section-banner">
+    <p class="kicker">September 2026</p>
+    <h1>Meetings</h1>
+  </header>
+  <p class="section-note">
+    <a href="../articles/2026-09-21-meetings-this-week/">What is on the agendas for Sept. 22 and 23</a>
+  </p>
+  <div class="month" role="grid" aria-label="September 2026">
+    {weekdays.map((day) => <div class="day head">{day}</div>)}
+    {cells.map((day) => (
+      <div class:list={["day", { meet: day != null && items[day] }]}>
+        {day != null && <span class="num">{day}</span>}
+        {day != null && items[day]?.map((item) => (
+          <a class="meet-link" href={item.url}>
+            <strong>{item.time}</strong> {item.name}
+            <span>{item.where}</span>
+          </a>
+        ))}
+      </div>
+    ))}
+  </div>
+</Base>

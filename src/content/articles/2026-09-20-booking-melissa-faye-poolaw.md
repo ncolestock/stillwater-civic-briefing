@@ -16,8 +16,4 @@ ai_generated: true
 charge: "Fifth-degree drug possession"
 ---
 
-Melissa Faye Poolaw was booked at the Washington County jail on Sept. 20, 2026. The report lists a felony for fifth-degree drug possession, a Schedule 1, 2, 3, or 4 substance that is not a small amount of marijuana, Minn. Stat. 152.025.2(1). It also lists misdemeanor theft of services, Minn. Stat. 609.52.2(a)(3)(ii), and misdemeanor disorderly conduct, Minn. Stat. 609.72.1(3). It does not name a drug or a dollar amount beyond the statute titles.
-
-## How to follow it
-
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).
+Booked Sept. 20, 2026. Washington County. Felony, Minn. Stat. 152.025.2(1), fifth-degree drug possession. Misdemeanor, Minn. Stat. 609.52.2(a)(3)(ii), theft of services. Misdemeanor, Minn. Stat. 609.72.1(3), disorderly conduct.

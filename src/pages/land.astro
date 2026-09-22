@@ -1,4 +1,91 @@
 ---
-import DeskIndex from "../components/DeskIndex.astro";
+import Base from "../layouts/Base.astro";
+import { withBase } from "../lib/site";
+
+const places = [
+  {
+    id: "commercial-220",
+    article: "2026-09-21-stillwater-planning",
+    title: "220 Commercial Street",
+    note: "Conditional-use permit for a gym, Stillwater Planning Commission, Sept. 23.",
+    lat: 45.0571881,
+    lng: -92.8074442,
+    precise: true,
+  },
+  {
+    id: "main-225",
+    article: "2026-09-21-stillwater-planning",
+    title: "225 Main Street North",
+    note: "Interim-use permit for a food truck. The map mark is on Main Street North. The house number did not resolve to a parcel.",
+    lat: 45.0726951,
+    lng: -92.8074296,
+    precise: false,
+  },
+  {
+    id: "hadley-6815",
+    article: "2026-09-21-oakdale-council",
+    title: "6815 55th Street North",
+    note: "Hadley Storage rezoning and plat, Oakdale City Council, Sept. 22. The map mark is on 55th Street North. The house number did not resolve to a parcel.",
+    lat: 45.027411,
+    lng: -92.9667438,
+    precise: false,
+  },
+];
 ---
-<DeskIndex desk="land" />
+
+<Base title="Land — Stillwater Civic Briefing">
+  <header class="section-banner">
+    <p class="kicker">Addresses named in the agendas</p>
+    <h1>Land</h1>
+  </header>
+  <p class="section-note">
+    The marks are the addresses in the public records. County parcel lines were not in a file this paper could read, so a mark is not a surveyed lot.
+  </p>
+  <div class="land-layout">
+    <div id="land-map"></div>
+    <ul class="place-list">
+      {places.map((place) => (
+        <li data-id={place.id}>
+          <a href={withBase(`articles/${place.article}/`)}>{place.title}</a>
+          <p>{place.note}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script is:inline define:vars={{ places }}>
+    const style = document.createElement("script");
+    style.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    style.onload = () => {
+      const map = L.map("land-map").setView([45.05, -92.85], 11);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap",
+      }).addTo(map);
+      const marks = {};
+      const idle = { color: "#1A1612", weight: 1, fillColor: "#7A1F2B", fillOpacity: 0.35, radius: 10 };
+      const hot = { color: "#7A1F2B", weight: 2, fillColor: "#7A1F2B", fillOpacity: 0.75, radius: 16 };
+      for (const place of places) {
+        const mark = L.circleMarker([place.lat, place.lng], idle).addTo(map);
+        mark.bindTooltip(place.title);
+        marks[place.id] = mark;
+        const row = document.querySelector(`[data-id="${place.id}"]`);
+        const on = () => {
+          mark.setStyle(hot);
+          row.classList.add("on");
+        };
+        const off = () => {
+          mark.setStyle(idle);
+          row.classList.remove("on");
+        };
+        row.addEventListener("mouseenter", on);
+        row.addEventListener("mouseleave", off);
+        mark.on("mouseover", on);
+        mark.on("mouseout", off);
+        mark.on("click", () => {
+          window.location.href = row.querySelector("a").href;
+        });
+      }
+    };
+    document.head.appendChild(style);
+  </script>
+</Base>

@@ -24,7 +24,7 @@ The first two sentences carry the body, the place, and the fact that matters. A 
 
 ## Length
 
-A booking is a short page. A meeting story is as long as the packet supports, usually under 450 words. A thin record stays thin.
+A booking is two or three sentences: the date, the agency, and the charge as printed. No "how to follow it" section. Sources stay in the source list under the story. A meeting story is as long as the packet supports, usually under 450 words. A thin record stays thin.
 
 ## Blotter
 
