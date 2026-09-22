@@ -6,11 +6,13 @@ This is a static paper, not an app-factory Next.js app. Astro builds markdown in
 
 ## Laptop closed
 
-The Mac is not in the path.
+The Mac is not in the path. Three automations run each morning, in order. None of them is allowed to do the other two jobs.
 
-1. A Grok Automation at grok.com wakes on a schedule, reads public records, and commits markdown to this repo with the GitHub connector.
-2. GitHub Actions runs `astro build`, copies `feed.xml`, `cover.jpg`, and `episodes/*.m4a` into the site, and deploys Pages.
-3. The Sunday automation commits an episode script. The same Action calls the xAI Text to Speech API (`podcast.json` field `tts_voice_id`, default `eve`) when the repository secret `XAI_API_KEY` is set, writes the m4a, and deploys it. No Mac speech synthesis.
+1. Research, 7:00 a.m., writes `research/YYYY-MM-DD-slug.md`. That file is notes from the packet. It is not on the site.
+2. Writer, 8:15 a.m., turns each new briefing into a draft article. Drafts are not built into public pages.
+3. Fact-check, 9:30 a.m., re-opens every source URL. It is the only job that may set `status: published`. A story it cannot source stays `held`.
+
+GitHub Actions then runs `astro build` and deploys Pages. Sunday at 4:00 p.m. a fourth automation writes the episode script from published stories only. The Action calls the xAI Text to Speech API (`podcast.json` field `tts_voice_id`, default `eve`) when the repository secret `XAI_API_KEY` is set.
 
 `scripts/publish.sh` and `scripts/tts.sh` are the fallback for a draft that landed on the Mac. They are not how the paper runs day to day.
 
@@ -27,4 +29,4 @@ If the GitHub connector cannot write, the automation puts the markdown in a Goog
 
 ## Later
 
-An X account that posts a headline, the city, and the article link. The prompt is `automations/04-x-post.md`. Leave it off until the account exists. The morning email already includes a one-line draft so the post is ready.
+An X account that posts a headline, the city, and the article link, and only after fact-check has published the story. The prompt is `automations/05-x-post.md`. Leave it off until the account exists.

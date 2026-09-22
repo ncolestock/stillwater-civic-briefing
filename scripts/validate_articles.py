@@ -38,8 +38,8 @@ def main() -> int:
                 errors.append(f"{path.name}: missing {key}")
         if "ai_generated: true" not in fm:
             errors.append(f"{path.name}: ai_generated must be true")
-        if "status: published" not in fm and "status: draft" not in fm:
-            errors.append(f"{path.name}: status must be published or draft")
+        if not any(flag in fm for flag in ("status: published", "status: draft", "status: held")):
+            errors.append(f"{path.name}: status must be published, draft, or held")
         desk = None
         for line in fm.splitlines():
             if line.startswith("desk:"):

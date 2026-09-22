@@ -51,6 +51,10 @@ Documents read for the seed stories:
 
 Lake Elmo and Woodbury were not given stories. Their agenda sites returned a challenge page.
 
+## 2026-09-21 later
+
+Split the morning job into three automations. Research writes `research/`. The writer writes drafts. Fact-check is the only step that sets `published`. Article pages are generated only for published stories. Podcast and X read published stories only.
+
 ### Not done in this session
 
 - `XAI_API_KEY` is not in the environment. Weekly audio will not render until that secret is on the repo. A Mac voice sample is separate from the feed.

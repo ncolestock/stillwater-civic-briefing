@@ -33,12 +33,16 @@ sources:
     label: "City Council agenda, Sept. 1, 2026"
 dollars: null
 votes: null
-status: published
+status: draft       # draft until fact-check sets published; held if a claim failed
 ai_generated: true
+briefing: research/YYYY-MM-DD-slug.md
+checked: 2026-09-22   # set by fact-check on a pass
 ---
 ```
 
-Body: 150–400 words, one event. Lede with the decision or the record. End with "How to follow it" and this line:
+The site builds pages only for `status: published`. A draft or a held story has no URL.
+
+Body: one event, written so the first two sentences carry the body, the city, and the number. End with "How to follow it" and this line:
 
 > Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
 
@@ -48,7 +52,13 @@ Blotter items may be a dated roster brief. One source URL must cover each person
 
 ## Cloud
 
-Morning and afternoon automations live in `automations/`. They commit with the GitHub connector (`push_files` or `create_or_update_file` on `main`). They do not run `scripts/publish.sh`.
+Three morning jobs, in `automations/`, commit with the GitHub connector (`push_files` or `create_or_update_file` on `main`). They do not run `scripts/publish.sh`.
+
+- `01-research.md` writes `research/`. It does not write articles.
+- `02-writer.md` writes drafts from those briefings. It does not publish.
+- `03-factcheck.md` re-fetches every source. It is the only job that sets `published`.
+
+Do not collapse these into one prompt. A story that skips fact-check does not go out.
 
 Weekly audio: commit `episodes/YYYY-MM-DD.json` with a `script` field and `"file": "YYYY-MM-DD.m4a"`. Leave `duration` at 0 until the Action fills it. The Action calls `https://api.x.ai/v1/tts` with `podcast.json` `tts_voice_id`. Do not put the API key in the file.
 

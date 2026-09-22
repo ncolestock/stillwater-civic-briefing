@@ -14,8 +14,10 @@ const articles = defineCollection({
       .min(1),
     dollars: z.string().nullable(),
     votes: z.string().nullable(),
-    status: z.enum(["published", "draft"]),
+    status: z.enum(["published", "draft", "held"]),
     ai_generated: z.literal(true),
+    briefing: z.string().optional(),
+    checked: z.string().optional(),
     correction: z.string().optional(),
     upcoming: z
       .array(
