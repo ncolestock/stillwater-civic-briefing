@@ -49,58 +49,49 @@ a:hover { color: var(--oxblood-hover); }
   color: inherit;
 }
 
+.bridge-lockup {
+  position: relative;
+  container-type: inline-size;
+}
+
 .nameplate .flag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 1.15cqi 0.6rem 5.6cqi;
+  padding-left: calc(0.6rem + var(--tracking-flag));
   font-family: var(--font-wood);
-  font-weight: 700;
-  margin: 0.05rem auto 0.15rem;
+  font-weight: 600;
+  font-size: var(--fs-masthead);
+  letter-spacing: var(--tracking-flag);
   text-transform: uppercase;
   line-height: 1;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--ink);
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--paper) 82%, transparent) 0%,
+    color-mix(in srgb, var(--paper) 48%, transparent) 42%,
+    color-mix(in srgb, var(--paper) 14%, transparent) 74%,
+    transparent 100%
+  );
 }
 
-.nameplate .flag-top,
-.nameplate .flag-bot {
-  display: block;
-}
-
-.nameplate .flag-top {
-  font-size: clamp(0.64rem, 1.25vw, 0.86rem);
-  font-weight: 600;
-  letter-spacing: 0.38em;
-  padding-left: 0.38em;
-}
-
-.nameplate .flag-rule {
-  display: block;
-  width: min(7.5rem, 34%);
-  height: 0;
-  margin: 0.22rem auto 0.16rem;
-  border-top: 1px solid var(--rule);
-  position: relative;
-}
-
-.nameplate .flag-rule::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: -3px;
-  width: 5px;
-  height: 5px;
-  margin-left: -2.5px;
-  background: var(--rule);
-  transform: rotate(45deg);
-}
-
-.nameplate .flag-bot {
-  font-size: var(--fs-masthead);
-  letter-spacing: 0.46em;
-  padding-left: 0.46em;
+@supports (font-size: 1cqi) {
+  .nameplate .flag {
+    font-size: var(--fs-masthead-lockup);
+  }
 }
 
 .nameplate .bridge {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0.28rem auto 0.05rem;
+  margin: 0;
 }
 
 .nameplate .edition {
@@ -339,8 +330,6 @@ footer.site {
     letter-spacing: 0.06em;
     gap: 0.25rem 0;
   }
-  .nameplate .flag-top { font-size: 0.58rem; letter-spacing: 0.16em; padding-left: 0.16em; }
-  .nameplate .flag-bot { font-size: 1.02rem; letter-spacing: 0.28em; padding-left: 0.28em; }
   .dateline { letter-spacing: 0.04em; font-size: 0.6rem; }
   .lead h2 { font-size: 1.38rem; }
   .nameplate .edition {
@@ -354,6 +343,17 @@ footer.site {
     gap: 0.35rem 0.65rem;
   }
   .dateline { font-size: 0.68rem; }
+}
+
+@media (max-width: 340px) {
+  .nameplate .flag {
+    white-space: normal;
+    letter-spacing: 0.06em;
+    padding-left: calc(0.45rem + 0.06em);
+    padding-right: 0.45rem;
+    font-size: 0.98rem;
+    line-height: 1.15;
+  }
 }
 
 .section-banner { border-bottom: 1px solid var(--ink); margin: 0.4rem 0 0.8rem; padding-bottom: 0.35rem; }

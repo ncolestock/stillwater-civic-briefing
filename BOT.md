@@ -52,7 +52,7 @@ Desks:
 - Blotter: one adult, one page. The list is the name in the display face and the charge underneath in the sans-serif. Not a table. Date, agency, the charge as printed, then one plain-English sentence per statute that starts "In plain words." Never guilty. No "how to follow it."
 - Calendar: festivals and civic events. Not meetings.
 
-The masthead is a small Cinzel flag, New Saint Croix / Union, above the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`). The bridge is the hero. Cream `#F2EAD8` (sampled from the engraving sky; the `#F0E4D8` family), ink `#1A1612`, oxblood `#7A1F2B`. Do not put the small seal back in place of the bridge. Do not put a host, a microphone, or a dark theme on the paper.
+The masthead is one Cinzel line, New Saint Croix Union, overlaid on the upper band of the engraved Stillwater Lift Bridge. The bridge stays full width and is the hero field (`public/brand/bridge-wide.jpg`). The dateline and the edition date sit under the bridge. Cream `#F2EAD8` (sampled from the engraving sky; the `#F0E4D8` family), ink `#1A1612`, oxblood `#7A1F2B`. Do not stack the name above the image. Do not put the small seal back in place of the bridge. Do not put a host, a microphone, or a dark theme on the paper.
 
 The AI disclaimer is the site footer only, plus once in the podcast show description in `podcast.json`. It does not go in an article, a booking, or an episode's show notes.
 

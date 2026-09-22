@@ -43,13 +43,13 @@ No bright green (`#0b5` from the old landing page). No neon. No dark-mode invers
 
 Load from Google Fonts (wired in `src/layouts/Base.astro`):
 
-- **Nameplate (live masthead):** Cinzel, two lines — New Saint Croix / Union — small, with open tracking and a short oxblood rule between the lines. The bridge underneath is the hero. The nameplate must not dominate. Do not set body copy in Cinzel.
+- **Nameplate (live masthead):** Cinzel, one line — New Saint Croix Union — overlaid on the upper band of the bridge (sky and upper towers). Tracking is open and the size scales with the engraving so the line stays one line, and wraps only on a very narrow screen. A soft cream gradient sits behind the type. The bridge stays the hero field at full width. Do not stack the name above the image. Do not set body copy in Cinzel.
 - **Display fallback:** Old Standard TT. Headlines may use it. It is not the nameplate.
 - **Body:** Source Serif 4, 18px / 1.55, measure ~38rem.
 - **UI, nav, dateline, blotter labels:** Source Sans 3, small caps or tracked uppercase.
 - Do **not** use blackletter (Unifraktur, Fraktur, Old English) as a primary face.
 
-Print feel: open tracking on the flag (`0.28em`–`0.46em`). The type stays small. A giant flag looks like a billboard.
+Print feel: one tracked line on the engraving (`--tracking-flag`, `0.18em`). Scale it down before it wraps. A giant flag looks like a billboard.
 
 ## The mark: Stillwater Lift Bridge
 
@@ -83,7 +83,7 @@ Canonical engraved references in this packet:
 
 | File | Role | Where it goes in the repo |
 |---|---|---|
-| `public/brand/bridge-wide.jpg` | **Live home masthead.** Full-width engraved lift under the Cinzel name. | Do not replace it with the seal. Do not shrink it to a tiny mark. |
+| `public/brand/bridge-wide.jpg` | **Live home masthead.** Full-width engraved lift. The Cinzel name is one line across the upper band of this image. | Do not replace it with the seal. Do not shrink it to a tiny mark. Do not stack the name above it. |
 | `assets/podcast-cover-weekly-briefing.jpg` | **Primary podcast cover** | `cover.jpg` at repo root (overwrite the existing file). Also `public/brand/podcast-cover.jpg`. Apple/Spotify 3000×3000 after upscale. |
 | `assets/podcast-cover-woodtype.jpg` | Alternate podcast / social square | `public/brand/podcast-lockup.jpg` |
 | `assets/seal-civic.jpg` | Favicon, lettermark, podcast adjunct. Not the home masthead. | `public/brand/seal.jpg` |
@@ -95,14 +95,14 @@ Canonical engraved references in this packet:
 
 **Podcast cover decision:** use `podcast-cover-weekly-briefing.jpg` as `cover.jpg`. It is old-timey, square, has the accurate lift, and reads at 200 px in a podcast app. The wood-type stacked lockup is the second choice if you want the words larger than the picture.
 
-**Home masthead decision:** the live flag is Cinzel, two lines, New Saint Croix / Union, kept small. `public/brand/bridge-wide.jpg` runs full width underneath and is the hero. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
+**Home masthead decision:** the live name is Cinzel, one line, New Saint Croix Union, overlaid on the top of `public/brand/bridge-wide.jpg`. The engraving stays full width and is the hero field. The dateline and the edition date sit under the bridge. Old Standard TT may remain as the headline and body fallback. The seal is the favicon, the lettermark, and a podcast adjunct. It does not sit in the masthead.
 
 ## Website newspaper look
 
 The site should feel like a small-city broadsheet, not a blog and not a dashboard.
 
 - Cream page `#F2EAD8`, black ink, oxblood hairlines. A faint grain and a faint contour sit in the page background. The bridge image stays clean.
-- Centered masthead: a small Cinzel flag, New Saint Croix / Union, then the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`). Do not swap in the seal. Do not shrink the bridge to a tiny mark. Then a tracked dateline of towns, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). Roads joins that nav only when a roads story is published.
+- Centered masthead: the engraved Stillwater Lift Bridge at full width (`public/brand/bridge-wide.jpg`), with New Saint Croix Union in one Cinzel line across the upper band of the engraving. Do not swap in the seal. Do not shrink the bridge to a tiny mark. Do not stack the name on the cream above the image. Under the bridge: a tracked dateline of towns, the edition date, a double rule, and section nav (Meetings · Schools · Land · Blotter · Calendar · Podcast). Roads joins that nav only when a roads story is published.
 - Home is a front page: one lede, then one continuous list of the other stories. No "Also filed." The rail is events, then blotter.
 - Body in a readable serif. Headlines stay modest. Decks and kickers in sans small caps. Spacing is tight, like an almanac column, not a poster.
 - No hero video. No card drop shadows. No rounded-everything UI kit.
@@ -143,7 +143,7 @@ Do not put it at the end of an article, in a booking, or in an episode's show no
 - Draw the real lift bridge.
 - Use tracked small caps for desks and datelines.
 - Put source links in the story, not only in a footer.
-- Keep the column tight. The bridge gets the room. The type does not shout.
+- Keep the column tight. The bridge gets the room. The name is one line on the engraving. It does not shout.
 
 **Don't**
 
