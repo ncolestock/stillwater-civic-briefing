@@ -55,38 +55,46 @@ a:hover { color: var(--rule); }
 .nameplate a {
   display: block;
   text-decoration: none;
+  color: inherit;
 }
 
-.nameplate .flag-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+.nameplate .wood {
+  font-family: Cinzel, "Old Standard TT", serif;
+  font-weight: 900;
+  font-size: clamp(2.6rem, 8vw, 5.4rem);
+  letter-spacing: 0.06em;
+  line-height: 0.82;
+  margin: 0.15rem 0 0.1rem;
+  text-transform: uppercase;
 }
 
-.nameplate .seal {
-  width: 6.5rem;
+.nameplate .wood span { display: block; }
+
+.nameplate .wood-rule {
+  width: min(16rem, 46%);
+  height: 0;
+  margin: 0.28rem auto;
+  border-top: 2px solid var(--rule);
+  position: relative;
+}
+
+.nameplate .wood-rule::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -4px;
+  width: 7px;
+  height: 7px;
+  margin-left: -3.5px;
+  background: var(--rule);
+  transform: rotate(45deg);
+}
+
+.nameplate .bridge {
+  width: min(100%, 68rem);
   height: auto;
   display: block;
-  flex: 0 0 auto;
-}
-
-.nameplate h1 {
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: clamp(2.4rem, 6.5vw, 4.6rem);
-  letter-spacing: 0.06em;
-  line-height: 0.9;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.nameplate .subflag {
-  font-family: var(--display);
-  font-size: clamp(1.05rem, 2.2vw, 1.55rem);
-  letter-spacing: 0.28em;
-  margin: 0.35rem 0 0;
-  text-transform: uppercase;
+  margin: 0.15rem auto 0.2rem;
 }
 
 .nameplate .edition {
@@ -109,10 +117,13 @@ a:hover { color: var(--rule); }
   font-family: var(--sans);
   font-size: 0.72rem;
   letter-spacing: 0.12em;
+  line-height: 1.55;
   text-transform: uppercase;
   color: var(--ink-soft);
   border-bottom: 0;
-  padding: 0.45rem 0 0.15rem;
+  max-width: 46rem;
+  margin: 0.35rem auto 0;
+  padding: 0 0.4rem 0.15rem;
 }
 
 .edition-date {
@@ -315,12 +326,8 @@ footer.site {
     letter-spacing: 0.06em;
     gap: 0.25rem 0;
   }
-  .nameplate h1 {
-    font-size: 2.15rem;
-    letter-spacing: 0.04em;
-  }
-  .nameplate .subflag { letter-spacing: 0.16em; font-size: 0.95rem; }
-  .dateline { letter-spacing: 0.06em; font-size: 0.62rem; }
+  .nameplate .wood { font-size: clamp(1.85rem, 11vw, 2.6rem); letter-spacing: 0.04em; }
+  .dateline { letter-spacing: 0.05em; font-size: 0.64rem; }
   .lead h2 { font-size: 1.55rem; }
   .nameplate .edition {
     font-size: 0.62rem;
@@ -397,8 +404,6 @@ footer.site {
 .event-list a { text-decoration: none; font-family: var(--display); }
 
 @media (max-width: 800px) {
-  .nameplate .flag-row { flex-direction: column; gap: 0.35rem; }
-  .nameplate .seal { width: 4.75rem; }
   .land-layout { grid-template-columns: 1fr; }
   #land-map { height: 18rem; }
   .day { min-height: 4.2rem; }
