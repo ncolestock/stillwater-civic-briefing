@@ -60,3 +60,11 @@ Split the morning job into three automations. Research writes `research/`. The w
 - `XAI_API_KEY` is not in the environment. Weekly audio will not render until that secret is on the repo. A Mac voice sample is separate from the feed.
 - ISD 833 is confirmed as the South Washington district’s own numbering and is not in the coverage list.
 - No X account is connected.
+
+## 2026-09-22
+
+The design notes now match the live masthead: full-width `public/brand/bridge-wide.jpg` under the Cinzel stacked name. The seal stays a favicon and lettermark. The disclaimer stays in the site footer and in the `podcast.json` show description.
+
+The front page leads with one story, then two secondary, then a list. The meetings month and the land map read `upcoming` and `places` on published stories. Roads stays out of the nav until a roads story is published.
+
+`episodes/` has no Monday events file for 2026-09-21 (only `2026-09-21-proof.json`, a voice sample). Wednesday 2026-09-23 was not due yet. This job did not write an episode script.

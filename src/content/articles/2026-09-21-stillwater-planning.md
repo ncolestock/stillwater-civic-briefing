@@ -11,6 +11,22 @@ dollars: null
 votes: null
 status: published
 ai_generated: true
+upcoming:
+  - when: "2026-09-23 7:00 p.m."
+    what: "Stillwater Planning Commission"
+    where: "216 4th Street North"
+    url: "https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1440"
+places:
+  - label: "220 Commercial Street"
+    lat: 45.0571881
+    lng: -92.8074442
+    precise: true
+    note: "Conditional-use permit for a gym, Stillwater Planning Commission, Sept. 23."
+  - label: "225 Main Street North"
+    lat: 45.0726951
+    lng: -92.8074296
+    precise: false
+    note: "Interim-use permit for a food truck. The map mark is on Main Street North. The house number did not resolve to a parcel."
 ---
 
 The Stillwater Planning Commission is scheduled to meet Wednesday, Sept. 23, at 7 p.m. The notice says the meeting is at 216 4th Street North. Two public hearings are on the agenda.

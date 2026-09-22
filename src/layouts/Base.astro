@@ -1,12 +1,17 @@
 ---
+import { getCollection } from "astro:content";
 import "../styles/global.css";
-import { DESKS, DISCLAIMER, NAV, withBase } from "../lib/site";
+import { DESKS, DISCLAIMER, deskNav, withBase } from "../lib/site";
 
 interface Props {
   title: string;
   description?: string;
 }
 const { title, description = "Stillwater Civic Briefing. St. Croix Valley public record." } = Astro.props;
+const hasRoads = (await getCollection("articles")).some(
+  (article) => article.data.status === "published" && article.data.desk === "roads",
+);
+const nav = deskNav(hasRoads);
 const today = new Date();
 const edition = today.toLocaleDateString("en-US", {
   weekday: "long",
@@ -23,6 +28,8 @@ const edition = today.toLocaleDateString("en-US", {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
     <link rel="icon" href={withBase("favicon.svg")} type="image/svg+xml" />
     <link rel="apple-touch-icon" href={withBase("apple-touch-icon.jpg")} />
     <meta property="og:image" content="https://ncolestock.github.io/stillwater-civic-briefing/og.jpg" />
@@ -53,7 +60,7 @@ const edition = today.toLocaleDateString("en-US", {
       </div>
       <hr class="double-rule" />
       <nav class="desks">
-        {NAV.map((id, i) => (
+        {nav.map((id, i) => (
           <>
             {i > 0 && <span aria-hidden="true"> · </span>}
             <a href={withBase(`${DESKS[id].path}/`)}>{DESKS[id].label}</a>

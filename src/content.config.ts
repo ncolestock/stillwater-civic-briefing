@@ -30,6 +30,17 @@ const articles = defineCollection({
         }),
       )
       .optional(),
+    places: z
+      .array(
+        z.object({
+          label: z.string(),
+          lat: z.number(),
+          lng: z.number(),
+          precise: z.boolean().optional(),
+          note: z.string().optional(),
+        }),
+      )
+      .optional(),
   }),
 });
 

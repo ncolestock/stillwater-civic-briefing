@@ -13,6 +13,11 @@ dollars: "$161,986,500 proposed county levy; $660,000 rail levy; CDA not to exce
 votes: null
 status: published
 ai_generated: true
+upcoming:
+  - when: "2026-09-22 9:00 a.m."
+    what: "Washington County Board"
+    where: "County Board Room"
+    url: "https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_09222026-1946"
 ---
 
 The Washington County Board is scheduled to meet Tuesday, Sept. 22, at 9 a.m. A draft resolution in the packet would certify a proposed property tax levy of $161,986,500 for taxes payable in 2027. The board has not voted.

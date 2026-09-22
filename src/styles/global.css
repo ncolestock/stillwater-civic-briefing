@@ -1,17 +1,4 @@
-:root {
-  --paper: #f4efe4;
-  --paper-2: #e8dfcc;
-  --ink: #1a1612;
-  --ink-soft: #3a342c;
-  --rule: #7a1f2b;
-  --rule-thin: #c4b8a4;
-  --muted: #4a433a;
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --display: "Old Standard TT", "Source Serif 4", "Times New Roman", serif;
-  --sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --measure: 38rem;
-  --page: 72rem;
-}
+@import "./tokens.css";
 
 * { box-sizing: border-box; }
 
@@ -30,7 +17,7 @@ body {
 .topbar { height: 4px; background: var(--rule); }
 
 a { color: var(--ink); }
-a:hover { color: var(--rule); }
+a:hover { color: var(--oxblood-hover); }
 
 .wrap {
   width: 100%;
@@ -59,7 +46,7 @@ a:hover { color: var(--rule); }
 }
 
 .nameplate .wood {
-  font-family: Cinzel, "Old Standard TT", serif;
+  font-family: var(--font-wood);
   font-weight: 900;
   font-size: clamp(2.6rem, 8vw, 5.4rem);
   letter-spacing: 0.06em;
@@ -191,6 +178,7 @@ nav.desks a { text-decoration: none; }
 h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
 
 .lead h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0 0 0.4rem; }
+.front > section > .kicker { margin-top: 1.15rem; }
 .lead h2 a, .brief h3 a, .side h3 a { text-decoration: none; }
 
 .deck {
@@ -216,6 +204,8 @@ h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
   border-top: 1px solid var(--ink);
   padding-top: 0.8rem;
 }
+
+.columns.one { column-count: 1; }
 
 .brief {
   break-inside: avoid;

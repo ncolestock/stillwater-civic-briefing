@@ -11,6 +11,17 @@ dollars: "Claims $2,884,832.62 recommended; Planet Fitness donation about $157,4
 votes: null
 status: published
 ai_generated: true
+upcoming:
+  - when: "2026-09-22 7:00 p.m."
+    what: "Oakdale City Council"
+    where: "Discovery Center"
+    url: "https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_09222026-916"
+places:
+  - label: "6815 55th Street North"
+    lat: 45.027411
+    lng: -92.9667438
+    precise: false
+    note: "Hadley Storage rezoning and plat, Oakdale City Council, Sept. 22. The map mark is on 55th Street North. The house number did not resolve to a parcel."
 ---
 
 The Oakdale City Council meets Tuesday, Sept. 22, at 7 p.m. at the Discovery Center, 4444 Hadley Avenue North.

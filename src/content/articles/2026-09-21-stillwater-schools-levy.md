@@ -11,6 +11,11 @@ dollars: null
 votes: null
 status: published
 ai_generated: true
+upcoming:
+  - when: "2026-09-22 5:30 p.m."
+    what: "Stillwater-area school board"
+    where: "Oak Park Learning Center"
+    url: "https://meetings.boardbook.org/Public/Agenda/2592?meeting=765266"
 ---
 
 The Stillwater Area Public Schools board holds a business meeting Tuesday, Sept. 22, at 5:30 p.m. at the Oak Park Learning Center, 6355 Osman Avenue North in Stillwater. The agenda lists an action to adopt the preliminary proposed property-tax levy for taxes payable in 2027. The agenda does not print a dollar amount.

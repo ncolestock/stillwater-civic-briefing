@@ -1,29 +1,39 @@
-/* Stillwater Civic Briefing — design tokens
-   Aliases: --scb-* (preferred) and short names used by newspaper.css */
+/* Stillwater Civic Briefing — the only :root.
+   Component CSS uses the short names. --rule is the oxblood accent
+   (kickers, top bar, nameplate rules). Hairlines use --rule-thin. */
 
 :root {
   --scb-paper: #F4EFE4;
   --scb-paper-dark: #E8DFCC;
   --scb-paper-shadow: #D7CFBE;
   --scb-ink: #1A1612;
+  --scb-ink-soft: #3A342C;
   --scb-ink-muted: #4A433A;
   --scb-rule: #C4B8A4;
   --scb-oxblood: #7A1F2B;
-  --scb-oxblood-hover: #5E171F;
+  --scb-oxblood-hover: #5E1721;
   --scb-bridge-green: #4A5A3A;
 
   --paper: var(--scb-paper);
+  --paper-2: var(--scb-paper-dark);
   --paper-dark: var(--scb-paper-dark);
   --ink: var(--scb-ink);
-  --ink-soft: var(--scb-ink-muted);
-  --rule: var(--scb-rule);
+  --ink-soft: var(--scb-ink-soft);
+  --muted: var(--scb-ink-muted);
+  --rule: var(--scb-oxblood);
+  --rule-thin: var(--scb-rule);
   --oxblood: var(--scb-oxblood);
-  --disclaimer: var(--scb-ink-muted);
+  --oxblood-hover: var(--scb-oxblood-hover);
+  --disclaimer: var(--scb-ink-soft);
 
   --font-display: "Old Standard TT", "Source Serif 4", "Times New Roman", serif;
   --font-body: "Source Serif 4", Georgia, serif;
   --font-ui: "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
   --font-wood: "Cinzel", "Old Standard TT", serif;
+
+  --display: var(--font-display);
+  --serif: var(--font-body);
+  --sans: var(--font-ui);
 
   --scb-serif-display: var(--font-display);
   --scb-serif-body: var(--font-body);
@@ -32,6 +42,7 @@
 
   --page: 72rem;
   --scb-page: 72rem;
+  --measure: 38rem;
   --scb-measure: 38rem;
   --gutter: 1.25rem;
   --masthead-rule: 2px;
