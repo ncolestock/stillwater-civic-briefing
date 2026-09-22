@@ -1,0 +1,16 @@
+{
+  "name": "stillwater-civic-briefing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/stage-dist.mjs",
+    "preview": "astro preview",
+    "feed": "python3 scripts/build_feed.py",
+    "validate": "python3 scripts/validate_articles.py",
+    "check": "python3 scripts/validate_articles.py && python3 scripts/build_feed.py && astro build"
+  },
+  "dependencies": {
+    "astro": "^5.14.1"
+  }
+}

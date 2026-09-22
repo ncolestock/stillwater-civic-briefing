@@ -1,0 +1,94 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { DESKS, formatDateline, withBase } from "../lib/site";
+import { clock, loadEpisodes } from "../lib/episodes";
+
+const articles = (await getCollection("articles"))
+  .filter((article) => article.data.status === "published")
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const lead = articles.find((article) => article.data.desk === "meetings") ?? articles[0];
+const briefs = articles.filter(
+  (article) => article !== lead && article.data.desk !== "blotter" && article.data.desk !== "calendar",
+);
+const blotter = articles.filter((article) => article.data.desk === "blotter");
+const calendar = articles.find((article) => article.data.desk === "calendar");
+const episode = loadEpisodes().find((item) => !item.proof && item.duration > 0);
+const excerpt = (body: string | undefined) => {
+  if (!body) return "";
+  const text = body.replace(/^#+\s.*$/gm, "").replace(/\s+/g, " ").trim();
+  return text.slice(0, 280).replace(/\s+\S*$/, "") + (text.length > 280 ? "…" : "");
+};
+---
+
+<Base title="Stillwater Civic Briefing">
+  <p class="rail">
+    Researched and written by AI from public records. Not a substitute for the official record.
+    Charges are allegations, not convictions. Verify against the source links.
+  </p>
+
+  {articles.length === 0 ? (
+    <p class="empty">No stories have been filed yet.</p>
+  ) : (
+    <div class="front">
+      {lead && (
+        <section class="lead">
+          <p class="kicker">{DESKS[lead.data.desk].label} · {lead.data.city}</p>
+          <h2><a href={withBase(`articles/${lead.id}/`)}>{lead.data.title}</a></h2>
+          <p class="meta">{formatDateline(lead.data.date)} · {lead.data.bodies.join(", ")}</p>
+          <p class="deck">{excerpt(lead.body)}</p>
+          <p><a href={withBase(`articles/${lead.id}/`)}>Read the story</a></p>
+        </section>
+      )}
+      <aside class="side">
+        {blotter.length > 0 && (
+          <section class="blotter-box">
+            <p class="kicker">Blotter</p>
+            <h3>Adult bookings</h3>
+            <ul>
+              {blotter.map((article) => (
+                <li><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {calendar?.data.upcoming && calendar.data.upcoming.length > 0 && (
+          <section>
+            <p class="kicker">Meetings this week</p>
+            <ol>
+              {calendar.data.upcoming.map((item) => (
+                <li>
+                  <a href={item.url}>{item.what}</a>
+                  <br />
+                  <span class="meta">{item.when} · {item.where}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+        {episode && (
+          <section class="player">
+            <p class="kicker">Podcast</p>
+            <h3><a href={withBase("podcast/")}>{episode.title}</a></h3>
+            <p class="meta">{episode.date} · {clock(episode.duration)}</p>
+            <audio controls preload="none" src={withBase(`episodes/${episode.file}`)}></audio>
+          </section>
+        )}
+      </aside>
+    </div>
+  )}
+
+  {briefs.length > 0 && (
+    <div class="columns">
+      {briefs.map((article) => (
+        <article class="brief">
+          <p class="kicker">{DESKS[article.data.desk].label} · {article.data.city}</p>
+          <h3><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h3>
+          <p class="meta">{formatDateline(article.data.date)}</p>
+          <p>{excerpt(article.body)}</p>
+        </article>
+      ))}
+    </div>
+  )}
+</Base>

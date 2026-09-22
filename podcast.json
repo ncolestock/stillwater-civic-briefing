@@ -1,10 +1,16 @@
 {
   "title": "Stillwater Civic Briefing",
   "base_url": "https://ncolestock.github.io/stillwater-civic-briefing",
-  "author": "Artie Fishel",
+  "link": "https://ncolestock.github.io/stillwater-civic-briefing/podcast/",
+  "author": "Stillwater Civic Briefing",
+  "owner_name": "Stillwater Civic Briefing",
   "email": "nathan0colestock@gmail.com",
-  "description": "A weekly local-news briefing on government and schools across the Stillwater\u2013Oakdale area of Minnesota \u2014 Washington County, Stillwater, Oakdale, and the local school districts. Just the facts: what was decided, what it costs, and who's responsible. Hosted by Artie Fishel.",
+  "description": "A hyper-local paper and one weekly audio episode on public meetings, schools, land use, and the adult jail book-in report for Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, and the Stillwater-area and Oakdale-area school districts. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.",
   "language": "en-us",
-  "category": "News",
-  "cover": "cover.jpg"
+  "categories": [{ "text": "News" }],
+  "explicit": false,
+  "type": "episodic",
+  "cover": "cover.jpg",
+  "copyright": "Stillwater Civic Briefing",
+  "tts_voice_id": "eve"
 }

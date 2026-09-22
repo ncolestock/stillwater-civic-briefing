@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Stillwater Civic Briefing</title>
-    <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
-    <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+    <atom:link href="https://ncolestock.github.io/stillwater-civic-briefing/feed.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <description>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</description>
-    <lastBuildDate>Wed, 12 Aug 2026 11:23:30 +0000</lastBuildDate>
+    <copyright>&#xA9; Stillwater Civic Briefing</copyright>
+    <description>A hyper-local paper and one weekly audio episode on public meetings, schools, land use, and the adult jail book-in report for Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, and the Stillwater-area and Oakdale-area school districts. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
+    <lastBuildDate>Tue, 22 Sep 2026 02:24:07 +0000</lastBuildDate>
+    <generator>stillwater-civic-briefing/scripts/build_feed.py</generator>
     <itunes:author>Stillwater Civic Briefing</itunes:author>
-    <itunes:summary>Local government and schools across the Stillwater–Oakdale area of Minnesota — Washington County, Stillwater, Oak Park Heights, Bayport, Lake Elmo, Oakdale, Woodbury, and the local school districts. Three briefings a week: the week's news on Monday, a profile of a public figure on Wednesday, and a deeper look at one development on Friday. Just the facts — what was decided, what it does, what it costs, and who's responsible.</itunes:summary>
+    <itunes:summary>A hyper-local paper and one weekly audio episode on public meetings, schools, land use, and the adult jail book-in report for Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, and the Stillwater-area and Oakdale-area school districts. Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg"/>
-    <itunes:category text="News"/>
+    <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+    <itunes:category text="News" />
     <itunes:owner>
       <itunes:name>Stillwater Civic Briefing</itunes:name>
       <itunes:email>nathan0colestock@gmail.com</itunes:email>
@@ -22,7 +22,7 @@
     <image>
       <url>https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg</url>
       <title>Stillwater Civic Briefing</title>
-      <link>https://ncolestock.github.io/stillwater-civic-briefing/</link>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
     </image>
     <item>
       <title>Profile: Kelli Bourgeois, City Administrator of Oakdale</title>
@@ -40,7 +40,9 @@ ON HER DESK: A two-person bond pricing committee (city administrator and finance
 
 SOURCES: City of Oakdale council packets at oakdalemn.gov/AgendaCenter — April 14, 2026 (_04142026-872), April 28, 2026 (_04282026-875, containing approved April 14 minutes), July 14, 2026 (_07142026-895, containing June 23 workshop and regular minutes), August 12, 2026 (_08122026-903, containing July 28 workshop minutes); City of Oakdale "Administration Department" page; Minnesota Statutes § 412.111 (revisor.mn.gov). Attributed secondary sources: MyNortheaster.com, "Bourgeois begins as Heights city manager" (career chronology and three quotes); WCYB (Bristol budget-adoption quote; resignation quotes and effective date); WJHL/Yahoo (combined Bristol FY2026 budget figure). Bristol's own budget document could not be retrieved — its host blocks automated access — and that limitation is stated on air.
 
-TO VERIFY OR PARTICIPATE: The Oakdale City Council meets tonight, Wednesday, Aug. 12, 2026 at 7 p.m. at the Discovery Center, 4444 Hadley Ave. N., with open forum limited to three minutes per person. Up for consideration: an HKGi professional services contract for the 2050 Comprehensive Plan update; playground bids for Tower Park and Golfview Park recommended to Pember Companies at $248,894.39; a cost-share agreement with Washington County for 34th Street North and High Point Drive; claims of $1,968,747.76; and two closed sessions on pending litigation from a city employee under Minn. Stat. § 13D.05, subd. 3(b), with a separation and release agreement in open session between them. None of it is decided until the council votes. Agendas, packets and minutes: oakdalemn.gov/AgendaCenter. Records requests, including the executed employment agreement, go to the City of Oakdale, 1584 Hadley Ave. N.</description>
+TO VERIFY OR PARTICIPATE: The Oakdale City Council meets tonight, Wednesday, Aug. 12, 2026 at 7 p.m. at the Discovery Center, 4444 Hadley Ave. N., with open forum limited to three minutes per person. Up for consideration: an HKGi professional services contract for the 2050 Comprehensive Plan update; playground bids for Tower Park and Golfview Park recommended to Pember Companies at $248,894.39; a cost-share agreement with Washington County for 34th Street North and High Point Drive; claims of $1,968,747.76; and two closed sessions on pending litigation from a city employee under Minn. Stat. § 13D.05, subd. 3(b), with a separation and release agreement in open session between them. None of it is decided until the council votes. Agendas, packets and minutes: oakdalemn.gov/AgendaCenter. Records requests, including the executed employment agreement, go to the City of Oakdale, 1584 Hadley Ave. N.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>Oakdale's city administrator was hired, not elected, and she has been on the job about seven weeks. A factual portrait from the public record and her own words: what an appointed administrator actually is, the full hiring record behind her 5–0 appointment, the salary the public packet does not contain, thirty years of municipal work from South Dakota to Becker to Columbia Heights to Bristol, Tennessee — and what is on her desk in Oakdale right now.
 
 THE OFFICE: The city administrator is described by the city as "the chief administrative officer for the City of Oakdale," managing administrative processes and carrying out council policy; the administration department also covers communications, information technology and licensing. The council cited Oakdale's code of ordinances (Ch. 2, Art. 3, Sec. 2-34) and Minn. Stat. § 412.111, which lets a council appoint officers, "prescribe the duties and fix the compensation" of them, and remove an appointed officer when, in its judgment, "the public welfare will be promoted by the removal." No term, no election. Oakdale's elected five: Mayor Kevin Zabel and council members Kari Moore, Andy Morcomb, Gary Severson and Katie Wrich.
@@ -55,12 +57,34 @@ ON HER DESK: A two-person bond pricing committee (city administrator and finance
 
 SOURCES: City of Oakdale council packets at oakdalemn.gov/AgendaCenter — April 14, 2026 (_04142026-872), April 28, 2026 (_04282026-875, containing approved April 14 minutes), July 14, 2026 (_07142026-895, containing June 23 workshop and regular minutes), August 12, 2026 (_08122026-903, containing July 28 workshop minutes); City of Oakdale "Administration Department" page; Minnesota Statutes § 412.111 (revisor.mn.gov). Attributed secondary sources: MyNortheaster.com, "Bourgeois begins as Heights city manager" (career chronology and three quotes); WCYB (Bristol budget-adoption quote; resignation quotes and effective date); WJHL/Yahoo (combined Bristol FY2026 budget figure). Bristol's own budget document could not be retrieved — its host blocks automated access — and that limitation is stated on air.
 
-TO VERIFY OR PARTICIPATE: The Oakdale City Council meets tonight, Wednesday, Aug. 12, 2026 at 7 p.m. at the Discovery Center, 4444 Hadley Ave. N., with open forum limited to three minutes per person. Up for consideration: an HKGi professional services contract for the 2050 Comprehensive Plan update; playground bids for Tower Park and Golfview Park recommended to Pember Companies at $248,894.39; a cost-share agreement with Washington County for 34th Street North and High Point Drive; claims of $1,968,747.76; and two closed sessions on pending litigation from a city employee under Minn. Stat. § 13D.05, subd. 3(b), with a separation and release agreement in open session between them. None of it is decided until the council votes. Agendas, packets and minutes: oakdalemn.gov/AgendaCenter. Records requests, including the executed employment agreement, go to the City of Oakdale, 1584 Hadley Ave. N.</itunes:summary>
-      <pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-12.m4a" length="14375779" type="audio/x-m4a"/>
+TO VERIFY OR PARTICIPATE: The Oakdale City Council meets tonight, Wednesday, Aug. 12, 2026 at 7 p.m. at the Discovery Center, 4444 Hadley Ave. N., with open forum limited to three minutes per person. Up for consideration: an HKGi professional services contract for the 2050 Comprehensive Plan update; playground bids for Tower Park and Golfview Park recommended to Pember Companies at $248,894.39; a cost-share agreement with Washington County for 34th Street North and High Point Drive; claims of $1,968,747.76; and two closed sessions on pending litigation from a city employee under Minn. Stat. § 13D.05, subd. 3(b), with a separation and release agreement in open session between them. None of it is decided until the council votes. Agendas, packets and minutes: oakdalemn.gov/AgendaCenter. Records requests, including the executed employment agreement, go to the City of Oakdale, 1584 Hadley Ave. N.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>Oakdale's city administrator was hired, not elected, and she has been on the job about seven weeks. A factual portrait from the public record and her own words: what an appointed administrator actually is, the full hiring record behind her 5–0 appointment, the salary the public packet does not contain, thirty years of municipal work from South Dakota to Becker to Columbia Heights to Bristol, Tennessee — and what is on her desk in Oakdale right now.
+
+THE OFFICE: The city administrator is described by the city as "the chief administrative officer for the City of Oakdale," managing administrative processes and carrying out council policy; the administration department also covers communications, information technology and licensing. The council cited Oakdale's code of ordinances (Ch. 2, Art. 3, Sec. 2-34) and Minn. Stat. § 412.111, which lets a council appoint officers, "prescribe the duties and fix the compensation" of them, and remove an appointed officer when, in its judgment, "the public welfare will be promoted by the removal." No term, no election. Oakdale's elected five: Mayor Kevin Zabel and council members Kari Moore, Andy Morcomb, Gary Severson and Katie Wrich.
+
+HOW SHE GOT IT: Outgoing City Administrator Chris Volkers, who had served the city since June 2020, announced her intent to retire by June 30, 2026. The city hired search firm MGT on Nov. 25, 2025 after reviewing ten proposals; the job posted in late December; applications closed Feb. 6, 2026. Mayor Zabel told the April 14 meeting the search drew about 70 applicants; the council interviewed five finalists at a special workshop on March 26, 2026 (9 a.m.–6:45 p.m.) and chose Bourgeois that day. The council approved the appointment and employment agreement 5–0 on April 14, 2026. She became a city employee June 16 and city administrator June 22; Volkers stayed through June 30.
+
+THE SALARY: Not in the public packet. The city's staff report says the signed agreement went to council members under separate nonpublic cover "as it is nonpublic data under Minn. Stat. Sec. 13.43, subd. 4, until it is fully executed by her and the City." A resident who wants the figure should request the executed agreement from the city.
+
+WHO SHE IS: More than 30 years of municipal experience, per the city's staff report; B.A. in local and urban affairs, St. Cloud State University; J.D., Hamline University School of Law; ICMA Credentialed Manager. Senior planner, South Eastern Council of Governments, Sioux Falls, S.D. (~4 years); 16 years in Becker, Minn.; Columbia Heights from 2014 as HR director and assistant city manager, then city manager from January 2019; city manager of Bristol, Tenn., April 2023 to June 3, 2026.
+
+ON HER DESK: A two-person bond pricing committee (city administrator and finance director) created by Resolution 2026-35 at her first regular meeting, June 23, 2026, with authority to approve the Series 2026A general obligation bond sale — street reconstruction plus the police expansion and city hall remodel — scheduled for Aug. 13, 2026. A rewrite of the municipal vehicle policy into a take-home vehicle policy. A proposed survey of the city's citizen advisory bodies feeding the council's strategic planning. Inherited: the police expansion and city hall remodel (April 14 council approval of a $7,940,489 guaranteed maximum price for Bid Package 2, Kraus-Anderson construction manager, 5–0) and the water filtration plant expansion tied to PFAS and 3M settlement funds.
+
+SOURCES: City of Oakdale council packets at oakdalemn.gov/AgendaCenter — April 14, 2026 (_04142026-872), April 28, 2026 (_04282026-875, containing approved April 14 minutes), July 14, 2026 (_07142026-895, containing June 23 workshop and regular minutes), August 12, 2026 (_08122026-903, containing July 28 workshop minutes); City of Oakdale "Administration Department" page; Minnesota Statutes § 412.111 (revisor.mn.gov). Attributed secondary sources: MyNortheaster.com, "Bourgeois begins as Heights city manager" (career chronology and three quotes); WCYB (Bristol budget-adoption quote; resignation quotes and effective date); WJHL/Yahoo (combined Bristol FY2026 budget figure). Bristol's own budget document could not be retrieved — its host blocks automated access — and that limitation is stated on air.
+
+TO VERIFY OR PARTICIPATE: The Oakdale City Council meets tonight, Wednesday, Aug. 12, 2026 at 7 p.m. at the Discovery Center, 4444 Hadley Ave. N., with open forum limited to three minutes per person. Up for consideration: an HKGi professional services contract for the 2050 Comprehensive Plan update; playground bids for Tower Park and Golfview Park recommended to Pember Companies at $248,894.39; a cost-share agreement with Washington County for 34th Street North and High Point Drive; claims of $1,968,747.76; and two closed sessions on pending litigation from a city employee under Minn. Stat. § 13D.05, subd. 3(b), with a separation and release agreement in open session between them. None of it is decided until the council votes. Agendas, packets and minutes: oakdalemn.gov/AgendaCenter. Records requests, including the executed employment agreement, go to the City of Oakdale, 1584 Hadley Ave. N.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-12.m4a" length="14375779" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-08-12-profile</guid>
       <itunes:duration>10:29</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Week of August 10, 2026: A 7.9% County Levy, Election Day, and Lake Elmo's Fire Station Site</title>
@@ -95,7 +119,9 @@ SOURCES
 - City of Lake Elmo news notices, Aug. 7 and Aug. 11, 2026, and city newsletter, July 24, 2026.
 - Stillwater city meeting portal (Granicus view_id 3) for upcoming council meetings.
 
-Every factual claim in this episode was re-verified against these primary sources before the episode was produced.</description>
+Every factual claim in this episode was re-verified against these primary sources before the episode was produced.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>Washington County's recommended 2027 budget would raise the county levy 7.9% and add $67 to the county share of the tax bill on a median-valued home; polls are open for the state primary; and Lake Elmo's council is asked to reconsider what gets built on the old fire station site.
 
 IN THIS EPISODE
@@ -127,12 +153,51 @@ SOURCES
 - City of Lake Elmo news notices, Aug. 7 and Aug. 11, 2026, and city newsletter, July 24, 2026.
 - Stillwater city meeting portal (Granicus view_id 3) for upcoming council meetings.
 
-Every factual claim in this episode was re-verified against these primary sources before the episode was produced.</itunes:summary>
-      <pubDate>Tue, 11 Aug 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-11.m4a" length="19356836" type="audio/x-m4a"/>
+Every factual claim in this episode was re-verified against these primary sources before the episode was produced.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>Washington County's recommended 2027 budget would raise the county levy 7.9% and add $67 to the county share of the tax bill on a median-valued home; polls are open for the state primary; and Lake Elmo's council is asked to reconsider what gets built on the old fire station site.
+
+IN THIS EPISODE
+1) Washington County's recommended 2027 budget (presented Aug. 4). Total spending ~$524.7M (vs. $435.0M adopted for 2026, +20.6%, driven by capital outlay +64.5%). Net county levy $148,952,000 -&gt; $160,719,000 (+7.90%). County tax rate 24.45% -&gt; 25.68%. On a home valued at $430,500, the county share goes $1,033 -&gt; $1,100 (+$67, +6.5%) — county only, excluding city, school and watershed. Human-services cost shifts from the state and federal government total $2,868,750 for 2027, less a $307,400 offset = $2,561,350, or 1.71 points of the levy increase; another 0.67 point is held back for county program aid uncertainty and 2028 shifts, for a combined 2.38 of the 7.90 points. Staffing drops 5 FTE to 1,498.69. Capital: $39M facilities, $143M road and bridge, $6M parks. A $40M bond is planned for 2027 — $20M Stafford Library (Woodbury), $11M Park Grove Library, $9M south public works facility.
+2) Election Day. Polls open 7 a.m.-8 p.m. Two joint powers agreements with the MN Secretary of State for recount services (2026 primary and 2026 general) were on the county board's Aug. 11 agenda, brought by Elections Division Manager Matt Moore.
+3) Lake Elmo's old fire station site. The Tap &amp; Ladder / Machete team, awarded the site by competitive RFP, has asked to keep open a "Plan B" for the restaurant lot — "4 Alarm Fun," a family-oriented arcade and snack bar. Staff say the revised concept "would result in a lower assessed value"; the east portion of the parks building must be demolished. Fiscal impact: "No city expenses tied to today's decision."
+4) $20,000,000 in state Local Road Improvement Program funding for the Highway 36 / Lake Elmo Avenue interchange, in three MnDOT grant agreements on the county's Aug. 11 consent agenda. Also: a $182,314 Sunram Construction trail contract on County Highway 14 (34th St. N.) with a maintenance agreement with Oakdale, and a $243,030 historic courthouse elevator replacement, both on the Aug. 4 agenda.
+5) Lake Elmo water: a $27,000 MPCA grant (SWIFT contract 294158) for a feasibility study on connecting the 505-unit Cimarron Park to city water, funded under the 3M settlement's conceptual drinking water supply plan. The city also asked residents to cut outdoor watering on Aug. 7.
+6) Schools: both boards met Aug. 10 in workshop. The Oakdale-area board (North St. Paul-Maplewood-Oakdale) discussed referendum planning — no amount, date or question language published. The Stillwater-area board reviewed its governance retreat and went into closed session on labor negotiation strategy.
+
+UPCOMING MEETINGS AND HOW TO TAKE PART
+- Tue. Aug. 11, 9:00 a.m. — Washington County Board, Government Center, 14949 62nd St. N., Stillwater. Public comment at the start of the meeting; fill out a comment card before it begins. Budget workshops (public works; Gold Line) follow the meeting and are open to the public.
+- Tue. Aug. 11 — State primary. Polls open 7 a.m.-8 p.m. Mail ballots accepted at the county's two vote centers until 5 p.m. Register at the polls with proof of residence.
+- Wed. Aug. 12, 7:00 p.m. — Oakdale City Council, Discovery Center, 4444 Hadley Ave. N. Open forum, three minutes per speaker.
+- Wed. Aug. 12, 7:30 p.m. — Woodbury City Council, City Hall, 8301 Valley Creek Rd., and online at woodburymn.gov/VirtualMeetings. Open Forum: sign up before the meeting; three minutes per speaker, 20 minutes total. Questions: 651-714-3524 or council@woodburymn.gov, 8 a.m.-4:30 p.m.
+- Thu. Aug. 13, 3:00 p.m. — Washington County canvassing board (primary results).
+- Tue. Aug. 18 — Stillwater City Council regular meeting. Agendas and eComment at the city's Granicus portal.
+- Key budget dates to calendar: Sept. 22, county board sets the preliminary 2027 levy; Dec. 1, public budget hearing (after 6 p.m.); Dec. 15, final levy, budget and capital plan adopted.
+
+SOURCES
+- Washington County Board, Aug. 4, 2026 — agenda (AgendaCenter _08042026-1815) and full packet (_08042026-1814), including the 2027 Recommended Budget presentation.
+- Washington County Board, Aug. 11, 2026 — agenda (_08112026-1914) and full packet (_08112026-1913).
+- City of Lake Elmo, City Council, Aug. 5, 2026 — agenda and full packet (AgendaCenter _08052026-309): Tap &amp; Ladder/Machete Plan B council memo and narrative; MPCA grant staff report and SWIFT contract 294158.
+- City of Oakdale, City Council, Aug. 12, 2026 — agenda and packet (_08122026-903).
+- City of Woodbury, City Council, Aug. 12, 2026 — agenda (_08122026-1124).
+- Stillwater-area schools, board study session Aug. 10, 2026 — BoardBook org 2592, meeting 759898.
+- Oakdale-area schools (North St. Paul-Maplewood-Oakdale), work study session Aug. 10, 2026 — BoardBook org 1069, meeting 759700.
+- Washington County Elections &amp; Voting page (polling hours, vote centers, canvassing board).
+- City of Lake Elmo news notices, Aug. 7 and Aug. 11, 2026, and city newsletter, July 24, 2026.
+- Stillwater city meeting portal (Granicus view_id 3) for upcoming council meetings.
+
+Every factual claim in this episode was re-verified against these primary sources before the episode was produced.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-11.m4a" length="19356836" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-08-11-news</guid>
       <itunes:duration>13:59</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Digging Deeper: The Sale of Lake Elmo Elementary</title>
@@ -144,7 +209,9 @@ SOURCES / DOCUMENTS: Signed letter of intent, "LOI VCC (Lake Elmo Property)v1 co
 
 HOW TO FOLLOW IT: The sale closes on or before December 1, 2026. The deed and the recorded deed restriction will become public records in Washington County. Stillwater Area Public Schools board meetings and their full agendas and minutes are posted on BoardBook; the board meets at the Oak Park Building, 6355 Osman Avenue North, Stillwater. The Lake Elmo City Council meets the first and third Tuesdays at 7 p.m. at City Hall, 3880 Laverne Avenue North; agendas, packets, and minutes are on the city's website.
 
-This briefing reports the public record and does not render a verdict.</description>
+This briefing reports the public record and does not render a verdict.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>One issue, followed all the way down. Stillwater Area Public Schools is selling the Lake Elmo Elementary School property at 11030 Stillwater Boulevard North — about 12.86 acres in the middle of the village — to Valley Community Center Partners, Inc., a Stillwater nonprofit that wants to build a community center and a public swimming pool there. The price is $4.25 million, the closing date on the paper is December 1, 2026, and the terms are more specific than the headline suggests.
 
 This episode traces the whole record: the November 7, 2023 building bond (about $175 million, approved 56.74% to 43.26%) that funded a replacement school on a 47-acre site at Lake Elmo Avenue and 10th Street North and left the 1920-era building surplus; who the buyer actually is (a 501(c)(3) tax-exempt since August 2022, volunteer-led, with no Form 990 financials in the public record); and the signed November 13, 2025 letter of intent, term by term — the $50,000, $125,000 and $250,000 deposit structure, the 210-day due-diligence window, the seller's obligation to demolish and haul away the building before closing except the two-story brick portion, and the deed restriction barring any future public, charter, or private school on the land. It covers both unanimous school board votes (November 18 and December 16, 2025), the money past the purchase price (roughly $45 million more for construction, per Pioneer Press reporting of the nonprofit's expectation, against no published capital campaign total), and the March 17, 2026 letter of support the Lake Elmo City Council approved 3-0 for the nonprofit's grant application to buy the site. What is unknown — whether the inspection period was extended, whether the deposits are down, whether the money has been raised, when demolition happens, and where the sale proceeds go — is stated plainly rather than guessed.
@@ -153,12 +220,28 @@ SOURCES / DOCUMENTS: Signed letter of intent, "LOI VCC (Lake Elmo Property)v1 co
 
 HOW TO FOLLOW IT: The sale closes on or before December 1, 2026. The deed and the recorded deed restriction will become public records in Washington County. Stillwater Area Public Schools board meetings and their full agendas and minutes are posted on BoardBook; the board meets at the Oak Park Building, 6355 Osman Avenue North, Stillwater. The Lake Elmo City Council meets the first and third Tuesdays at 7 p.m. at City Hall, 3880 Laverne Avenue North; agendas, packets, and minutes are on the city's website.
 
-This briefing reports the public record and does not render a verdict.</itunes:summary>
-      <pubDate>Fri, 07 Aug 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-07.m4a" length="20717302" type="audio/x-m4a"/>
+This briefing reports the public record and does not render a verdict.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>One issue, followed all the way down. Stillwater Area Public Schools is selling the Lake Elmo Elementary School property at 11030 Stillwater Boulevard North — about 12.86 acres in the middle of the village — to Valley Community Center Partners, Inc., a Stillwater nonprofit that wants to build a community center and a public swimming pool there. The price is $4.25 million, the closing date on the paper is December 1, 2026, and the terms are more specific than the headline suggests.
+
+This episode traces the whole record: the November 7, 2023 building bond (about $175 million, approved 56.74% to 43.26%) that funded a replacement school on a 47-acre site at Lake Elmo Avenue and 10th Street North and left the 1920-era building surplus; who the buyer actually is (a 501(c)(3) tax-exempt since August 2022, volunteer-led, with no Form 990 financials in the public record); and the signed November 13, 2025 letter of intent, term by term — the $50,000, $125,000 and $250,000 deposit structure, the 210-day due-diligence window, the seller's obligation to demolish and haul away the building before closing except the two-story brick portion, and the deed restriction barring any future public, charter, or private school on the land. It covers both unanimous school board votes (November 18 and December 16, 2025), the money past the purchase price (roughly $45 million more for construction, per Pioneer Press reporting of the nonprofit's expectation, against no published capital campaign total), and the March 17, 2026 letter of support the Lake Elmo City Council approved 3-0 for the nonprofit's grant application to buy the site. What is unknown — whether the inspection period was extended, whether the deposits are down, whether the money has been raised, when demolition happens, and where the sale proceeds go — is stated plainly rather than guessed.
+
+SOURCES / DOCUMENTS: Signed letter of intent, "LOI VCC (Lake Elmo Property)v1 counter 11 13 25 clean and signed," attachment to Item XII.A, Stillwater Area Public Schools board agenda, November 18, 2025 (BoardBook organization 2592). Approved school board minutes, November 18, 2025 (sale approved 7-0; motion Sherman, second Thelander) and December 16, 2025 (purchase-agreement resolution approved 7-0; motion Sherman, second Kelzenberg). "Resolution Approving Purchase Agreement," attachment to the December 16, 2025 agenda. Stillwater Area Public Schools news release, November 25, 2025, including Superintendent Michael Funk's statement. District Bond 2023 pages, including "A New Lake Elmo Elementary" and the November 2023 election-results post. City of Lake Elmo staff report and draft letter of support, March 17, 2026 (Community Development Director Jason Stopa; letter dated March 10, 2026, over Mayor Charles Cadenhead's signature). City of Lake Elmo City Council minutes, March 17, 2026 (letter of support approved 3-0) and July 7, 2026 (development-agreement amendment for the new school approved on the consent agenda, 5-0). City of Lake Elmo staff report, July 7, 2026 (Consulting Planner Nathan Fuerst). ProPublica Nonprofit Explorer record for Valley Community Center Partners, EIN 87-3185089. Valley Community Center Partners' own About, FAQ, board, and news pages, including State Senator Karin Housley's statement. Pioneer Press (Mary Divine), November 25, 2025, for the roughly $45 million construction estimate, attributed on air as reporting.
+
+HOW TO FOLLOW IT: The sale closes on or before December 1, 2026. The deed and the recorded deed restriction will become public records in Washington County. Stillwater Area Public Schools board meetings and their full agendas and minutes are posted on BoardBook; the board meets at the Oak Park Building, 6355 Osman Avenue North, Stillwater. The Lake Elmo City Council meets the first and third Tuesdays at 7 p.m. at City Hall, 3880 Laverne Avenue North; agendas, packets, and minutes are on the city's website.
+
+This briefing reports the public record and does not render a verdict.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-07.m4a" length="20717302" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-08-07-deep-dive</guid>
       <itunes:duration>15:03</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Profile: Anne Burt, Mayor of Woodbury</title>
@@ -176,7 +259,9 @@ SOURCES: City of Woodbury council minutes, January 28, February 25, March 25, Ap
 
 NOT AIRED: no election margins, vote totals or percentages are spoken in this episode. The Republican Eagle account of the mayoral race could not be retrieved (repeated HTTP 429), the Secretary of State's local-results endpoint redirects to a bot-check, and Ballotpedia returned no content — so no margin met the show's verification standard. Details of what was cut and why are in the episode's fact-check record.
 
-TO VERIFY OR PARTICIPATE: Woodbury City Council meets at 8301 Valley Creek Road; agendas, packets and minutes are posted at woodburymn.gov/AgendaCenter. The general election is Tuesday, November 3, 2026; candidate filing questions go to Deputy City Administrator Angela Gorall.</description>
+TO VERIFY OR PARTICIPATE: Woodbury City Council meets at 8301 Valley Creek Road; agendas, packets and minutes are posted at woodburymn.gov/AgendaCenter. The general election is Tuesday, November 3, 2026; candidate filing questions go to Deputy City Administrator Angela Gorall.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>Anne Burt has been mayor of Woodbury — the largest city in this briefing's coverage area — since January 2019, and her seat is on the November ballot. A factual portrait from the public record and her own words: a chemist and MBA who spent a career in water quality and now oversees the largest capital project in the city's history; how Woodbury's council actually works; and her record this year on the public safety campus, cryptocurrency kiosks, street assessments, and federal immigration enforcement.
 
 WHO SHE IS: Woodbury resident of roughly twenty years; degree in chemistry and an MBA; a long career in business development and marketing with an emphasis on water quality; nearly seven years on the city's park and recreation commission, then the planning commission, then the long-range comprehensive plan task force. Elected mayor in November 2018, succeeding two-term Mayor Mary Giuliani Stephens; re-elected 2022; term expires January 4, 2027.
@@ -191,12 +276,34 @@ SOURCES: City of Woodbury council minutes, January 28, February 25, March 25, Ap
 
 NOT AIRED: no election margins, vote totals or percentages are spoken in this episode. The Republican Eagle account of the mayoral race could not be retrieved (repeated HTTP 429), the Secretary of State's local-results endpoint redirects to a bot-check, and Ballotpedia returned no content — so no margin met the show's verification standard. Details of what was cut and why are in the episode's fact-check record.
 
-TO VERIFY OR PARTICIPATE: Woodbury City Council meets at 8301 Valley Creek Road; agendas, packets and minutes are posted at woodburymn.gov/AgendaCenter. The general election is Tuesday, November 3, 2026; candidate filing questions go to Deputy City Administrator Angela Gorall.</itunes:summary>
-      <pubDate>Wed, 05 Aug 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-05.m4a" length="14140494" type="audio/x-m4a"/>
+TO VERIFY OR PARTICIPATE: Woodbury City Council meets at 8301 Valley Creek Road; agendas, packets and minutes are posted at woodburymn.gov/AgendaCenter. The general election is Tuesday, November 3, 2026; candidate filing questions go to Deputy City Administrator Angela Gorall.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>Anne Burt has been mayor of Woodbury — the largest city in this briefing's coverage area — since January 2019, and her seat is on the November ballot. A factual portrait from the public record and her own words: a chemist and MBA who spent a career in water quality and now oversees the largest capital project in the city's history; how Woodbury's council actually works; and her record this year on the public safety campus, cryptocurrency kiosks, street assessments, and federal immigration enforcement.
+
+WHO SHE IS: Woodbury resident of roughly twenty years; degree in chemistry and an MBA; a long career in business development and marketing with an emphasis on water quality; nearly seven years on the city's park and recreation commission, then the planning commission, then the long-range comprehensive plan task force. Elected mayor in November 2018, succeeding two-term Mayor Mary Giuliani Stephens; re-elected 2022; term expires January 4, 2027.
+
+THE OFFICE: Woodbury's council is the mayor plus four members, all elected at large on a nonpartisan ballot to staggered four-year terms. There is no city primary. The city administrator, Jeffrey Dahl, runs day-to-day operations. The city lists the 2026 mayoral salary at $1,473.42 per month.
+
+ON THE BALLOT: Filing ran July 14–28, 2026. Per the city's official filing list, two candidates filed for mayor — incumbent Anne Burt and John Sebastian. Two of the four council seats are also up. General election Tuesday, November 3, 2026.
+
+THE MONEY IN THIS EPISODE: Permanent water treatment plant — city preliminary estimate about $300 million; roughly 93% expected to be paid from the 2018 3M/State of Minnesota settlement (about $700 million after legal fees); Woodbury's own share expected under $20 million; 20 wells, health advisories on nine as of May 2024; more than 17 miles of new pipeline; 28 million gallons per day; operating in 2028. Public safety campus — low bids about $59.3 million, roughly 3% under the $61 million engineer's estimate; funded primarily by the voter-approved $50 million local option sales tax plus $1.031 million from a U.S. Department of Justice COPS grant; staff reported no tax-levy-supported debt proposed.
+
+SOURCES: City of Woodbury council minutes, January 28, February 25, March 25, April 22 and June 24, 2026 (woodburymn.gov AgendaCenter), including Resolutions 26-15, 26-46 and 26-76; City of Woodbury "City Council Filings" and "Mayor and City Council" pages; City Update newsletter, July 2026 (council structure, filing, salaries); City of Woodbury "Water Treatment" and "Addressing PFAS in Drinking Water" pages; Washington County Community Development Agency community profile for Woodbury (population); League of Minnesota Cities magazine, September–October 2025 (2025 Emerging Leader Award; quotes); Woodbury Magazine, March 2019 (biography; quote); anneburt.com campaign page (quotes); East Metro Voter Guide 2026 (quote); Patch, June 2022 and Wikipedia (Mary Giuliani Stephens tenure, corroboration only).
+
+NOT AIRED: no election margins, vote totals or percentages are spoken in this episode. The Republican Eagle account of the mayoral race could not be retrieved (repeated HTTP 429), the Secretary of State's local-results endpoint redirects to a bot-check, and Ballotpedia returned no content — so no margin met the show's verification standard. Details of what was cut and why are in the episode's fact-check record.
+
+TO VERIFY OR PARTICIPATE: Woodbury City Council meets at 8301 Valley Creek Road; agendas, packets and minutes are posted at woodburymn.gov/AgendaCenter. The general election is Tuesday, November 3, 2026; candidate filing questions go to Deputy City Administrator Angela Gorall.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-08-05.m4a" length="14140494" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-08-05-profile</guid>
       <itunes:duration>10:19</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Digging Deeper: The Lake Elmo–Dresel Contracting Dispute</title>
@@ -206,33 +313,61 @@ SOURCES / DOCUMENTS: Lake Elmo City Council special-meeting agenda, July 7, 2026
 
 HOW TO FOLLOW IT: If Dresel files, the complaint becomes a public court record in Washington County District Court, with the dollar figures and arguments attached. If the city and Dresel settle, a settlement of public money would normally return to the City Council for a vote in open session. Lake Elmo City Council meets the first and third Tuesdays at 7 p.m. at City Hall, 3880 Laverne Avenue North; agendas and minutes are posted on the city's website.
 
-This briefing reports the public record and does not render a verdict.</description>
+This briefing reports the public record and does not render a verdict.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>One issue, followed all the way down. In July 2026 the Lake Elmo City Council held a special meeting whose only business was a closed session "to discuss threatened litigation by Dresel Contracting" — the road contractor the city hired to rebuild Hudson Boulevard. This episode traces the whole record behind that one line: the Hudson Boulevard Improvements Segment A project (a full-depth reclamation of about eight-tenths of a mile of the Interstate 94 commercial frontage road, plus new curb and gutter, storm sewer, an eight-foot trail from Inwood Avenue to Keats Avenue, and a center turn lane); how it moved through the city from 2023 to the June 18, 2024 contract award; the full money trail (an estimated $2,580,000 split among Municipal State Aid of about $1,436,000, a general tax levy of about $706,024, and $437,976 in special assessments on ten commercial frontage businesses at $132 per foot); the schedule overrun the city's own payment records show; and what the closed session does and does not tell the public. What is unknown — the substance of the claim, the dollars in dispute, and whether a lawsuit has been filed — is stated plainly, not guessed.
 
 SOURCES / DOCUMENTS: Lake Elmo City Council special-meeting agenda, July 7, 2026 (closed session re: threatened litigation by Dresel Contracting, Minn. Stat. 13D.05 subd. 3(b)). Hudson Boulevard Improvements Segment A Feasibility Report (Focus Engineering, May 2024) and Project Schedule (Project No. 2023.120), City of Lake Elmo Document Center. Preliminary Assessment Roll, Hudson Boulevard Improvements Segment A (10 commercial properties; total $437,976). Lake Elmo paid-claims list, October 21, 2025 (Segment A invoices). City record of the payment authorization to Dresel Contracting dated December 31, 2024. Better Business Bureau profile, Dresel Contracting, Inc. (Chisago City; established 1972). Resolution 2025-070 (Mayor Charles Cadenhead; City Clerk Julie Johnson). Minnesota Statutes section 13D.05, subdivision 3(b) (Open Meeting Law attorney-client exception). Contract award, June 18, 2024, per the project schedule and city project page; construction contract with Dresel Contracting per the city's Segment A project page.
 
 HOW TO FOLLOW IT: If Dresel files, the complaint becomes a public court record in Washington County District Court, with the dollar figures and arguments attached. If the city and Dresel settle, a settlement of public money would normally return to the City Council for a vote in open session. Lake Elmo City Council meets the first and third Tuesdays at 7 p.m. at City Hall, 3880 Laverne Avenue North; agendas and minutes are posted on the city's website.
 
-This briefing reports the public record and does not render a verdict.</itunes:summary>
-      <pubDate>Fri, 31 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-31.m4a" length="13737511" type="audio/x-m4a"/>
+This briefing reports the public record and does not render a verdict.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>One issue, followed all the way down. In July 2026 the Lake Elmo City Council held a special meeting whose only business was a closed session "to discuss threatened litigation by Dresel Contracting" — the road contractor the city hired to rebuild Hudson Boulevard. This episode traces the whole record behind that one line: the Hudson Boulevard Improvements Segment A project (a full-depth reclamation of about eight-tenths of a mile of the Interstate 94 commercial frontage road, plus new curb and gutter, storm sewer, an eight-foot trail from Inwood Avenue to Keats Avenue, and a center turn lane); how it moved through the city from 2023 to the June 18, 2024 contract award; the full money trail (an estimated $2,580,000 split among Municipal State Aid of about $1,436,000, a general tax levy of about $706,024, and $437,976 in special assessments on ten commercial frontage businesses at $132 per foot); the schedule overrun the city's own payment records show; and what the closed session does and does not tell the public. What is unknown — the substance of the claim, the dollars in dispute, and whether a lawsuit has been filed — is stated plainly, not guessed.
+
+SOURCES / DOCUMENTS: Lake Elmo City Council special-meeting agenda, July 7, 2026 (closed session re: threatened litigation by Dresel Contracting, Minn. Stat. 13D.05 subd. 3(b)). Hudson Boulevard Improvements Segment A Feasibility Report (Focus Engineering, May 2024) and Project Schedule (Project No. 2023.120), City of Lake Elmo Document Center. Preliminary Assessment Roll, Hudson Boulevard Improvements Segment A (10 commercial properties; total $437,976). Lake Elmo paid-claims list, October 21, 2025 (Segment A invoices). City record of the payment authorization to Dresel Contracting dated December 31, 2024. Better Business Bureau profile, Dresel Contracting, Inc. (Chisago City; established 1972). Resolution 2025-070 (Mayor Charles Cadenhead; City Clerk Julie Johnson). Minnesota Statutes section 13D.05, subdivision 3(b) (Open Meeting Law attorney-client exception). Contract award, June 18, 2024, per the project schedule and city project page; construction contract with Dresel Contracting per the city's Segment A project page.
+
+HOW TO FOLLOW IT: If Dresel files, the complaint becomes a public court record in Washington County District Court, with the dollar figures and arguments attached. If the city and Dresel settle, a settlement of public money would normally return to the City Council for a vote in open session. Lake Elmo City Council meets the first and third Tuesdays at 7 p.m. at City Hall, 3880 Laverne Avenue North; agendas and minutes are posted on the city's website.
+
+This briefing reports the public record and does not render a verdict.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-31.m4a" length="13737511" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-31-deep-dive</guid>
       <itunes:duration>9:59</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Profile: Michael Funk, Superintendent of Stillwater Area Public Schools</title>
       <description>This midweek profile introduces Dr. Michael "Mike" Funk, superintendent of Stillwater Area Public Schools since July 2022 — the appointed chief executive who runs the roughly-8,000-student district serving Stillwater, Oak Park Heights, Bayport, Lake Elmo, and communities along the St. Croix. A factual portrait from the public record and his own words: his path from a high-school classroom through 30 years in the Army National Guard (he retired a colonel in 2018) and a long run as Albert Lea's superintendent, to being named 2022 Minnesota Superintendent of the Year and hired unanimously by the Stillwater board; the office of superintendent and how he holds it; the district's finances, including the roughly $5 million gap it worked to close for 2025-26; and his stated leadership beliefs and his November 2025 statement on student safety, all quoted verbatim.
 
-Sources (public record): Stillwater Area Public Schools official site — Superintendent page, "Board selects Dr. Funk as district's next superintendent" (selected unanimously Apr. 8, 2022; start July 1, 2022; Board Chair Alison Sherman quote), "New superintendent is ready to lead" (Funk's three core beliefs and staff message, verbatim), the Nov. 12, 2025 "Statement from Superintendent Mike Funk" (student-safety safeguards, verbatim), and "District To Close $5 Million Budget Gap for 2025-26" (gap size, ~3% of operating budget, READ Act ~$800K); First Student Superintendent-of-the-Year profile (education, career, military); Patch and St. Croix Valley Magazine (Albert Lea record; "Expect the best" quote); Minnesota Association of School Administrators 2022 Superintendent of the Year; Wikipedia (district size/geography). Meeting records are the Stillwater-area district's BoardBook portal (organization 2592).</description>
+Sources (public record): Stillwater Area Public Schools official site — Superintendent page, "Board selects Dr. Funk as district's next superintendent" (selected unanimously Apr. 8, 2022; start July 1, 2022; Board Chair Alison Sherman quote), "New superintendent is ready to lead" (Funk's three core beliefs and staff message, verbatim), the Nov. 12, 2025 "Statement from Superintendent Mike Funk" (student-safety safeguards, verbatim), and "District To Close $5 Million Budget Gap for 2025-26" (gap size, ~3% of operating budget, READ Act ~$800K); First Student Superintendent-of-the-Year profile (education, career, military); Patch and St. Croix Valley Magazine (Albert Lea record; "Expect the best" quote); Minnesota Association of School Administrators 2022 Superintendent of the Year; Wikipedia (district size/geography). Meeting records are the Stillwater-area district's BoardBook portal (organization 2592).
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>This midweek profile introduces Dr. Michael "Mike" Funk, superintendent of Stillwater Area Public Schools since July 2022 — the appointed chief executive who runs the roughly-8,000-student district serving Stillwater, Oak Park Heights, Bayport, Lake Elmo, and communities along the St. Croix. A factual portrait from the public record and his own words: his path from a high-school classroom through 30 years in the Army National Guard (he retired a colonel in 2018) and a long run as Albert Lea's superintendent, to being named 2022 Minnesota Superintendent of the Year and hired unanimously by the Stillwater board; the office of superintendent and how he holds it; the district's finances, including the roughly $5 million gap it worked to close for 2025-26; and his stated leadership beliefs and his November 2025 statement on student safety, all quoted verbatim.
 
-Sources (public record): Stillwater Area Public Schools official site — Superintendent page, "Board selects Dr. Funk as district's next superintendent" (selected unanimously Apr. 8, 2022; start July 1, 2022; Board Chair Alison Sherman quote), "New superintendent is ready to lead" (Funk's three core beliefs and staff message, verbatim), the Nov. 12, 2025 "Statement from Superintendent Mike Funk" (student-safety safeguards, verbatim), and "District To Close $5 Million Budget Gap for 2025-26" (gap size, ~3% of operating budget, READ Act ~$800K); First Student Superintendent-of-the-Year profile (education, career, military); Patch and St. Croix Valley Magazine (Albert Lea record; "Expect the best" quote); Minnesota Association of School Administrators 2022 Superintendent of the Year; Wikipedia (district size/geography). Meeting records are the Stillwater-area district's BoardBook portal (organization 2592).</itunes:summary>
-      <pubDate>Wed, 29 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-29.m4a" length="8107346" type="audio/x-m4a"/>
+Sources (public record): Stillwater Area Public Schools official site — Superintendent page, "Board selects Dr. Funk as district's next superintendent" (selected unanimously Apr. 8, 2022; start July 1, 2022; Board Chair Alison Sherman quote), "New superintendent is ready to lead" (Funk's three core beliefs and staff message, verbatim), the Nov. 12, 2025 "Statement from Superintendent Mike Funk" (student-safety safeguards, verbatim), and "District To Close $5 Million Budget Gap for 2025-26" (gap size, ~3% of operating budget, READ Act ~$800K); First Student Superintendent-of-the-Year profile (education, career, military); Patch and St. Croix Valley Magazine (Albert Lea record; "Expect the best" quote); Minnesota Association of School Administrators 2022 Superintendent of the Year; Wikipedia (district size/geography). Meeting records are the Stillwater-area district's BoardBook portal (organization 2592).
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>This midweek profile introduces Dr. Michael "Mike" Funk, superintendent of Stillwater Area Public Schools since July 2022 — the appointed chief executive who runs the roughly-8,000-student district serving Stillwater, Oak Park Heights, Bayport, Lake Elmo, and communities along the St. Croix. A factual portrait from the public record and his own words: his path from a high-school classroom through 30 years in the Army National Guard (he retired a colonel in 2018) and a long run as Albert Lea's superintendent, to being named 2022 Minnesota Superintendent of the Year and hired unanimously by the Stillwater board; the office of superintendent and how he holds it; the district's finances, including the roughly $5 million gap it worked to close for 2025-26; and his stated leadership beliefs and his November 2025 statement on student safety, all quoted verbatim.
+
+Sources (public record): Stillwater Area Public Schools official site — Superintendent page, "Board selects Dr. Funk as district's next superintendent" (selected unanimously Apr. 8, 2022; start July 1, 2022; Board Chair Alison Sherman quote), "New superintendent is ready to lead" (Funk's three core beliefs and staff message, verbatim), the Nov. 12, 2025 "Statement from Superintendent Mike Funk" (student-safety safeguards, verbatim), and "District To Close $5 Million Budget Gap for 2025-26" (gap size, ~3% of operating budget, READ Act ~$800K); First Student Superintendent-of-the-Year profile (education, career, military); Patch and St. Croix Valley Magazine (Albert Lea record; "Expect the best" quote); Minnesota Association of School Administrators 2022 Superintendent of the Year; Wikipedia (district size/geography). Meeting records are the Stillwater-area district's BoardBook portal (organization 2592).
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-29.m4a" length="8107346" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-29-profile</guid>
       <itunes:duration>5:55</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Week of July 27, 2026: PFAS Water Plant, a Woodbury Road Order, and 647 Homes in Lake Elmo</title>
@@ -252,7 +387,9 @@ THE WEEK AHEAD (meetings &amp; how to weigh in)
 
 SOURCES: Official city, county, and school-district agendas, packets, staff reports, and resolutions — City of Lake Elmo (July 21 regular + special), City of Woodbury (July 22), City of Stillwater (July 21, via Granicus), Washington County (July 28), City of Oakdale (July 28), and Stillwater Area Public Schools (July 28). Full document references are in the build folder.
 
-Produced from a Christian understanding of what matters in public life; it reports the facts and does not tell you what to conclude.</description>
+Produced from a Christian understanding of what matters in public life; it reports the facts and does not tell you what to conclude.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>This week: Lake Elmo advances its PFAS South Water Treatment Plant; Woodbury orders a 2027 street reconstruction and authorizes easement acquisition; a 647-home development comes before the Lake Elmo council; and the county board prepares to spend on courthouse security. Plus a Stillwater water-tower update and the week ahead.
 
 WHAT'S IN THIS EPISODE
@@ -269,26 +406,62 @@ THE WEEK AHEAD (meetings &amp; how to weigh in)
 
 SOURCES: Official city, county, and school-district agendas, packets, staff reports, and resolutions — City of Lake Elmo (July 21 regular + special), City of Woodbury (July 22), City of Stillwater (July 21, via Granicus), Washington County (July 28), City of Oakdale (July 28), and Stillwater Area Public Schools (July 28). Full document references are in the build folder.
 
-Produced from a Christian understanding of what matters in public life; it reports the facts and does not tell you what to conclude.</itunes:summary>
-      <pubDate>Mon, 27 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-27.m4a" length="11441022" type="audio/x-m4a"/>
+Produced from a Christian understanding of what matters in public life; it reports the facts and does not tell you what to conclude.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>This week: Lake Elmo advances its PFAS South Water Treatment Plant; Woodbury orders a 2027 street reconstruction and authorizes easement acquisition; a 647-home development comes before the Lake Elmo council; and the county board prepares to spend on courthouse security. Plus a Stillwater water-tower update and the week ahead.
+
+WHAT'S IN THIS EPISODE
+- Lake Elmo (Tue July 21): Council approved Task Order #33 with Bolton &amp; Menk for $45,000 to finish preliminary design of the South Water Treatment Plant, the next PFAS-removal plant planned on an 8.2-acre site the city is acquiring; the cost is reimbursable through the 3M settlement grant program. Before the meeting, the council met in closed session to weigh offers to buy two properties (one on 34th St. N.).
+- Woodbury (Wed July 22): After a public hearing, the council ordered the 2027 Roadway Reconstruction project (Res. 26-87), hired Bolton &amp; Menk for final design at $374,450, and authorized easement acquisition and, if necessary, condemnation. It also awarded ~$282,505 (Solid Rock, drive-aisle patch/reseal), ~$265,212 (Solid Rock, apparatus-bay roof), and ~$276,255 (Bergerson-Caswell, wells 7 &amp; 16 rehab), and approved a Gold Line maintenance agreement with the Met Council.
+- Lake Elmo (Tue July 21): Limerick Village, the city's largest proposed housing development — 647 homes on ~80 acres east of Manning Ave by Maplewood Development — came before the council on its preliminary plat and PUD. A state 120-day deadline of Aug. 5 requires a decision within two weeks.
+- Stillwater (Tue July 21): Water-tower repaint change order (J.R. Stelzer, +$8,410, total ~$650,690); Washington Square Park pavers (Schifsky, not to exceed $20,000); extension of the Sheriff's-Office records agreement; and an ordinance making the council's Planning Commission seat nonvoting.
+
+THE WEEK AHEAD (meetings &amp; how to weigh in)
+- Washington County Board — Tue July 28, 9:00 a.m., Government Center, 14949 62nd St. N., Stillwater. Agenda: courthouse security upgrades ($434,908.66, Parallel Technologies); ERP software study ($299,300, Plante Moran); a Land &amp; Water Legacy conservation easement on 27 acres in Marine on St. Croix; and a 2027 budget workshop for the county's Community Development Agency. Public comment at the start of the meeting; comment cards to the County Board Clerk. Agenda: washingtoncountymn.gov/AgendaCenter
+- Oakdale City Council — Tue July 28, 7:00 p.m. public hearings, 1584 Hadley Ave. N. Agenda: purchase-and-development agreement with Tanners Lake L.L.C.; award of the Willowbrooke Fields restroom/shelter contract (Res. 2026-49) plus ~$99,000 in shade umbrellas; public hearings on a new tobacco license and a secondhand-goods dealer renewal; claims of ~$1,702,657.72. Special workshop Wed July 29. Agenda: oakdalemn.gov/AgendaCenter
+- Stillwater-area school board (Stillwater Area Public Schools) — Tue July 28, 5:30 p.m., Oak Park Learning Center, 6355 Osman Ave. N., Stillwater. Student handbook; annual policy reviews (student discipline, public-data requests, crisis management, student technology); first reading of an off-campus-activities policy; closed sessions on a real-property matter and the superintendent's performance review. Up to 15 public speakers, 3 minutes each. Chair Alison Sherman; Supt. Michael Funk. Agenda: meetings.boardbook.org/Public/Organization/2592
+- Lake Elmo City Council — next meets Tue Aug. 4 (the Aug. 5 statutory deadline on Limerick Village falls that week). Agendas: lakeelmo.gov/AgendaCenter
+
+SOURCES: Official city, county, and school-district agendas, packets, staff reports, and resolutions — City of Lake Elmo (July 21 regular + special), City of Woodbury (July 22), City of Stillwater (July 21, via Granicus), Washington County (July 28), City of Oakdale (July 28), and Stillwater Area Public Schools (July 28). Full document references are in the build folder.
+
+Produced from a Christian understanding of what matters in public life; it reports the facts and does not tell you what to conclude.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-27.m4a" length="11441022" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-27-news</guid>
       <itunes:duration>8:21</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Profile: Karla Bigham, Washington County Board Chair</title>
       <description>A factual portrait of Karla Bigham, the 2026 chair of the Washington County Board of Commissioners and the commissioner for the county's southern district (Cottage Grove, Newport, St. Paul Park, Denmark and Grey Cloud Island townships, the county's share of Hastings, and one precinct of Woodbury). A lifelong Washington County resident from Cottage Grove, Bigham has served at nearly every level of Minnesota government: the Cottage Grove City Council (2005-2007), the Minnesota House (2007-2011), the Washington County Board (2015-2018), and the Minnesota Senate (2018-2023) before winning her current county seat in 2022 by about 51% over Republican Keith Franke. Her colleagues elected her board chair on Jan. 6, 2026, with Bethany Cox as vice chair. Told from the public record and her own words.
 
-Sources: Washington County official website — County Board of Commissioners page and District 4 Commissioner Karla Bigham page (biography, committee assignments, district description, 2026 chair role); Washington County Board of Commissioners official minutes, June 23, 2026 (confirming Board Chair Bigham presiding; board roster; County Administrator Kevin Corbid); news coverage of the Jan. 6, 2026 board reorganization electing Bigham chair and Cox vice chair (hometownsource / Stillwater Gazette; Country Messenger); Wikipedia and Ballotpedia (career timeline, offices, party); Patch (Feb. 22, 2022) — Bigham's announcement she would run for the county board rather than seek Senate re-election, with her own words; Yahoo/news coverage of her narrow 2022 county board win (~51% over Keith Franke) with her election-night statement; Karla Bigham campaign page (karlabigham.com) — her own description of her role and stated priorities. County 2026 priorities (infrastructure, public safety, economic development, human services, education) per county reporting. All quotes are Bigham's own words, verified word-for-word against the cited public statements and campaign page. State legislative and county district numbers are not read on air per the show's plain-language style.</description>
+Sources: Washington County official website — County Board of Commissioners page and District 4 Commissioner Karla Bigham page (biography, committee assignments, district description, 2026 chair role); Washington County Board of Commissioners official minutes, June 23, 2026 (confirming Board Chair Bigham presiding; board roster; County Administrator Kevin Corbid); news coverage of the Jan. 6, 2026 board reorganization electing Bigham chair and Cox vice chair (hometownsource / Stillwater Gazette; Country Messenger); Wikipedia and Ballotpedia (career timeline, offices, party); Patch (Feb. 22, 2022) — Bigham's announcement she would run for the county board rather than seek Senate re-election, with her own words; Yahoo/news coverage of her narrow 2022 county board win (~51% over Keith Franke) with her election-night statement; Karla Bigham campaign page (karlabigham.com) — her own description of her role and stated priorities. County 2026 priorities (infrastructure, public safety, economic development, human services, education) per county reporting. All quotes are Bigham's own words, verified word-for-word against the cited public statements and campaign page. State legislative and county district numbers are not read on air per the show's plain-language style.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>A factual portrait of Karla Bigham, the 2026 chair of the Washington County Board of Commissioners and the commissioner for the county's southern district (Cottage Grove, Newport, St. Paul Park, Denmark and Grey Cloud Island townships, the county's share of Hastings, and one precinct of Woodbury). A lifelong Washington County resident from Cottage Grove, Bigham has served at nearly every level of Minnesota government: the Cottage Grove City Council (2005-2007), the Minnesota House (2007-2011), the Washington County Board (2015-2018), and the Minnesota Senate (2018-2023) before winning her current county seat in 2022 by about 51% over Republican Keith Franke. Her colleagues elected her board chair on Jan. 6, 2026, with Bethany Cox as vice chair. Told from the public record and her own words.
 
-Sources: Washington County official website — County Board of Commissioners page and District 4 Commissioner Karla Bigham page (biography, committee assignments, district description, 2026 chair role); Washington County Board of Commissioners official minutes, June 23, 2026 (confirming Board Chair Bigham presiding; board roster; County Administrator Kevin Corbid); news coverage of the Jan. 6, 2026 board reorganization electing Bigham chair and Cox vice chair (hometownsource / Stillwater Gazette; Country Messenger); Wikipedia and Ballotpedia (career timeline, offices, party); Patch (Feb. 22, 2022) — Bigham's announcement she would run for the county board rather than seek Senate re-election, with her own words; Yahoo/news coverage of her narrow 2022 county board win (~51% over Keith Franke) with her election-night statement; Karla Bigham campaign page (karlabigham.com) — her own description of her role and stated priorities. County 2026 priorities (infrastructure, public safety, economic development, human services, education) per county reporting. All quotes are Bigham's own words, verified word-for-word against the cited public statements and campaign page. State legislative and county district numbers are not read on air per the show's plain-language style.</itunes:summary>
-      <pubDate>Wed, 22 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-22.m4a" length="8417289" type="audio/x-m4a"/>
+Sources: Washington County official website — County Board of Commissioners page and District 4 Commissioner Karla Bigham page (biography, committee assignments, district description, 2026 chair role); Washington County Board of Commissioners official minutes, June 23, 2026 (confirming Board Chair Bigham presiding; board roster; County Administrator Kevin Corbid); news coverage of the Jan. 6, 2026 board reorganization electing Bigham chair and Cox vice chair (hometownsource / Stillwater Gazette; Country Messenger); Wikipedia and Ballotpedia (career timeline, offices, party); Patch (Feb. 22, 2022) — Bigham's announcement she would run for the county board rather than seek Senate re-election, with her own words; Yahoo/news coverage of her narrow 2022 county board win (~51% over Keith Franke) with her election-night statement; Karla Bigham campaign page (karlabigham.com) — her own description of her role and stated priorities. County 2026 priorities (infrastructure, public safety, economic development, human services, education) per county reporting. All quotes are Bigham's own words, verified word-for-word against the cited public statements and campaign page. State legislative and county district numbers are not read on air per the show's plain-language style.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>A factual portrait of Karla Bigham, the 2026 chair of the Washington County Board of Commissioners and the commissioner for the county's southern district (Cottage Grove, Newport, St. Paul Park, Denmark and Grey Cloud Island townships, the county's share of Hastings, and one precinct of Woodbury). A lifelong Washington County resident from Cottage Grove, Bigham has served at nearly every level of Minnesota government: the Cottage Grove City Council (2005-2007), the Minnesota House (2007-2011), the Washington County Board (2015-2018), and the Minnesota Senate (2018-2023) before winning her current county seat in 2022 by about 51% over Republican Keith Franke. Her colleagues elected her board chair on Jan. 6, 2026, with Bethany Cox as vice chair. Told from the public record and her own words.
+
+Sources: Washington County official website — County Board of Commissioners page and District 4 Commissioner Karla Bigham page (biography, committee assignments, district description, 2026 chair role); Washington County Board of Commissioners official minutes, June 23, 2026 (confirming Board Chair Bigham presiding; board roster; County Administrator Kevin Corbid); news coverage of the Jan. 6, 2026 board reorganization electing Bigham chair and Cox vice chair (hometownsource / Stillwater Gazette; Country Messenger); Wikipedia and Ballotpedia (career timeline, offices, party); Patch (Feb. 22, 2022) — Bigham's announcement she would run for the county board rather than seek Senate re-election, with her own words; Yahoo/news coverage of her narrow 2022 county board win (~51% over Keith Franke) with her election-night statement; Karla Bigham campaign page (karlabigham.com) — her own description of her role and stated priorities. County 2026 priorities (infrastructure, public safety, economic development, human services, education) per county reporting. All quotes are Bigham's own words, verified word-for-word against the cited public statements and campaign page. State legislative and county district numbers are not read on air per the show's plain-language style.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-22.m4a" length="8417289" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-22-profile</guid>
       <itunes:duration>6:10</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Digging Deeper: Stillwater's Parks Master Plan</title>
@@ -302,7 +475,9 @@ Who approved the plan: the Parks and Recreation Commission adopted it June 22, 2
 
 What it recommends and costs: dozens of projects sorted into immediate / short-term / mid-term / long-term timelines, each with an order-of-magnitude cost range in 2026 dollars ($ = &lt;=$25k; $$ = $25k-100k; $$$ = $100k-500k; $$$$ = $500k+). No single grand total, by design. Immediate (2026-2027, already in the CIP): website park maps and one added full-time maintenance employee; a study of a possible full-size youth ballfield at Washington Ave &amp; Orleans St. Short-term: an accessibility study and a wayfinding/signage plan. Mid-term: an inclusive-playground study. Funding paths: grants (DNR, Legacy), partnerships, donations, transportation funds, and larger levers — bonding, a dedicated parks levy, or a local option sales tax (the last two requiring a public vote); the plan frames the choice as incremental CIP increases vs. a large dedicated source, and leaves the decision to the council.
 
-Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).</description>
+Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>The Stillwater City Council approved a new Parks Master Plan on July 7, 2026. This Digging Deeper follows it all the way down: what a master plan is, how it started, who produced it, what it cost, what it recommends, and how the city intends to pay for any of it.
 
 What it is: a long-range guiding document for Stillwater's park system of more than 40 parks and open spaces, prepared by the Minneapolis planning firm HKGi, dated July 2026, intended to guide the parks for the next 20 years and to inform the parks chapter of the city's comprehensive plan.
@@ -313,12 +488,30 @@ Who approved the plan: the Parks and Recreation Commission adopted it June 22, 2
 
 What it recommends and costs: dozens of projects sorted into immediate / short-term / mid-term / long-term timelines, each with an order-of-magnitude cost range in 2026 dollars ($ = &lt;=$25k; $$ = $25k-100k; $$$ = $100k-500k; $$$$ = $500k+). No single grand total, by design. Immediate (2026-2027, already in the CIP): website park maps and one added full-time maintenance employee; a study of a possible full-size youth ballfield at Washington Ave &amp; Orleans St. Short-term: an accessibility study and a wayfinding/signage plan. Mid-term: an inclusive-playground study. Funding paths: grants (DNR, Legacy), partnerships, donations, transportation funds, and larger levers — bonding, a dedicated parks levy, or a local option sales tax (the last two requiring a public vote); the plan frames the choice as incremental CIP increases vs. a large dedicated source, and leaves the decision to the council.
 
-Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).</itunes:summary>
-      <pubDate>Fri, 17 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-17.m4a" length="14610833" type="audio/x-m4a"/>
+Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>The Stillwater City Council approved a new Parks Master Plan on July 7, 2026. This Digging Deeper follows it all the way down: what a master plan is, how it started, who produced it, what it cost, what it recommends, and how the city intends to pay for any of it.
+
+What it is: a long-range guiding document for Stillwater's park system of more than 40 parks and open spaces, prepared by the Minneapolis planning firm HKGi, dated July 2026, intended to guide the parks for the next 20 years and to inform the parks chapter of the city's comprehensive plan.
+
+The money to write it: the city issued an RFP in spring 2025; nine firms bid, from about $84,000 to $182,344; HKGi was selected and its proposal was $97,300, against a $100,000 budget, paid from the Parks Fund. The council approved the professional-services agreement on July 1, 2025.
+
+Who approved the plan: the Parks and Recreation Commission adopted it June 22, 2026; the City Council approved it July 7, 2026 at a 4:30 p.m. workshop, on a motion by Councilmember Larry Odebrecht, seconded by Councilmember Ryan Collins, unanimous (Mayor Ted Kozlowski and members Collins, Lindsay Belland, Odebrecht, and Michael Polehna present). Consultant Sarah Evenson of HKGi presented; Assistant City Administrator Shawn Sanders was staff lead.
+
+What it recommends and costs: dozens of projects sorted into immediate / short-term / mid-term / long-term timelines, each with an order-of-magnitude cost range in 2026 dollars ($ = &lt;=$25k; $$ = $25k-100k; $$$ = $100k-500k; $$$$ = $500k+). No single grand total, by design. Immediate (2026-2027, already in the CIP): website park maps and one added full-time maintenance employee; a study of a possible full-size youth ballfield at Washington Ave &amp; Orleans St. Short-term: an accessibility study and a wayfinding/signage plan. Mid-term: an inclusive-playground study. Funding paths: grants (DNR, Legacy), partnerships, donations, transportation funds, and larger levers — bonding, a dedicated parks levy, or a local option sales tax (the last two requiring a public vote); the plan frames the choice as incremental CIP increases vs. a large dedicated source, and leaves the decision to the council.
+
+Sources / documents: City of Stillwater Parks Master Plan (Final, July 2026) and the July 7, 2026 staff report by Assistant City Administrator Shawn Sanders (Granicus meta_id 149116); City Council minutes for July 7, 2026 (workshop, Granicus meta_id 149227, in the July 21, 2026 packet); July 1, 2025 City Council agenda and the Parks Master Plan Professional Services Agreement staff report (Granicus meta_id 141850); Stillwater's Granicus meeting portal (view_id 3).
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-17.m4a" length="14610833" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-17-deep-dive</guid>
       <itunes:duration>10:32</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Week of July 13, 2026: County Road-and-Design Money, Woodbury's Bailey West, and Oakdale's PFAS Grants</title>
@@ -338,7 +531,9 @@ HOW TO GET INVOLVED / THE WEEK AHEAD
 - Stillwater: Heritage Preservation Commission, Wed, July 15; City Council, Tue, July 21, 7:00 PM, Stillwater City Hall; Planning Commission, July 22; Parks &amp; Recreation Commission, July 27.
 - Minnesota statewide primary election: Tue, Aug. 11. Cities across the area appointed election judges this week.
 
-Sources: official meeting agendas, packets, and staff reports from Washington County, and the cities of Woodbury, Lake Elmo, and Oakdale, plus the City of Stillwater's public meeting calendar. Approved minutes for this week's July 7–9 meetings were not yet posted at publication, so outcomes are reported as agenda business rather than final votes, except where a body's own recorded recommendation is cited.</description>
+Sources: official meeting agendas, packets, and staff reports from Washington County, and the cities of Woodbury, Lake Elmo, and Oakdale, plus the City of Stillwater's public meeting calendar. Approved minutes for this week's July 7–9 meetings were not yet posted at publication, so outcomes are reported as agenda business rather than final votes, except where a body's own recorded recommendation is cited.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>This week's civic news across the Stillwater–Oakdale area: Washington County lines up road and engineering money at its July 7 board meeting; Woodbury holds a public hearing on the Bailey West rezoning and plat; Lake Elmo receives its 2025 audit and keeps its street projects moving; and Oakdale prepares to accept nearly $2.4 million in state grants to keep treating its drinking water for PFAS.
 
 WHAT HAPPENED THIS WEEK
@@ -355,26 +550,62 @@ HOW TO GET INVOLVED / THE WEEK AHEAD
 - Stillwater: Heritage Preservation Commission, Wed, July 15; City Council, Tue, July 21, 7:00 PM, Stillwater City Hall; Planning Commission, July 22; Parks &amp; Recreation Commission, July 27.
 - Minnesota statewide primary election: Tue, Aug. 11. Cities across the area appointed election judges this week.
 
-Sources: official meeting agendas, packets, and staff reports from Washington County, and the cities of Woodbury, Lake Elmo, and Oakdale, plus the City of Stillwater's public meeting calendar. Approved minutes for this week's July 7–9 meetings were not yet posted at publication, so outcomes are reported as agenda business rather than final votes, except where a body's own recorded recommendation is cited.</itunes:summary>
-      <pubDate>Mon, 13 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-13.m4a" length="9244826" type="audio/x-m4a"/>
+Sources: official meeting agendas, packets, and staff reports from Washington County, and the cities of Woodbury, Lake Elmo, and Oakdale, plus the City of Stillwater's public meeting calendar. Approved minutes for this week's July 7–9 meetings were not yet posted at publication, so outcomes are reported as agenda business rather than final votes, except where a body's own recorded recommendation is cited.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>This week's civic news across the Stillwater–Oakdale area: Washington County lines up road and engineering money at its July 7 board meeting; Woodbury holds a public hearing on the Bailey West rezoning and plat; Lake Elmo receives its 2025 audit and keeps its street projects moving; and Oakdale prepares to accept nearly $2.4 million in state grants to keep treating its drinking water for PFAS.
+
+WHAT HAPPENED THIS WEEK
+- Washington County Board (Tue, July 7): a $2,280,159 engineering/design contract with Short Elliott Hendrickson for the County Road 19A / 100th Street realignment; budget amendments (about $408,000 and $1,458,000, largely from the county's turnback fund) plus a $407,850 Kimley-Horn design amendment and a right-of-way resolution for the Century North reconstruction; and 8.0 new full-time positions in Community Services (access, aging, disability). Context: in June the board awarded a ~$27.3 million construction contract to Ames Construction for the Lake Elmo Avenue / Highway 36 intersection.
+- Woodbury City Council (Wed, July 8): a public hearing on the Bailey West project — a comprehensive-plan change, a rezoning out of Business Campus District into R-4 Urban Residential and B-3 Planned Shopping Center (Ordinance 2080), and preliminary/final plat approval; the Planning Commission had recommended approval 6-0. The ~185-acre master plan also makes room for New Life Academy, which is acquiring a parcel to expand its athletic and recreation fields. Also: setting a hearing on the 2027 street reconstruction, a $104,994 Metropolitan Council sewer grant, new cardiac monitors, election judges for the Aug. 11 primary, and about $7.8 million in bills.
+- Lake Elmo City Council (Tue, July 7): presented the city's 2025 audited financial statements; first amendments to the development agreements for the Lake Elmo Elementary and Oak Land Middle School sites; the 2026 seal-coat and striping contract awards; a pay request on new Test Well 6; a full-time firefighter hire; election judges; and a first cooperative payment toward the Highway 36 / Lake Elmo Avenue interchange.
+- Oakdale Planning Commission (Thu, July 9): changes to the Oakdale Marketplace planned development, including dropping a restaurant requirement, forwarded to the City Council.
+- Oakdale (on the July 14 council agenda): accept $1,929,000 from the MPCA and DNR to operate and maintain PFAS filtration on wells 5, 7, and 9; $480,000 for water-treatment-plant planning and design; and bidding work for two new wells (11 and 12). Staff tie the work to 3M PFAS settlement money.
+
+HOW TO GET INVOLVED / THE WEEK AHEAD
+- Washington County Board: Tue, July 14, 9:00 AM, County Board Room, Government Center, 14949 62nd St N, Stillwater. Agenda includes a $1,200,000 state homeless-prevention grant (FHPAP), a Safe Routes to School project near Grant and the Mahtomedi schools (a $381,529.77 contract with Dresel Contracting), and a Private Well Protection Grant application. Public comment period; a comment card is filled out before the meeting.
+- Oakdale City Council: Tue, July 14, 7:00 PM, Oakdale City Hall, 1584 Hadley Ave N — the PFAS water grants, a new Tower Park playground, and about $5 million in claims.
+- Lake Elmo City Council: special meeting and workshop, Tue, July 14, 3880 Laverne Ave N.
+- Stillwater: Heritage Preservation Commission, Wed, July 15; City Council, Tue, July 21, 7:00 PM, Stillwater City Hall; Planning Commission, July 22; Parks &amp; Recreation Commission, July 27.
+- Minnesota statewide primary election: Tue, Aug. 11. Cities across the area appointed election judges this week.
+
+Sources: official meeting agendas, packets, and staff reports from Washington County, and the cities of Woodbury, Lake Elmo, and Oakdale, plus the City of Stillwater's public meeting calendar. Approved minutes for this week's July 7–9 meetings were not yet posted at publication, so outcomes are reported as agenda business rather than final votes, except where a body's own recorded recommendation is cited.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-13.m4a" length="9244826" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-13-news</guid>
       <itunes:duration>6:47</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Profile: Ted Kozlowski, Mayor of Stillwater</title>
       <description>A factual portrait of Ted Kozlowski, mayor of Stillwater since 2014, drawn from the public record and his own words. Covers his upbringing and digital-marketing career, Stillwater's mayor-council-administrator form of government, his 2012 council election and his 2014, 2018, and 2022 mayoral elections (with margins), and his record on the downtown riverfront and the St. Croix Crossing project, quoted from his own public statements.
 
-Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.</description>
+Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>A factual portrait of Ted Kozlowski, mayor of Stillwater since 2014, drawn from the public record and his own words. Covers his upbringing and digital-marketing career, Stillwater's mayor-council-administrator form of government, his 2012 council election and his 2014, 2018, and 2022 mayoral elections (with margins), and his record on the downtown riverfront and the St. Croix Crossing project, quoted from his own public statements.
 
-Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.</itunes:summary>
-      <pubDate>Sat, 11 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-11.m4a" length="7840943" type="audio/x-m4a"/>
+Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>A factual portrait of Ted Kozlowski, mayor of Stillwater since 2014, drawn from the public record and his own words. Covers his upbringing and digital-marketing career, Stillwater's mayor-council-administrator form of government, his 2012 council election and his 2014, 2018, and 2022 mayoral elections (with margins), and his record on the downtown riverfront and the St. Croix Crossing project, quoted from his own public statements.
+
+Sources: 2014 Stillwater mayoral election coverage, Stillwater Gazette / hometownsource.com ("Kozlowski will be the 50th mayor of Stillwater" and 2022 local election results); 2022 election totals and Stillwater city-government structure via Ballotpedia and the City of Stillwater; Chestnut Street Plaza remarks quoted from KSTP (2023); career background from DemandQuest / the mayor's own published biography; council roster and City Administrator Joe Kohlmann via the City of Stillwater. His Japan (2023) and Taiwan (2019) delegate roles are attributed to his own published biography.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-11.m4a" length="7840943" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-11-profile</guid>
       <itunes:duration>5:42</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Digging Deeper: The Stillwater Parks Master Plan</title>
@@ -390,7 +621,9 @@ HOW TO FOLLOW IT
 - The plan and the July 7 council packet are on the city's Granicus meeting portal (cityofstillwater.granicus.com). The final council vote will appear in the July 7, 2026 City Council minutes once approved and posted — typically at a following meeting.
 - Stillwater City Council next meets Tuesday, July 21, 2026. The Parks and Recreation Commission next meets July 27, 2026.
 
-Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.</description>
+Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>One local issue, followed all the way down: Stillwater's new Parks Master Plan — the 20-year, system-wide study of the city's 44 parks and open spaces that went to the City Council for adoption on July 7, 2026. How it started (a 2025 request for proposals, nine bids from $84,000 to about $182,000, and a $97,300 contract with the Minneapolis firm HKGi paid from the Parks Fund), what the study found and what residents asked for (a pool or splash pad, urban agriculture, trail connections and wayfinding, accessibility, and upkeep), what it prioritizes, and the money question it hands to elected officials — whether to fund parks incrementally out of the general fund or ask voters for a levy or local sales tax. The plan carries no single price tag by design; it tags projects with cost ranges and phases them over 20 years. Where it stands: approved by the Parks and Recreation Commission on June 22 and recommended for adoption on July 7; the final council vote is not yet in the posted public record.
 
 SOURCES / DOCUMENTS
@@ -403,12 +636,32 @@ HOW TO FOLLOW IT
 - The plan and the July 7 council packet are on the city's Granicus meeting portal (cityofstillwater.granicus.com). The final council vote will appear in the July 7, 2026 City Council minutes once approved and posted — typically at a following meeting.
 - Stillwater City Council next meets Tuesday, July 21, 2026. The Parks and Recreation Commission next meets July 27, 2026.
 
-Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.</itunes:summary>
-      <pubDate>Fri, 10 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-10.m4a" length="14046891" type="audio/x-m4a"/>
+Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>One local issue, followed all the way down: Stillwater's new Parks Master Plan — the 20-year, system-wide study of the city's 44 parks and open spaces that went to the City Council for adoption on July 7, 2026. How it started (a 2025 request for proposals, nine bids from $84,000 to about $182,000, and a $97,300 contract with the Minneapolis firm HKGi paid from the Parks Fund), what the study found and what residents asked for (a pool or splash pad, urban agriculture, trail connections and wayfinding, accessibility, and upkeep), what it prioritizes, and the money question it hands to elected officials — whether to fund parks incrementally out of the general fund or ask voters for a levy or local sales tax. The plan carries no single price tag by design; it tags projects with cost ranges and phases them over 20 years. Where it stands: approved by the Parks and Recreation Commission on June 22 and recommended for adoption on July 7; the final council vote is not yet in the posted public record.
+
+SOURCES / DOCUMENTS
+- Stillwater Parks Master Plan, Final Document, July 2026 (163 pp) — attached to the July 7, 2026 City Council packet via the city's Granicus portal (MetaViewer meta_id 149116). Source of the vision, needs assessment, per-park recommendations, phasing/cost ranges, funding chapter, and staffing recommendation.
+- July 7, 2026 staff report, "Stillwater Parks Master Plan Approval," Assistant City Administrator Shawn Sanders — HKGi hired July 2025; more than 40 parks; Park &amp; Recreation Board approval June 22; HKGi presentation at the 4:30 p.m. workshop; staff recommendation to "review, discuss and approve."
+- July 1, 2025 staff report and Professional Services Agreement (Granicus council agenda clip_id 1842, item 30; document meta_id 141850) — request for proposals; nine proposals ranging $84,000 to $182,344; HKGi selected at $97,300; budgeted $100,000 from the Parks Fund; nine-month timeline.
+- Prior planning referenced within the master plan: Lowell Park Master Plan (2012), Bridgeview Park Master Plan (2015), Lumberjack Landing design work (HKGi), and the City of Stillwater 2040 Comprehensive Plan (2019), parks and trails chapter.
+
+HOW TO FOLLOW IT
+- The plan and the July 7 council packet are on the city's Granicus meeting portal (cityofstillwater.granicus.com). The final council vote will appear in the July 7, 2026 City Council minutes once approved and posted — typically at a following meeting.
+- Stillwater City Council next meets Tuesday, July 21, 2026. The Parks and Recreation Commission next meets July 27, 2026.
+
+Sources: official City of Stillwater agendas, meeting packets, staff reports, and the final plan document.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-10.m4a" length="14046891" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-10-deep-dive</guid>
       <itunes:duration>10:07</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
       <title>Week of July 6, 2026: County Road Money, Stillwater's Packet, and Two New Cities</title>
@@ -425,7 +678,9 @@ HOW TO GET INVOLVED
 - Stuff the Bus school-supply help: register through July 23 at uwwce.org/stuff-the-bus.
 - Also coming up: Woodbury 2027 road-reconstruction public hearing July 22; County Board and Oakdale City Council July 14; Stillwater City Council July 21; Stillwater school board July 28.
 
-Hosted by Artie Fishel. Sources: official city, county, and school-district agendas, meeting packets, and staff reports.</description>
+Sources: official city, county, and school-district agendas, meeting packets, and staff reports.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</description>
       <itunes:summary>Going deeper this week: Washington County votes on ~$4 million in road work (July 7); Stillwater's council packet has a new Parks Master Plan, two paving contracts to Miller Excavating, a water-tower painting change order now at ~$642K (tied to the city's PFAS response), and a school resource officer renewal; Lake Elmo holds a closed session on threatened litigation and receives its 2025 audit; and Woodbury weighs the Bailey West rezoning/plat at a public hearing. Plus Oakdale's City Hall rebuild and the Stillwater district's sports-fee and class-size changes.
 
 HOW TO GET INVOLVED
@@ -439,12 +694,33 @@ HOW TO GET INVOLVED
 - Stuff the Bus school-supply help: register through July 23 at uwwce.org/stuff-the-bus.
 - Also coming up: Woodbury 2027 road-reconstruction public hearing July 22; County Board and Oakdale City Council July 14; Stillwater City Council July 21; Stillwater school board July 28.
 
-Hosted by Artie Fishel. Sources: official city, county, and school-district agendas, meeting packets, and staff reports.</itunes:summary>
-      <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-06.m4a" length="9548415" type="audio/x-m4a"/>
+Sources: official city, county, and school-district agendas, meeting packets, and staff reports.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</itunes:summary>
+      <content:encoded>Going deeper this week: Washington County votes on ~$4 million in road work (July 7); Stillwater's council packet has a new Parks Master Plan, two paving contracts to Miller Excavating, a water-tower painting change order now at ~$642K (tied to the city's PFAS response), and a school resource officer renewal; Lake Elmo holds a closed session on threatened litigation and receives its 2025 audit; and Woodbury weighs the Bailey West rezoning/plat at a public hearing. Plus Oakdale's City Hall rebuild and the Stillwater district's sports-fee and class-size changes.
+
+HOW TO GET INVOLVED
+- Washington County Board: Tue, July 7, 9:00 AM, County Board Room, Government Center, Stillwater. Public comment period; fill out a comment card before the meeting.
+- Stillwater City Council: Tue, July 7, workshop 4:30 PM / regular 7:00 PM, Stillwater City Hall.
+- Lake Elmo City Council: Tue, July 7, closed session 6:00 PM / regular 7:00 PM, 3880 Laverne Ave N.
+- Woodbury City Council: Wed, July 8, 7:30 PM, 8301 Valley Creek Rd — includes the Bailey West public hearing.
+- Oakdale Planning Commission: Thu, July 9; two public hearings scheduled.
+- County online comment windows (washingtoncountymn.gov): proposed Middle St. Croix Valley-to-Phalen-Keller regional trail closes July 10; County Road 10/17 intersection near Lake Elmo closes July 12.
+- Stillwater middle-school sports fee: the final amount is set before mid-July registration; watch the district's Community Education page.
+- Stuff the Bus school-supply help: register through July 23 at uwwce.org/stuff-the-bus.
+- Also coming up: Woodbury 2027 road-reconstruction public hearing July 22; County Board and Oakdale City Council July 14; Stillwater City Council July 21; Stillwater school board July 28.
+
+Sources: official city, county, and school-district agendas, meeting packets, and staff reports.
+
+Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.</content:encoded>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <link>https://ncolestock.github.io/stillwater-civic-briefing/podcast/</link>
+      <itunes:image href="https://ncolestock.github.io/stillwater-civic-briefing/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/stillwater-civic-briefing/episodes/2026-07-06.m4a" length="9548415" type="audio/x-m4a" />
       <guid isPermaLink="false">stillwater-civic-briefing-2026-07-06</guid>
       <itunes:duration>6:50</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
 </rss>

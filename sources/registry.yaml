@@ -1,0 +1,142 @@
+# Live-probed 2026-09-21 from this Mac. Status is the HTTP result that morning.
+# Cloud automations fetch these URLs. They do not run local scripts.
+# If a URL is a challenge page or a 404, skip that body and say so. Do not invent a packet.
+
+probed: 2026-09-21
+
+meetings:
+  - id: stillwater-city-site
+    name: Stillwater MN agendas page
+    url: https://www.stillwatermn.gov/city-government/meeting-agendas-minutes-and-material
+    status: 403
+    note: Akamai "Access Denied". Use Granicus.
+  - id: stillwater-granicus
+    name: Stillwater Granicus
+    url: https://cityofstillwater.granicus.com/ViewPublisher.php?view_id=3
+    status: 200
+    note: "Upcoming on 2026-09-21 included Planning Commission event_id=1440 (Sept. 23) and Parks and Recreation (Sept. 28). Next city council row was Oct. 6."
+  - id: lake-elmo
+    name: Lake Elmo AgendaCenter
+    url: https://www.lakeelmo.gov/AgendaCenter
+    status: 403
+    note: Cloudflare challenge page. No packet read. Do not guess a ViewFile id.
+  - id: oakdale
+    name: Oakdale AgendaCenter
+    url: https://www.oakdalemn.gov/AgendaCenter
+    status: 200
+    note: "Sept. 22, 2026 council packet ViewFile/Agenda/_09222026-916"
+  - id: woodbury
+    name: Woodbury AgendaCenter
+    url: https://woodburymn.gov/AgendaCenter
+    status: 403
+    note: Cloudflare challenge page. No packet read.
+  - id: bayport
+    name: Bayport
+    url: https://www.bayportmn.gov/
+    status: 200
+    note: "Homepage 200. /AgendaCenter, /calendar, and /government returned HTTP 500. No packet."
+  - id: oak-park-heights
+    name: Oak Park Heights
+    url: https://www.cityofoakparkheights.com/
+    status: 200
+    note: "Packet index https://www.cityofoakparkheights.com/index.asp?SEC=45988DE3-E57E-421C-9369-73A9A8AFF5DE returned 200 and no PDF links. /AgendaCenter returned 404."
+  - id: washington-county-page
+    name: Washington County agendas page
+    url: https://www.washingtoncountymn.gov/283/Agendas-and-Minutes
+    status: 200
+  - id: washington-county
+    name: Washington County AgendaCenter
+    url: https://www.washingtoncountymn.gov/AgendaCenter
+    status: 200
+    note: "Sept. 22, 2026 board agenda _09222026-1946 (258 KB) and packet _09222026-1945 (30 MB)."
+  - id: hudson
+    name: Hudson WI AgendaCenter
+    url: https://www.hudsonwi.gov/AgendaCenter
+    status: 200
+    note: "Search from 09/14/2026 to 09/28/2026 returned no results. Static HTML on the landing page listed years through 2023."
+  - id: town-of-hudson
+    name: Town of Hudson WI
+    url: https://townofhudsonwi.com/
+    status: 200
+    note: "Calendar listed a Plan Commission meeting Sept. 21, 2026 at 6 p.m. and a public hearing Sept. 23. No packet file was fetched. /AgendaCenter on this host returned 404."
+  - id: st-croix-county
+    name: St. Croix County AgendaCenter
+    url: https://www.sccwi.gov/AgendaCenter
+    status: 200
+    note: Listing page returned. No September 2026 packet was opened for the seed stories.
+
+schools:
+  - id: isd-834
+    name: Stillwater Area Public Schools BoardBook
+    url: https://meetings.boardbook.org/Public/Organization/2592
+    status: 200
+    note: "Business meeting Sept. 22, 2026, meeting=765266."
+  - id: isd-622
+    name: North St. Paul-Maplewood-Oakdale BoardBook
+    url: https://meetings.boardbook.org/Public/Organization/1069
+    status: 200
+    note: "Latest 2026 meeting on the public list was Aug. 17, meeting=759703. No September meeting was listed."
+  - id: isd-833
+    name: South Washington County Schools
+    url: https://www.sowashco.org/
+    status: 200
+    note: "Site links to campus.district833.org and youtube.com/user/ISD833. Not in v1 coverage."
+
+blotter:
+  - id: roster-pdf
+    name: Adult inmate roster PDF
+    url: https://web1.co.washington.mn.us/WCInmateRoster/InmateRosterReport.pdf
+    status: 200
+    note: "Readable on 2026-09-21, printed 8:00 p.m., 121 inmates. Columns are name, id, booking date. No charge column. Do not invent charges from this file."
+  - id: daily-booking-page
+    name: Daily jail booking report
+    url: https://www.washingtoncountymn.gov/3220/Daily-Jail-Booking-Report
+    status: 200
+    note: "Links weekday PDFs such as Monday.pdf. Those filenames are replaced the following week."
+  - id: monday-pdf
+    name: Monday book-in report
+    url: https://web1.co.washington.mn.us/WCBookings/Monday.pdf
+    status: 200
+    note: "Fetched 2026-09-21. Window 9/20/2026 7:00 a.m. to 9/21/2026 7:00 a.m. 14 adults. Charges are on this report. The PDF also prints home addresses. Do not publish those."
+  - id: bookings-archive
+    name: Bookings archive index
+    url: https://web1.co.washington.mn.us/WCBookings/
+    status: 403
+    note: Directory listing is forbidden. The weekday PDF URLs still return 200.
+
+land:
+  - id: county-gis
+    name: Washington County GIS
+    url: https://gis.washingtoncountymn.gov/
+    status: dns-failure
+    note: "Also 404 at https://www.washingtoncountymn.gov/397/GIS-and-Maps and /residents/property-information. Official viewer URL not confirmed."
+  - id: geocommons
+    name: Minnesota GeoCommons
+    url: https://gisdata.mn.gov/
+    status: 200
+  - id: ecrv
+    name: Minnesota eCRV
+    url: https://www.revenue.state.mn.us/eCRV
+    status: 404
+    note: "https://www.revenue.state.mn.us/electronic-certificate-real-estate-value also 404. Do not invent a search URL."
+  - id: recordease
+    name: Washington County RecordEASE index
+    url: https://prweb.co.washington.mn.us/
+    status: 200
+    note: Lands on the login page. Index only. Do not scrape images.
+  - id: beacon
+    name: St. Croix County Beacon
+    url: https://beacon.schneidercorp.com/Application.aspx?AppID=1210
+    status: 403
+    note: Cloudflare challenge page.
+
+media:
+  note: Outbound links only. Do not rewrite their articles.
+  - url: https://www.hometownsource.com/stillwater_gazette/
+    status: 200
+  - url: https://www.twincities.com/tag/stillwater/
+    status: 200
+  - url: https://www.hudsonstarobserver.com/
+    status: 200
+  - url: https://www.stcroix360.com/
+    status: 200

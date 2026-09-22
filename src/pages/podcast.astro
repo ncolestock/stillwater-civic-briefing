@@ -1,0 +1,49 @@
+---
+import Base from "../layouts/Base.astro";
+import { DISCLAIMER, withBase } from "../lib/site";
+import { clock, loadEpisodes, publicSummary } from "../lib/episodes";
+
+const episodes = loadEpisodes().filter((episode) => !episode.proof);
+const sample = loadEpisodes().find((episode) => episode.proof);
+const latest = episodes.find((episode) => episode.duration > 0);
+---
+
+<Base title="Podcast — Stillwater Civic Briefing">
+  <article class="story">
+    <p class="kicker">Podcast</p>
+    <h1>Weekly episode</h1>
+    <p>
+      One episode each week reads the stories published here. There is no named host.
+      Subscribe with the <a href={withBase("feed.xml")}>RSS feed</a>.
+    </p>
+    {latest ? (
+      <div class="player">
+        <h2>{latest.title}</h2>
+        <p class="meta">{latest.date} · {clock(latest.duration)}</p>
+        <audio controls preload="none" src={withBase(`episodes/${latest.file}`)}></audio>
+        <p>{publicSummary(latest.summary).slice(0, 500)}</p>
+      </div>
+    ) : (
+      <p class="empty">The next weekly episode has not been rendered yet. The script is committed in the repository when the Sunday run files one, and the cloud audio step adds the file.</p>
+    )}
+    {sample && (
+      <div class="player">
+        <h2>Voice sample</h2>
+        <p class="meta">Not a weekly episode · {clock(sample.duration)}</p>
+        <audio controls preload="none" src={withBase(`episodes/${sample.file}`)}></audio>
+      </div>
+    )}
+    <h2>Archive of episodes</h2>
+    <ul class="archive-list">
+      {episodes.map((episode) => (
+        <li>
+          <p class="meta">{episode.date} · {clock(episode.duration)}</p>
+          <strong>{episode.title}</strong>
+          <br />
+          <a href={withBase(`episodes/${episode.file}`)}>Audio</a>
+        </li>
+      ))}
+    </ul>
+    <p class="disclaimer">{DISCLAIMER}</p>
+  </article>
+</Base>

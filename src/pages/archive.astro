@@ -1,0 +1,29 @@
+---
+import Base from "../layouts/Base.astro";
+import { withBase } from "../lib/site";
+import { clock, loadEpisodes } from "../lib/episodes";
+
+const episodes = loadEpisodes().filter((episode) => !episode.proof);
+---
+
+<Base title="Archive — Stillwater Civic Briefing">
+  <article class="story">
+    <p class="kicker">Archive</p>
+    <h1>Earlier episodes</h1>
+    <p>
+      These audio files are the previous run of the show, before the paper.
+      They stay available. New stories are not drawn from those show notes.
+    </p>
+    <p><a href={withBase("archive/legacy.html")}>The previous landing page</a></p>
+    <ul class="archive-list">
+      {episodes.map((episode) => (
+        <li>
+          <p class="meta">{episode.date} · {clock(episode.duration)}</p>
+          <strong>{episode.title}</strong>
+          <br />
+          <a href={withBase(`episodes/${episode.file}`)}>Play {episode.file}</a>
+        </li>
+      ))}
+    </ul>
+  </article>
+</Base>

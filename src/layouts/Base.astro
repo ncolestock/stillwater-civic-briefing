@@ -1,0 +1,69 @@
+---
+import "../styles/global.css";
+import { DESKS, DISCLAIMER, NAV, withBase } from "../lib/site";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = DISCLAIMER } = Astro.props;
+const today = new Date();
+const edition = today.toLocaleDateString("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  timeZone: "America/Chicago",
+});
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title="Stillwater Civic Briefing" href={withBase("feed.xml")} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,620&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="wrap">
+      <div class="nameplate">
+        <a href={withBase("")}>
+          <p class="edition">Washington County · Minnesota<br />and the St. Croix valley</p>
+          <h1>Stillwater Civic Briefing</h1>
+        </a>
+      </div>
+      <hr class="red-rule" />
+      <p class="dateline">
+        <span>{edition}</span>
+        <span>Public records · No named correspondent</span>
+      </p>
+      <nav class="desks">
+        {NAV.map((id) => (
+          <a href={withBase(`${DESKS[id].path}/`)}>{DESKS[id].label}</a>
+        ))}
+        <a href={withBase("podcast/")}>Podcast</a>
+        <a href={withBase("about/")}>About</a>
+      </nav>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        <p>{DISCLAIMER}</p>
+        <p>
+          <a href={withBase("about/")}>About and corrections</a>
+          · <a href={withBase("archive/")}>Earlier episodes</a>
+          · <a href={withBase("feed.xml")}>Podcast feed</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

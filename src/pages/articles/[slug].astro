@@ -1,0 +1,38 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { DESKS, DISCLAIMER, formatDateline } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<Base title={`${article.data.title} — Stillwater Civic Briefing`} description={article.data.title}>
+  <article class="story">
+    <p class="kicker">{DESKS[article.data.desk].label} · {article.data.city}</p>
+    <h1>{article.data.title}</h1>
+    <p class="meta">
+      {formatDateline(article.data.date)} · {article.data.bodies.join(", ")}
+      {article.data.dollars ? ` · ${article.data.dollars}` : ""}
+    </p>
+    {article.data.correction && <p class="correction">{article.data.correction}</p>}
+    <div class="prose">
+      <Content />
+    </div>
+    <h2>Sources</h2>
+    <ul class="sources">
+      {article.data.sources.map((source) => (
+        <li><a href={source.url}>{source.label}</a></li>
+      ))}
+    </ul>
+    <p class="disclaimer">{DISCLAIMER}</p>
+  </article>
+</Base>

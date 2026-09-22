@@ -1,0 +1,31 @@
+name: Render podcast audio
+
+# Manual rerun. The deploy workflow renders audio on every push to main
+# so a new episode goes out while the laptop is closed.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Render missing episode audio
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: python3 scripts/render_pending_audio.py
+      - name: Commit audio if the renderer wrote any
+        run: |
+          git config user.name "stillwater-civic-briefing"
+          git config user.email "nathan0colestock@gmail.com"
+          git add episodes
+          if git diff --cached --quiet; then
+            echo "no new audio"
+            exit 0
+          fi
+          git commit -m "Render weekly episode audio"
+          git push

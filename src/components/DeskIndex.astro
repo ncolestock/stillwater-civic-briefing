@@ -1,0 +1,32 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { DESKS, formatDateline, withBase, type DeskId } from "../lib/site";
+
+interface Props {
+  desk: DeskId;
+}
+const { desk } = Astro.props;
+const label = DESKS[desk].label;
+const articles = (await getCollection("articles"))
+  .filter((article) => article.data.status === "published" && article.data.desk === desk)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Base title={`${label} — Stillwater Civic Briefing`}>
+  <p class="kicker">Desk</p>
+  <h1 style="font-family: var(--display); font-size: 2.4rem; margin-top: 0;">{label}</h1>
+  {articles.length === 0 ? (
+    <p class="empty">Nothing is filed on this desk.</p>
+  ) : (
+    <ul class="index-list">
+      {articles.map((article) => (
+        <li>
+          <p class="meta">{formatDateline(article.data.date)} · {article.data.city}</p>
+          <h2><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h2>
+          <p>{article.data.bodies.join(", ")}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>

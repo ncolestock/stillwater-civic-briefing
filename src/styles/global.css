@@ -1,0 +1,286 @@
+:root {
+  --paper: #f4efe6;
+  --paper-2: #ebe4d6;
+  --ink: #1a1a1a;
+  --ink-soft: #3a342c;
+  --rule: #9b1c1c;
+  --rule-thin: #c8bfb0;
+  --muted: #5c564c;
+  --serif: "Source Serif 4", "Palatino Linotype", Palatino, serif;
+  --display: "Fraunces", "Source Serif 4", Palatino, serif;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --measure: 38rem;
+  --page: 72rem;
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--paper); }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.45;
+  overflow-x: hidden;
+}
+
+a { color: var(--ink); }
+a:hover { color: var(--rule); }
+
+.wrap {
+  width: 100%;
+  max-width: var(--page);
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+.front > *,
+.lead,
+.side,
+.brief,
+.columns {
+  min-width: 0;
+}
+
+.nameplate {
+  padding: 1.25rem 0 0.4rem;
+  text-align: center;
+}
+
+.nameplate a {
+  display: block;
+  text-decoration: none;
+}
+
+.nameplate h1 {
+  font-family: var(--display);
+  font-weight: 620;
+  font-size: clamp(2.1rem, 6vw, 4.4rem);
+  letter-spacing: -0.02em;
+  line-height: 0.92;
+  margin: 0;
+}
+
+.nameplate .edition {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0.35rem 0 0;
+}
+
+.red-rule {
+  border: 0;
+  border-top: 3px solid var(--rule);
+  margin: 0.55rem 0 0;
+}
+
+.dateline {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--ink);
+  padding: 0.35rem 0 0.45rem;
+}
+
+nav.desks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  gap: 0.35rem 1rem;
+  justify-content: center;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule-thin);
+}
+
+nav.desks a { text-decoration: none; }
+
+.rail {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  background: var(--paper-2);
+  border-left: 3px solid var(--rule);
+  padding: 0.55rem 0.8rem;
+  margin: 0.9rem 0 1.1rem;
+}
+
+.front {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(16rem, 0.9fr);
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+
+.kicker {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rule);
+  margin: 0 0 0.25rem;
+}
+
+h2, h3 { font-family: var(--display); font-weight: 560; line-height: 1.08; }
+
+.lead h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0 0 0.4rem; }
+.lead h2 a, .brief h3 a, .side h3 a { text-decoration: none; }
+
+.deck { font-size: 1.12rem; margin: 0.2rem 0 0.6rem; }
+
+.meta {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.columns {
+  column-count: 2;
+  column-gap: 1.6rem;
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--ink);
+  padding-top: 0.8rem;
+}
+
+.brief {
+  break-inside: avoid;
+  margin: 0 0 1.1rem;
+}
+
+.brief h3 { font-size: 1.25rem; margin: 0.15rem 0; }
+
+.side {
+  border-left: 1px solid var(--rule-thin);
+  padding-left: 1rem;
+}
+
+.side section { margin-bottom: 1.2rem; }
+.side h3 { font-size: 1.05rem; margin: 0.2rem 0 0.45rem; }
+
+.side ol, .side ul { margin: 0; padding-left: 1.1rem; }
+.side li { margin: 0 0 0.45rem; font-size: 0.95rem; }
+
+.blotter-box {
+  background: var(--paper-2);
+  padding: 0.7rem 0.8rem 0.4rem;
+}
+
+article.story {
+  max-width: var(--measure);
+}
+
+article.story h1 {
+  font-family: var(--display);
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  line-height: 1.05;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.prose p { margin: 0 0 0.8rem; }
+.prose h2 { font-size: 1.25rem; margin: 1.2rem 0 0.4rem; }
+.prose ul { margin: 0 0 0.8rem; padding-left: 1.15rem; }
+.prose li { margin: 0 0 0.35rem; }
+
+.sources { font-size: 0.95rem; }
+.sources li { margin-bottom: 0.35rem; }
+
+.disclaimer {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--rule);
+  margin-top: 1.4rem;
+  padding-top: 0.6rem;
+}
+
+.correction {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  border: 1px solid var(--rule);
+  padding: 0.5rem 0.7rem;
+  margin: 0.8rem 0;
+}
+
+footer.site {
+  margin-top: 2rem;
+  padding: 1rem 0 2rem;
+  border-top: 3px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.player audio { display: block; width: 100%; max-width: 28rem; margin-top: 0.4rem; }
+
+.archive-list { list-style: none; padding: 0; }
+.archive-list li {
+  border-top: 1px solid var(--rule-thin);
+  padding: 0.7rem 0;
+}
+
+.index-list { list-style: none; padding: 0; }
+.index-list li { border-top: 1px solid var(--rule-thin); padding: 0.75rem 0; }
+.index-list h2 { font-size: 1.45rem; margin: 0.15rem 0; }
+.index-list h2 a { text-decoration: none; }
+
+.empty {
+  font-family: var(--sans);
+  color: var(--muted);
+}
+
+@media (max-width: 800px) {
+  .front { grid-template-columns: 1fr; }
+  .columns { column-count: 1; }
+  .side { border-left: 0; padding-left: 0; border-top: 1px solid var(--ink); padding-top: 1rem; }
+  .wrap { padding-inline: 0.85rem; }
+  .dateline { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+  nav.desks {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    gap: 0.35rem 0.15rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+  }
+  .nameplate h1 {
+    font-size: 1.42rem;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+  }
+  .lead h2 { font-size: 1.55rem; }
+  .nameplate .edition {
+    font-size: 0.62rem;
+    letter-spacing: 0.04em;
+    line-height: 1.35;
+  }
+  nav.desks {
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    gap: 0.35rem 0.65rem;
+  }
+  .dateline { font-size: 0.68rem; }
+}
+
+@media print {
+  nav.desks, .player, .rail { display: none; }
+  body { background: white; }
+  a { text-decoration: none; }
+  .side { border: 0; }
+}
