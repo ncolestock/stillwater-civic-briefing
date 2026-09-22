@@ -16,10 +16,8 @@ ai_generated: true
 charge: "Driving after cancellation"
 ---
 
-Shawn Michael Jones was booked at the county jail on Sept. 20, 2026. The Woodbury Police Department is the agency on the form. The charge is a gross misdemeanor, driving after cancellation as inimical to public safety, Minn. Stat. 171.24.5. The report does not say where he was stopped.
+Shawn Michael Jones was booked at the county jail on Sept. 20, 2026. The Woodbury Police Department is the agency on the form. The charge is a gross misdemeanor, driving after cancellation as inimical to public safety, Minn. Stat. 171.24.5.
 
 ## How to follow it
 
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. The sheriff's dispatch and incident files do not include names, so this page does not attach a call to this booking. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/). No case was matched for this booking.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
+The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).

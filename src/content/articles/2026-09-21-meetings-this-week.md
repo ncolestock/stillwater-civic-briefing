@@ -40,7 +40,7 @@ upcoming:
     url: "https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1440"
 ---
 
-Four public meetings are on official agendas for Tuesday and Wednesday. Each is still ahead of a vote.
+Four public meetings are on official agendas for Tuesday and Wednesday.
 
 The Washington County Board meets Tuesday, Sept. 22, at 9 a.m. in the County Board Room. Comment cards are taken before the meeting. The agenda asks speakers to stay within five minutes. A workshop on the library strategic facility plan is listed after the meeting.
 
@@ -50,10 +50,8 @@ The Oakdale City Council meets Tuesday at 7 p.m. at the Discovery Center, 4444 H
 
 The Stillwater Planning Commission meets Wednesday, Sept. 23, at 7 p.m. The notice places the meeting at 216 4th Street North. Open forum is five minutes. Public hearings are ten minutes.
 
-Lake Elmo, Woodbury, Bayport, Oak Park Heights, and Hudson did not yield a packet for this window in the check on Sept. 21. Those cities are left off this list rather than filled in.
+Lake Elmo, Woodbury, Bayport, Oak Park Heights, and Hudson did not yield a packet for this window in the check on Sept. 21.
 
 ## How to follow it
 
 The four agendas are linked below. The county agenda lists (651) 430-6000 for disability or language assistance.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.

@@ -16,10 +16,8 @@ ai_generated: true
 charge: "First-degree burglary"
 ---
 
-Isaac Ryan Vance was booked in the early morning of Sept. 21, 2026. The Woodbury Police Department is the agency on the form. The report lists two felonies: first-degree burglary of an occupied dwelling with someone present who was not an accomplice, Minn. Stat. 609.582.1(a), and first-degree damage to property that reduced its value by more than $1,000, Minn. Stat. 609.595.1(4). The report does not name an address or what was damaged.
+Isaac Ryan Vance was booked in the early morning of Sept. 21, 2026. The Woodbury Police Department is the agency on the form. The report lists two felonies: first-degree burglary of an occupied dwelling with someone present who was not an accomplice, Minn. Stat. 609.582.1(a), and first-degree damage to property that reduced its value by more than $1,000, Minn. Stat. 609.595.1(4).
 
 ## How to follow it
 
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. The sheriff's dispatch and incident files do not include names, so this page does not attach a call to this booking. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/). No case was matched for this booking.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
+The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).

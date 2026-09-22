@@ -14,7 +14,7 @@ GitHub Actions deploys whatever is `published` on main. A draft or a held story 
 4. Make a claim list before you edit anything. A claim is any dollar, date, time, place, vote, name, charge, statute number, case number, or quote in the story.
 5. For each claim, find the sentence in the fetched document that supports it. The briefing is not support. Another newspaper is not support. Your memory is not support.
 6. Decide:
-   - Pass. Every claim is in a fetched document. Every source URL is the document that contains the claim, not a homepage. Every source label names the document and its date. The disclaimer paragraph is present. Blotter rules hold. Set `status: published` and `checked:` to today's date.
+   - Pass. Every claim is in a fetched document. Every source URL is the document that contains the claim, not a homepage. Every source label names the document and its date. The story does not contain the AI disclaimer and does not praise or condemn. Blotter rules hold. Set `status: published` and `checked:` to today's date.
    - Fix and pass. A claim is slightly off and the document has the right figure. Change the story to the document's figure. If the story was already published, add a line `Correction, YYYY-MM-DD: <what changed>.` Then pass it.
    - Hold. A claim is not in the document, a URL failed or returned a challenge page, a source is missing, a quote is not verbatim, a vote is stated for a meeting that has not happened, or a blotter line includes an address, age, officer, mugshot, or a sex-crime or juvenile record. Set `status: held`. Do not publish a partial.
 7. Commit the story to main with the GitHub connector (`push_files` or `create_or_update_file`). Message: `Pass <slug>` or `Hold <slug>`.

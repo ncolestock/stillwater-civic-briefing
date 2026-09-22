@@ -19,7 +19,8 @@ The first two sentences carry the body, the place, and the fact that matters. A 
 - The same sentence shape does not open every story. "The board has not voted" is not a refrain.
 - No "historic," "controversial," "stunning," "embattled," "raises questions," "comes as," "underscores," "community members," or "residents deserve."
 - No first person. No host. The paper is not a person.
-- The disclaimer sits once, at the bottom. It is not a sentence in the story.
+- No value judgments. Do not say a decision is good, bad, overdue, welcome, troubling, or what residents deserve. Report the fact and the number.
+- The disclaimer is not in the story. It lives in the site footer, and once in the podcast show description so a subscriber who never opens the site still sees it.
 
 ## Length
 

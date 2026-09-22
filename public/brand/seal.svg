@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Stillwater Civic Briefing seal — Stillwater Lift Bridge">
+  <title>Stillwater Civic Briefing</title>
+  <rect width="512" height="512" fill="#F4EFE4"/>
+  <circle cx="256" cy="256" r="244" fill="none" stroke="#1A1612" stroke-width="6"/>
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#7A1F2B" stroke-width="4"/>
+  <circle cx="256" cy="256" r="214" fill="none" stroke="#1A1612" stroke-width="2"/>
+  <!-- ring type -->
+  <defs>
+    <path id="ringTop" d="M256,256 m-186,0 a186,186 0 1,1 372,0 a186,186 0 1,1 -372,0"/>
+  </defs>
+  <text fill="#1A1612" font-family="Georgia, 'Old Standard TT', serif" font-size="18" letter-spacing="4">
+    <textPath href="#ringTop" startOffset="18%">STILLWATER CIVIC BRIEFING</textPath>
+  </text>
+  <!-- stars -->
+  <circle cx="256" cy="78" r="3" fill="#7A1F2B"/>
+  <!-- river -->
+  <path d="M86 340 C140 328, 200 350, 256 338 C312 326, 372 348, 426 336 L426 400 L86 400 Z" fill="none" stroke="#1A1612" stroke-width="1.4"/>
+  <path d="M90 352 C150 342, 210 360, 256 350 C310 340, 370 358, 422 348" fill="none" stroke="#1A1612" stroke-width="1"/>
+  <!-- bluffs -->
+  <path d="M88 332 L110 318 L128 326 L88 336 Z" fill="none" stroke="#1A1612" stroke-width="1.2"/>
+  <path d="M424 332 L400 316 L384 326 L424 336 Z" fill="none" stroke="#1A1612" stroke-width="1.2"/>
+  <!-- piers -->
+  <rect x="148" y="318" width="14" height="36" fill="none" stroke="#1A1612" stroke-width="1.6"/>
+  <rect x="350" y="318" width="14" height="36" fill="none" stroke="#1A1612" stroke-width="1.6"/>
+  <rect x="196" y="322" width="12" height="30" fill="none" stroke="#1A1612" stroke-width="1.4"/>
+  <rect x="304" y="322" width="12" height="30" fill="none" stroke="#1A1612" stroke-width="1.4"/>
+  <!-- LEFT TOWER lattice -->
+  <g fill="none" stroke="#1A1612" stroke-width="1.7">
+    <rect x="186" y="148" width="28" height="176"/>
+    <line x1="186" y1="148" x2="214" y2="324"/>
+    <line x1="214" y1="148" x2="186" y2="324"/>
+    <line x1="186" y1="192" x2="214" y2="192"/>
+    <line x1="186" y1="236" x2="214" y2="236"/>
+    <line x1="186" y1="280" x2="214" y2="280"/>
+    <!-- counterweight -->
+    <rect x="192" y="210" width="16" height="28" stroke-width="1.5"/>
+    <!-- sheave -->
+    <circle cx="200" cy="140" r="16" stroke-width="2.2"/>
+    <circle cx="200" cy="140" r="4"/>
+    <line x1="200" y1="124" x2="200" y2="156"/>
+    <line x1="184" y1="140" x2="216" y2="140"/>
+  </g>
+  <!-- RIGHT TOWER lattice -->
+  <g fill="none" stroke="#1A1612" stroke-width="1.7">
+    <rect x="298" y="148" width="28" height="176"/>
+    <line x1="298" y1="148" x2="326" y2="324"/>
+    <line x1="326" y1="148" x2="298" y2="324"/>
+    <line x1="298" y1="192" x2="326" y2="192"/>
+    <line x1="298" y1="236" x2="326" y2="236"/>
+    <line x1="298" y1="280" x2="326" y2="280"/>
+    <rect x="304" y="210" width="16" height="28" stroke-width="1.5"/>
+    <circle cx="312" cy="140" r="16" stroke-width="2.2"/>
+    <circle cx="312" cy="140" r="4"/>
+    <line x1="312" y1="124" x2="312" y2="156"/>
+    <line x1="296" y1="140" x2="328" y2="140"/>
+  </g>
+  <!-- cables from sheaves to lift span / counterweights -->
+  <g stroke="#1A1612" stroke-width="1.1" fill="none">
+    <line x1="200" y1="156" x2="226" y2="248"/>
+    <line x1="312" y1="156" x2="286" y2="248"/>
+    <line x1="200" y1="156" x2="200" y2="210"/>
+    <line x1="312" y1="156" x2="312" y2="210"/>
+  </g>
+  <!-- lift span Parker truss between towers -->
+  <g fill="none" stroke="#1A1612" stroke-width="1.6">
+    <path d="M214 248 L226 220 L256 210 L286 220 L298 248"/>
+    <line x1="214" y1="248" x2="298" y2="248"/>
+    <line x1="214" y1="268" x2="298" y2="268"/>
+    <line x1="226" y1="220" x2="226" y2="268"/>
+    <line x1="256" y1="210" x2="256" y2="268"/>
+    <line x1="286" y1="220" x2="286" y2="268"/>
+    <line x1="214" y1="248" x2="226" y2="268"/>
+    <line x1="226" y1="248" x2="256" y2="268"/>
+    <line x1="256" y1="248" x2="286" y2="268"/>
+    <line x1="286" y1="248" x2="298" y2="268"/>
+  </g>
+  <!-- left approach Parker -->
+  <g fill="none" stroke="#1A1612" stroke-width="1.5">
+    <path d="M96 268 L120 236 L156 228 L186 248 L186 268 Z"/>
+    <line x1="120" y1="236" x2="120" y2="268"/>
+    <line x1="156" y1="228" x2="156" y2="268"/>
+    <line x1="96" y1="268" x2="120" y2="268"/>
+    <line x1="96" y1="268" x2="156" y2="248"/>
+  </g>
+  <!-- right approach Parker -->
+  <g fill="none" stroke="#1A1612" stroke-width="1.5">
+    <path d="M326 248 L356 228 L392 236 L416 268 L326 268 Z"/>
+    <line x1="356" y1="228" x2="356" y2="268"/>
+    <line x1="392" y1="236" x2="392" y2="268"/>
+    <line x1="416" y1="268" x2="356" y2="248"/>
+  </g>
+  <!-- deck -->
+  <line x1="96" y1="268" x2="416" y2="268" stroke="#1A1612" stroke-width="2"/>
+  <!-- 1931 -->
+  <text x="256" y="430" text-anchor="middle" fill="#1A1612" font-family="Georgia, serif" font-size="11" letter-spacing="3">ST. CROIX VALLEY</text>
+</svg>

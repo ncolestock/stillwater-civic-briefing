@@ -112,8 +112,6 @@ def main() -> None:
     for ep in episodes:
         item = ET.SubElement(ch, "item")
         summary = ep["summary"].replace("Hosted by Artie Fishel. ", "").replace("Hosted by Artie Fishel.", "")
-        if DISCLAIMER not in summary:
-            summary = summary.rstrip() + "\n\n" + DISCLAIMER
         ET.SubElement(item, "title").text = ep["title"]
         ET.SubElement(item, "description").text = summary
         ET.SubElement(item, f"{{{ITUNES}}}summary").text = summary

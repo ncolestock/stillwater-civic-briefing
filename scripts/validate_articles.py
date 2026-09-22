@@ -48,8 +48,8 @@ def main() -> int:
             errors.append(f"{path.name}: desk {desk!r} is not a v1 desk")
         if "url:" not in fm:
             errors.append(f"{path.name}: needs at least one source url")
-        if DISCLAIMER not in body:
-            errors.append(f"{path.name}: body is missing the AI disclaimer")
+        if DISCLAIMER in body:
+            errors.append(f"{path.name}: disclaimer belongs in the site footer, not the story")
         if re.search(r"Artie Fishel|\bhost\b", body, re.I) and "no named host" not in body.lower():
             if "Artie" in body or re.search(r"\bI\b|\bmy\b|\bwe\b", body):
                 errors.append(f"{path.name}: named host or first person")

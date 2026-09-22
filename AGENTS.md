@@ -44,7 +44,7 @@ The site builds pages only for `status: published`. A draft or a held story has 
 
 Body: one event, written so the first two sentences carry the body, the city, and the number. End with "How to follow it" and this line:
 
-> Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
+The AI disclaimer stays in the site footer. Do not paste it into the story.
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 
@@ -60,8 +60,8 @@ Three morning jobs, in `automations/`, commit with the GitHub connector (`push_f
 
 Do not collapse these into one prompt. A story that skips fact-check does not go out.
 
-Weekly audio: commit `episodes/YYYY-MM-DD.json` with a `script` field and `"file": "YYYY-MM-DD.m4a"`. Leave `duration` at 0 until the Action fills it. The Action calls `https://api.x.ai/v1/tts` with `podcast.json` `tts_voice_id`. Do not put the API key in the file.
+Monday audio is the week's events. Wednesday audio is one officeholder. Commit `episodes/YYYY-MM-DD.json` with a `script` field and a distinct `file`. Leave `duration` at 0 until the Action fills it. The Action calls `https://api.x.ai/v1/tts` with `podcast.json` `tts_voice_id`. Do not put the API key in the file.
 
 ## Voice
 
-Plain, specific, local. "The council is scheduled to vote" when it has not voted. "The council voted 5–0" only when the minutes say so.
+Plain, specific, local. Facts only. "The council is scheduled to vote" when it has not voted. "The council voted 5–0" only when the minutes say so. Do not praise or condemn.

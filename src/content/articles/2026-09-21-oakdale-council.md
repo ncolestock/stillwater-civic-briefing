@@ -13,7 +13,7 @@ status: published
 ai_generated: true
 ---
 
-The Oakdale City Council meets Tuesday, Sept. 22, at 7 p.m. at the Discovery Center, 4444 Hadley Avenue North. Nothing on the agenda has been voted.
+The Oakdale City Council meets Tuesday, Sept. 22, at 7 p.m. at the Discovery Center, 4444 Hadley Avenue North.
 
 The community-development items ask the council to approve a comprehensive-plan amendment, a rezoning, a variance, and a preliminary plat for 6815 55th Street North, the Hadley Storage site. The rezoning ordinance would change the property from General Industrial (B-4) to Light Industrial (B-3). The agenda lists those as Resolution 2026-67, Ordinance No. 965, Resolution 2026-68, and Resolution 2026-69.
 
@@ -28,5 +28,3 @@ The open forum allows up to three minutes per speaker. The agenda says the counc
 ## How to follow it
 
 Tuesday, Sept. 22, 2026, 7 p.m., Discovery Center, 4444 Hadley Avenue North, Oakdale. The agenda packet is linked below.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.

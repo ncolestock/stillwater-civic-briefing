@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { DISCLAIMER, withBase } from "../lib/site";
+import { withBase } from "../lib/site";
 import { clock, loadEpisodes, publicSummary } from "../lib/episodes";
 
 const episodes = loadEpisodes().filter((episode) => !episode.proof);
@@ -11,9 +11,11 @@ const latest = episodes.find((episode) => episode.duration > 0);
 <Base title="Podcast — Stillwater Civic Briefing">
   <article class="story">
     <p class="kicker">Podcast</p>
-    <h1>Weekly episode</h1>
+    <h1>Two episodes a week</h1>
+    <img src={withBase("cover.jpg")} alt="Stillwater Civic Briefing" style="width: min(100%, 16rem); height: auto; display: block; margin: 0 0 1rem; border: 1px solid var(--ink);" />
     <p>
-      One episode each week reads the stories published here. There is no named host.
+      Monday is the week’s events. Wednesday is a short account of one person who holds an office.
+      There is no named host.
       Subscribe with the <a href={withBase("feed.xml")}>RSS feed</a>.
     </p>
     {latest ? (
@@ -24,7 +26,7 @@ const latest = episodes.find((episode) => episode.duration > 0);
         <p>{publicSummary(latest.summary).slice(0, 500)}</p>
       </div>
     ) : (
-      <p class="empty">The next weekly episode has not been rendered yet. The script is committed in the repository when the Sunday run files one, and the cloud audio step adds the file.</p>
+      <p class="empty">The next episode has not been rendered yet. Monday and Wednesday runs file the script. The cloud audio step adds the file.</p>
     )}
     {sample && (
       <div class="player">
@@ -44,6 +46,5 @@ const latest = episodes.find((episode) => episode.duration > 0);
         </li>
       ))}
     </ul>
-    <p class="disclaimer">{DISCLAIMER}</p>
   </article>
 </Base>

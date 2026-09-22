@@ -16,10 +16,8 @@ ai_generated: true
 charge: "Obstructing legal process"
 ---
 
-Chamjock Gatbel Nyak was booked Sept. 20, 2026, on a Washington County case. The report lists a misdemeanor for obstructing legal process, Minn. Stat. 609.50.1(1), and a petty misdemeanor for a pedestrian failing to walk on the left side of the roadway or to use a sidewalk, Minn. Stat. 169.21.5. It does not give a street.
+Chamjock Gatbel Nyak was booked at the Washington County jail on Sept. 20, 2026. The report lists a misdemeanor for obstructing legal process, Minn. Stat. 609.50.1(1), and a petty misdemeanor for a pedestrian failing to walk on the left side of the roadway or to use a sidewalk, Minn. Stat. 169.21.5. It does not give a street.
 
 ## How to follow it
 
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. The sheriff's dispatch and incident files do not include names, so this page does not attach a call to this booking. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/). No case was matched for this booking.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
+The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).

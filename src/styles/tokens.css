@@ -1,0 +1,46 @@
+/* Stillwater Civic Briefing — design tokens
+   Aliases: --scb-* (preferred) and short names used by newspaper.css */
+
+:root {
+  --scb-paper: #F4EFE4;
+  --scb-paper-dark: #E8DFCC;
+  --scb-paper-shadow: #D7CFBE;
+  --scb-ink: #1A1612;
+  --scb-ink-muted: #4A433A;
+  --scb-rule: #C4B8A4;
+  --scb-oxblood: #7A1F2B;
+  --scb-oxblood-hover: #5E171F;
+  --scb-bridge-green: #4A5A3A;
+
+  --paper: var(--scb-paper);
+  --paper-dark: var(--scb-paper-dark);
+  --ink: var(--scb-ink);
+  --ink-soft: var(--scb-ink-muted);
+  --rule: var(--scb-rule);
+  --oxblood: var(--scb-oxblood);
+  --disclaimer: var(--scb-ink-muted);
+
+  --font-display: "Old Standard TT", "Source Serif 4", "Times New Roman", serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-ui: "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --font-wood: "Cinzel", "Old Standard TT", serif;
+
+  --scb-serif-display: var(--font-display);
+  --scb-serif-body: var(--font-body);
+  --scb-sans: var(--font-ui);
+  --scb-wood: var(--font-wood);
+
+  --page: 72rem;
+  --scb-page: 72rem;
+  --scb-measure: 38rem;
+  --gutter: 1.25rem;
+  --masthead-rule: 2px;
+  --tracking-flag: 0.08em;
+
+  --fs-masthead: clamp(2.1rem, 5vw, 3.6rem);
+  --fs-hed-lead: clamp(1.6rem, 3vw, 2.4rem);
+  --fs-body: 1.125rem;
+  --lh-body: 1.55;
+  --fs-ui: 0.78rem;
+  --fs-disclaimer: 0.78rem;
+}

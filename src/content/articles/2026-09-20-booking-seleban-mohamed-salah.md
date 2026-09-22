@@ -16,10 +16,8 @@ ai_generated: true
 charge: "Driving after cancellation"
 ---
 
-Seleban Mohamed Salah was booked Sept. 20, 2026. The Woodbury Police Department is the agency on the report. Three charges are listed: a gross misdemeanor for driving without an ignition interlock, Minn. Stat. 171.09.1(g); a gross misdemeanor for driving after cancellation as inimical to public safety, Minn. Stat. 171.24.5; and a misdemeanor for failing to carry proof of insurance, Minn. Stat. 169.791.2(a). The report does not describe a stop.
+Seleban Mohamed Salah was booked Sept. 20, 2026. The Woodbury Police Department is the agency on the report. Three charges are listed: a gross misdemeanor for driving without an ignition interlock, Minn. Stat. 171.09.1(g); a gross misdemeanor for driving after cancellation as inimical to public safety, Minn. Stat. 171.24.5; and a misdemeanor for failing to carry proof of insurance, Minn. Stat. 169.791.2(a).
 
 ## How to follow it
 
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. The sheriff's dispatch and incident files do not include names, so this page does not attach a call to this booking. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/). No case was matched for this booking.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
+The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).

@@ -23,12 +23,10 @@ A separate draft resolution would certify a Regional Railroad Authority levy of 
 
 The staff report cites Minn. Stat. 275.065 and says certification is due on or before Sept. 30, 2026. In that paragraph the report refers to taxes payable in 2026. The draft resolutions are titled for taxes payable in 2027.
 
-Also on the agenda, and also not yet voted: Contract No. 18591 with Valley Paving, Inc. in the amount of $359,796.75 for the County State Aid Highway 16, Valley Creek Road, traffic signal at Eagle Creek Lane. Two cooperative agreements with the City of Woodbury cover the construction cost share and ongoing maintenance. The agenda does not state Woodbury’s dollar share.
+Also on the agenda: Contract No. 18591 with Valley Paving, Inc. in the amount of $359,796.75 for the County State Aid Highway 16, Valley Creek Road, traffic signal at Eagle Creek Lane. Two cooperative agreements with the City of Woodbury cover the construction cost share and ongoing maintenance. The agenda does not state Woodbury’s dollar share.
 
 Visitors who want to speak fill out a comment card before the meeting and are asked to keep comments to five minutes.
 
 ## How to follow it
 
 The meeting is Tuesday, Sept. 22, 2026, at 9 a.m. in the County Board Room. The packet’s budget-process page lists a public budget hearing on Dec. 1 after 6 p.m. and final adoption of the levy on Dec. 15. The agenda lists (651) 430-6000 for disability or language assistance. The packet and agenda are linked below.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.

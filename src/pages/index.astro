@@ -2,16 +2,16 @@
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import { DESKS, formatDateline, withBase } from "../lib/site";
-import { clock, loadEpisodes } from "../lib/episodes";
+import { loadEpisodes } from "../lib/episodes";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.status === "published")
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const lead = articles.find((article) => article.data.desk === "meetings") ?? articles[0];
-const briefs = articles.filter(
-  (article) => article !== lead && article.data.desk !== "blotter" && article.data.desk !== "calendar",
-);
+const briefs = articles
+  .filter((article) => article !== lead && article.data.desk !== "blotter" && article.data.desk !== "calendar")
+  .slice(0, 2);
 const blotter = articles
   .filter((article) => article.data.desk === "blotter")
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -25,11 +25,6 @@ const excerpt = (body: string | undefined) => {
 ---
 
 <Base title="Stillwater Civic Briefing">
-  <p class="rail">
-    Researched and written by AI from public records. Not a substitute for the official record.
-    Charges are allegations, not convictions. Verify against the source links.
-  </p>
-
   {articles.length === 0 ? (
     <p class="empty">No stories have been filed yet.</p>
   ) : (
@@ -40,22 +35,25 @@ const excerpt = (body: string | undefined) => {
           <h2><a href={withBase(`articles/${lead.id}/`)}>{lead.data.title}</a></h2>
           <p class="meta">{formatDateline(lead.data.date)} · {lead.data.bodies.join(", ")}</p>
           <p class="deck">{excerpt(lead.body)}</p>
-          <p><a href={withBase(`articles/${lead.id}/`)}>Read the story</a></p>
         </section>
       )}
       <aside class="side">
         {blotter.length > 0 && (
-          <section class="blotter-box">
+          <section class="blotter">
             <p class="kicker">Blotter</p>
-            <h3>Adult bookings</h3>
-            <ul>
-              {blotter.slice(0, 6).map((article) => (
-                <li>
-                  <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
-                  {article.data.charge ? <><br /><span class="meta">{article.data.charge}</span></> : null}
-                </li>
-              ))}
-            </ul>
+            <table>
+              <thead>
+                <tr><th>Name</th><th>Charge</th></tr>
+              </thead>
+              <tbody>
+                {blotter.slice(0, 8).map((article) => (
+                  <tr>
+                    <td><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></td>
+                    <td>{article.data.charge}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
             <p><a href={withBase("blotter/")}>All bookings</a></p>
           </section>
         )}
@@ -77,8 +75,7 @@ const excerpt = (body: string | undefined) => {
           <section class="player">
             <p class="kicker">Podcast</p>
             <h3><a href={withBase("podcast/")}>{episode.title}</a></h3>
-            <p class="meta">{episode.date} · {clock(episode.duration)}</p>
-            <audio controls preload="none" src={withBase(`episodes/${episode.file}`)}></audio>
+            <p class="meta">{episode.date}</p>
           </section>
         )}
       </aside>

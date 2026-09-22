@@ -16,10 +16,8 @@ ai_generated: true
 charge: "Domestic assault"
 ---
 
-The Stillwater Police Department brought Shannon Marie Kiesner to the Washington County jail on Sept. 20, 2026, according to the book-in report. The charge is a misdemeanor domestic assault, Minn. Stat. 609.2242.1(2). The report does not name another person.
+The Stillwater Police Department brought Shannon Marie Kiesner to the Washington County jail on Sept. 20, 2026, according to the book-in report. The charge is a misdemeanor domestic assault, Minn. Stat. 609.2242.1(2).
 
 ## How to follow it
 
-The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. The sheriff's dispatch and incident files do not include names, so this page does not attach a call to this booking. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/). No case was matched for this booking.
-
-Researched and written by AI from public records. Not a substitute for the official record. Charges are allegations, not convictions. Verify against the source links.
+The charge above is what the jail's book-in report prints. The county replaces that weekday PDF the following week. A criminal complaint, if one is filed, would appear on [Minnesota Court Records Online](https://publicaccess.courts.state.mn.us/).
