@@ -5,7 +5,7 @@ slug: 2026-09-23-woodbury-council
 desk: meetings
 city: Woodbury
 bodies: ["Woodbury City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://woodburymn.gov/AgendaCenter/ViewFile/Agenda/_09232026-1145
     label: "Woodbury City Council agenda and packet, Sept. 23, 2026"
@@ -68,7 +68,7 @@ Woodbury City Council. Jeffrey J. Dahl, City Administrator (council letters). Pu
 
 "Pulte Homes of Minnesota, LLC has submitted an application for a Rezoning, Planned Unit Development, Conditional Use Permit, and first phase Preliminary Plat for a residential subdivision to be called Nottingham." — Council Letter 26-189, Summary.
 
-"The Rezoning and Planned Unit Development incorporates four (4) properties totaling 53 acres with the first phase preliminary plat including 28 acres and 35 single family lots." — Council Letter 26-189, Summary.
+"The Rezoning and Planned Unit Development incorporates four (4) properties totaling 53 acres with the first phase preliminary plat including 28 acres and 35 single-family lots." — Council Letter 26-189, Summary.
 
 "The property is located north of Dale Road and west of Cottage Grove Drive." — Council Letter 26-189, Summary.
 
