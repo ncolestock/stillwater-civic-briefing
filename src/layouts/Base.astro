@@ -41,19 +41,13 @@ const edition = today.toLocaleDateString("en-US", {
     <header class="wrap">
       <div class="nameplate">
         <a class="engraved-lockup" href={withBase("")}>
-          <h1 class="lockup-title">
-            <span class="lockup-eyebrow">New Saint Croix</span>
-            <span class="lockup-union">Union</span>
-          </h1>
-          <div class="lockup-rule" aria-hidden="true">
-            <span class="lockup-fleur">⚜</span>
-          </div>
           <img
-            class="lockup-bridge"
-            src={withBase("brand/bridge-engraving.png")}
-            alt="Engraving of the Stillwater Lift Bridge over the St. Croix"
+            class="lockup-mark"
+            src={withBase("brand/masthead-lockup.png")}
+            width="1280"
+            height="720"
+            alt="New Saint Croix Union"
           />
-          <p class="lockup-reborn"><span>Reborn. 2026</span></p>
         </a>
         <p class="edition-date">{edition}</p>
       </div>

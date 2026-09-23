@@ -36,7 +36,7 @@ a:hover { color: var(--oxblood-hover); }
 }
 
 .nameplate {
-  padding: 1.1rem 0 0.35rem;
+  padding: 0.6rem 0 0.25rem;
   text-align: center;
 }
 
@@ -47,102 +47,18 @@ a:hover { color: var(--oxblood-hover); }
 }
 
 .engraved-lockup {
-  max-width: var(--lockup-max);
-  margin: 0 auto;
-  padding: 0.4rem 0.5rem 0.2rem;
+  max-width: min(28rem, 100%);
+  margin-inline: auto;
+  padding: 0.2rem 0;
 }
 
-.lockup-title {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-weight: 400;
-}
-
-.lockup-eyebrow {
+.lockup-mark {
   display: block;
-  margin: 0 auto 0.35rem;
-  padding: 0.35rem 0;
-  max-width: 16rem;
-  border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  font-family: var(--font-wood);
-  font-size: var(--fs-lockup-eyebrow);
-  font-weight: 600;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  line-height: 1.2;
-  color: var(--ink);
-}
-
-.lockup-union {
-  display: block;
-  margin: 0.15rem 0 0.35rem;
-  font-family: var(--font-display);
-  font-size: var(--fs-lockup-union);
-  font-weight: 900;
-  letter-spacing: 0.02em;
-  line-height: 0.88;
-  text-transform: uppercase;
-  color: var(--ink);
-}
-
-.lockup-rule {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.55rem;
-  margin: 0.15rem auto 0.55rem;
-  max-width: 18rem;
-}
-
-.lockup-rule::before,
-.lockup-rule::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--ink);
-}
-
-.lockup-fleur {
-  font-size: 0.85rem;
-  line-height: 1;
-  color: var(--ink);
-}
-
-.lockup-bridge {
-  display: block;
-  width: min(100%, 22rem);
+  width: 100%;
   height: auto;
-  margin: 0 auto;
+  min-width: 18rem;
 }
 
-.lockup-reborn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-  margin: 0.7rem auto 0;
-  max-width: 14rem;
-  font-family: var(--font-wood);
-  font-size: var(--fs-lockup-reborn);
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: none;
-  color: var(--ink);
-}
-
-.lockup-reborn::before,
-.lockup-reborn::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--ink);
-}
-
-.lockup-reborn span {
-  white-space: nowrap;
-}
 
 .red-rule {
   border: 0;
