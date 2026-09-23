@@ -64,19 +64,16 @@ export function formatIssueHeader(monday: Date): string {
   const end = new Date(start);
   end.setUTCDate(end.getUTCDate() + 6);
   const week = isoWeekNumber(start);
-  const sameMonth = start.getUTCMonth() === end.getUTCMonth();
-  const startLabel = start.toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    timeZone: "UTC",
-  });
-  const endLabel = end.toLocaleDateString("en-US", {
-    month: sameMonth ? undefined : "long",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "UTC",
-  });
-  return `Issue ${week} · ${startLabel}–${endLabel}`;
+  const year = start.getUTCFullYear();
+  const startMonth = start.toLocaleDateString("en-US", { month: "long", timeZone: "UTC" });
+  const endMonth = end.toLocaleDateString("en-US", { month: "long", timeZone: "UTC" });
+  const startDay = start.getUTCDate();
+  const endDay = end.getUTCDate();
+  const range =
+    start.getUTCMonth() === end.getUTCMonth()
+      ? `${startMonth} ${startDay}–${endDay}, ${year}`
+      : `${startMonth} ${startDay}–${endMonth} ${endDay}, ${year}`;
+  return `Issue ${week} · ${range}`;
 }
 
 export function articleAnchor(id: string): string {
