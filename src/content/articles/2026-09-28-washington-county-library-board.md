@@ -9,7 +9,8 @@ sources:
     label: "Library Board meeting packet, Sept. 28, 2026"
 dollars: "County net levy $10,918,800 (from $10,336,200, 5.64%); non-levy revenue $634,900; personnel $7,785,900; services $1,993,300; materials $1,774,500"
 votes: null
-status: draft
+status: published
+checked: 2026-09-23
 ai_generated: true
 briefing: research/2026-09-28-washington-county-library-board.md
 ---
