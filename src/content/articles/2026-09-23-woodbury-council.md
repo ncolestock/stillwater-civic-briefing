@@ -9,7 +9,8 @@ sources:
     label: "Woodbury City Council agenda and packet, Sept. 23, 2026"
 dollars: "Preliminary levy $60,855,592 including HRA $250,000; city levy $60,605,592; budget $166,242,025; levy cut $593,030 from workshop; median-home increase $65"
 votes: "Planning Commission recommended Nottingham 6-0 on Sept. 14, 2026"
-status: draft
+status: published
+checked: 2026-09-23
 ai_generated: true
 briefing: research/2026-09-23-woodbury-council.md
 ---
