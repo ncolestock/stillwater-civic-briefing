@@ -406,14 +406,6 @@ footer.site {
 }
 
 @media (max-width: 340px) {
-  .nameplate .flag {
-    white-space: normal;
-    letter-spacing: 0.06em;
-    padding-left: calc(0.45rem + 0.06em);
-    padding-right: 0.45rem;
-    font-size: 0.98rem;
-    line-height: 1.15;
-  }
 }
 
 .section-banner { border-bottom: 1px solid var(--ink); margin: 0.4rem 0 0.8rem; padding-bottom: 0.35rem; }
