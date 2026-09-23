@@ -5,7 +5,7 @@ slug: 2026-09-28-lake-elmo-planning
 desk: land
 city: Lake Elmo
 bodies: ["Lake Elmo Planning Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_09282026-321
     label: "Lake Elmo Planning Commission agenda, Sept. 28, 2026"
