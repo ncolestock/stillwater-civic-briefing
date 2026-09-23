@@ -602,7 +602,7 @@ footer.site a:hover { color: var(--link-hover); }
 .arrest-card {
   display: flex;
   flex-direction: column;
-  gap: 0.12rem;
+  gap: 0.18rem;
 }
 .arrest-top {
   display: flex;
@@ -610,9 +610,12 @@ footer.site a:hover { color: var(--link-hover); }
   justify-content: space-between;
   gap: 0.35rem;
 }
-.arrest-top .piece-hed {
+.arrest-id {
   flex: 1;
   min-width: 0;
+}
+.arrest-id .piece-hed {
+  margin: 0;
 }
 .piece-arrest .charge {
   font-family: var(--serif);
@@ -625,14 +628,14 @@ footer.site a:hover { color: var(--link-hover); }
   line-height: 1.3;
 }
 .piece-arrest .arrest-date {
-  font-family: var(--label);
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  font-family: var(--sans, var(--label));
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0;
   text-transform: none;
   color: var(--muted);
-  margin: 0;
-  line-height: 1.2;
+  margin: 0.05rem 0 0;
+  line-height: 1.15;
 }
 .expand-stack .piece-arrest,
 .blotter .piece-arrest {

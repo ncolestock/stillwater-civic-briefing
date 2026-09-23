@@ -30,7 +30,10 @@ const dateLabel =
     {variant === "arrest" ? (
       <div class="arrest-card">
         <div class="arrest-top">
-          <h2 class="piece-hed">{article.data.title}</h2>
+          <div class="arrest-id">
+            <h2 class="piece-hed">{article.data.title}</h2>
+            <p class="arrest-date">{dateLabel}</p>
+          </div>
           <button
             type="button"
             class="share-icon"
@@ -38,7 +41,7 @@ const dateLabel =
             aria-label="Copy share link"
             title="Copy share link"
           >
-            <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true" focusable="false">
+            <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true" focusable="false">
               <path
                 fill="currentColor"
                 d="M11 17H7a5 5 0 0 1 0-10h4v2H7a3 3 0 0 0 0 6h4v2zm2-10h4a5 5 0 0 1 0 10h-4v-2h4a3 3 0 0 0 0-6h-4V7zm-5 4h8v2H8v-2z"
@@ -47,7 +50,6 @@ const dateLabel =
           </button>
         </div>
         {article.data.charge && <p class="charge">{article.data.charge}</p>}
-        <p class="arrest-date">{dateLabel}</p>
       </div>
     ) : (
       <>
