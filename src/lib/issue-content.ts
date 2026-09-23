@@ -36,6 +36,19 @@ export function splitIssue(articles: Article[]) {
   return { stories, events, arrests };
 }
 
+export function eventsInWindow(articles: Article[], issue: Date, weeks = 6): Article[] {
+  const start = toUtcDateOnly(issue);
+  const end = new Date(start);
+  end.setUTCDate(end.getUTCDate() + weeks * 7);
+  return articles
+    .filter((a) => a.data.desk === "calendar")
+    .filter((a) => {
+      const d = toUtcDateOnly(a.data.date);
+      return d.valueOf() >= start.valueOf() && d.valueOf() < end.valueOf();
+    })
+    .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf() || a.id.localeCompare(b.id));
+}
+
 export function latestIssueDate(articles: Article[]): Date | null {
   const groups = groupByIssue(articles);
   if (groups.size === 0) return null;

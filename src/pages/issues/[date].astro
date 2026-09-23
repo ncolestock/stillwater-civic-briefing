@@ -3,20 +3,20 @@ import Base from "../../layouts/Base.astro";
 import IssueFront from "../../components/IssueFront.astro";
 import { SITE_NAME } from "../../lib/site";
 import { formatIssueLabel } from "../../lib/issues";
-import { splitIssue } from "../../lib/issue-content";
-import { allPublished, groupByIssue } from "../../lib/issue-content";
+import { allPublished, eventsInWindow, groupByIssue, splitIssue } from "../../lib/issue-content";
 
 export async function getStaticPaths() {
   const published = await allPublished();
   const groups = groupByIssue(published);
   return [...groups.entries()].map(([slug, { date, articles }]) => ({
     params: { date: slug },
-    props: { date, articles },
+    props: { date, articles, published },
   }));
 }
 
-const { date, articles } = Astro.props;
-const { stories, events, arrests } = splitIssue(articles);
+const { date, articles, published } = Astro.props;
+const { stories, arrests } = splitIssue(articles);
+const events = eventsInWindow(published, date, 6);
 const label = formatIssueLabel(date);
 ---
 

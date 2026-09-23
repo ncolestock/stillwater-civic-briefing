@@ -47,7 +47,7 @@ const slug = issueSlug(issue);
     <section>
       <p class="kicker">Events</p>
       {events.length === 0 ? (
-        <p class="empty">No festivals or civic events in this issue.</p>
+        <p class="empty">No festivals or civic events in the next six weeks.</p>
       ) : (
         events.map((article) => <ExpandablePiece article={article} variant="event" />)
       )}

@@ -3,13 +3,14 @@ import Base from "../layouts/Base.astro";
 import IssueFront from "../components/IssueFront.astro";
 import { SITE_DESCRIPTION, SITE_NAME } from "../lib/site";
 import { issueSlug } from "../lib/issues";
-import { allPublished, groupByIssue, latestIssueDate, splitIssue } from "../lib/issue-content";
+import { allPublished, eventsInWindow, groupByIssue, latestIssueDate, splitIssue } from "../lib/issue-content";
 
 const published = await allPublished();
 const latest = latestIssueDate(published);
 const groups = groupByIssue(published);
 const issueArticles = latest ? (groups.get(issueSlug(latest))?.articles ?? []) : [];
-const { stories, events, arrests } = splitIssue(issueArticles);
+const { stories, arrests } = splitIssue(issueArticles);
+const events = latest ? eventsInWindow(published, latest, 6) : [];
 ---
 
 <Base title={SITE_NAME} description={SITE_DESCRIPTION}>

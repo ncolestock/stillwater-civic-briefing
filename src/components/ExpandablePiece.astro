@@ -16,15 +16,16 @@ const deck = plainFirstParagraph(article.body, variant === "arrest" ? 220 : 320)
 const anchor = articleAnchor(article.id);
 const issue = issueDateForArticle(article.data.date, article.data.issue ?? null);
 const sharePath = withBase(`issues/${issueSlug(issue)}/#${anchor}`);
+const countyish = /washington\s+county/i.test(article.data.city);
 const kicker =
   variant === "arrest"
-    ? `${article.data.city}`
+    ? (countyish ? null : article.data.city)
     : `${DESKS[article.data.desk].label} · ${article.data.city}`;
 ---
 
 <details class:list={["piece", `piece-${variant}`, { "piece-lead": lead }]} id={anchor}>
   <summary class="piece-summary">
-    <p class="kicker">{kicker}</p>
+    {kicker && <p class="kicker">{kicker}</p>}
     <h2 class="piece-hed">{article.data.title}</h2>
     {variant === "arrest" && article.data.charge && (
       <p class="charge">{article.data.charge}</p>
