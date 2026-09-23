@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Driving after cancellation"
 ---
 
-Woodbury police booked Seleban Mohamed Salah on Sept. 20, accused of driving without an ignition interlock, of driving after cancellation, and of failing to carry proof of insurance. The interlock and cancellation counts are gross misdemeanors. The insurance count is a misdemeanor. The report cites Minn. Stat. 171.09.1(g), 171.24.5, and 169.791.2(a).
+Woodbury police booked Seleban Mohamed Salah on Sept. 20, accused of driving without an ignition interlock, of driving after cancellation, and of failing to carry proof of insurance.

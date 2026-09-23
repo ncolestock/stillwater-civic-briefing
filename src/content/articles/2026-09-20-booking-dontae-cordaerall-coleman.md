@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Violating a no-contact order"
 ---
 
-Oakdale police booked Dontae Cordaerall Coleman on Sept. 20, accused of violating a domestic-abuse no-contact order. The count is a misdemeanor under Minn. Stat. 629.75.2(b).
+Oakdale police booked Dontae Cordaerall Coleman on Sept. 20, accused of violating a domestic-abuse no-contact order.

@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Fifth-degree drug possession"
 ---
 
-Washington County booked Melissa Faye Poolaw on Sept. 20, accused of fifth-degree drug possession, theft of services, and disorderly conduct. The drug count is a felony. The other two are misdemeanors. The report cites Minn. Stat. 152.025.2(1), 609.52.2(a)(3)(ii), and 609.72.1(3).
+Washington County booked Melissa Faye Poolaw on Sept. 20, accused of fifth-degree drug possession, theft of services, and disorderly conduct.

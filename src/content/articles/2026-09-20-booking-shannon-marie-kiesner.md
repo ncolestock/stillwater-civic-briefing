@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Domestic assault"
 ---
 
-Stillwater police booked Shannon Marie Kiesner on Sept. 20, accused of domestic assault. The count is a misdemeanor under Minn. Stat. 609.2242.1(2).
+Stillwater police booked Shannon Marie Kiesner on Sept. 20, accused of domestic assault.

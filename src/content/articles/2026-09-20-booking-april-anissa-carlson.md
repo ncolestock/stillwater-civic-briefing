@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Criminal vehicular operation"
 ---
 
-Forest Lake police booked April Anissa Carlson on Sept. 20, accused of criminal vehicular operation causing substantial bodily harm, with an alcohol concentration of 0.08 or more within two hours of driving. The count is a gross misdemeanor under Minn. Stat. 609.2113.2(4).
+Forest Lake police booked April Anissa Carlson on Sept. 20, accused of criminal vehicular operation causing substantial bodily harm, with an alcohol concentration of 0.08 or more within two hours of driving.

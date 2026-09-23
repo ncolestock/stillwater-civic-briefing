@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Third-degree DWI, test refusal"
 ---
 
-Stillwater police booked Teresa Maria McMahon on Sept. 21, accused of third-degree driving while impaired for refusing a chemical test. The count is a gross misdemeanor under Minn. Stat. 169A.26.1(b).
+Stillwater police booked Teresa Maria McMahon on Sept. 21, accused of third-degree driving while impaired for refusing a chemical test.

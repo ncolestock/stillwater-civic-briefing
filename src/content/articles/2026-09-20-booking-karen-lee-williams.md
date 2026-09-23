@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Driving after revocation"
 ---
 
-Forest Lake police booked Karen Lee Williams on Sept. 20, accused of driving after revocation. The count is a misdemeanor under Minn. Stat. 171.24.2.
+Forest Lake police booked Karen Lee Williams on Sept. 20, accused of driving after revocation.

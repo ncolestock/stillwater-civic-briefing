@@ -16,4 +16,4 @@ ai_generated: true
 charge: "First-degree burglary"
 ---
 
-Woodbury police booked Isaac Ryan Vance on Sept. 21, accused of first-degree burglary of an occupied dwelling and of first-degree damage to property of more than $1,000. Both counts are felonies. The report cites Minn. Stat. 609.582.1(a) and 609.595.1(4).
+Woodbury police booked Isaac Ryan Vance on Sept. 21, accused of first-degree burglary of an occupied dwelling and of first-degree damage to property of more than $1,000.

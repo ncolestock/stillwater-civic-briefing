@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Obstructing legal process"
 ---
 
-The Sept. 20 book-in lists Chamjock Gatbel Nyak, booked by Washington County, accused of obstructing legal process and of failing, as a pedestrian, to use the sidewalk or the left side of the roadway. Obstruction is a misdemeanor. The pedestrian count is a petty misdemeanor. The report cites Minn. Stat. 609.50.1(1) and 169.21.5.
+Washington County booked Chamjock Gatbel Nyak on Sept. 20, accused of obstructing legal process and of failing, as a pedestrian, to use the sidewalk or the left side of the roadway.

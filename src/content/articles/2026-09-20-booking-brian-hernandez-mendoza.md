@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Assault on a peace officer, obstruction, domestic assault"
 ---
 
-Cottage Grove police booked Brian Hernandez Mendoza on Sept. 20, accused of fourth-degree assault on a peace officer, of obstructing legal process, and of domestic assault. The assault count is a felony, obstruction is a gross misdemeanor, and domestic assault is a misdemeanor. The report cites Minn. Stat. 609.2231.1(c)(2), 609.50.1(2), and 609.2242.1(2).
+Cottage Grove police booked Brian Hernandez Mendoza on Sept. 20, accused of fourth-degree assault on a peace officer, of obstructing legal process, and of domestic assault.

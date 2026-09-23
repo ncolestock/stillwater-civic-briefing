@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Assault on a peace officer"
 ---
 
-Washington County booked Hannah Morgan Long on Sept. 20, accused of fourth-degree assault on a peace officer, demonstrable bodily harm. The count is a felony under Minn. Stat. 609.2231.1(c)(1).
+Washington County booked Hannah Morgan Long on Sept. 20, accused of fourth-degree assault on a peace officer causing demonstrable bodily harm.

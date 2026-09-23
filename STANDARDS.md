@@ -27,7 +27,7 @@ Weave the logistics into ordinary sentences, usually near the end, or once early
 - Narrating document quirks, including a payable-year typo, unless the reader would otherwise get the wrong year. Then one clear sentence, not a puzzle.
 - "Also Tuesday:", "In that paragraph…", "The claims cover Sept. 9 through…", and stacked "is set to" / "is asked to".
 - Ordinance and resolution numbers in the lede. Leave them out unless the number is the only way to tell two items apart.
-- The blotter glossary refrain ("In plain words…"). Say who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Name the statute once, after that. Do not explain it a second time.
+- The blotter glossary refrain ("In plain words…"). Say who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Do not add felony/misdemeanor tags or "The report cites Minn. Stat. …" lines.
 - "Historic," "controversial," "stunning," "embattled," "raises questions," "comes as," "underscores," "community members," or "residents deserve."
 - First person. A host. The paper is not a person. Do not write Artie Fishel. Do not address the reader as "you."
 - Value judgments. Do not say a decision is good, bad, overdue, welcome, troubling, or what anyone deserves.
@@ -75,6 +75,8 @@ A festival or civic event has to answer the go-or-skip questions: what it is, wh
 
 One adult, one page. The blotter list is the archive and it keeps every page.
 
+Ordinary English only. Who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Stop there. Do not write "In plain words." Do not say the count is a felony, gross misdemeanor, or misdemeanor. Do not cite Minn. Stat. numbers or write "The report cites."
+
 `charge` in the frontmatter stays a short plain phrase for the list.
 
 Never write guilty. Do not add a court result. A booking is an accusation. It is not a finding. Do not append "It is not a conviction" to every item.
@@ -82,6 +84,7 @@ Never write guilty. Do not add a court result. A booking is an accusation. It is
 Do not add an address, age, date of birth, officer, arrest location, or mugshot. Leave out juveniles and sex-crime charges. Do not add a drug, a weapon, an injury, or a relationship the book-in line did not print.
 
 The sheriff's dispatch calls and incident summaries do not name people. Do not pin one of those rows on a booking. A court case gets a link only after that case has been opened and the name and charge match. Minnesota Court Records Online is https://publicaccess.courts.state.mn.us/.
+
 
 ## Before it is published
 

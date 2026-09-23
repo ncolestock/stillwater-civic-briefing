@@ -16,4 +16,4 @@ ai_generated: true
 charge: "Driving after cancellation"
 ---
 
-Woodbury police booked Shawn Michael Jones on Sept. 20, accused of driving after cancellation, inimical to public safety. The count is a gross misdemeanor under Minn. Stat. 171.24.5.
+Woodbury police booked Shawn Michael Jones on Sept. 20, accused of driving after cancellation as inimical to public safety.
