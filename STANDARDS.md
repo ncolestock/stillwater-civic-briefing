@@ -65,7 +65,7 @@ That is one story's shape. The dollars still have to be in the document in front
 
 As long as the record supports useful facts. A thin packet stays short. Do not pad to a word count. Do not walk through every page.
 
-A booking is one or two short sentences.
+A booking is one to three short sentences (the charge line, plus at most two from an opened complaint).
 
 ## Calendar / events
 
@@ -75,7 +75,9 @@ A festival or civic event has to answer the go-or-skip questions: what it is, wh
 
 One adult, one page. The blotter list is the archive and it keeps every page.
 
-Ordinary English only. Who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Stop there. Do not write "In plain words." Do not say the count is a felony, gross misdemeanor, or misdemeanor. Do not cite Minn. Stat. numbers or write "The report cites."
+Ordinary English only. Who was booked, on what date, by which agency, and "accused of" the charge in words a neighbor would use. Do not write "In plain words." Do not say the count is a felony, gross misdemeanor, or misdemeanor. Do not cite Minn. Stat. numbers or write "The report cites."
+
+When research has opened a matching criminal complaint, the story may add at most two short sentences of what that complaint alleges (when, where, what happened), still as accusation. Prefer the complaint over a newspaper paraphrase. Do not fill out an arrest from local news alone.
 
 `charge` in the frontmatter stays a short plain phrase for the list.
 
@@ -85,6 +87,10 @@ Do not add an address, age, date of birth, officer, arrest location, or mugshot.
 
 The sheriff's dispatch calls and incident summaries do not name people. Do not pin one of those rows on a booking. A court case gets a link only after that case has been opened and the name and charge match. Minnesota Court Records Online is https://publicaccess.courts.state.mn.us/.
 
+
+## Local news
+
+Research may skim Pioneer Press, Press Publications / Stillwater Gazette, St. Croix 360, Hudson Star-Observer, and similar valley coverage for tip leads on big public stories and for arrest names that have a court complaint. The published story is written from public records (packets, bookings, complaints), not as a rewrite of another outlet.
 
 ## Before it is published
 
