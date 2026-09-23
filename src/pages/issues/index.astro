@@ -1,0 +1,42 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE_NAME, withBase } from "../../lib/site";
+import { formatIssueLabel, issueSlug } from "../../lib/issues";
+import { allPublished, groupByIssue, splitIssue } from "../../lib/issue-content";
+
+const published = await allPublished();
+const issues = [...groupByIssue(published).values()].sort(
+  (a, b) => b.date.valueOf() - a.date.valueOf(),
+);
+---
+
+<Base title={`Past issues — ${SITE_NAME}`}>
+  <article class="story">
+    <p class="kicker">The paper</p>
+    <h1>Past issues</h1>
+    <p class="section-note">
+      New Saint Croix Union goes out each Monday. Open an issue to read that week’s stories, events, and arrests in place.
+    </p>
+    {issues.length === 0 ? (
+      <p class="empty">No issues yet.</p>
+    ) : (
+      <ul class="paper-list issue-index">
+        {issues.map(({ date, articles }) => {
+          const { stories, events, arrests } = splitIssue(articles);
+          const slug = issueSlug(date);
+          return (
+            <li>
+              <p class="kicker">Monday issue</p>
+              <h2><a href={withBase(`issues/${slug}/`)}>{formatIssueLabel(date)}</a></h2>
+              <p class="meta">
+                {stories.length} {stories.length === 1 ? "story" : "stories"}
+                · {events.length} {events.length === 1 ? "event" : "events"}
+                · {arrests.length} {arrests.length === 1 ? "arrest" : "arrests"}
+              </p>
+            </li>
+          );
+        })}
+      </ul>
+    )}
+  </article>
+</Base>

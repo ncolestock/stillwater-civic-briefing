@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import { DESKS, formatDateline, plainFirstParagraph, withBase } from "../lib/site";
+import { articleAnchor, issueDateForArticle, issueSlug } from "../lib/issues";
+
+interface Props {
+  article: CollectionEntry<"articles">;
+  variant?: "story" | "event" | "arrest";
+  lead?: boolean;
+}
+
+const { article, variant = "story", lead = false } = Astro.props;
+const { Content } = await render(article);
+const deck = plainFirstParagraph(article.body, variant === "arrest" ? 220 : 320);
+const anchor = articleAnchor(article.id);
+const issue = issueDateForArticle(article.data.date, article.data.issue ?? null);
+const sharePath = withBase(`issues/${issueSlug(issue)}/#${anchor}`);
+const kicker =
+  variant === "arrest"
+    ? `${article.data.city}`
+    : `${DESKS[article.data.desk].label} · ${article.data.city}`;
+---
+
+<details class:list={["piece", `piece-${variant}`, { "piece-lead": lead }]} id={anchor}>
+  <summary class="piece-summary">
+    <p class="kicker">{kicker}</p>
+    <h2 class="piece-hed">{article.data.title}</h2>
+    {variant === "arrest" && article.data.charge && (
+      <p class="charge">{article.data.charge}</p>
+    )}
+    {variant !== "arrest" && deck && <p class="deck">{deck}</p>}
+    <p class="meta">
+      {formatDateline(article.data.date)}
+      {variant === "event" ? ` · ${article.data.city}` : ""}
+    </p>
+  </summary>
+  <div class="piece-body">
+    {article.data.correction && <p class="correction">{article.data.correction}</p>}
+    <div class="prose">
+      <Content />
+    </div>
+    <aside class="sources-block" aria-label="Sources">
+      <p class="sources-label">Sources</p>
+      <ul class="sources">
+        {article.data.sources.map((source) => (
+          <li><a href={source.url}>{source.label}</a></li>
+        ))}
+      </ul>
+    </aside>
+    <p class="share-row">
+      <a class="share-link" href={`#${anchor}`} data-share-path={sharePath}>Copy share link</a>
+    </p>
+  </div>
+</details>

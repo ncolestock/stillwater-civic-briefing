@@ -1,0 +1,110 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ExpandablePiece from "./ExpandablePiece.astro";
+import { formatIssueLabel, issueSlug } from "../lib/issues";
+import { withBase } from "../lib/site";
+
+interface Props {
+  issue: Date;
+  stories: CollectionEntry<"articles">[];
+  events: CollectionEntry<"articles">[];
+  arrests: CollectionEntry<"articles">[];
+  showIssueNav?: boolean;
+}
+
+const { issue, stories, events, arrests, showIssueNav = true } = Astro.props;
+const lead = stories[0];
+const rest = stories.slice(1);
+const slug = issueSlug(issue);
+---
+
+{showIssueNav && (
+  <div class="issue-banner">
+    <p class="kicker">Monday issue</p>
+    <h1 class="issue-title">{formatIssueLabel(issue)}</h1>
+    <p class="issue-nav meta">
+      <a href={withBase("issues/")}>Past issues</a>
+      <span aria-hidden="true"> · </span>
+      <a href={withBase(`issues/${slug}/`)}>Permalink</a>
+    </p>
+  </div>
+)}
+
+<div class="front">
+  <section class="issue-main">
+    {stories.length === 0 ? (
+      <p class="empty">No stories in this issue.</p>
+    ) : (
+      <>
+        {lead && <ExpandablePiece article={lead} variant="story" lead />}
+        {rest.map((article) => (
+          <ExpandablePiece article={article} variant="story" />
+        ))}
+      </>
+    )}
+  </section>
+  <aside class="side">
+    <section>
+      <p class="kicker">Events</p>
+      {events.length === 0 ? (
+        <p class="empty">No festivals or civic events in this issue.</p>
+      ) : (
+        events.map((article) => <ExpandablePiece article={article} variant="event" />)
+      )}
+    </section>
+    <section class="blotter">
+      <p class="kicker">Arrests</p>
+      {arrests.length === 0 ? (
+        <p class="empty">No bookings in this issue.</p>
+      ) : (
+        arrests.map((article) => <ExpandablePiece article={article} variant="arrest" />)
+      )}
+    </section>
+  </aside>
+</div>
+
+<script is:inline>
+  (function () {
+    function openFromHash() {
+      var id = (location.hash || "").replace(/^#/, "");
+      if (!id) return;
+      var el = document.getElementById(id);
+      if (!el || el.tagName !== "DETAILS") return;
+      el.open = true;
+      el.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+    openFromHash();
+    window.addEventListener("hashchange", openFromHash);
+
+    document.addEventListener("click", function (e) {
+      var t = e.target;
+      if (!(t instanceof Element)) return;
+      var link = t.closest("[data-share-path]");
+      if (!link) return;
+      e.preventDefault();
+      var path = link.getAttribute("data-share-path");
+      if (!path) return;
+      var url = new URL(path, location.origin).href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () {
+          var prev = link.textContent;
+          link.textContent = "Link copied";
+          setTimeout(function () { link.textContent = prev; }, 1600);
+        });
+      } else {
+        prompt("Copy share link", url);
+      }
+    });
+
+    // Keep the hash in sync when expanding (shareable without Copy)
+    document.addEventListener("toggle", function (e) {
+      var el = e.target;
+      if (!(el instanceof HTMLDetailsElement) || !el.id || !el.classList.contains("piece")) return;
+      if (el.open) {
+        history.replaceState(null, "", "#" + el.id);
+      } else if (location.hash === "#" + el.id) {
+        history.replaceState(null, "", location.pathname + location.search);
+      }
+    }, true);
+  })();
+</script>

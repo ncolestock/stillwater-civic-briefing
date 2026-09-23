@@ -1,25 +1,69 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { SITE_NAME, formatDateline, withBase } from "../lib/site";
+import ExpandablePiece from "../components/ExpandablePiece.astro";
+import { SITE_NAME, withBase } from "../lib/site";
 
-const bookings = (await getCollection("articles"))
+const blotter = (await getCollection("articles"))
   .filter((article) => article.data.status === "published" && article.data.desk === "blotter")
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.title.localeCompare(b.data.title));
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.id.localeCompare(b.id));
 ---
 
-<Base title={`Blotter — ${SITE_NAME}`}>
-  <header class="section-banner">
+<Base title={`Arrests — ${SITE_NAME}`}>
+  <div class="section-banner">
     <p class="kicker">Washington County Jail</p>
-    <h1>Blotter</h1>
-  </header>
-  <ul class="blotter-list">
-    {bookings.map((booking) => (
-      <li>
-        <a href={withBase(`articles/${booking.id}/`)}>{booking.data.title}</a>
-        <p class="charge">{booking.data.charge}</p>
-        <p class="meta">{formatDateline(booking.data.date)}</p>
-      </li>
-    ))}
-  </ul>
+    <h1>Arrests</h1>
+  </div>
+  <p class="section-note">
+    Tap a name to read the booking in place. Each row has a share link.
+    <a href={withBase("issues/")}>Past Monday issues</a> keep the week’s arrests together.
+  </p>
+  {blotter.length === 0 ? (
+    <p class="empty">No bookings.</p>
+  ) : (
+    <div class="expand-stack">
+      {blotter.map((article) => (
+        <ExpandablePiece article={article} variant="arrest" />
+      ))}
+    </div>
+  )}
+  <script is:inline>
+    (function () {
+      function openFromHash() {
+        var id = (location.hash || "").replace(/^#/, "");
+        if (!id) return;
+        var el = document.getElementById(id);
+        if (!el || el.tagName !== "DETAILS") return;
+        el.open = true;
+        el.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
+      openFromHash();
+      window.addEventListener("hashchange", openFromHash);
+      document.addEventListener("click", function (e) {
+        var t = e.target;
+        if (!(t instanceof Element)) return;
+        var link = t.closest("[data-share-path]");
+        if (!link) return;
+        e.preventDefault();
+        var path = link.getAttribute("data-share-path");
+        if (!path) return;
+        var url = new URL(path, location.origin).href;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () {
+            var prev = link.textContent;
+            link.textContent = "Link copied";
+            setTimeout(function () { link.textContent = prev; }, 1600);
+          });
+        } else {
+          prompt("Copy share link", url);
+        }
+      });
+      document.addEventListener("toggle", function (e) {
+        var el = e.target;
+        if (!(el instanceof HTMLDetailsElement) || !el.id || !el.classList.contains("piece")) return;
+        if (el.open) history.replaceState(null, "", "#" + el.id);
+        else if (location.hash === "#" + el.id) history.replaceState(null, "", location.pathname + location.search);
+      }, true);
+    })();
+  </script>
 </Base>

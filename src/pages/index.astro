@@ -1,88 +1,21 @@
 ---
-import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { DESKS, SITE_DESCRIPTION, SITE_NAME, formatDateline, plainFirstParagraph, withBase } from "../lib/site";
+import IssueFront from "../components/IssueFront.astro";
+import { SITE_DESCRIPTION, SITE_NAME } from "../lib/site";
+import { issueSlug } from "../lib/issues";
+import { allPublished, groupByIssue, latestIssueDate, splitIssue } from "../lib/issue-content";
 
-const stories = (await getCollection("articles"))
-  .filter((article) => article.data.status === "published")
-  .filter((article) => article.data.desk !== "blotter" && article.data.desk !== "calendar")
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.id.localeCompare(b.id));
-
-const blotter = (await getCollection("articles"))
-  .filter((article) => article.data.status === "published" && article.data.desk === "blotter")
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.id.localeCompare(b.id));
-
-const events = (await getCollection("articles"))
-  .filter((article) => article.data.status === "published" && article.data.desk === "calendar")
-  .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf() || a.id.localeCompare(b.id));
-
-const lead = stories[0];
-const rest = stories.slice(1);
-const deck = lead ? plainFirstParagraph(lead.body, 320) : "";
+const published = await allPublished();
+const latest = latestIssueDate(published);
+const groups = groupByIssue(published);
+const issueArticles = latest ? (groups.get(issueSlug(latest))?.articles ?? []) : [];
+const { stories, events, arrests } = splitIssue(issueArticles);
 ---
 
 <Base title={SITE_NAME} description={SITE_DESCRIPTION}>
-  <div class="front">
-    <section>
-      {stories.length === 0 ? (
-        <p class="empty">No stories are filed.</p>
-      ) : (
-        <>
-          {lead && (
-            <article class="lead">
-              <p class="kicker">{DESKS[lead.data.desk].label} · {lead.data.city}</p>
-              <h2><a href={withBase(`articles/${lead.id}/`)}>{lead.data.title}</a></h2>
-              {deck && <p class="deck">{deck}</p>}
-              <p class="meta">{formatDateline(lead.data.date)}</p>
-            </article>
-          )}
-          {rest.length > 0 && (
-            <ul class="paper-list">
-              {rest.map((article) => (
-                <li>
-                  <p class="kicker">{DESKS[article.data.desk].label} · {article.data.city}</p>
-                  <h2><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h2>
-                  <p class="meta">{formatDateline(article.data.date)}</p>
-                </li>
-              ))}
-            </ul>
-          )}
-        </>
-      )}
-    </section>
-    <aside class="side">
-      <section>
-        <p class="kicker"><a href={withBase("calendar/")}>Events</a></p>
-        {events.length === 0 ? (
-          <p class="empty">No festivals or civic events are filed.</p>
-        ) : (
-          <ul class="event-list">
-            {events.map((article) => (
-              <li>
-                <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
-                <br />
-                <span class="meta">{formatDateline(article.data.date)} · {article.data.city}</span>
-              </li>
-            ))}
-          </ul>
-        )}
-      </section>
-      <section class="blotter">
-        <p class="kicker"><a href={withBase("blotter/")}>Arrests</a></p>
-        {blotter.length === 0 ? (
-          <p class="empty">No bookings.</p>
-        ) : (
-          <ul class="blotter-list">
-            {blotter.slice(0, 8).map((article) => (
-              <li>
-                <a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a>
-                <p class="charge">{article.data.charge}</p>
-              </li>
-            ))}
-          </ul>
-        )}
-        <p><a href={withBase("blotter/")}>All arrests</a></p>
-      </section>
-    </aside>
-  </div>
+  {latest ? (
+    <IssueFront issue={latest} stories={stories} events={events} arrests={arrests} />
+  ) : (
+    <p class="empty">No issues are filed yet.</p>
+  )}
 </Base>

@@ -1,30 +1,69 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
-import { SITE_NAME, formatDateline, withBase } from "../lib/site";
+import ExpandablePiece from "../components/ExpandablePiece.astro";
+import { SITE_NAME, withBase } from "../lib/site";
 
 const events = (await getCollection("articles"))
   .filter((article) => article.data.status === "published" && article.data.desk === "calendar")
-  .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+  .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf() || a.id.localeCompare(b.id));
 ---
 
-<Base title={`Calendar — ${SITE_NAME}`}>
-  <header class="section-banner">
+<Base title={`Events — ${SITE_NAME}`}>
+  <div class="section-banner">
     <p class="kicker">Festivals and civic events</p>
-    <h1>Calendar</h1>
-  </header>
-  <p class="section-note">Meetings are on the meetings calendar. This page is everything else.</p>
+    <h1>Events</h1>
+  </div>
+  <p class="section-note">
+    Tap an event to read it here. Share links open the Monday issue that carries it.
+    <a href={withBase("issues/")}>Past issues</a>
+  </p>
   {events.length === 0 ? (
     <p class="empty">No festivals or civic events are filed.</p>
   ) : (
-    <ul class="paper-list">
+    <div class="expand-stack">
       {events.map((article) => (
-        <li>
-          <p class="kicker">{article.data.city}</p>
-          <h2><a href={withBase(`articles/${article.id}/`)}>{article.data.title}</a></h2>
-          <p class="meta">{formatDateline(article.data.date)}</p>
-        </li>
+        <ExpandablePiece article={article} variant="event" />
       ))}
-    </ul>
+    </div>
   )}
+  <script is:inline>
+    (function () {
+      function openFromHash() {
+        var id = (location.hash || "").replace(/^#/, "");
+        if (!id) return;
+        var el = document.getElementById(id);
+        if (!el || el.tagName !== "DETAILS") return;
+        el.open = true;
+        el.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
+      openFromHash();
+      window.addEventListener("hashchange", openFromHash);
+      document.addEventListener("click", function (e) {
+        var t = e.target;
+        if (!(t instanceof Element)) return;
+        var link = t.closest("[data-share-path]");
+        if (!link) return;
+        e.preventDefault();
+        var path = link.getAttribute("data-share-path");
+        if (!path) return;
+        var url = new URL(path, location.origin).href;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () {
+            var prev = link.textContent;
+            link.textContent = "Link copied";
+            setTimeout(function () { link.textContent = prev; }, 1600);
+          });
+        } else {
+          prompt("Copy share link", url);
+        }
+      });
+      document.addEventListener("toggle", function (e) {
+        var el = e.target;
+        if (!(el instanceof HTMLDetailsElement) || !el.id || !el.classList.contains("piece")) return;
+        if (el.open) history.replaceState(null, "", "#" + el.id);
+        else if (location.hash === "#" + el.id) history.replaceState(null, "", location.pathname + location.search);
+      }, true);
+    })();
+  </script>
 </Base>

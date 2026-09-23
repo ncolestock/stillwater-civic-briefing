@@ -491,6 +491,91 @@ footer.site a:hover { color: var(--link-hover); }
   .meet-link { font-size: 0.8rem; }
 }
 
+
+/* Expand-in-place issue pieces */
+.issue-banner {
+  margin: 1.25rem 0 0.35rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--rule);
+}
+.issue-title {
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+  margin: 0.1rem 0 0.35rem;
+  line-height: 1.15;
+}
+.issue-nav a { text-decoration: none; color: var(--muted); }
+.issue-nav a:hover { color: var(--link-hover); }
+
+.piece {
+  border-top: 1px solid var(--rule);
+  padding: 0.65rem 0 0.15rem;
+}
+.piece-lead {
+  border-top: 0;
+  padding-top: 0;
+  margin-bottom: 0.35rem;
+}
+.piece-summary {
+  list-style: none;
+  cursor: pointer;
+}
+.piece-summary::-webkit-details-marker { display: none; }
+.piece-summary::marker { content: ""; }
+.piece-hed {
+  font-family: var(--display);
+  font-size: var(--fs-hed-list);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0.08rem 0;
+}
+.piece-lead .piece-hed {
+  font-size: var(--fs-hed-lead);
+}
+.piece-summary .deck {
+  margin-bottom: 0.35rem;
+}
+.piece[open] > .piece-summary .deck {
+  display: none;
+}
+.piece-body {
+  margin-top: 0.55rem;
+  padding-bottom: 0.85rem;
+}
+.piece-body .prose {
+  max-width: var(--measure);
+}
+.side .piece {
+  border-top: 1px solid var(--rule);
+  padding: 0.55rem 0 0.1rem;
+}
+.side .piece-hed {
+  font-size: 1.05rem;
+}
+.side .piece-summary .deck {
+  font-size: 0.95rem;
+  font-style: italic;
+}
+.share-row {
+  margin: 0.85rem 0 0;
+  font-family: var(--label);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+.share-link {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+.share-link:hover { color: var(--link-hover); }
+
+.expand-stack .piece:first-child { border-top: 0; }
+
+.issue-main .piece + .piece { margin-top: 0; }
+
 @media print {
   .header-tools, .player, .rail { display: none; }
   html, body { background: white; background-image: none; }
