@@ -9,7 +9,8 @@ sources:
     label: "Lake Elmo Planning Commission agenda, Sept. 28, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: 2026-09-23
 ai_generated: true
 briefing: research/2026-09-28-lake-elmo-planning.md
 ---
