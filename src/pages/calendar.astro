@@ -15,7 +15,7 @@ const events = (await getCollection("articles"))
     <h1>Events</h1>
   </div>
   <p class="section-note">
-    Tap an event to read it here. Share links open the Monday issue that carries it.
+    Tap an event to read it here. Share links open the weekly issue that carries it.
     <a href={withBase("issues/")}>Past issues</a>
   </p>
   {events.length === 0 ? (

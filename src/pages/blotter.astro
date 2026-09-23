@@ -16,7 +16,7 @@ const blotter = (await getCollection("articles"))
   </div>
   <p class="section-note">
     Tap a name to read the booking in place. Each row has a share link.
-    <a href={withBase("issues/")}>Past Monday issues</a> keep the week’s arrests together.
+    <a href={withBase("issues/")}>Past issues</a> keep the week’s arrests together.
   </p>
   {blotter.length === 0 ? (
     <p class="empty">No bookings.</p>

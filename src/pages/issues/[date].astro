@@ -20,6 +20,6 @@ const events = eventsInWindow(published, date, 6);
 const label = formatIssueLabel(date);
 ---
 
-<Base title={`${label} — ${SITE_NAME}`} description={`Monday issue for ${label}.`}>
+<Base title={`${label} — ${SITE_NAME}`} description={`Weekly issue for ${label}.`}>
   <IssueFront issue={date} stories={stories} events={events} arrests={arrests} />
 </Base>
