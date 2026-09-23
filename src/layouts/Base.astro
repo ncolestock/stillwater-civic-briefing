@@ -1,17 +1,12 @@
 ---
-import { getCollection } from "astro:content";
 import "../styles/global.css";
-import { DESKS, DISCLAIMER, SITE_DESCRIPTION, SITE_NAME, deskNav, withBase } from "../lib/site";
+import { DISCLAIMER, SITE_DESCRIPTION, SITE_NAME, withBase } from "../lib/site";
 
 interface Props {
   title: string;
   description?: string;
 }
 const { title, description = SITE_DESCRIPTION } = Astro.props;
-const hasRoads = (await getCollection("articles")).some(
-  (article) => article.data.status === "published" && article.data.desk === "roads",
-);
-const nav = deskNav(hasRoads);
 const today = new Date();
 const edition = today.toLocaleDateString("en-US", {
   weekday: "long",
@@ -37,7 +32,7 @@ const edition = today.toLocaleDateString("en-US", {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -52,16 +47,14 @@ const edition = today.toLocaleDateString("en-US", {
         <p class="edition-date">{edition}</p>
       </div>
       <hr class="double-rule" />
-      <nav class="desks">
-        {nav.map((id, i) => (
-          <>
-            {i > 0 && <span aria-hidden="true"> · </span>}
-            <a href={withBase(`${DESKS[id].path}/`)}>{DESKS[id].label}</a>
-          </>
-        ))}
-        <span aria-hidden="true"> · </span>
-        <a href={withBase("podcast/")}>Podcast</a>
-      </nav>
+      <div class="header-tools">
+        <a class="rss-link" href={withBase("feed.xml")} aria-label="Podcast RSS feed">
+          <svg class="rss-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20S4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44c8.6 0 15.56 6.97 15.56 15.56h-2.91A12.65 12.65 0 0 0 4 7.35V4.44m0 5.46a10.1 10.1 0 0 1 10.1 10.1h-2.91A7.19 7.19 0 0 0 4 12.81V9.9Z"/>
+          </svg>
+          <span>RSS</span>
+        </a>
+      </div>
     </header>
     <main class="wrap">
       <slot />
@@ -71,8 +64,9 @@ const edition = today.toLocaleDateString("en-US", {
         <p>{DISCLAIMER}</p>
         <p>
           <a href={withBase("about/")}>About and corrections</a>
+          · <a href={withBase("podcast/")}>Podcast</a>
           · <a href={withBase("archive/")}>Earlier episodes</a>
-          · <a href={withBase("feed.xml")}>Podcast feed</a>
+          · <a href={withBase("feed.xml")}>RSS</a>
         </p>
       </div>
     </footer>

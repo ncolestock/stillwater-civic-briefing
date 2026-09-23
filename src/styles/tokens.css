@@ -30,10 +30,10 @@
   --oxblood-hover: var(--scb-oxblood-hover);
   --disclaimer: var(--scb-ink-soft);
 
-  --font-display: "Old Standard TT", "Source Serif 4", "Times New Roman", serif;
-  --font-body: "Source Serif 4", Georgia, serif;
-  --font-ui: "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
-  --font-wood: "Cinzel", "Old Standard TT", serif;
+  --font-display: "Fraunces", "Newsreader", Georgia, serif;
+  --font-body: "Newsreader", "Source Serif 4", Georgia, serif;
+  --font-ui: "Inter", "Helvetica Neue", system-ui, sans-serif;
+  --font-wood: "Fraunces", "Newsreader", Georgia, serif;
 
   --display: var(--font-display);
   --serif: var(--font-body);
@@ -50,7 +50,7 @@
   --scb-measure: 38rem;
   --gutter: 1.25rem;
   --masthead-rule: 2px;
-  --tracking-flag: 0.18em;
+  --tracking-flag: 0.06em;
 
   /* One line across the bridge. cqi is the lockup width, so the name
      scales down before it wraps. The vw clamp is the fallback. */

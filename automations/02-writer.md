@@ -49,7 +49,8 @@ Also:
 - As long as the record supports useful facts. A thin record stays thin. Prefer fewer, clearer sentences over a longer paraphrase. Do not pad.
 - A booking is two to four short sentences. Ordinary English first: date, agency, and "accused of" the charge. Statute once, quietly. Do not explain the statute again. Do not add a drug, a weapon, an injury, or a relationship the briefing did not print. Do not say the person did it. Do not use the word guilty. Do not add a court result, and do not append "It is not a conviction." Set `charge` to a short plain phrase for the blotter list. The date is the booking date.
 - Do not add the AI disclaimer. The site footer carries it. Do not mention AI in the story.
-- Do not judge. Do not write that a proposal is wise, late, costly in spirit, or what anyone deserves. If the briefing states a fact, state the fact.
+- - Calendar / festival stories: say what the event is, who puts it on, where and when (hours), and what a visitor will find (artists, food, music, cost if stated). Hours and a park name alone fail. If a lineup is not posted, say so once. Do not invent acts or prices.
+Do not judge. Do not write that a proposal is wise, late, costly in spirit, or what anyone deserves. If the briefing states a fact, state the fact.
 
 ## Article shape
 

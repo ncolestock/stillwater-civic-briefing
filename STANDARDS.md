@@ -67,6 +67,10 @@ As long as the record supports useful facts. A thin packet stays short. Do not p
 
 A booking is two to four short sentences.
 
+## Calendar / events
+
+A festival or civic event has to answer the go-or-skip questions: what it is, who puts it on, where and when (including hours), and what a visitor will find (artists, food, music, cost if the source states it). Hours and a park name alone are not enough. If a music lineup or vendor list is not posted yet, say so once. Do not invent acts, prices, or attendance figures that are not in the source.
+
 ## Blotter
 
 One adult, one page. The blotter list is the archive and it keeps every page.
