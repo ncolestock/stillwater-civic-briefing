@@ -1,10 +1,5 @@
-/* New Saint Croix Union — the only :root.
-   --scb-paper is the paper margin of public/brand/bridge-wide.jpg.
-   Top-left and bottom-right corner pixels are #F6EEDB (12px patches
-   average the same). The engraved sky is darker, about #E1DAC9.
-   Do not average the sky into the page field.
-   Component CSS uses the short names.
-   --rule is the oxblood accent. Hairlines use --rule-thin. */
+/* New Saint Croix Union — parchment + black-ink system (Designer SYSTEM.md).
+   Oxblood is link-hover only. Structural rules are parchment hairlines or ink. */
 
 :root {
   --scb-paper: #F6EEDB;
@@ -24,24 +19,27 @@
   --ink: var(--scb-ink);
   --ink-soft: var(--scb-ink-soft);
   --muted: var(--scb-ink-muted);
-  --rule: var(--scb-oxblood);
+  --rule: var(--scb-rule);
   --rule-thin: var(--scb-rule);
+  --rule-strong: var(--scb-ink);
   --oxblood: var(--scb-oxblood);
   --oxblood-hover: var(--scb-oxblood-hover);
+  --link-hover: var(--scb-oxblood-hover);
   --disclaimer: var(--scb-ink-soft);
 
   --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
   --font-body: "Newsreader", Georgia, serif;
-  --font-ui: "Inter", "Helvetica Neue", system-ui, sans-serif;
+  --font-label: "Newsreader", "Cormorant Garamond", Georgia, serif;
   --font-wood: "Cormorant Garamond", "Playfair Display", Georgia, serif;
 
   --display: var(--font-display);
   --serif: var(--font-body);
-  --sans: var(--font-ui);
+  --label: var(--font-label);
+  --sans: var(--font-label);
 
   --scb-serif-display: var(--font-display);
   --scb-serif-body: var(--font-body);
-  --scb-sans: var(--font-ui);
+  --scb-sans: var(--font-label);
   --scb-wood: var(--font-wood);
 
   --page: 72rem;
@@ -50,19 +48,14 @@
   --scb-measure: 38rem;
   --gutter: 1.25rem;
   --masthead-rule: 2px;
-  --tracking-flag: 0.06em;
+  --tracking-label: 0.14em;
 
-  /* One line across the bridge. cqi is the lockup width, so the name
-     scales down before it wraps. The vw clamp is the fallback. */
-  --fs-masthead: clamp(0.78rem, 2.7vw, 2.15rem);
-  --fs-masthead-lockup: clamp(0.72rem, 4.2cqi, 2.85rem);
-  --fs-hed-lead: clamp(1.4rem, 2.15vw, 1.85rem);
+  --fs-hed-lead: clamp(1.55rem, 2.4vw, 2rem);
+  --fs-hed-list: 1.25rem;
+  --fs-hed-story: clamp(1.65rem, 3vw, 2.15rem);
   --fs-body: 1.0625rem;
-  --lh-body: 1.48;
-  --fs-ui: 0.78rem;
+  --lh-body: 1.52;
+  --fs-label: 0.74rem;
   --fs-disclaimer: 0.78rem;
-  --fs-lockup-eyebrow: clamp(0.72rem, 1.6vw, 0.95rem);
-  --fs-lockup-union: clamp(3.2rem, 12vw, 6.5rem);
-  --fs-lockup-reborn: clamp(0.68rem, 1.3vw, 0.85rem);
   --lockup-max: 28rem;
 }

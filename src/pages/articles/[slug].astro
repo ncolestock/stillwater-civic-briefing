@@ -24,7 +24,6 @@ const description = plainFirstParagraph(article.body) || article.data.title;
     <h1>{article.data.title}</h1>
     <p class="meta">
       {formatDateline(article.data.date)} · {article.data.bodies.join(", ")}
-      {article.data.dollars ? ` · ${article.data.dollars}` : ""}
     </p>
     {article.data.correction && <p class="correction">{article.data.correction}</p>}
     <div class="prose">
