@@ -4,15 +4,15 @@
 
 html {
   background-color: var(--paper);
-  background-image: var(--paper-texture);
-  background-repeat: repeat;
-  background-size: 26rem auto;
 }
 
 body {
   margin: 0;
   color: var(--ink);
-  background: transparent;
+  background-color: var(--paper);
+  background-image: var(--paper-texture);
+  background-repeat: repeat;
+  background-size: 22rem auto;
   font-family: var(--serif);
   font-size: var(--fs-body);
   line-height: var(--lh-body);
