@@ -21,8 +21,8 @@ const kicker =
   variant === "arrest"
     ? (countyish ? null : article.data.city)
     : `${DESKS[article.data.desk].label} · ${article.data.city}`;
-const dateLabel =
-  variant === "arrest" ? formatShortDateline(article.data.date) : formatDateline(article.data.date);
+const shortDate = formatShortDateline(article.data.date);
+const longDate = formatDateline(article.data.date);
 ---
 
 <details class:list={["piece", `piece-${variant}`, { "piece-lead": lead }]} id={anchor}>
@@ -30,10 +30,7 @@ const dateLabel =
     {variant === "arrest" ? (
       <div class="arrest-card">
         <div class="arrest-top">
-          <div class="arrest-id">
-            <h2 class="piece-hed">{article.data.title}</h2>
-            <p class="arrest-date">{dateLabel}</p>
-          </div>
+          <h2 class="piece-hed">{article.data.title}</h2>
           <button
             type="button"
             class="share-icon"
@@ -49,18 +46,23 @@ const dateLabel =
             </svg>
           </button>
         </div>
-        {article.data.charge && <p class="charge">{article.data.charge}</p>}
+        <p class="arrest-meta">
+          <span class="arrest-date">{shortDate}</span>
+          {article.data.charge && (
+            <>
+              <span class="arrest-sep" aria-hidden="true">·</span>
+              <span class="charge">{article.data.charge}</span>
+            </>
+          )}
+        </p>
       </div>
     ) : (
       <>
-        {kicker && <p class="kicker">{kicker}</p>}
-        <h2 class="piece-hed">{article.data.title}</h2>
-        {deck && <p class="deck">{deck}</p>}
-        <p class="meta piece-meta">
-          <span class="piece-date">
-            {dateLabel}
-            {variant === "event" ? ` · ${article.data.city}` : ""}
-          </span>
+        <div class="story-top">
+          <div class="story-id">
+            {kicker && <p class="kicker">{kicker}</p>}
+            <h2 class="piece-hed">{article.data.title}</h2>
+          </div>
           <button
             type="button"
             class="share-icon"
@@ -75,7 +77,13 @@ const dateLabel =
               />
             </svg>
           </button>
-        </p>
+        </div>
+        {variant === "event" && (
+          <p class="meta piece-meta">
+            <span class="piece-date">{longDate} · {article.data.city}</span>
+          </p>
+        )}
+        {variant !== "arrest" && deck && <p class="deck">{deck}</p>}
       </>
     )}
   </summary>

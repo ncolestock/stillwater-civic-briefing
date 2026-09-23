@@ -13,7 +13,7 @@ const { stories, arrests } = splitIssue(issueArticles);
 const events = latest ? eventsInWindow(published, latest, 6) : [];
 ---
 
-<Base title={SITE_NAME} description={SITE_DESCRIPTION}>
+<Base title={SITE_NAME} description={SITE_DESCRIPTION} issue={latest}>
   {latest ? (
     <IssueFront issue={latest} stories={stories} events={events} arrests={arrests} />
   ) : (

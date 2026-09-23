@@ -1,20 +1,18 @@
 ---
 import "../styles/global.css";
 import { DISCLAIMER, SITE_DESCRIPTION, SITE_NAME, withBase } from "../lib/site";
+import { formatIssueHeader } from "../lib/issues";
+import { allPublished, latestIssueDate } from "../lib/issue-content";
 
 interface Props {
   title: string;
   description?: string;
+  /** Monday of the weekly issue shown in the masthead edition line. */
+  issue?: Date | null;
 }
-const { title, description = SITE_DESCRIPTION } = Astro.props;
-const today = new Date();
-const edition = today.toLocaleDateString("en-US", {
-  weekday: "long",
-  month: "long",
-  day: "numeric",
-  year: "numeric",
-  timeZone: "America/Chicago",
-});
+const { title, description = SITE_DESCRIPTION, issue: issueProp } = Astro.props;
+const issue = issueProp ?? latestIssueDate(await allPublished());
+const edition = issue ? formatIssueHeader(issue) : null;
 ---
 
 <html lang="en" style={`--paper-texture: url("${withBase("brand/paper-texture.png")}")`}>
@@ -53,7 +51,11 @@ const edition = today.toLocaleDateString("en-US", {
       <hr class="double-rule" />
       <div class="header-tools">
         <p class="edition-line" data-edition-weather>
-          <span class="edition-date">{edition}</span>
+          {edition ? (
+            <span class="edition-date">{edition}</span>
+          ) : (
+            <span class="edition-date">New Saint Croix Union</span>
+          )}
           <span class="edition-sep" aria-hidden="true">·</span>
           <span class="edition-weather" data-weather>Stillwater weather</span>
         </p>

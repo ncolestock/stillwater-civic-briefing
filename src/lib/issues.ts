@@ -48,6 +48,37 @@ export function formatIssueLabel(date: Date): string {
   return `Week of ${day}`;
 }
 
+/** ISO week number for a UTC calendar day (Mon–Sun weeks). */
+export function isoWeekNumber(date: Date): number {
+  const d = toUtcDateOnly(date);
+  // Thursday of this week determines the ISO week-year
+  const day = d.getUTCDay() || 7; // Mon=1 … Sun=7
+  d.setUTCDate(d.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  return Math.ceil((((d.valueOf() - yearStart.valueOf()) / 86400000) + 1) / 7);
+}
+
+/** Header line: Issue 38 · September 21–27, 2026 */
+export function formatIssueHeader(monday: Date): string {
+  const start = toUtcDateOnly(monday);
+  const end = new Date(start);
+  end.setUTCDate(end.getUTCDate() + 6);
+  const week = isoWeekNumber(start);
+  const sameMonth = start.getUTCMonth() === end.getUTCMonth();
+  const startLabel = start.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+  const endLabel = end.toLocaleDateString("en-US", {
+    month: sameMonth ? undefined : "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+  return `Issue ${week} · ${startLabel}–${endLabel}`;
+}
+
 export function articleAnchor(id: string): string {
   return `a-${id}`;
 }

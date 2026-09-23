@@ -1,34 +1,17 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import ExpandablePiece from "./ExpandablePiece.astro";
-import { formatIssueLabel, issueSlug } from "../lib/issues";
-import { withBase } from "../lib/site";
-
 interface Props {
   issue: Date;
   stories: CollectionEntry<"articles">[];
   events: CollectionEntry<"articles">[];
   arrests: CollectionEntry<"articles">[];
-  showIssueNav?: boolean;
 }
 
-const { issue, stories, events, arrests, showIssueNav = true } = Astro.props;
+const { stories, events, arrests } = Astro.props;
 const lead = stories[0];
 const rest = stories.slice(1);
-const slug = issueSlug(issue);
 ---
-
-{showIssueNav && (
-  <div class="issue-banner">
-    <p class="kicker">Weekly issue</p>
-    <h1 class="issue-title">{formatIssueLabel(issue)}</h1>
-    <p class="issue-nav meta">
-      <a href={withBase("issues/")}>Past issues</a>
-      <span aria-hidden="true"> · </span>
-      <a href={withBase(`issues/${slug}/`)}>Permalink</a>
-    </p>
-  </div>
-)}
 
 <div class="front">
   <section class="issue-main">
