@@ -6,7 +6,7 @@ This is a static paper, not an app-factory Next.js app. Astro builds markdown in
 
 ## Laptop closed
 
-The Mac is not in the path. Three automations run each morning, in order. None of them is allowed to do the other two jobs.
+The Mac is not in the path. Three automations run each morning, in order. None of them is allowed to do the other two jobs. Canonical prompts live in `automations/*.md` plus `STANDARDS.md`. Grok Automations on grok.com are thin wrappers only — see `automations/GROK-WRAPPERS.md`.
 
 1. Research, 7:00 a.m., writes `research/YYYY-MM-DD-slug.md`. That file is notes from the packet. It is not on the site.
 2. Writer, 8:15 a.m., turns each new briefing into a draft article. Drafts are not built into public pages.

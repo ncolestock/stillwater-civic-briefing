@@ -65,7 +65,7 @@ That is one story's shape. The dollars still have to be in the document in front
 
 As long as the record supports useful facts. A thin packet stays short. Do not pad to a word count. Do not walk through every page.
 
-A booking is two to four short sentences.
+A booking is one or two short sentences.
 
 ## Calendar / events
 
