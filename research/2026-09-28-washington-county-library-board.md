@@ -5,7 +5,7 @@ slug: 2026-09-28-washington-county-library-board
 desk: meetings
 city: Washington County
 bodies: ["Washington County Library Board"]
-status: briefing
+status: filed
 sources:
   - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_09282026-1947
     label: "Library Board meeting packet, Sept. 28, 2026"
