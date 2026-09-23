@@ -32,7 +32,7 @@ const edition = today.toLocaleDateString("en-US", {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Playfair+Display:wght@700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -40,9 +40,20 @@ const edition = today.toLocaleDateString("en-US", {
     <div class="topbar"></div>
     <header class="wrap">
       <div class="nameplate">
-        <a class="bridge-lockup" href={withBase("")}>
-          <h1 class="flag">New Saint Croix Union</h1>
-          <img class="bridge" src={withBase("brand/bridge-wide.jpg")} alt="The Stillwater Lift Bridge" />
+        <a class="engraved-lockup" href={withBase("")}>
+          <h1 class="lockup-title">
+            <span class="lockup-eyebrow">New Saint Croix</span>
+            <span class="lockup-union">Union</span>
+          </h1>
+          <div class="lockup-rule" aria-hidden="true">
+            <span class="lockup-fleur">⚜</span>
+          </div>
+          <img
+            class="lockup-bridge"
+            src={withBase("brand/bridge-engraving.png")}
+            alt="Engraving of the Stillwater Lift Bridge over the St. Croix"
+          />
+          <p class="lockup-reborn"><span>Reborn. 2026</span></p>
         </a>
         <p class="edition-date">{edition}</p>
       </div>

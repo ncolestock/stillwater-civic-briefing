@@ -22,7 +22,7 @@ If the GitHub connector cannot write, the automation puts the markdown in a Goog
 
 - Articles: `src/content/articles/YYYY-MM-DD-slug.md`
 - Home is the paper: main story list, Events on the side (header opens the calendar), Arrests under Events (header opens the blotter). Desk index pages still exist for deep links; they are not a header menu.
-- Masthead: one Fraunces line, New Saint Croix Union, overlaid on the **bottom** of the full-width engraving `public/brand/bridge-wide.jpg`. The bridge is the hero field. The edition date sits under the bridge. An RSS mark sits in the header; the podcast lives in the footer. The seal is a favicon and a lettermark, not the home masthead. The GitHub repo and the Pages path stay `stillwater-civic-briefing`.
+- Masthead: engraved lockup — small caps NEW SAINT CROIX over a large UNION, fleur rule, lift-bridge engraving (`public/brand/bridge-engraving.png`), and Reborn. 2026. Title remaining New Saint Croix Union. Cream parchment field. Edition date under the lockup. RSS in the header; podcast in the footer. The seal is a favicon and a lettermark. The GitHub repo and the Pages path stay `stillwater-civic-briefing`.
 - Geography: Stillwater, Lake Elmo, Oakdale, Woodbury, Bayport, Oak Park Heights, Washington County, Hudson, the Town of Hudson, St. Croix County, Stillwater Area Public Schools, North St. Paul–Maplewood–Oakdale schools.
 - South Washington County Schools uses `district833.org` on its own site. It is not in v1 until Nathan adds it.
 - Stories put the meeting time, the place, and how to speak in the body. They do not end with a "How to follow it" section.

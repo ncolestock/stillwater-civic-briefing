@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-.topbar { height: 4px; background: var(--rule); }
+.topbar { height: 3px; background: var(--ink); }
 
 a { color: var(--ink); }
 a:hover { color: var(--oxblood-hover); }
@@ -36,7 +36,7 @@ a:hover { color: var(--oxblood-hover); }
 }
 
 .nameplate {
-  padding: 0.45rem 0 0.15rem;
+  padding: 1.1rem 0 0.35rem;
   text-align: center;
 }
 
@@ -46,61 +46,102 @@ a:hover { color: var(--oxblood-hover); }
   color: inherit;
 }
 
-.bridge-lockup {
-  position: relative;
-  container-type: inline-size;
-  margin-inline: calc(var(--wrap-pad) * -1);
-  background: var(--paper);
+.engraved-lockup {
+  max-width: var(--lockup-max);
+  margin: 0 auto;
+  padding: 0.4rem 0.5rem 0.2rem;
 }
 
-.nameplate .flag {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: auto;
-  z-index: 1;
+.lockup-title {
   margin: 0;
-  padding: 5.2cqi 0.75rem 1.05cqi;
-  padding-left: calc(0.75rem + var(--tracking-flag));
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-variation-settings: "SOFT" 50, "WONK" 0;
-  font-size: var(--fs-masthead);
-  letter-spacing: var(--tracking-flag);
-  text-transform: none;
-  line-height: 1.05;
-  white-space: nowrap;
+  padding: 0;
   text-align: center;
-  color: var(--ink);
-  background: linear-gradient(
-    to top,
-    color-mix(in srgb, var(--paper) 88%, transparent) 0%,
-    color-mix(in srgb, var(--paper) 55%, transparent) 45%,
-    color-mix(in srgb, var(--paper) 12%, transparent) 78%,
-    transparent 100%
-  );
+  font-weight: 400;
 }
 
-@supports (font-size: 1cqi) {
-  .nameplate .flag {
-    font-size: var(--fs-masthead-lockup);
-  }
-}
-
-.nameplate .bridge {
-  width: 100%;
-  height: auto;
+.lockup-eyebrow {
   display: block;
-  margin: 0;
+  margin: 0 auto 0.35rem;
+  padding: 0.35rem 0;
+  max-width: 16rem;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  font-family: var(--font-wood);
+  font-size: var(--fs-lockup-eyebrow);
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--ink);
 }
 
-.nameplate .edition {
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
+.lockup-union {
+  display: block;
+  margin: 0.15rem 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: var(--fs-lockup-union);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 0.88;
   text-transform: uppercase;
-  margin: 0.35rem 0 0;
+  color: var(--ink);
+}
+
+.lockup-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin: 0.15rem auto 0.55rem;
+  max-width: 18rem;
+}
+
+.lockup-rule::before,
+.lockup-rule::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--ink);
+}
+
+.lockup-fleur {
+  font-size: 0.85rem;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.lockup-bridge {
+  display: block;
+  width: min(100%, 22rem);
+  height: auto;
+  margin: 0 auto;
+}
+
+.lockup-reborn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin: 0.7rem auto 0;
+  max-width: 14rem;
+  font-family: var(--font-wood);
+  font-size: var(--fs-lockup-reborn);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: none;
+  color: var(--ink);
+}
+
+.lockup-reborn::before,
+.lockup-reborn::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--ink);
+}
+
+.lockup-reborn span {
+  white-space: nowrap;
 }
 
 .red-rule {

@@ -5,7 +5,7 @@ You are editing the New Saint Croix Union. The paper runs in the cloud. Do not t
 ## Locks
 
 - The name is New Saint Croix Union. Short forms in body copy: NSCU, or the Union. No named host. Do not use Artie Fishel. No first person.
-- The masthead is one Fraunces line, New Saint Croix Union, overlaid on the **bottom** of the full-width Stillwater Lift Bridge (`public/brand/bridge-wide.jpg`). The bridge is the hero field. Do not shrink the bridge. Do not stack the name above the image. Do not set the name as a billboard. Home chrome is the flag, an RSS mark, Events and Arrests on the front; podcast is in the footer. The seal is the favicon and a lettermark. It is not the home masthead.
+- The masthead is the engraved lockup (NEW SAINT CROIX / UNION / fleur / bridge engraving / Reborn. 2026). The paper name remains New Saint Croix Union. Do not put the photo bridge back as the nameplate. Home chrome is the lockup, an RSS mark, Events and Arrests on the front; podcast is in the footer. The seal is the favicon and a lettermark.
 - The AI disclaimer stays in the site footer and once in the podcast show description in `podcast.json`. Do not paste it into a story, a booking, or an episode's show notes.
 - Articles are markdown in `src/content/articles/`. Commit them to `main`. GitHub Actions deploys the site.
 - Do not invent dollars, votes, quotes, parcel IDs, or charges. If a figure is not in the document, say it is not in the document.

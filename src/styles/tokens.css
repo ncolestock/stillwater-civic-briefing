@@ -30,10 +30,10 @@
   --oxblood-hover: var(--scb-oxblood-hover);
   --disclaimer: var(--scb-ink-soft);
 
-  --font-display: "Fraunces", "Newsreader", Georgia, serif;
-  --font-body: "Newsreader", "Source Serif 4", Georgia, serif;
+  --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-body: "Newsreader", Georgia, serif;
   --font-ui: "Inter", "Helvetica Neue", system-ui, sans-serif;
-  --font-wood: "Fraunces", "Newsreader", Georgia, serif;
+  --font-wood: "Cormorant Garamond", "Playfair Display", Georgia, serif;
 
   --display: var(--font-display);
   --serif: var(--font-body);
@@ -61,4 +61,8 @@
   --lh-body: 1.48;
   --fs-ui: 0.78rem;
   --fs-disclaimer: 0.78rem;
+  --fs-lockup-eyebrow: clamp(0.72rem, 1.6vw, 0.95rem);
+  --fs-lockup-union: clamp(3.2rem, 12vw, 6.5rem);
+  --fs-lockup-reborn: clamp(0.68rem, 1.3vw, 0.85rem);
+  --lockup-max: 28rem;
 }
