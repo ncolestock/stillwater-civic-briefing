@@ -17,7 +17,7 @@ const edition = today.toLocaleDateString("en-US", {
 });
 ---
 
-<html lang="en">
+<html lang="en" style={`--paper-texture: url("${withBase("brand/paper-texture.png")}")`}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -49,10 +49,14 @@ const edition = today.toLocaleDateString("en-US", {
             alt="New Saint Croix Union"
           />
         </a>
-        <p class="edition-date">{edition}</p>
       </div>
       <hr class="double-rule" />
       <div class="header-tools">
+        <p class="edition-line" data-edition-weather>
+          <span class="edition-date">{edition}</span>
+          <span class="edition-sep" aria-hidden="true">·</span>
+          <span class="edition-weather" data-weather>Stillwater weather</span>
+        </p>
         <a class="rss-link" href={withBase("feed.xml")} aria-label="Podcast RSS feed">
           <svg class="rss-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
             <path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20S4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44c8.6 0 15.56 6.97 15.56 15.56h-2.91A12.65 12.65 0 0 0 4 7.35V4.44m0 5.46a10.1 10.1 0 0 1 10.1 10.1h-2.91A7.19 7.19 0 0 0 4 12.81V9.9Z"/>
@@ -60,6 +64,31 @@ const edition = today.toLocaleDateString("en-US", {
           <span>RSS</span>
         </a>
       </div>
+      <script is:inline>
+        (function () {
+          var el = document.querySelector("[data-weather]");
+          if (!el) return;
+          var labels = {
+            0: "Clear", 1: "Mostly clear", 2: "Partly cloudy", 3: "Overcast",
+            45: "Fog", 48: "Fog",
+            51: "Drizzle", 53: "Drizzle", 55: "Drizzle",
+            61: "Rain", 63: "Rain", 65: "Rain",
+            71: "Snow", 73: "Snow", 75: "Snow",
+            80: "Showers", 81: "Showers", 82: "Showers",
+            95: "Thunderstorms", 96: "Thunderstorms", 99: "Thunderstorms"
+          };
+          fetch("https://api.open-meteo.com/v1/forecast?latitude=45.056&longitude=-92.806&current=temperature_2m,weather_code&temperature_unit=fahrenheit&timezone=America%2FChicago")
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+              var cur = data && data.current;
+              if (!cur) return;
+              var deg = Math.round(cur.temperature_2m);
+              var sky = labels[cur.weather_code] || "Valley air";
+              el.textContent = deg + "° · " + sky;
+            })
+            .catch(function () { /* leave placeholder */ });
+        })();
+      </script>
     </header>
     <main class="wrap">
       <slot />
