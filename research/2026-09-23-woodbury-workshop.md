@@ -5,7 +5,7 @@ slug: 2026-09-23-woodbury-workshop
 desk: meetings
 city: Woodbury
 bodies: ["Woodbury City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://woodburymn.gov/AgendaCenter/ViewFile/Agenda/_09232026-1146
     label: "Woodbury City Council workshop agenda, Sept. 23, 2026"
