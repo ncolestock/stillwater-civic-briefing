@@ -79,18 +79,23 @@ const slug = issueSlug(issue);
     document.addEventListener("click", function (e) {
       var t = e.target;
       if (!(t instanceof Element)) return;
-      var link = t.closest("[data-share-path]");
-      if (!link) return;
+      var btn = t.closest("[data-share-path]");
+      if (!btn) return;
       e.preventDefault();
-      var path = link.getAttribute("data-share-path");
+      e.stopPropagation();
+      var path = btn.getAttribute("data-share-path");
       if (!path) return;
       var url = new URL(path, location.origin).href;
+      function flash() {
+        btn.classList.add("is-copied");
+        btn.setAttribute("title", "Link copied");
+        setTimeout(function () {
+          btn.classList.remove("is-copied");
+          btn.setAttribute("title", "Copy share link");
+        }, 1600);
+      }
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(function () {
-          var prev = link.textContent;
-          link.textContent = "Link copied";
-          setTimeout(function () { link.textContent = prev; }, 1600);
-        });
+        navigator.clipboard.writeText(url).then(flash).catch(function () { prompt("Copy share link", url); });
       } else {
         prompt("Copy share link", url);
       }

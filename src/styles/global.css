@@ -557,20 +557,34 @@ footer.site a:hover { color: var(--link-hover); }
   font-size: 0.95rem;
   font-style: italic;
 }
-.share-row {
-  margin: 0.85rem 0 0;
-  font-family: var(--label);
-  font-size: var(--fs-label);
-  font-weight: 600;
-  letter-spacing: var(--tracking-label);
-  text-transform: uppercase;
+.piece-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.15rem 0 0;
 }
-.share-link {
+.piece-date { min-width: 0; }
+.share-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.1rem;
+  border: 0;
+  background: transparent;
   color: var(--muted);
-  text-decoration: none;
-  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+  line-height: 0;
+  flex-shrink: 0;
 }
-.share-link:hover { color: var(--link-hover); }
+.share-icon:hover,
+.share-icon.is-copied {
+  color: var(--link-hover);
+}
+.share-icon:focus-visible {
+  outline: 1px solid var(--ink);
+  outline-offset: 2px;
+}
 
 .expand-stack .piece:first-child { border-top: 0; }
 
