@@ -550,8 +550,20 @@ footer.site a:hover { color: var(--link-hover); }
   border-top: 1px solid var(--rule);
   padding: 0.55rem 0 0.1rem;
 }
+.side .piece-arrest {
+  border-top: 0;
+  border: 0;
+  padding: 0.35rem 0;
+  margin: 0 0 0.15rem;
+}
 .side .piece-hed {
   font-size: 1.05rem;
+}
+.side .piece-arrest .piece-hed {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
 }
 .side .piece-summary .deck {
   font-size: 0.95rem;
@@ -586,6 +598,47 @@ footer.site a:hover { color: var(--link-hover); }
   outline-offset: 2px;
 }
 
+
+.arrest-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+.arrest-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.35rem;
+}
+.arrest-top .piece-hed {
+  flex: 1;
+  min-width: 0;
+}
+.piece-arrest .charge {
+  font-family: var(--serif);
+  font-size: 0.88rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-soft);
+  margin: 0;
+  line-height: 1.3;
+}
+.piece-arrest .arrest-date {
+  font-family: var(--label);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.2;
+}
+.expand-stack .piece-arrest,
+.blotter .piece-arrest {
+  border-top: 0;
+  padding: 0.4rem 0;
+}
 .expand-stack .piece:first-child { border-top: 0; }
 
 .issue-main .piece + .piece { margin-top: 0; }

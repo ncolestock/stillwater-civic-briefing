@@ -62,3 +62,12 @@ export function formatDateline(date: Date): string {
     timeZone: "UTC",
   });
 }
+
+/** Compact blotter date — month and day only. */
+export function formatShortDateline(date: Date): string {
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+}
