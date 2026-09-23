@@ -5,7 +5,7 @@ slug: 2026-09-21-booking-yaci-kong-lee
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://web1.co.washington.mn.us/WCBookings/Tuesday.pdf
     label: "Adult Daily Book-In Report, Tuesday.pdf, start 9/21/2026 7:00 AM end 9/22/2026 7:00 AM, printed 09/22/2026 07:05:05"
