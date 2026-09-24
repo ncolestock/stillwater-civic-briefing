@@ -15,4 +15,4 @@ briefing: research/2026-09-23-booking-lessie-nyambwe.md
 charge: "Trespass"
 ---
 
-Oakdale police booked Lessie Nyambwe on Sept. 23, accused of unlawful camping in a park and of trespass at a locked or posted construction site.
+Oakdale police and Florida booked Lessie Nyambwe on Sept. 23, accused of unlawful camping in a park and of trespass at a locked or posted construction site.
