@@ -15,4 +15,4 @@ briefing: research/2026-09-22-booking-brandon-jamal-carter.md
 charge: "Third-degree drug possession"
 ---
 
-Woodbury police booked Brandon Jamal Carter on Sept. 22, accused of third-degree drug possession. Colorado is listed on a probation-violation arrest.
+Woodbury police and Colorado booked Brandon Jamal Carter on Sept. 22, accused of third-degree drug possession and of a probation violation.
