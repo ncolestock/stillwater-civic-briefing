@@ -12,6 +12,17 @@ Live site, for your awareness only: https://ncolestock.github.io/stillwater-civi
 1. Read `research/` and `src/content/articles/` so you do not brief an event that already has a briefing or an article. Same meeting is one slug.
 2. Fetch the source URLs below, one request at a time. Open the actual agenda, packet, minutes, or booking PDF. If a page is a Cloudflare or Akamai challenge, a 403, a 404, or empty, skip that body and say so. Do not guess a CivicPlus or BoardBook id.
 3. A story is worth a briefing when it is new since the newest file in the repo: a meeting in the next seven days, a packet or minutes posted since yesterday, adult bookings on the daily book-in report that are not already briefed, or a major valley story that local news has flagged and for which you can open a public record (see Local news).
+
+When several items are new, brief these first. The notes stay neutral. Do not grade them.
+
+- A tax, a levy, a fee, or a transfer of public money, including one whose purpose the packet leaves thin.
+- Land next door: the address, the ask, what is there now, and the rule the ask runs into (the distance the code requires and the distance on the ground, both copied as printed).
+- Schools: the budget, boundaries, what children are taught, or what is asked of families.
+- A church, a school, or another assembly use of land.
+- Religious liberty or conscience, when a packet, policy, or minutes actually addresses worship, belief, or a religious school.
+- A road someone drives.
+
+A consent-agenda claims total can be a few lines inside the meeting's briefing. It does not get its own briefing unless nothing else is new. Copy the rule and the exception into the briefing whenever the document prints both. The writer cannot invent them later.
 4. If nothing is new, email "Nothing new." and stop. Do not commit.
 5. Write one briefing per event to `research/YYYY-MM-DD-slug.md`. Then make **one** commit to main with every new briefing in it (`push_files` once). Message: `Brief YYYY-MM-DD`. Do not push once per briefing. Each push starts a site deploy, and a run of separate pushes leaves the paper stuck in a queue.
 6. If GitHub cannot write, put the file in the Google Drive folder SCB-drafts and email the path. Do not claim the site changed. The site does not change on a briefing.

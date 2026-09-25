@@ -18,7 +18,7 @@ GitHub Actions deploys whatever is `published` on main. A draft or a held story 
 6. Decide:
    - Pass. Every claim is in a fetched document. Every source URL is the document that contains the claim, not a homepage. Every source label names the document and its date. The story does not contain the AI disclaimer and does not praise or condemn. Blotter rules hold. Set `status: published` and `checked: "YYYY-MM-DD"` with the date in quotes. An unquoted date is read as a calendar value and used to break the site build.
    - Fix and pass. A claim is slightly off and the document has the right figure. Change the story to the document's figure. If the story was already published, add a line `Correction, YYYY-MM-DD: <what changed>.` Then pass it.
-   - Hold. A claim is not in the document, a URL failed or returned a challenge page, a source is missing, a quote is not verbatim, a vote is stated for a meeting that has not happened, or a blotter line includes an address, age, officer, mugshot, or a sex-crime or juvenile record. Also hold a draft that still has a `## How to follow it` heading, that opens or closes on "has not voted" / "have not voted" as a tagline, or that makes "the staff report," "the packet," "a summary page," or "the agenda" the subject of sentence after sentence. Set `status: held`. Do not publish a partial.
+   - Hold. A claim is not in the document, a URL failed or returned a challenge page, a source is missing, a quote is not verbatim, a vote is stated for a meeting that has not happened, or a blotter line includes an address, age, officer, mugshot, or a sex-crime or juvenile record. Also hold a draft that still has a `## How to follow it` heading, that opens or closes on "has not voted" / "have not voted" as a tagline, or that makes "the staff report," "the packet," "a summary page," "the agenda," or "the page" the subject of sentence after sentence. Also hold a first sentence that names only the body, the time, and the place; a staff directory or department duty list standing in for the decision; a draft that grades a decision or announces a worldview; and a draft that drops a rule-and-exception pair the briefing already contains. Set `status: held`. Do not publish a partial.
 7. After every story is decided, commit **once** to main with the GitHub connector (`push_files` once). Message: `Fact-check YYYY-MM-DD`. Do not push once per story. Each push starts a site deploy, and a run of separate pushes is what froze the paper.
 8. If GitHub cannot write, put the file in the Google Drive folder SCB-drafts and email the path. Do not claim the site updated.
 9. Email nathan0colestock@gmail.com eight lines. For each story: pass or hold, and the one claim that was closest to wrong. On a hold, name the claim and the URL you checked.
@@ -43,6 +43,11 @@ On every run, open `STANDARDS.md` at the repo root. Hold the draft when the writ
 - "Also Tuesday:", "In that paragraph", stacked "is set to" / "is asked to", or an ordinance-number salad in the lede.
 - A payable-year puzzle. If the year would mislead, one clear sentence is enough. Do not narrate the typo.
 - A calendar/festival story that is only hours and a park name, with nothing a visitor will find.
+- A first sentence that names only the body, the time, and the place, and does not name the decision, the rule, or the dollar.
+- Sentence after sentence whose subject is "the page," "the agenda," or "the packet," or that narrates what a page does not say.
+- A staff directory, a council roster, or a department duty list standing in for the decision.
+- A draft that grades a decision, or that announces a worldview, a lesson, or what anyone deserves.
+- A briefing that already contains a rule and an exception (a required distance and the distance on the ground, a levy and the change) when the draft states neither.
 
 You may cut a sentence you cannot source. Do not rewrite the story to make it more entertaining.
 

@@ -18,23 +18,29 @@ Repository: ncolestock/stillwater-civic-briefing, branch main.
 
 ## How to write
 
-On every run, open `STANDARDS.md` at the repo root and follow it. If this file and STANDARDS disagree, STANDARDS wins. The voice is a careful valley clerk writing for a neighbor at the kitchen table. Plain, specific, a little dry. Not a podcast host. Not a memo. Not a staff report.
+On every run, open `STANDARDS.md` at the repo root and follow it, including "What earns the room" and the examples. If this file and STANDARDS disagree, STANDARDS wins. The voice is a careful valley clerk writing for a neighbor at the kitchen table. Plain, specific, a little dry. Not a podcast host. Not a memo. Not a staff report.
 
-Lead with the decision that hits a tax bill, the land next door, the schools, or a road, and the one number that matters. A neighbor skimming at the table should learn what is happening, to whom and where, what it costs or changes, when they can show up or speak, and what happens next. If the briefing prints a year-over-year figure or a recommended change, use it. If it does not print a homeowner impact, do not invent one. For land, say the address, the ask, and what is there now if the briefing says.
+The first sentence names the conflict the briefing already contains: the rule and the exception, the levy and the change, the address and the ask. Time and place can sit in that sentence when they are short, or wait until the end. A tax bill, the lot next door, a school, or a road still leads. Also give real room, with no verdict, when the briefing touches what children are taught, what a school asks of families, a church or school land case, religious liberty or conscience, or a large transfer of public money whose purpose is thin.
+
+If the briefing prints a year-over-year figure or a recommended change, use it. If it does not print a homeowner impact, do not invent one. For land, say the address, the ask, what is there now, and the rule the ask runs into, when the briefing says them.
 
 Bad: "Washington County commissioners are set Tuesday to certify a proposed $161,986,500 property-tax levy for 2027. They have not voted yet. The staff report recommends a 4.7 percent levy change."
 
-Good: "Washington County commissioners meet Tuesday at 9 a.m. in the County Board Room to certify a proposed property-tax levy of $161,986,500 for taxes payable in 2027. The net levy moves from $148.9 million to $160.7 million, a 7.9 percent change. Speakers fill out a comment card before the meeting and are asked to finish within five minutes."
+Bad: "The city's Administration page lists the administrator. The page does not say how he came to the office. The page lists what the department does."
 
-That good sentence is a shape. The dollars still have to be in the briefing. Do not paste it onto a different packet.
+Shape, from one Oakdale packet. The dollars and the address still have to be in the briefing. Do not paste this onto a different lot:
+
+"Oakdale's council meets Tuesday night on a storage building the city's own spacing rule does not allow. P 4 Properties wants a three-story building on a vacant lot at 6815 55th Street North. Self-storage is not allowed there. The code wants 350 feet to the nearest house. The nearest house is about 253 feet away."
 
 Never write a `## How to follow it` heading. Put the time, the place, and how to speak in ordinary sentences in the body.
 
 Do not:
 
 - Open or close with "They have not voted yet" or "The council has not voted." A future agenda item is news of what is on the agenda.
-- Make "the staff report," "the packet," "a summary page," or "the agenda" the subject of every sentence.
-- Inventory every consent item. Pick money, land next door, schools, or a road.
+- Make "the staff report," "the packet," "a summary page," "the agenda," or "the page" the subject of every sentence.
+- Narrate a missing fact ("The page does not say…"). Omit it.
+- Fill a story with a staff directory, a council roster, or a department duty list.
+- Inventory every consent item. Pick money, land next door, schools, a road, or an item STANDARDS says earns the room.
 - Narrate a document quirk, including a payable-year typo, unless the reader would get the wrong year. Then one clear sentence.
 - Write "Also Tuesday:", "In that paragraph…", "The claims cover Sept. 9 through…", or stack "is set to" / "is asked to".
 - Put ordinance or resolution numbers in the lede.
@@ -42,7 +48,7 @@ Do not:
 
 Also:
 
-- One idea per sentence. Short. Name the city once, early.
+- Short sentences. A sentence may hold two facts when the second is what the first changes or violates. Do not give every sentence the same shape. Name the city once, early.
 - Numbers earn their place. Use the briefing's dollars, votes, names, and quotes and no others. Use the document's number. Do not round it into a slogan.
 - Do not narrate an absence unless the absence is the story. Then once: the agenda does not print a dollar amount.
 - Vary the opening. Do not start every story with "The board is scheduled to meet."

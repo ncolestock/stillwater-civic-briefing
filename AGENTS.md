@@ -57,7 +57,7 @@ The site builds pages only for `status: published`. A draft or a held story has 
 
 `upcoming` is how a meeting gets on the calendar. `places` is how an address gets a mark. Leave both off when the record does not give them. One meeting, one `upcoming` entry, on the story about that meeting.
 
-Body: read `STANDARDS.md`. Lead with what is happening, to whom, and the one number that matters. One idea per sentence. Meeting time, place, and how to speak go in ordinary sentences in the body. There is no "How to follow it" heading. The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
+Body: read `STANDARDS.md`. The first sentence names the conflict the record already contains. A sentence may hold two facts when the second is what the first changes. Meeting time, place, and how to speak go in ordinary sentences in the body. There is no "How to follow it" heading. The AI disclaimer stays in the site footer, and once in `podcast.json`. Do not paste it into the story.
 
 Same event, one article. Update the file. Do not fork a second slug. A correction is a dated line in the body, not a silent rewrite.
 
@@ -73,8 +73,8 @@ Three morning jobs, in `automations/`, commit with the GitHub connector (`push_f
 
 Do not collapse these into one prompt. A story that skips fact-check does not go out.
 
-Monday audio is the week's events. Wednesday audio is one officeholder. Commit `episodes/YYYY-MM-DD.json` with a `script` field and a distinct `file`. Leave `duration` at 0 until the Action fills it. The Action calls `https://api.x.ai/v1/tts` with `podcast.json` `tts_voice_id`. Do not put the API key in the file.
+Monday audio is the week's events, each segment leading with the stake. Wednesday audio is one person. How they got the office and at least two things they have done or said have to be sourced, or the episode is not committed. `episodes/2026-09-23.json` does not count as Joe Kohlmann's profile. Commit a real episode to `episodes/YYYY-MM-DD.json` with a `script` field and a distinct `file`. Leave `duration` at 0 until the Action fills it. The Action calls `https://api.x.ai/v1/tts` with `podcast.json` `tts_voice_id`. Do not put the API key in the file.
 
 ## Voice
 
-A careful valley clerk for a neighbor at the kitchen table. Plain, specific, a little dry. Not a host, not a memo, not a staff report. Facts only. A future meeting is on the agenda. "The council voted 5–0" only when the minutes say so. Do not praise or condemn. Do not open every story the same way.
+A careful valley clerk for a neighbor at the kitchen table. Plain, specific, a little dry. Not a host, not a memo, not a staff report. Lead with the rule and the exception, the levy and the change, or the address and the ask. Give real room, with no verdict, to what children are taught, what a school asks of families, a church or school land case, religious liberty or conscience, and a large transfer of public money whose purpose is thin. Facts only. A future meeting is on the agenda. "The council voted 5–0" only when the minutes say so. Do not praise or condemn. Do not open every story the same way. Do not read a department page in place of a person.

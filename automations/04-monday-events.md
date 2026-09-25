@@ -18,12 +18,12 @@ The site footer and the podcast show description already carry the AI disclaimer
 
 ## Spoken script
 
-The voice is the same kitchen-table newspaper, read aloud. Warm and dry. Not a radio host.
+The voice is the kitchen-table newspaper in `STANDARDS.md`, read aloud. Warm and dry. Not a radio host. If this file and STANDARDS disagree, STANDARDS wins.
 
 Open with: "This is the New Saint Croix Union for Monday, [Month Day]."
 Do not say Stillwater Civic Briefing. Do not say "a short reading from the paper." Do not name a host.
 
-One clear segment per story: the news a listener cares about, then when and where. Prefer natural spoken numbers. Round only when the article already says "about."
+One clear segment per story. The first sentence of a segment is the stake already in the article: the rule and the exception, the levy and the change, the address and the ask. Then when and where, in one sentence. A published story on what children are taught, what a school asks of families, a church or school land case, religious liberty or conscience, or a large transfer of public money gets a full segment even when the dollar is ordinary. Do not read a staff directory or a council roster. Prefer natural spoken numbers. Round only when the article already says "about."
 
 No "I". No praise. No warning. No "what this means." Do not pad.
 

@@ -1,6 +1,6 @@
 # New Saint Croix Union
 
-A hyper-local newspaper and two audio episodes a week. Monday is the public events. Wednesday is one officeholder. The official name is New Saint Croix Union. In body copy the short name may be NSCU or the Union. There is no named host.
+A hyper-local newspaper and two audio episodes a week. Monday is the public events. Wednesday is one person who holds office, from the public record, and it does not air when that record is too thin to say how they got the job and what they have done. The official name is New Saint Croix Union. In body copy the short name may be NSCU or the Union. There is no named host.
 
 This is a static paper, not an app-factory Next.js app. Astro builds markdown into HTML. GitHub Actions publishes GitHub Pages on every push to `main`. The feed stays at `https://ncolestock.github.io/stillwater-civic-briefing/feed.xml`.
 
@@ -12,7 +12,7 @@ The Mac is not in the path. Three automations run each morning, in order. None o
 2. Writer, 8:15 a.m., turns each new briefing into a draft article. Drafts are not built into public pages.
 3. Fact-check, 9:30 a.m., re-opens every source URL. It is the only job that may set `status: published`. A story it cannot source stays `held`.
 
-GitHub Actions then runs `astro build` and deploys Pages. Monday at 4:00 p.m. an automation writes the events episode from published stories. Wednesday at 4:00 p.m. another writes a plain account of one officeholder. The Action calls the xAI Text to Speech API (`podcast.json` field `tts_voice_id`, default `eve`) when the repository secret `XAI_API_KEY` is set.
+GitHub Actions then runs `astro build` and deploys Pages. Monday at 4:00 p.m. an automation writes the events episode from published stories. Wednesday at 4:00 p.m. another writes one person, under the profile test in `STANDARDS.md`, and commits nothing when the test fails. The Action calls the xAI Text to Speech API (`podcast.json` field `tts_voice_id`, default `eve`) when the repository secret `XAI_API_KEY` is set.
 
 `scripts/publish.sh` and `scripts/tts.sh` are the fallback for a draft that landed on the Mac. They are not how the paper runs day to day.
 
