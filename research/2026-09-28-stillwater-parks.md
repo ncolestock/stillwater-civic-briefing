@@ -5,7 +5,7 @@ slug: 2026-09-28-stillwater-parks
 desk: meetings
 city: Stillwater
 bodies: ["Stillwater Parks and Recreation Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/ViewPublisher.php?view_id=3
     label: "City of Stillwater Granicus publisher, Parks and Recreation Commission listed Sept. 28, 2026"
