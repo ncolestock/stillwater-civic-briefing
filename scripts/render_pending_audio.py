@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import os
 import subprocess
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -22,16 +23,34 @@ def voice_id() -> str:
     return str(cfg.get("tts_voice_id") or "eve")
 
 
+def api_key() -> str:
+    key = os.environ.get("XAI_API_KEY", "").strip().strip('"').strip("'")
+    if key.lower().startswith("bearer "):
+        key = key[7:].strip()
+    return key
+
+
 def render(text: str, mp3: Path, key: str) -> None:
-    body = json.dumps({"text": text, "voice_id": voice_id(), "language": "en"}).encode()
+    body = json.dumps(
+        {
+            "text": text,
+            "voice_id": voice_id(),
+            "language": "en",
+            "text_normalization": True,
+        }
+    ).encode()
     req = urllib.request.Request(
         API,
         data=body,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=180) as resp:
-        mp3.write_bytes(resp.read())
+    try:
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            mp3.write_bytes(resp.read())
+    except urllib.error.HTTPError as err:
+        detail = err.read().decode("utf-8", "replace")[:1000]
+        raise RuntimeError(f"TTS HTTP {err.code}: {detail}") from None
 
 
 def to_m4a(mp3: Path, m4a: Path) -> int:
@@ -57,11 +76,12 @@ def to_m4a(mp3: Path, m4a: Path) -> int:
 
 
 def main() -> None:
-    key = os.environ.get("XAI_API_KEY", "").strip()
+    key = api_key()
     if not key:
         print("XAI_API_KEY is not set. Skipping cloud audio. The paper still publishes.")
         return
     wrote = 0
+    failed = 0
     for path in sorted((ROOT / "episodes").glob("*.json")):
         ep = json.loads(path.read_text())
         if ep.get("proof"):
@@ -72,16 +92,27 @@ def main() -> None:
         m4a = ROOT / "episodes" / Path(ep["file"]).name
         if m4a.exists():
             continue
-        if len(script) > 15000:
-            raise SystemExit(f"{path.name}: script is over the 15,000 character TTS limit")
+        if len(script) > 60000:
+            print(f"FAILED {path.name}: script is over the 60,000 character TTS limit")
+            failed += 1
+            continue
         mp3 = m4a.with_suffix(".mp3")
         print(f"rendering {m4a.name} with voice {voice_id()}")
-        render(script, mp3, key)
-        ep["duration"] = to_m4a(mp3, m4a)
-        mp3.unlink(missing_ok=True)
-        path.write_text(json.dumps(ep, indent=2) + "\n")
-        wrote += 1
+        try:
+            render(script, mp3, key)
+            ep["duration"] = to_m4a(mp3, m4a)
+            path.write_text(json.dumps(ep, indent=2) + "\n")
+            wrote += 1
+        except Exception as exc:
+            m4a.unlink(missing_ok=True)
+            print(f"FAILED {path.name}: {exc}")
+            print("Audio did not render. The paper still publishes. If the message says the API key is incorrect, replace the XAI_API_KEY repository secret.")
+            failed += 1
+        finally:
+            mp3.unlink(missing_ok=True)
     print(f"rendered {wrote} episode(s)")
+    if failed:
+        raise SystemExit(f"{failed} episode(s) failed")
 
 
 if __name__ == "__main__":

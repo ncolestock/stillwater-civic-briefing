@@ -13,7 +13,7 @@ Live site, for your awareness only: https://ncolestock.github.io/stillwater-civi
 2. Fetch the source URLs below, one request at a time. Open the actual agenda, packet, minutes, or booking PDF. If a page is a Cloudflare or Akamai challenge, a 403, a 404, or empty, skip that body and say so. Do not guess a CivicPlus or BoardBook id.
 3. A story is worth a briefing when it is new since the newest file in the repo: a meeting in the next seven days, a packet or minutes posted since yesterday, adult bookings on the daily book-in report that are not already briefed, or a major valley story that local news has flagged and for which you can open a public record (see Local news).
 4. If nothing is new, email "Nothing new." and stop. Do not commit.
-5. Write one briefing per event to `research/YYYY-MM-DD-slug.md`. Commit it to main with the GitHub connector (`push_files` or `create_or_update_file`). Message: `Brief <slug>`.
+5. Write one briefing per event to `research/YYYY-MM-DD-slug.md`. Then make **one** commit to main with every new briefing in it (`push_files` once). Message: `Brief YYYY-MM-DD`. Do not push once per briefing. Each push starts a site deploy, and a run of separate pushes leaves the paper stuck in a queue.
 6. If GitHub cannot write, put the file in the Google Drive folder SCB-drafts and email the path. Do not claim the site changed. The site does not change on a briefing.
 7. Email nathan0colestock@gmail.com eight lines: which briefings you filed, which bodies you skipped, and any URL that blocked you.
 

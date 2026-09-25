@@ -1,5 +1,13 @@
 # Build log
 
+## 2026-09-25
+
+The paper stopped updating on the public site at 9:30 a.m. Wednesday, Sept. 23. Research, writing, and fact-check kept committing. GitHub Actions failed every deploy after that.
+
+The build rejected `checked: 2026-09-23` because YAML reads an unquoted date as a date and the article schema wanted a string. That started with the Woodbury council pass. Once Wednesday's profile script was committed, the audio step failed first with HTTP 400 from the speech API and the site never reached the build. A bad speech key must not block the paper. The audio step now reports the error and the deploy continues. Episodes with no audio stay off the podcast page and out of the feed.
+
+The three morning jobs were also pushing once per story. Each push started a deploy. They now commit once per run.
+
 ## 2026-09-21
 
 Repo was publish artifacts only: `index.html`, `podcast.json`, `feed.xml`, `cover.jpg`, `episodes/`. GitHub Pages served the branch root. The old landing page named a host. That page was moved to `public/archive/legacy.html` without the host name. Episode audio was left in place.

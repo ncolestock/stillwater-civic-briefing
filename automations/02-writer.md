@@ -11,9 +11,9 @@ Repository: ncolestock/stillwater-civic-briefing, branch main.
 1. List `research/*.md` whose status is `briefing` and that do not already have a matching file in `src/content/articles/` with the same slug.
 2. If that list is empty, email "Nothing to write." and stop.
 3. For each briefing, write one article to `src/content/articles/<slug>.md`. The slug matches the briefing. Set `status: draft` and `briefing:` to the research path.
-4. Commit to main with the GitHub connector (`push_files` or `create_or_update_file`). Message: `Draft <slug>`.
-5. If GitHub cannot write, put the draft in the Google Drive folder SCB-drafts and email the path.
-6. After a draft is committed, change that briefing's status from `briefing` to `filed` and commit that too, so tomorrow's research run leaves it alone.
+4. Commit to main **once**, after every draft is written, with the GitHub connector (`push_files` once). Include the matching briefing status changes from step 6 in that same commit. Message: `Draft YYYY-MM-DD`. Do not push once per story. Each push starts a site deploy.
+5. If GitHub cannot write, put the drafts in the Google Drive folder SCB-drafts and email the path.
+6. In that same commit, change each briefing's status from `briefing` to `filed`, so tomorrow's research run leaves it alone. Do not make a second commit for this.
 7. Email nathan0colestock@gmail.com eight lines: which drafts you filed. Do not say they are published. They are not on the site until fact-check passes.
 
 ## How to write

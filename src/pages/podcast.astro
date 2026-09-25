@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE_NAME, withBase } from "../lib/site";
 import { clock, loadEpisodes, publicSummary } from "../lib/episodes";
 
-const episodes = loadEpisodes().filter((episode) => !episode.proof);
+const episodes = loadEpisodes().filter((episode) => !episode.proof && episode.duration > 0);
 const sample = loadEpisodes().find((episode) => episode.proof);
 const latest = episodes.find((episode) => episode.duration > 0);
 ---

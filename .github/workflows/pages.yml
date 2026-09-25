@@ -26,13 +26,14 @@ jobs:
       - run: npm ci
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Render any weekly episode that has a script and no audio yet
+        continue-on-error: true
         env:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: python3 scripts/render_pending_audio.py
       - run: python3 scripts/validate_articles.py
       - run: python3 scripts/build_feed.py
       - run: npm run build
-      - name: Keep rendered audio in the repo for the next deploy
+      - name: Keep rendered audio in the repo
         run: |
           git config user.name "stillwater-civic-briefing"
           git config user.email "nathan0colestock@gmail.com"
@@ -40,7 +41,7 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Render weekly episode audio"
+          git commit -m "Render weekly episode audio [skip ci]"
           git push
       - uses: actions/upload-pages-artifact@v3
         with:

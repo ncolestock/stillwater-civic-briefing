@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE_NAME, withBase } from "../lib/site";
 import { clock, loadEpisodes } from "../lib/episodes";
 
-const episodes = loadEpisodes().filter((episode) => !episode.proof);
+const episodes = loadEpisodes().filter((episode) => !episode.proof && episode.duration > 0);
 ---
 
 <Base title={`Archive — ${SITE_NAME}`}>
