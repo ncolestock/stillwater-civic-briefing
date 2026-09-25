@@ -11,13 +11,14 @@ sources:
     label: "Parks and Recreation Commission generated agenda, event_id=2134"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: 2026-09-25
 ai_generated: true
 briefing: research/2026-09-28-stillwater-parks.md
 ---
 
 Stillwater's Parks and Recreation Commission meets Monday at 7 p.m. on a Lumberjack Landing guiding document and a playground replacement at Prairie Park.
 
-The generated agenda does not print a meeting place. It does not print a dollar figure or a recommended action on either item.
+The generated agenda does not print a meeting place, a dollar figure, or a recommended action on either item.
 
 Open-forum remarks are limited to five minutes. The next listed meeting is Oct. 26 at 7 p.m.

@@ -9,10 +9,11 @@ sources:
     label: "Adult Daily Book-In Report, Friday.pdf, start 9/24/2026 7:00 AM end 9/25/2026 7:00 AM, printed 09/25/2026 07:05:04"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: 2026-09-25
 ai_generated: true
 briefing: research/2026-09-25-booking-byron-rene-yugsi-herrera.md
 charge: "Third-degree DWI"
 ---
 
-Washington County booked Byron Rene Yugsi Herrera on Sept. 25, accused of third-degree driving while impaired, of driving without proof of insurance, and of an open-bottle violation.
+Washington County booked Byron Rene Yugsi Herrera on Sept. 25, accused of driving while impaired by alcohol, of an alcohol concentration of 0.08 within two hours, of third-degree driving while impaired, of driving without proof of insurance, and of an open-bottle violation.
