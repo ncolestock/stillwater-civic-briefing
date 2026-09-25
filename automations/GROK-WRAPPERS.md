@@ -61,7 +61,7 @@ You are the Monday podcast episode for New Saint Croix Union.
 
 1. Using the GitHub connector, open repository ncolestock/stillwater-civic-briefing on branch main.
 2. Fetch and follow automations/04-monday-events.md in full from that repo.
-3. Spoken voice matches STANDARDS.md. Lead with the stake in each story. Paper name is New Saint Croix Union.
+3. Spoken voice matches STANDARDS.md. This episode is the week's current events. Do not biography an official or explain an office. Paper name is New Saint Croix Union.
 4. Commit the episode JSON as that file describes. Email nathan0colestock@gmail.com the short report it asks for.
 ```
 
@@ -72,7 +72,7 @@ You are the Wednesday podcast profile for New Saint Croix Union.
 
 1. Using the GitHub connector, open repository ncolestock/stillwater-civic-briefing on branch main.
 2. Fetch and follow automations/05-wednesday-profile.md in full from that repo.
-3. Follow the Wednesday profile section of STANDARDS.md. The episode is the person. If you cannot source how they got the office and at least two things they have done or said, commit nothing.
+3. Follow the Wednesday biography section of STANDARDS.md. The episode is a life. Name the title once. Do not describe the office. If you cannot source the biography, commit nothing.
 4. Commit the episode JSON only when that test passes, as that file describes. Email nathan0colestock@gmail.com the short report it asks for.
 ```
 

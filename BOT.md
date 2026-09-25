@@ -22,7 +22,7 @@ Each morning, America/Chicago:
 2. 8:15 a.m. Writer turns each new briefing into a draft in `src/content/articles/`. It cannot publish.
 3. 9:30 a.m. Fact-check re-opens every source URL. It is the only job that may set `status: published`. A claim it cannot find in the document stays `held`.
 
-Monday 4:00 p.m. is the events episode. Wednesday 4:00 p.m. is one person: how they got the office, what they have done and said, and what is in front of them. If that cannot be sourced, Wednesday commits nothing. The Sept. 23, 2026 Kohlmann file read the department page and does not count as his profile. Each real episode commits `episodes/YYYY-MM-DD.json` with a `script` field. GitHub Actions turns `script` into audio with the xAI voice in `podcast.json` (`tts_voice_id`, currently `eve`) when the repository secret `XAI_API_KEY` is set. You do not create or paste that key.
+Monday 4:00 p.m. is the week's current events. Wednesday 4:00 p.m. is a biography of one person who holds an office. Name the title once. Do not describe the office, and do not spend Wednesday on this week's agenda. If the life cannot be sourced, Wednesday commits nothing. The Sept. 23, 2026 Kohlmann file read the department page and does not count as his biography. Each real episode commits `episodes/YYYY-MM-DD.json` with a `script` field. GitHub Actions turns `script` into audio with the xAI voice in `podcast.json` (`tts_voice_id`, currently `eve`) when the repository secret `XAI_API_KEY` is set. You do not create or paste that key.
 
 If GitHub cannot write, the run uses a Google Drive folder named `SCB-drafts` and emails Nathan. Do not tell him to publish from the Mac for a normal day. `scripts/publish.sh` is only a fallback.
 

@@ -83,36 +83,43 @@ The meeting is at 7 at the Discovery Center on Hadley Avenue. Speakers at the op
 
 A levy story uses the same shape with the dollar in the first sentence: the body, the levy, and the change the packet prints. The claims total and a bond sale stay in the story. They do not lead it when a rule or a levy is the news.
 
-## Wednesday profile
+## The two episodes
 
-One person. How they got the office, what they have done and said on the record, and what is in front of them now. The office is a sentence or two of context, enough to know what the person is responsible for. It is not the episode.
+Monday is the week's current events, spoken from stories already published. Wednesday is a biography of one person who holds an office. The two do not trade jobs.
 
-Required before anything airs:
+Monday tells what happened and what is coming: the levy, the land, the school item, the road. It does not stop to explain what an office is, and it does not tell a life.
 
-- How they came to the office: appointed or elected, when, and by whom, from minutes, a filing, a ballot, or the body's own page.
-- At least two specific things they have done or said, from minutes, a packet, a vote, or their own public statement. A job description does not count.
+Wednesday tells a life. The office is why this person is in the series. Name the title once, in the opening, so a listener knows who this is. After that, do not describe the office. Do not list duties, departments, staff, meeting counts, or the form of government. Do not read this week's agenda. That news belongs on Monday.
 
-If either of those cannot be sourced, do not write the episode. Email the hold. Do not fill the time with the department's duty list, the council roster, or the staff directory.
+## Wednesday biography
 
-Omit a fact you do not have. Do not narrate the omission.
+A factual biography from the public record. Who the person is, where they are from, what they did before, and how they came into public life. Their own words when the record has them. Not praise. Not a civics lesson.
 
-What is in front of them now, from a current agenda, is welcome when the record has it. A thin week does not need that section.
+Use what you can source of:
 
-Sources are the public record and their own words: the body's site when it opens, Granicus or AgendaCenter minutes and packets, BoardBook, election filings, an official bio. A news article may point at a record. It is not the source of a fact you speak. Stillwater's main site often returns a block. Use the minutes. Do not read phone numbers, email addresses, fax numbers, or a staff directory.
+- Where they are from, and how long they have lived here.
+- Work and education before this office.
+- Earlier public roles.
+- How they came to this office, as one fact in the life: elected or appointed, when, and by whom.
+- What they have said about their own life, in their words.
 
-The Sept. 23, 2026 file on Joe Kohlmann read the Administration page. It does not count as his profile. He may be done once, properly.
+Required before anything airs: enough of that life to be a biography. A title plus a job description is not enough. If you cannot source the life, do not write the episode. Email the hold. Do not fill the time with the department's duty list, the council roster, the staff directory, or this week's packet.
 
-Spoken shape, read in this same voice:
+A past vote may appear only as one beat inside the life. It does not become the episode. Omit a fact you do not have. Do not narrate the omission.
 
-This is the New Saint Croix Union. Wednesday's account is [Name], [office].
+Sources are the public record and their own words: an official bio that actually opens, minutes of an appointment or election, a filing, a ballot, and a statement they made. A news article may point at a record. It is not the source of a fact you speak. Stillwater's main site often returns a block. Use whatever page opens. Do not read phone numbers, email addresses, fax numbers, or a staff directory.
 
-[How they got the job, and the one or two sentences of what the office is.]
+The Sept. 23, 2026 file on Joe Kohlmann read the Administration page. It does not count as his biography. He may be done once, properly.
 
-[Two or three things the record shows they have done or said.]
+Spoken shape:
 
-[One thing on the desk now, if there is one.]
+This is the New Saint Croix Union. Wednesday's biography is [Name], [title].
 
-The pages and the minutes are in the show notes.
+[Where they are from, what they did before, earlier public roles, and how they came to this office. Their own words when you have them.]
+
+The pages are in the show notes.
+
+That is a shape. The sentences still have to be in the documents you opened. Do not paste one person's life onto another.
 
 ## Length
 
@@ -120,13 +127,13 @@ As long as the record supports useful facts. A thin packet stays short. Do not p
 
 A booking is one to three short sentences (the charge line, plus at most two from an opened complaint).
 
-A Wednesday episode is as long as the person's record supports. Six to ten minutes when the record is there. Shorter when it is thin. Never an office manual.
+A Wednesday biography is as long as the life on the record supports. Six to ten minutes when the record is there. Shorter when it is thin. Never a description of the office.
 
 ## Calendar / events
 
 A festival or civic event has to answer the go-or-skip questions: what it is, who puts it on, where and when (including hours), and what a visitor will find (artists, food, music, cost if the source states it). Hours and a park name alone are not enough. If a music lineup or vendor list is not posted yet, say so once. Do not invent acts, prices, or attendance figures that are not in the source.
 
-Monday's episode speaks the week's published stories in this voice. Each segment leads with the stake, then when and where. A story on schooling, family, conscience, or a thin-purpose transfer of public money gets a full segment even when the dollar is ordinary.
+Monday's episode is the week's current events, in this voice, from stories already published. Each segment leads with the stake, then when and where. A story on schooling, family, conscience, or a thin-purpose transfer of public money gets a full segment even when the dollar is ordinary. Monday does not biography an official and does not explain an office.
 
 ## Blotter
 
@@ -150,4 +157,4 @@ Research may skim Pioneer Press, Press Publications / Stillwater Gazette, St. Cr
 
 ## Before it is published
 
-Research writes the notes. The writer writes from the notes. Fact-check opens the source again. A claim that is not in the fetched document does not run. A Wednesday episode that cannot pass the profile test does not get a file.
+Research writes the notes. The writer writes from the notes. Fact-check opens the source again. A claim that is not in the fetched document does not run. A Wednesday episode that is not a sourced biography does not get a file.
