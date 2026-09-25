@@ -5,7 +5,7 @@ slug: 2026-09-25-booking-thomas-timothy-may
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://web1.co.washington.mn.us/WCBookings/Friday.pdf
     label: "Adult Daily Book-In Report, Friday.pdf, start 9/24/2026 7:00 AM end 9/25/2026 7:00 AM, printed 09/25/2026 07:05:04"
