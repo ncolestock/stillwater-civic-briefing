@@ -1,0 +1,18 @@
+---
+title: "Matthew Scott Bigbee"
+date: 2026-09-25
+desk: blotter
+city: Washington County
+bodies: ["Washington County Jail"]
+sources:
+  - url: https://web1.co.washington.mn.us/WCBookings/Saturday.pdf
+    label: "Adult Daily Book-In Report, Saturday.pdf, start 9/25/2026 7:00 AM end 9/26/2026 7:00 AM, printed 09/26/2026 07:05:08"
+dollars: null
+votes: null
+status: draft
+ai_generated: true
+briefing: research/2026-09-25-booking-matthew-scott-bigbee.md
+charge: "Fifth-degree drug possession"
+---
+
+Washington County booked Matthew Scott Bigbee on Sept. 25, accused of fifth-degree possession of a schedule I, II, III, or IV drug, not a small amount of marijuana, of driving under the influence of a controlled substance, and of driving with any amount of a schedule I or II drug, not marijuana, in the body.
