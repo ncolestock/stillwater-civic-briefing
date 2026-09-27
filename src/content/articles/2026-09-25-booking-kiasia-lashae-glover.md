@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Saturday.pdf, start 9/25/2026 7:00 AM end 9/26/2026 7:00 AM, printed 09/26/2026 07:05:08"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-09-27"
 ai_generated: true
 briefing: research/2026-09-25-booking-kiasia-lashae-glover.md
 charge: "Fifth-degree drug possession"
