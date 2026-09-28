@@ -13,7 +13,8 @@ sources:
     label: "MnDOT project meetings page"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-09-28"
 ai_generated: true
 briefing: research/2026-09-28-hwy-243-osceola-bridge.md
 ---
@@ -26,4 +27,4 @@ The north detour is the Hwy 8 crossing at Taylors Falls, by Hwy 95, Hwy 8, Hwy 3
 
 Osceola Landing's north boat launch and parking lot have been closed since 8 a.m. Monday, Sept. 14, through late summer 2028.
 
-The project page and the Sept. 10 news release do not state a cost. Construction is anticipated to finish in fall 2028. The Federal Highway Administration's finding, printed on the project page, is that the work will have no significant impact on the environment.
+Construction is anticipated to finish in fall 2028. The Federal Highway Administration's finding, printed on the project page, is that the work will have no significant impact on the environment.
