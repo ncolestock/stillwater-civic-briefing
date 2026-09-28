@@ -5,7 +5,7 @@ slug: 2026-09-26-booking-carina-leeann-mccall
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://web1.co.washington.mn.us/WCBookings/Sunday.pdf
     label: "Adult Daily Book-In Report, Sunday.pdf, start 9/26/2026 7:00 AM end 9/27/2026 7:00 AM, printed 09/27/2026 07:05:01"

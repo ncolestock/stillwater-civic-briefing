@@ -5,7 +5,7 @@ slug: 2026-09-28-hwy-243-osceola-bridge
 desk: roads
 city: Washington County
 bodies: ["Minnesota Department of Transportation", "Wisconsin Department of Transportation"]
-status: briefing
+status: filed
 sources:
   - url: https://www.dot.state.mn.us/metro/projects/hwy243osceola/
     label: "MnDOT project page, Hwy 243 Osceola Bridge"
