@@ -5,7 +5,7 @@ slug: 2026-10-06-lake-elmo-frattalone-grading
 desk: land
 city: Lake Elmo
 bodies: ["Lake Elmo City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter
     label: "Lake Elmo Agenda Center listing, Public Hearing Notices, Oct. 6, 2026"

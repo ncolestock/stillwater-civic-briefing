@@ -5,7 +5,7 @@ slug: 2026-09-27-booking-ioan-poptelecan
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://web1.co.washington.mn.us/WCBookings/Monday.pdf
     label: "Adult Daily Book-In Report, Monday.pdf, start 9/27/2026 7:00 AM end 9/28/2026 7:00 AM, printed 09/28/2026 07:05:04"
