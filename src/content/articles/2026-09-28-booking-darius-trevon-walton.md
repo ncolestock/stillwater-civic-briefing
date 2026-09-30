@@ -9,7 +9,7 @@ sources:
     label: "Adult Daily Book-In Report, Tuesday.pdf, start 9/28/2026 7:00 AM end 9/29/2026 7:00 AM, printed 09/29/2026 07:05:08"
 dollars: null
 votes: null
-status: draft
+status: held
 ai_generated: true
 briefing: research/2026-09-28-booking-darius-trevon-walton.md
 charge: "DWI"
