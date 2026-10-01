@@ -5,7 +5,7 @@ slug: 2026-10-01-oakdale-cedrics-crossing
 desk: land
 city: Oakdale
 bodies: ["Oakdale Planning Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_10012026-918
     label: "Oakdale Planning Commission meeting materials, Oct. 1, 2026"
