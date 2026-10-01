@@ -9,9 +9,10 @@ sources:
     label: "Oakdale Planning Commission meeting materials, Oct. 1, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-01-oakdale-cedrics-crossing.md
+checked: "2026-10-01"
 upcoming:
   - when: "2026-10-01 7:00 p.m."
     what: "Oakdale Planning Commission"
@@ -41,6 +42,6 @@ A September environmental assessment found possible contamination from herbicide
 
 The application was complete June 22. Review was extended to Dec. 19. A 125-unit apartment concept went to a council workshop on May 10, 2022, and was not pursued. A townhome concept went to the council on March 10.
 
-Mulcahy Holdings has not requested city financial assistance. The developer is responsible for the infrastructure and for cleanup of the contamination the assessment identified. A park dedication fee is due under the city's fee schedule. The agenda does not print the amount. No public park is planned on the property.
+Mulcahy Holdings has not requested city financial assistance. The developer is responsible for the infrastructure and for cleanup of the contamination the assessment identified. A park dedication fee is due under the city's fee schedule. No public park is planned on the property.
 
 The hearing is at 7 at the Oakdale Discovery Center. The next regular meeting is Nov. 5, also at 7, at the same place. Valley Branch Watershed District and Department of Natural Resources comments are pending. Metropolitan Council review follows council approval.
