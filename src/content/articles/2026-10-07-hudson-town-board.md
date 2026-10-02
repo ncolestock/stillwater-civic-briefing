@@ -11,7 +11,8 @@ sources:
     label: "Town of Hudson Town Board meeting agenda, October 7, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-02"
 ai_generated: true
 briefing: research/2026-10-07-hudson-town-board.md
 upcoming:
@@ -23,10 +24,10 @@ upcoming:
 
 The Town of Hudson board meets Wednesday at 6 p.m. on a proposed ordinance regulating data centers, and on a 50-acre parcel gifted to the Boosters.
 
-American Polywater is asking for a special exception for a manufacturing facility at parcel 020-1076-20-000. Cedar Meadows is up for a preliminary plat, and for a rezone of two parcels in that certified survey map from residential to ag-residential. Affolter is up for a four-lot certified survey map on Brummel Road. The agenda does not print a map, a current use, or a spacing rule for those three, and it does not print the data-center ordinance text or the location of the 50 acres.
+American Polywater is up for a special exception for a manufacturing facility at parcel 020-1076-20-000. Cedar Medows is up for a preliminary plat. Cedar Meadows is up for a rezone of two parcels in that certified survey map from residential to ag-residential. Affolter is up for a four-lot certified survey map on Brummel Road.
 
-Bueno Street Kitchen is applying for a Class B beer and Class C wine license. Soobie Surgeons is on the agenda for the status of improvements at 632 Brakke Drive. Cedar Hill Park maintenance is listed, and so is a contract for snow removal and lawn care. No contract amount is printed.
+Bueno Street Kitchen is applying for a Class "B" beer and "Class C" wine combination license. Soobie Surgeons is up for the status of improvements at 632 Brakke Drive. Cedar Hill Park maintenance is listed, and so is a contract for snow removal and lawn care.
 
-A budget workshop follows the meeting. The date of a public hearing on the budget is not set on this agenda, and no levy dollar is printed.
+A budget workshop follows the meeting.
 
 The meeting is at the Hudson Town Hall, 980 County Road A. A Zoom link is on the agenda, meeting ID 976 0396 3578.
