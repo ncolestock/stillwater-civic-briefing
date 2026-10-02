@@ -5,7 +5,7 @@ slug: 2026-10-05-isd-622-work-study
 desk: schools
 city: North St. Paul
 bodies: ["North St. Paul-Maplewood-Oakdale School Board", "School District 622"]
-status: briefing
+status: filed
 sources:
   - url: https://meetings.boardbook.org/Public/Organization/1069
     label: "School District 622 public meetings list, October 5, 2026 work study session"

@@ -5,7 +5,7 @@ slug: 2026-10-06-lake-elmo-property-sale-closed
 desk: land
 city: Lake Elmo
 bodies: ["Lake Elmo City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_10062026-324
     label: "Lake Elmo City Council special meeting agenda, Oct. 6, 2026, 6:00 p.m."

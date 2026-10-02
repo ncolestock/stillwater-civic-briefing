@@ -5,7 +5,7 @@ slug: 2026-10-07-hudson-town-board
 desk: meetings
 city: Town of Hudson
 bodies: ["Town of Hudson Town Board"]
-status: briefing
+status: filed
 sources:
   - url: https://townofhudsonwi.com/agendas-minutes/
     label: "Town of Hudson agendas and minutes, October 7, 2026 listing"
