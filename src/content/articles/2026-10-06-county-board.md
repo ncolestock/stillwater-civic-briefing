@@ -11,9 +11,10 @@ sources:
     label: "Full meeting packet, Oct. 6, 2026"
 dollars: "$88,092"
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-06-county-board.md
+checked: "2026-10-03"
 upcoming:
   - when: "2026-10-06 9:00 a.m."
     what: "Washington County Board of Commissioners"
@@ -23,7 +24,7 @@ upcoming:
 
 Washington County's board meets Tuesday on an $88,092 state grant to put a solar array on Park Grove Library. The project, installation included, is $146,820. The grant would leave the county $58,728.
 
-Public Works recommends the grant agreement. If the board approves it, the public works director would sign a pending contract with Apadana Solar Technologies, contingent on the grant. Estimated utility savings are $6,241 a year. The printed return is 9.4 years. The printed system life is 30 years.
+Public Works recommends the grant agreement. If the board approves the grant agreement, the public works director would approve a pending contract with Apadana Solar Technologies, contingent on the grant. Estimated utility savings are $6,241 a year. The printed return is 9.4 years. The printed system life is 30 years.
 
 The county already received $53,965 under the Solar on Public Buildings program. The Department of Commerce has distributed $19 million through that program. A final round still has $650,000.
 
