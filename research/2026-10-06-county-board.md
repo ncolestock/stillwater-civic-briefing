@@ -5,7 +5,7 @@ slug: 2026-10-06-county-board
 desk: meetings
 city: Washington County
 bodies: ["Washington County Board of Commissioners"]
-status: briefing
+status: filed
 sources:
   - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_10062026-1949
     label: "Board agenda, Oct. 6, 2026"

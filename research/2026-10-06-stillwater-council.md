@@ -5,7 +5,7 @@ slug: 2026-10-06-stillwater-council
 desk: meetings
 city: Stillwater
 bodies: ["Stillwater City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=2010
     label: "City Council agenda viewer, event 2010, Oct. 6, 2026"

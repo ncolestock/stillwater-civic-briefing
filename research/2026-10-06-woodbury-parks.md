@@ -5,7 +5,7 @@ slug: 2026-10-06-woodbury-parks
 desk: meetings
 city: Woodbury
 bodies: ["Woodbury Parks and Natural Resources Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://woodburymn.gov/AgendaCenter/ViewFile/Agenda/_10062026-1156
     label: "Parks and Natural Resources Commission meeting materials, Oct. 6, 2026, posted Oct. 2, 2026"

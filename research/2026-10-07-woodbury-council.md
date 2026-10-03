@@ -5,7 +5,7 @@ slug: 2026-10-07-woodbury-council
 desk: meetings
 city: Woodbury
 bodies: ["Woodbury City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://woodburymn.gov/AgendaCenter/ViewFile/Agenda/_10072026-1155
     label: "City Council regular meeting agenda packet, Oct. 7, 2026, posted Oct. 2, 2026"
