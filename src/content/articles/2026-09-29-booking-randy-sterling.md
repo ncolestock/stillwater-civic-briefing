@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Wednesday.pdf, start 9/29/2026 7:00 AM end 9/30/2026 7:00 AM, printed 09/30/2026 07:05:02"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-04"
 ai_generated: true
 briefing: research/2026-09-29-booking-randy-sterling.md
 charge: "Theft"

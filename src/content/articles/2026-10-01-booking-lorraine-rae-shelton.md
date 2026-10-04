@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Friday.pdf, start 10/1/2026 7:00 AM end 10/2/2026 7:00 AM, printed 10/02/2026 07:05:10"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-04"
 ai_generated: true
 briefing: research/2026-10-01-booking-lorraine-rae-shelton.md
 charge: "Theft"
