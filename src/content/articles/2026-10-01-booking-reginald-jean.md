@@ -1,0 +1,18 @@
+---
+title: "Reginald Jean"
+date: 2026-10-01
+desk: blotter
+city: Washington County
+bodies: ["Washington County Jail"]
+sources:
+  - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Friday.pdf
+    label: "Adult Daily Book-In Report, Friday.pdf, start 10/1/2026 7:00 AM end 10/2/2026 7:00 AM, printed 10/02/2026 07:05:10"
+dollars: null
+votes: null
+status: draft
+ai_generated: true
+briefing: research/2026-10-01-booking-reginald-jean.md
+charge: "Third-degree burglary"
+---
+
+Washington County booked Reginald Jean on Oct. 1, accused of third-degree burglary. Ramsey County is the arresting agency.

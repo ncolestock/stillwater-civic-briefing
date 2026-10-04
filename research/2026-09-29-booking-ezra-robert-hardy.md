@@ -5,7 +5,7 @@ slug: 2026-09-29-booking-ezra-robert-hardy
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Wednesday.pdf
     label: "Adult Daily Book-In Report, Wednesday.pdf, start 9/29/2026 7:00 AM end 9/30/2026 7:00 AM, printed 09/30/2026 07:05:02"
