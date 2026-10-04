@@ -1,0 +1,44 @@
+---
+title: "Booking, Dave Vang"
+date: 2026-09-29
+slug: 2026-09-29-booking-dave-vang
+desk: blotter
+city: Washington County
+bodies: ["Washington County Jail"]
+status: briefing
+sources:
+  - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Wednesday.pdf
+    label: "Adult Daily Book-In Report, Wednesday.pdf, start 9/29/2026 7:00 AM end 9/30/2026 7:00 AM, printed 09/30/2026 07:05:02"
+    fetched: 2026-10-04
+---
+
+## What the record says
+
+The Washington County Jail Adult Daily Book-In Report (Wednesday.pdf) lists VANG, DAVE as booked on 9/29/2026. The report window is Start: 9/29/2026 7:00 AM through End: 9/30/2026 7:00 AM. Printed DATE 09/30/2026 TIME 07:05:02. Arresting agency as printed on the charge line: HENNEPIN COUNTY, WASHINGTON COUNTY. Charges as written:
+
+• FELONY - 609.713.1 Terroristic Threats-Reckless Disregard Risk - From HENNEPIN COUNTY
+• FELONY - 629.75.2(d)(1) Violate No Contact Order - Within 10 years of the first of two or more convictions - From WASHINGTON COUNTY
+
+## Dollars
+
+Not in the document.
+
+## Votes
+
+Not in the document.
+
+## Names
+
+Dave Vang, as printed on the book-in line.
+
+## Quotes
+
+Not in the document.
+
+## What is not in the record
+
+The folder URL in the research file, https://web1.co.washington.mn.us/WCBookings/Wednesday.pdf, returned 404. This briefing uses the file linked from the Daily Jail Booking Report index. Minnesota Court Records Online rejected this run (The requested URL was rejected). No matching criminal complaint was opened.
+
+## Court record
+
+No court case matched on this run.
