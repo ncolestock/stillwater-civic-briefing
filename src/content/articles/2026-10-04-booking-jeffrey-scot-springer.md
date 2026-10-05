@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Monday.pdf, start 10/4/2026 7:00 AM end 10/5/2026 7:00 AM, printed 10/05/2026 07:05:08"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-05"
 ai_generated: true
 briefing: research/2026-10-04-booking-jeffrey-scot-springer.md
 charge: "Predatory-offender registration violation"
