@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Sunday.pdf, start 10/3/2026 7:00 AM end 10/4/2026 7:00 AM, printed 10/04/2026 07:05:06"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-05"
 ai_generated: true
 briefing: research/2026-10-04-booking-bradley-thomas-schmidt.md
 charge: "Fourth-degree DWI"
