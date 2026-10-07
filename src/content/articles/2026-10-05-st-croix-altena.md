@@ -11,7 +11,7 @@ sources:
     label: "WCCA case detail link for 2026CF000553, St. Croix County (countyNo 55); page did not open"
 dollars: null
 votes: null
-status: draft
+status: held
 ai_generated: true
 briefing: research/2026-10-05-st-croix-altena.md
 ---

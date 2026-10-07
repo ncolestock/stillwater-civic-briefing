@@ -9,10 +9,11 @@ sources:
     label: "Adult Daily Book-In Report, Tuesday.pdf, start 10/5/2026 7:00 AM end 10/6/2026 7:00 AM, printed 10/06/2026 07:05:01"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-07"
 ai_generated: true
 briefing: research/2026-10-05-booking-edgar-joel-galarza-ortiz.md
 charge: "Drug possession"
 ---
 
-Woodbury police booked Edgar Joel Galarza Ortiz into the Washington County jail on Oct. 5, accused of drug possession and of giving a peace officer a false name.
+Woodbury police booked Edgar Joel Galarza Ortiz into the Washington County jail on Oct. 5, accused of drug possession and of giving a peace officer a false name, birthdate, or identification card.
