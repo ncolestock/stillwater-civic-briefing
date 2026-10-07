@@ -5,7 +5,7 @@ slug: 2026-10-06-booking-hannah-morgan-long
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Tuesday.pdf
     label: "Adult Daily Book-In Report, Tuesday.pdf, start 10/5/2026 7:00 AM end 10/6/2026 7:00 AM, printed 10/06/2026 07:05:01"

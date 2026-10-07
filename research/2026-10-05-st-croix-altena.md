@@ -5,7 +5,7 @@ slug: 2026-10-05-st-croix-altena
 desk: blotter
 city: St. Croix County
 bodies: ["St. Croix County Circuit Court"]
-status: briefing
+status: filed
 sources:
   - url: https://wcca.wicourts.gov/caseSearchResults.html
     label: "Wisconsin Circuit Court Access case search, last name Altena, first name Angelica, retrieved 2026-10-07"
