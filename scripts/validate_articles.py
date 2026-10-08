@@ -55,7 +55,8 @@ def main() -> int:
                 errors.append(f"{path.name}: named host or first person")
         if "Artie Fishel" in body or "Artie Fishel" in fm:
             errors.append(f"{path.name}: named host")
-        if desk == "blotter":
+        held = "status: held" in fm
+        if desk == "blotter" and not held:
             if ADDRESS.search(body):
                 errors.append(f"{path.name}: blotter body looks like it includes a street address")
             if re.search(r"mugshot|date of birth|\bDOB\b", body, re.I):

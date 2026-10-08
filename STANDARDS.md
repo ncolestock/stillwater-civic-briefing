@@ -143,6 +143,8 @@ Ordinary English only. Who was booked, on what date, by which agency, and "accus
 
 When research has opened a matching criminal complaint, the story may add at most two short sentences of what that complaint alleges (when, where, what happened), still as accusation. Prefer the complaint over a newspaper paraphrase. Do not fill out an arrest from local news alone.
 
+Only crimes go on the blotter. A civil matter, a commitment, or a hold for another agency is not an accusation and is not published. The blotter is only the Washington County book-in report; a court case found elsewhere is not a booking.
+
 `charge` in the frontmatter stays a short plain phrase for the list.
 
 Never write guilty. Do not add a court result. A booking is an accusation. It is not a finding. Do not append "It is not a conviction" to every item.

@@ -26,7 +26,7 @@ A consent-agenda claims total can be a few lines inside the meeting's briefing. 
 4. If nothing is new, email "Nothing new." and stop. Do not commit.
 5. Write one briefing per event to `research/YYYY-MM-DD-slug.md`. Then make **one** commit to main with every new briefing in it (`push_files` once). Message: `Brief YYYY-MM-DD`. Do not push once per briefing. Each push starts a site deploy, and a run of separate pushes leaves the paper stuck in a queue.
 6. If GitHub cannot write, put the file in the Google Drive folder SCB-drafts and email the path. Do not claim the site changed. The site does not change on a briefing.
-7. Email nathan0colestock@gmail.com eight lines: which briefings you filed, which bodies you skipped, and any URL that blocked you.
+7. Email nathan0colestock@gmail.com eight lines. First line: whether the latest "Deploy paper" run on GitHub Actions for ncolestock/stillwater-civic-briefing succeeded. If it failed, quote the error line (usually a file name and a rule) so the stuck file gets fixed the same day. Then: which briefings you filed, which bodies you skipped, and any URL that blocked you.
 
 ## Briefing shape
 
@@ -75,6 +75,10 @@ The holes. A missing par amount, a missing levy dollar, a packet you could not o
 ## Blotter rules
 
 Adults only, from the weekday book-in PDF, not the inmate roster. The roster has no charges. Monday is https://web1.co.washington.mn.us/WCBookings/Monday.pdf and the other days are Tuesday.pdf through Sunday.pdf in that same folder. The index page is https://www.washingtoncountymn.gov/3220/Daily-Jail-Booking-Report . The filename is replaced the next week, so record the printed start, end, and print time.
+
+Only a criminal charge goes on the blotter. Skip a book-in line whose only entry is a civil matter, a civil commitment, a hold for another agency, a body-only or transport hold, or anything else that is not a crime someone is accused of. If a person has a criminal charge and also a civil line, record only the criminal charge. If the PDF prints no charge at all, skip the person.
+
+The blotter desk is only for the Washington County book-in report. A court case found some other way (Wisconsin Circuit Court Access, another county, a news story) is not a booking. Do not file it as `blotter`. If it is a major public matter and you opened the charging document, file a normal briefing on the right desk; otherwise leave it out.
 
 One briefing per person, slug `YYYY-MM-DD-booking-first-last`. Do not file a grouped roster. The blotter page is the archive, and it only grows if each person is a separate file.
 

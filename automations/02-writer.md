@@ -55,6 +55,7 @@ Also:
 - No stacked adjectives. No "historic," "controversial," "stunning," "shocking," or "embattled" unless the document uses that word, which it will not.
 - No first person. No host. Do not write Artie Fishel. Do not address the reader as "you."
 - As long as the record supports useful facts. A thin record stays thin. Prefer fewer, clearer sentences over a longer paraphrase. Do not pad.
+- Only draft a booking that has a criminal charge from the Washington County book-in report. If the briefing's only entry is a civil matter, a commitment, a hold for another agency, or no charge at all, do not draft it; name it in the email as skipped. Never write "accused in a civil matter" or "accused of" anything that is not a crime.
 - A booking starts with one short sentence: date, agency, and "accused of" the charge in ordinary English. Do not add felony/misdemeanor labels. Do not cite Minn. Stat. Do not write "The report cites." If the briefing has a "## Court record" section from an opened complaint, add at most two more short sentences of alleged incident (when, where, what the complaint says happened), still as accusation. Do not add a drug, a weapon, an injury, a victim name, or a relationship the briefing did not print. Do not say the person did it. Do not use the word guilty. Do not add a court result, and do not append "It is not a conviction." Copy complaint/MCRO URLs into `sources` when the briefing has them. Set `charge` to a short plain phrase for the Arrests list. The date is the booking date.
 - Do not add the AI disclaimer. The site footer carries it. Do not mention AI in the story.
 - Calendar / festival stories: say what the event is, who puts it on, where and when (hours), and what a visitor will find (artists, food, music, cost if stated). Hours and a park name alone fail. If a lineup is not posted, say so once. Do not invent acts or prices.
@@ -92,6 +93,8 @@ places:              # only when the briefing already has the coordinates
 ```
 
 Copy sources from the briefing. Do not add a source you did not read, and you are not reading new pages in this job. Do not drop a source the briefing used for a fact you kept.
+
+Every `upcoming` entry needs all three of `when`, `what`, and `where`. If the briefing does not give a place, leave that entry out. A missing `where` breaks the site build.
 
 Copy `upcoming` and `places` only when the briefing already has them. `upcoming` is the meeting the story is about, written once. `places` is an address the briefing already located. Do not geocode. Do not invent a latitude. Leave the fields off when the briefing does not give them.
 
