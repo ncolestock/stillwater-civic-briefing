@@ -5,7 +5,7 @@ slug: 2026-10-07-booking-austin-robert-mcdaniel
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Wednesday.pdf
     label: "Adult Daily Book-In Report, Wednesday.pdf, Start: 10/6/2026 7:00 AM through End: 10/7/2026 7:00 AM, printed 10/07/2026 07:05:05"
