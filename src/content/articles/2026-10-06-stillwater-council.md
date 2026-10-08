@@ -15,10 +15,6 @@ status: published
 ai_generated: true
 briefing: research/2026-10-06-stillwater-council.md
 checked: "2026-10-03"
-upcoming:
-  - when: "2026-10-06 7:00 p.m."
-    what: "Stillwater City Council"
-    url: https://cityofstillwater.granicus.com/GeneratedAgendaViewer.php?view_id=3&event_id=2010
 ---
 
 Stillwater's council meets Tuesday night on assessments for the 2026 Street Improvement Project, the 2026 Sidewalk Rehabilitation Project, and CSAH 5 Phase 4. A second hearing covers delinquent cleanup fees, citations, lodging tax, parking fees, plan review fees, solid waste fees, and utility bills. A Series 2026B bond resolution is marked available Tuesday.
