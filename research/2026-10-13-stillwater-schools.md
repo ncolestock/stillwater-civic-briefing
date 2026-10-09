@@ -5,7 +5,7 @@ slug: 2026-10-13-stillwater-schools
 desk: schools
 city: Stillwater
 bodies: ["Stillwater Area Public Schools Board"]
-status: briefing
+status: filed
 sources:
   - url: https://meetings.boardbook.org/Public/Agenda/2592?meeting=769102
     label: "Public meeting agenda, Oct. 13, 2026 study session"
