@@ -11,7 +11,8 @@ sources:
     label: "St. Croix 360 tip, Oct. 2, 2026 schedule update"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-12"
 ai_generated: true
 briefing: research/2026-10-04-hwy-243-osceola-closure.md
 ---
