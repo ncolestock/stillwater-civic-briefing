@@ -9,10 +9,11 @@ sources:
     label: "Adult Daily Book-In Report, Tuesday.pdf, start 10/12/2026 7:00 AM end 10/13/2026 7:00 AM, printed 10/13/2026 07:05:05"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-12-booking-tristan-anthony-harmon.md
 charge: "Fifth-degree drug sale"
+checked: "2026-10-13"
 ---
 
-Woodbury police booked Tristan Anthony Harmon on Oct. 12, accused of fifth-degree sale of a controlled substance and obstructing legal process.
+Woodbury police booked Tristan Anthony Harmon on Oct. 13, accused of fifth-degree sale of a controlled substance and obstructing legal process.

@@ -9,10 +9,11 @@ sources:
     label: "Adult Daily Book-In Report, Tuesday.pdf, start 10/12/2026 7:00 AM end 10/13/2026 7:00 AM, printed 10/13/2026 07:05:05"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-13-booking-tunia-browne.md
 charge: "Third-degree driving while impaired"
+checked: "2026-10-13"
 ---
 
 Minnesota State Patrol booked Tunia Browne on Oct. 13, accused of third-degree driving while impaired.
