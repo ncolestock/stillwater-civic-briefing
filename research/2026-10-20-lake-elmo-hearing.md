@@ -5,7 +5,7 @@ slug: 2026-10-20-lake-elmo-hearing
 desk: meetings
 city: Lake Elmo
 bodies: ["Lake Elmo City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_10202026-325
     label: "Public hearing notice, Oct. 20, 2026"
