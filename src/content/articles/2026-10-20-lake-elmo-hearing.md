@@ -9,9 +9,10 @@ sources:
     label: "Public hearing notice, Oct. 20, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-20-lake-elmo-hearing.md
+checked: "2026-10-14"
 upcoming:
   - when: "2026-10-20 7:00 p.m."
     what: "Lake Elmo City Council public hearing"
