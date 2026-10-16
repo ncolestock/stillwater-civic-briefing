@@ -9,9 +9,10 @@ sources:
     label: "City Council agenda, Oct. 20, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-20-stillwater-council.md
+checked: "2026-10-16"
 upcoming:
   - when: "2026-10-20 7:00 p.m."
     what: "Stillwater City Council"
