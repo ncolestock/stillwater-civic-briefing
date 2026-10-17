@@ -9,9 +9,10 @@ sources:
     label: "Board packet, Oct. 20, 2026"
 dollars: "$40,000,000 maximum CIP bonds; $1,031,000 Byrne grant; $1,866,285.78 Axon purchase; $254,002.20 furniture; $287,746.62 library furniture"
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-20-washington-county-board.md
+checked: "2026-10-17"
 upcoming:
   - when: "2026-10-20 9:00 a.m."
     what: "Washington County Board of Commissioners"
