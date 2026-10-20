@@ -5,7 +5,7 @@ slug: 2026-10-18-booking-scott-anthony-bojarski
 desk: blotter
 city: Washington County
 bodies: ["Washington County Sheriff"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Monday.pdf
     label: "Adult Daily Book-In Report, start 10/18/2026 7:00 AM, end 10/19/2026 7:00 AM, printed 10/19/2026 07:05:05"
