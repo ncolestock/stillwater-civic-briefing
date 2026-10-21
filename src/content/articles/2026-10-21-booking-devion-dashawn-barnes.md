@@ -9,10 +9,11 @@ sources:
     label: "Adult Daily Book-In Report, start 10/20/2026 7:00 AM, end 10/21/2026 7:00 AM, printed 10/21/2026 07:05:09"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-21-booking-devion-dashawn-barnes.md
 charge: "Fleeing a peace officer"
+checked: "2026-10-21"
 ---
 
-Oakdale police booked Devion Dashawn Barnes on Oct. 20 on a hold for Scott County, accused of fleeing a peace officer, of driving after license revocation, and of obstructing legal process.
+Oakdale police booked Devion Dashawn Barnes on Oct. 20 on a hold for Scott County, accused of fleeing a peace officer, of driving after license revocation, of obstructing legal process, of giving a false name or birthdate to a peace officer, and of failing to use a child passenger restraint system.

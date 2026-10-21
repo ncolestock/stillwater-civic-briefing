@@ -9,10 +9,11 @@ sources:
     label: "Adult Daily Book-In Report, start 10/20/2026 7:00 AM, end 10/21/2026 7:00 AM, printed 10/21/2026 07:05:09"
 dollars: null
 votes: null
-status: draft
+status: published
 ai_generated: true
 briefing: research/2026-10-21-booking-taiah-jailin-stockwell.md
 charge: "Violating an order for protection"
+checked: "2026-10-21"
 ---
 
 Cottage Grove and St. Paul Park police booked Taiah Jailin Stockwell on Oct. 20 on a hold for Ramsey County, accused of violating an order for protection and of violating a no-contact order.
