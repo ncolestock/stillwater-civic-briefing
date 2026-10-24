@@ -5,7 +5,7 @@ slug: 2026-10-27-stillwater-schools
 desk: schools
 city: Stillwater
 bodies: ["Stillwater Area Public Schools Board"]
-status: briefing
+status: filed
 sources:
   - url: https://meetings.boardbook.org/Public/Agenda/2592?meeting=769903
     label: "Business Meeting Agenda, Oct. 27, 2026 at 5:30 PM"

@@ -5,7 +5,7 @@ slug: 2026-10-26-lake-elmo-planning
 desk: land
 city: Lake Elmo
 bodies: ["Lake Elmo Planning Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_10262026-330?html=true
     label: "Planning Commission Agenda, Oct. 26, 2026"
