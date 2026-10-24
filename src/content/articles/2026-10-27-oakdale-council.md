@@ -1,5 +1,5 @@
 ---
-title: "Oakdale council to certify $248,504 in delinquent utilities onto 2027 taxes"
+title: "Oakdale council to certify $248,503.75 in delinquent utilities onto 2027 taxes"
 date: 2026-10-27
 desk: meetings
 city: Oakdale
@@ -9,7 +9,8 @@ sources:
     label: "City Council Meeting Materials, Oct. 27, 2026"
 dollars: 248503.75
 votes: null
-status: draft
+status: published
+checked: "2026-10-24"
 ai_generated: true
 briefing: research/2026-10-27-oakdale-council.md
 upcoming:

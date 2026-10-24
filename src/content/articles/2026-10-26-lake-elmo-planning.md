@@ -11,7 +11,8 @@ sources:
     label: "PC Memo - 11055 32nd St N Variance"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-24"
 ai_generated: true
 briefing: research/2026-10-26-lake-elmo-planning.md
 upcoming:

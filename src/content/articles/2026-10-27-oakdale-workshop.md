@@ -1,5 +1,5 @@
 ---
-title: "Oakdale workshop takes up $22.1 million levy, an 8.97 percent increase"
+title: "Oakdale workshop takes up $22,143,344 levy, an 8.97 percent increase"
 date: 2026-10-27
 desk: meetings
 city: Oakdale
@@ -9,7 +9,8 @@ sources:
     label: "City Council Workshop Materials, Oct. 27, 2026"
 dollars: 22143344
 votes: null
-status: draft
+status: published
+checked: "2026-10-24"
 ai_generated: true
 briefing: research/2026-10-27-oakdale-workshop.md
 upcoming:

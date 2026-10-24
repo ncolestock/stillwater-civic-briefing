@@ -9,7 +9,8 @@ sources:
     label: "Business Meeting Agenda, Oct. 27, 2026 at 5:30 PM"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-24"
 ai_generated: true
 briefing: research/2026-10-27-stillwater-schools.md
 ---
