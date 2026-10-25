@@ -5,7 +5,7 @@ slug: 2026-10-23-booking-kevin-ray-farber
 desk: blotter
 city: Woodbury
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Saturday.pdf
     label: "Adult Daily Book-In Report, start 10/23/2026 7:00 AM, end 10/24/2026 7:00 AM, printed 10/24/2026 07:05:06"
