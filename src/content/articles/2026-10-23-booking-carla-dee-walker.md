@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 10/23/2026 7:00 AM, end 10/24/2026 7:00 AM, printed 10/24/2026 07:05:06"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-25"
 ai_generated: true
 briefing: research/2026-10-23-booking-carla-dee-walker.md
 charge: "Disrupting a 911 call and domestic assault"
