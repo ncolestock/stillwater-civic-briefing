@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 10/25/2026 7:00 AM, end 10/26/2026 7:00 AM, printed 10/26/2026 07:05:06"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-26"
 ai_generated: true
 briefing: research/2026-10-25-booking-marcellus-andre-williams.md
 charge: "domestic assault"

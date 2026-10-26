@@ -9,7 +9,8 @@ sources:
     label: "City Council Meeting Materials, October 27, 2026"
 dollars: "$141,280 for water tower reconditioning"
 votes: null
-status: draft
+status: published
+checked: "2026-10-26"
 ai_generated: true
 briefing: research/2026-10-27-oakdale-city-council.md
 upcoming:

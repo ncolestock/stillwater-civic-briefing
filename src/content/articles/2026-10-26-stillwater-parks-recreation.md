@@ -9,7 +9,8 @@ sources:
     label: "Parks & Recreation Commission Agenda, October 26, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-26"
 ai_generated: true
 briefing: research/2026-10-26-stillwater-parks-recreation.md
 ---
