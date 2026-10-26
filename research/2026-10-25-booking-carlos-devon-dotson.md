@@ -5,7 +5,7 @@ slug: 2026-10-25-booking-carlos-devon-dotson
 desk: blotter
 city: Woodbury
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Monday.pdf
     label: "Adult Daily Book-In Report, start 10/25/2026 7:00 AM, end 10/26/2026 7:00 AM, printed 10/26/2026 07:05:06"

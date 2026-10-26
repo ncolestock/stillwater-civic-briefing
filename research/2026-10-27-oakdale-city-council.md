@@ -5,7 +5,7 @@ slug: 2026-10-27-oakdale-city-council
 desk: meetings
 city: Oakdale
 bodies: ["Oakdale City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_10272026-924
     label: "City Council Meeting Materials, October 27, 2026"
