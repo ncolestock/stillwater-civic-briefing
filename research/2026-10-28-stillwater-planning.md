@@ -5,7 +5,7 @@ slug: 2026-10-28-stillwater-planning
 desk: meetings
 city: Stillwater
 bodies: ["Stillwater Planning Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1441
     label: "Planning Commission agenda, Oct. 28, 2026"
