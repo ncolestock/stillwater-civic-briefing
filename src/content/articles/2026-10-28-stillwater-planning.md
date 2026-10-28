@@ -15,7 +15,8 @@ sources:
     label: "PC Packet Materials - Comp Plan - Density"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-28"
 ai_generated: true
 briefing: research/2026-10-28-stillwater-planning.md
 ---

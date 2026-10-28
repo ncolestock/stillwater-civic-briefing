@@ -9,7 +9,7 @@ sources:
     label: "Adult Daily Book-In Report, start 10/26/2026 7:00 AM, end 10/27/2026 7:00 AM, printed 10/27/2026 07:05:08"
 dollars: null
 votes: null
-status: draft
+status: held
 ai_generated: true
 briefing: research/2026-10-27-booking-guleed-abdi-farah.md
 charge: "Theft of movable property"

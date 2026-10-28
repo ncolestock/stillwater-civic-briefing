@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 10/26/2026 7:00 AM, end 10/27/2026 7:00 AM, printed 10/27/2026 07:05:08"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-28"
 ai_generated: true
 briefing: research/2026-10-27-booking-jacob-alexander-david.md
 charge: "Second-degree assault with a dangerous weapon, terroristic threats, and domestic assault"
