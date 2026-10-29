@@ -5,7 +5,7 @@ slug: 2026-10-27-booking-devin-carlson
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Wednesday.pdf
     label: "Adult Daily Book-In Report, start 10/27/2026 7:00 AM, end 10/28/2026 7:00 AM, printed 10/28/2026 07:05:10"
