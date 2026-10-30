@@ -23,7 +23,8 @@ sources:
     label: "Staff Report - Compensation Policy"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-10-30"
 ai_generated: true
 briefing: research/2026-11-04-lake-elmo-council.md
 upcoming:
@@ -34,11 +35,11 @@ upcoming:
 
 Lake Elmo's council meets Wednesday night on tearing down the old elementary school and ordering a $2,897,000 street and utility project that would assess $9,800 against each of 89 neighborhood units.
 
-Stillwater Area Schools owns the site at 11030 Stillwater Boulevard. The proposal is for grading and demolition of the existing Lake Elmo Elementary School. The work would disturb about 8.2 acres and requires 41 replacement trees.
+Stillwater Area Schools owns the site at 11030 Stillwater Boulevard North. The proposal is for grading and demolition of the existing Lake Elmo Elementary School. The work would disturb about 8.2 acres and requires 41 replacement trees.
 
 The same night the council is asked to order the 2027 Street and Utility Improvements in the Oace Acres Neighborhood, covering 1.9 miles. The total estimated cost is $2,897,000. Special assessments would cover $872,200, or $9,800 per unit for 89 units. Bond proceeds would supply $1,705,800 and the infrastructure reserve $319,000. A design contract with Bolton & Menk would not exceed $145,200.
 
-A second road project, the 2027 Collector Road Improvements on 0.74 miles of 45th Street N, Julep Avenue N, and 47th Street N, is estimated at $950,000. Assessments would total $864,200, or $6,600 for each of 13 units, with the city paying $85,800.
+A second road project, the 2027 Collector Road Improvements on 0.74 miles of 45th Street N, Julep Avenue N, and 47th Street N, is estimated at $950,000. Assessments would total $85,800, or $6,600 for each of 13 units, with the city paying $864,200.
 
 Also on the agenda: a $17,590 contract with SEH for the 2027 Water Supply Plan Update, and an estimated $145,000 budget for 2026/2027 crosswalk improvements. Salary ranges under a 2027 compensation policy run from $41,575.74 to $55,874.32 a year at Grade 1 up to $157,885.71 to $212,185.19 at Grade 15, a 34 percent spread from minimum to maximum.
 
