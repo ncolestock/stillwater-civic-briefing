@@ -5,7 +5,7 @@ slug: 2026-11-04-lake-elmo-council
 desk: meetings
 city: Lake Elmo
 bodies: ["Lake Elmo City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_11042026-333?html=true
     label: "City Council agenda, Nov. 4, 2026"
