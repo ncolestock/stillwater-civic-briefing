@@ -23,7 +23,8 @@ sources:
     label: "Official notice of 2027 tipping fee"
 dollars: "Myrtle Street $4,570,142; assessments $670,142; SSD $50,500; TIF excess $291,897.91; snow fees $39,150; ice rink waiver $18,500; tipping $159/ton"
 votes: null
-status: draft
+status: published
+checked: "2026-10-31"
 ai_generated: true
 briefing: research/2026-11-04-stillwater-council.md
 ---
