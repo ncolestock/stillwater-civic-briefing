@@ -5,7 +5,7 @@ slug: 2026-11-03-washington-county-board
 desk: meetings
 city: Washington County
 bodies: ["Washington County Board of Commissioners"]
-status: briefing
+status: filed
 sources:
   - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_11032026-1956
     label: "Board agenda, Nov. 3, 2026"
