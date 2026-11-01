@@ -11,7 +11,8 @@ sources:
     label: "Board packet, Nov. 3, 2026"
 dollars: 1244000
 votes: null
-status: draft
+status: published
+checked: "2026-11-01"
 ai_generated: true
 briefing: research/2026-11-03-washington-county-board.md
 ---
