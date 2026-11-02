@@ -5,7 +5,7 @@ slug: 2026-11-09-lake-elmo-planning-cip
 desk: meetings
 city: Lake Elmo
 bodies: ["Lake Elmo Planning Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_11092026-332
     label: "Planning Commission public hearing notice, Nov. 9, 2026"

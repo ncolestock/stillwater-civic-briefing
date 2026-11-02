@@ -5,7 +5,7 @@ slug: 2026-10-20-stillwater-dnr-nps-exchange
 desk: land
 city: Stillwater
 bodies: ["Stillwater City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/MetaViewer.php?view_id=3&event_id=2010&meta_id=149853
     label: "Resolution Supporting DNR-NPS Property Exchange and DNR letter, Oct. 20, 2026 packet"
