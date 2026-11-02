@@ -9,7 +9,8 @@ sources:
     label: "Planning Commission public hearing notice, Nov. 9, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-02"
 ai_generated: true
 briefing: research/2026-11-09-lake-elmo-planning-cip.md
 upcoming:
