@@ -9,7 +9,7 @@ sources:
     label: "Board agenda, Nov. 3, 2026"
   - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_11032026-1955
     label: "Board packet, Nov. 3, 2026"
-dollars: 1244000
+dollars: "$1,244,000"
 votes: null
 status: published
 checked: "2026-11-01"

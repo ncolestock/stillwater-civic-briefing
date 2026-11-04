@@ -7,7 +7,7 @@ bodies: ["Oakdale City Council"]
 sources:
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_10272026-924
     label: "City Council Meeting Materials, Oct. 27, 2026"
-dollars: 248503.75
+dollars: "$248,503.75"
 votes: null
 status: published
 checked: "2026-10-24"
