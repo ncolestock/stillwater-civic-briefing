@@ -17,6 +17,7 @@ upcoming:
   - when: "2026-10-20 9:00 a.m."
     what: "Washington County Board of Commissioners"
     where: "County Board Room"
+    url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_10202026-1952
 ---
 
 Washington County commissioners meet Tuesday at 9 a.m. in the County Board Room on a resolution to set a November 17 public hearing for up to $40 million in general obligation capital improvement bonds.

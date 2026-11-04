@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import { issueDateForArticle, issueSlug, toUtcDateOnly } from "./issues";
+import { currentIssueMonday, issueDateForArticle, issueSlug, toUtcDateOnly } from "./issues";
 
 export type Article = CollectionEntry<"articles">;
 
@@ -49,15 +49,18 @@ export function eventsInWindow(articles: Article[], issue: Date, weeks = 6): Art
     .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf() || a.id.localeCompare(b.id));
 }
 
-export function latestIssueDate(articles: Article[]): Date | null {
+/** The issue the front page shows: this week's, by the Chicago calendar.
+ *  A story dated in a future week must not make next week's issue the front page.
+ *  If this week has nothing filed yet, show the newest earlier issue.
+ *  Only if every issue is in the future does it fall back to the oldest of them. */
+export function latestIssueDate(articles: Article[], now: Date = new Date()): Date | null {
   const groups = groupByIssue(articles);
   if (groups.size === 0) return null;
+  const current = currentIssueMonday(now).valueOf();
   const ranked = [...groups.values()].sort((a, b) => b.date.valueOf() - a.date.valueOf());
-  // Prefer the newest Monday that carries news stories, not only a future calendar item.
-  const withStories = ranked.find((g) =>
-    g.articles.some((a) => a.data.desk !== "blotter" && a.data.desk !== "calendar"),
-  );
-  return (withStories ?? ranked[0]).date;
+  const upToNow = ranked.filter((g) => g.date.valueOf() <= current);
+  if (upToNow.length > 0) return upToNow[0].date;
+  return ranked[ranked.length - 1].date;
 }
 
 export function sameIssueDay(a: Date, b: Date): boolean {

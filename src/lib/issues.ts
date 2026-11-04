@@ -6,6 +6,22 @@ export function toUtcDateOnly(date: Date): Date {
   return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
 }
 
+/** Monday of the current week in America/Chicago, as a UTC calendar day.
+ *  The build runs on a UTC server, so read the Chicago date explicitly. */
+export function currentIssueMonday(now: Date = new Date()): Date {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Chicago",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(now);
+  const pick = (type: string) => Number(parts.find((p) => p.type === type)?.value);
+  const today = new Date(Date.UTC(pick("year"), pick("month") - 1, pick("day")));
+  const day = today.getUTCDay() || 7; // Mon=1 … Sun=7
+  today.setUTCDate(today.getUTCDate() - (day - 1));
+  return today;
+}
+
 /** Monday on or after the given UTC calendar day. */
 export function mondayOnOrAfter(date: Date): Date {
   const d = toUtcDateOnly(date);

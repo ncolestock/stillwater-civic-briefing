@@ -11,7 +11,7 @@ sources:
     label: "Washington County Agenda Center"
   - url: https://www.washingtoncountymn.gov/calendar.aspx?PREVIEW=YES&EID=7352
     label: "County calendar listing for Oct. 13 meeting"
-dollars: 1083920
+dollars: "$1,083,920"
 votes: null
 status: published
 ai_generated: true
