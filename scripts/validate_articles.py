@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-"""Check article frontmatter before a commit. No network. No invented facts."""
+"""Check article frontmatter and house rules before a commit. No network. No invented facts.
+
+  python3 scripts/validate_articles.py               report; exit 1 on any error
+  python3 scripts/validate_articles.py --quarantine  move each failing piece to quarantine/
+                                                     as status: held, log it, exit 0, so one
+                                                     bad file cannot freeze the deploy
+
+Schema and type checks (dollars, votes, upcoming fields) live in
+scripts/check_articles_schema.mjs, which uses the same schema Astro builds with.
+"""
 from __future__ import annotations
 
 import re
@@ -8,6 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / "src" / "content" / "articles"
+QUARANTINE = ROOT / "quarantine"
 DISCLAIMER = "Researched and written by AI from public records."
 REQUIRED = ("title:", "date:", "desk:", "city:", "bodies:", "sources:", "status:", "ai_generated:")
 DESKS = {"meetings", "schools", "blotter", "land", "roads", "calendar"}
@@ -16,6 +26,20 @@ ADDRESS = re.compile(
     r"(?:Ave|Avenue|St|Street|Rd|Road|Blvd|Boulevard|Ln|Lane|Dr|Drive|Trl|Trail|Way|Ct|Court)\b",
     re.I,
 )
+
+
+def quarantine(names: set[str], errors: list[str]) -> None:
+    QUARANTINE.mkdir(exist_ok=True)
+    for name in sorted(names):
+        src = ARTICLES / name
+        text = src.read_text()
+        if re.search(r"^status:.*$", text, re.M):
+            text = re.sub(r"^status:.*$", "status: held", text, count=1, flags=re.M)
+        (QUARANTINE / name).write_text(text)
+        src.unlink()
+        why = "; ".join(e.split(": ", 1)[1] for e in errors if e.startswith(name + ": "))
+        print(f"house-rules: QUARANTINED {name}: {why}. Moved to quarantine/ as status held so the rest of the paper deploys.")
+        print(f"::error file=src/content/articles/{name}::house-rules: {why}")
 
 
 def main() -> int:
@@ -69,6 +93,15 @@ def main() -> int:
                 errors.append(f"{path.name}: blotter should say accused of the charge")
         if re.search(r"How to follow it", body, re.I):
             errors.append(f"{path.name}: no How to follow it heading; put time, place, and how to speak in the body")
+    if errors and "--quarantine" in sys.argv:
+        names = {e.split(": ", 1)[0] for e in errors if e.split(": ", 1)[0].endswith(".md")}
+        other = [e for e in errors if e.split(": ", 1)[0] not in names]
+        quarantine(names, errors)
+        if other:
+            print("\n".join(other), file=sys.stderr)
+            return 1
+        print(f"house-rules: {len(files)} file(s) read, {len(names)} quarantined")
+        return 0
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
