@@ -7,8 +7,8 @@
     "build": "astro build && node scripts/stage-dist.mjs",
     "preview": "astro preview",
     "feed": "python3 scripts/build_feed.py",
-    "validate": "python3 scripts/validate_articles.py",
-    "check": "python3 scripts/validate_articles.py && python3 scripts/build_feed.py && astro build"
+    "validate": "node scripts/check_articles_schema.mjs && python3 scripts/validate_articles.py",
+    "check": "node scripts/check_articles_schema.mjs && python3 scripts/validate_articles.py && python3 scripts/build_feed.py && astro build"
   },
   "dependencies": {
     "astro": "^5.14.1"

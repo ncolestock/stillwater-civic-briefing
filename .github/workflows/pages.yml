@@ -24,25 +24,38 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Same schema and parser Astro builds with. Quotes bare numbers in dollars or votes,
+      # and moves any other failing piece to quarantine/ as held, so one bad file
+      # cannot stop the paper. The log names each file.
+      - name: Schema check (repair or quarantine failing pieces)
+        run: node scripts/check_articles_schema.mjs --fix
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Render any weekly episode that has a script and no audio yet
         continue-on-error: true
         env:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: python3 scripts/render_pending_audio.py
-      - run: python3 scripts/validate_articles.py
+      - name: House-rules check (quarantine failing pieces)
+        run: python3 scripts/validate_articles.py --quarantine
       - run: python3 scripts/build_feed.py
       - run: npm run build
-      - name: Keep rendered audio in the repo
+      - name: Keep rendered audio, repairs, and quarantined pieces in the repo
         run: |
           git config user.name "stillwater-civic-briefing"
           git config user.email "nathan0colestock@gmail.com"
           git add episodes
-          if git diff --cached --quiet; then
-            exit 0
+          if ! git diff --cached --quiet; then
+            git commit -m "Render weekly episode audio [skip ci]"
           fi
-          git commit -m "Render weekly episode audio [skip ci]"
-          git push
+          # Repairs and quarantines made during this run, so the repo matches what deployed.
+          git add -A src/content/articles quarantine
+          if ! git diff --cached --quiet; then
+            git commit -m "Repair or quarantine failing articles [skip ci]"
+          fi
+          if [ "$(git rev-parse HEAD)" != "$GITHUB_SHA" ]; then
+            git pull --rebase --autostash || { git rebase --abort; echo "::warning::Could not rebase repairs onto main. They deployed but are not saved in the repo."; exit 0; }
+            git push || echo "::warning::Could not push repairs. They deployed but are not saved in the repo."
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -55,3 +68,24 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Alerts. Runs after every build, pass or fail. See scripts/deploy_alert.sh.
+  notify:
+    needs: [build, deploy]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      actions: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      RUN_ID: ${{ github.run_id }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      BUILD_RESULT: ${{ needs.build.result }}
+      DEPLOY_RESULT: ${{ needs.deploy.result }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Open, update, or close the Deploy failing issue
+        run: bash scripts/deploy_alert.sh
