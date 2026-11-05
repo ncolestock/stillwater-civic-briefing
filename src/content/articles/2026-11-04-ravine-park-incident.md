@@ -7,11 +7,10 @@ bodies: ["Washington County Sheriff’s Office", "Cottage Grove Police Departmen
 sources:
   - url: https://www.washingtoncountymn.gov/Archive/ViewFile/Item/2871
     label: "Media Release, Ravine Park Incident, Nov. 4, 2026"
-  - url: https://www.twincities.com/2026/11/04/two-people-found-dead-in-cottage-grove-ravine-regional-park-in-suspected-murder-suicide/
-    label: "Pioneer Press tip, Nov. 4, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-05"
 ai_generated: true
 briefing: research/2026-11-04-ravine-park-incident.md
 ---
