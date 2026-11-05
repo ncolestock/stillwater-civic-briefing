@@ -5,7 +5,7 @@ slug: 2026-11-04-ravine-park-incident
 desk: meetings
 city: Cottage Grove
 bodies: ["Washington County Sheriff’s Office", "Cottage Grove Police Department"]
-status: briefing
+status: filed
 sources:
   - url: https://www.washingtoncountymn.gov/Archive/ViewFile/Item/2871
     label: "Media Release, Ravine Park Incident, Nov. 4, 2026"

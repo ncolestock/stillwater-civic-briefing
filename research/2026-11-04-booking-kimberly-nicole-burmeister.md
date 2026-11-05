@@ -5,7 +5,7 @@ slug: 2026-11-04-booking-kimberly-nicole-burmeister
 desk: blotter
 city: Cottage Grove
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Wednesday.pdf
     label: "Adult Daily Book-In Report, start 11/3/2026 7:00 AM, end 11/4/2026 7:00 AM, printed 11/04/2026 07:05:02"
