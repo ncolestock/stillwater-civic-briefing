@@ -5,7 +5,7 @@ slug: 2026-11-05-booking-dayon-michael-durick
 desk: blotter
 city: Washington County
 bodies: ["Washington County Sheriff"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Thursday.pdf
     label: "Adult Daily Book-In Report, Start 11/4/2026 7:00 AM End 11/5/2026 7:00 AM, printed 11/5/2026 7:05:05"
