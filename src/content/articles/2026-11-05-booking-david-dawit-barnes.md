@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Start 11/4/2026 7:00 AM End 11/5/2026 7:00 AM, printed 11/5/2026 7:05:05"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-06"
 ai_generated: true
 briefing: research/2026-11-05-booking-david-dawit-barnes.md
 charge: "harassment"

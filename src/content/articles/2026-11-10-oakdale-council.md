@@ -9,7 +9,8 @@ sources:
     label: "City Council Meeting Materials, Nov. 10, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-06"
 ai_generated: true
 briefing: research/2026-11-10-oakdale-council.md
 upcoming:
