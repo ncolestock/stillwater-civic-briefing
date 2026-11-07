@@ -5,7 +5,7 @@ slug: 2026-11-10-stillwater-schools
 desk: schools
 city: Stillwater
 bodies: ["Stillwater Area Public Schools School Board"]
-status: briefing
+status: filed
 sources:
   - url: https://meetings.boardbook.org/Public/Agenda/2592?meeting=775336
     label: "Agenda, Nov. 10, 2026 Canvass Election and Study Session"
