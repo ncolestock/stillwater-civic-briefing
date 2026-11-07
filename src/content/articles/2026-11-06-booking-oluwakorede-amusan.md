@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, Start 11/5/2026 7:00 AM End 11/6/2026 7:00 AM, printed 11/6/2026 7:05:10"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-07"
 ai_generated: true
 briefing: research/2026-11-06-booking-oluwakorede-amusan.md
 charge: "Assaulting a peace officer, driving while impaired, driving after revocation, and theft"

@@ -9,7 +9,7 @@ sources:
     label: "Agenda, Nov. 10, 2026 Canvass Election and Study Session"
 dollars: null
 votes: null
-status: draft
+status: held
 ai_generated: true
 briefing: research/2026-11-10-stillwater-schools.md
 upcoming:
