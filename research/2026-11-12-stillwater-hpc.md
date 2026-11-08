@@ -5,7 +5,7 @@ slug: 2026-11-12-stillwater-hpc
 desk: meetings
 city: Stillwater
 bodies: ["Stillwater Heritage Preservation Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=2651
     label: "Heritage Preservation Commission agenda, Nov. 12, 2026"
