@@ -9,7 +9,8 @@ sources:
     label: "Heritage Preservation Commission agenda, Nov. 12, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-08"
 ai_generated: true
 briefing: research/2026-11-12-stillwater-hpc.md
 ---

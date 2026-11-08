@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 11/7/2026 7:00 AM, end 11/8/2026 7:00 AM, printed 11/08/2026 07:05:10"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-08"
 ai_generated: true
 briefing: research/2026-11-07-booking-anthony-robert-horman.md
 charge: "Driving after revocation"
