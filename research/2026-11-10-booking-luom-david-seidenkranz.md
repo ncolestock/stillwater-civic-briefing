@@ -3,7 +3,7 @@ title: "Booking, Luom David Seidenkranz, Nov. 10, 2026"
 date: 2026-11-10
 slug: 2026-11-10-booking-luom-david-seidenkranz
 desk: blotter
-city: Oakdale
+city: Woodbury
 bodies: ["Washington County Jail"]
 status: briefing
 sources:
@@ -14,9 +14,9 @@ sources:
 
 ## What the record says
 
-Luom David Seidenkranz was booked 11/10/2026 2:48:41 AM as PENDING CHARGE/INVESTIGATION. Arresting agency: OAKDALE POLICE DEPARTMENT.
+Luom David Seidenkranz was booked 11/10/2026 12:43:00 AM as PENDING CHARGE/INVESTIGATION. Arresting agency: WOODBURY POLICE DEPARTMENT.
 
-Charge: FELONY - 609.2247.2 Domestic Assault - By Strangulation from OAKDALE POLICE DEPARTMENT.
+Charge: GROSS MISDEMEANOR - 629.75.2(c) Domestic Abuse No Contact Order - Violate No Contact Order - within 10 years of previous conviction from WOODBURY POLICE DEPARTMENT.
 
 ## Dollars
 
