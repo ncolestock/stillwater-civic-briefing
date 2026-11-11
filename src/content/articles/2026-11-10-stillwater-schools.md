@@ -16,6 +16,7 @@ upcoming:
   - when: "2026-11-10 5:30 p.m."
     what: "Stillwater Area Public Schools Canvass Election and Study Session"
     where: "Oak Park Learning Center, 6355 Osman Avenue North, Stillwater"
+    url: https://meetings.boardbook.org/Public/Agenda/2592?meeting=775336
 ---
 
 Stillwater Area Public Schools meets Tuesday evening to canvass the general election returns and to act on a high school course proposal that expands college credit, career pathways, and online options for 2027-28.

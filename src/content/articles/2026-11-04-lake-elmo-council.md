@@ -31,6 +31,7 @@ upcoming:
   - when: "2026-11-04 7:00 p.m."
     what: "Lake Elmo City Council"
     where: "City of Lake Elmo, 3880 Laverne Avenue North"
+    url: https://www.lakeelmo.gov/AgendaCenter/ViewFile/Agenda/_11042026-333?html=true
 ---
 
 Lake Elmo's council meets Wednesday night on tearing down the old elementary school and ordering a $2,897,000 street and utility project that would assess $9,800 against each of 89 neighborhood units.
