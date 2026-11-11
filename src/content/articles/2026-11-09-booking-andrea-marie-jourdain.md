@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 11/9/2026 7:00 AM, end 11/10/2026 7:00 AM, printed 11/10/2026 07:05:05"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-11"
 ai_generated: true
 briefing: research/2026-11-09-booking-andrea-marie-jourdain.md
 charge: "Possessing a controlled substance and burglary"
