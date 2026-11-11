@@ -5,7 +5,7 @@ slug: 2026-11-09-booking-charles-keith-kohn
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://web1.washingtoncountymn.gov/imageShare/Images/reports/booking/Tuesday.pdf
     label: "Adult Daily Book-In Report, start 11/9/2026 7:00 AM, end 11/10/2026 7:00 AM, printed 11/10/2026 07:05:05"
