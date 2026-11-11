@@ -3,7 +3,7 @@ title: "Booking, Raven Teshoun Iva Morris, Nov. 10, 2026"
 date: 2026-11-10
 slug: 2026-11-10-booking-raven-teshoun-iva-morris
 desk: blotter
-city: Washington County
+city: Oakdale
 bodies: ["Washington County Jail"]
 status: briefing
 sources:
@@ -14,9 +14,9 @@ sources:
 
 ## What the record says
 
-Raven Teshoun Iva Morris was booked as PENDING CHARGE/INVESTIGATION.
+Raven Teshoun Iva Morris was booked 11/10/2026 2:48:41 AM as PENDING CHARGE/INVESTIGATION. Arresting agency: OAKDALE POLICE DEPARTMENT.
 
-Charge: GROSS MISDEMEANOR - 169A.25.1(a) Traffic - DWI - Second-Degree Driving While Impaired; 2 or more Aggravating Factors.
+Charge: FELONY - 609.2247.2 Domestic Assault - By Strangulation from OAKDALE POLICE DEPARTMENT.
 
 ## Dollars
 
@@ -36,7 +36,7 @@ Not in the document.
 
 ## What is not in the record
 
-Arresting agency and location limited in extract; addresses omitted.
+Addresses omitted.
 
 ## Court record
 
