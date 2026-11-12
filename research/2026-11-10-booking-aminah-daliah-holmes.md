@@ -1,0 +1,43 @@
+---
+title: "Booking, Aminah Daliah Holmes, Nov. 10, 2026"
+date: 2026-11-10
+slug: 2026-11-10-booking-aminah-daliah-holmes
+desk: blotter
+city: Washington County
+bodies: ["Washington County Jail"]
+status: briefing
+sources:
+  - url: https://web1.washingtoncountymn.gov/imageShare/Images/reports/booking/Wednesday.pdf
+    label: "Adult Daily Book-In Report, start 11/10/2026 7:00 AM, end 11/11/2026 7:00 AM, printed 11/11/2026 07:05:02"
+    fetched: 2026-11-12
+---
+
+## What the record says
+
+Aminah Daliah Holmes was booked 11/10/2026 as PENDING CHARGE/INVESTIGATION. Arresting agency as printed: WASHINGTON COUNTY.
+
+Charges as written: MISDEMEANOR - 169A.20.1(2) Traffic - DWI - Operate Motor Vehicle Under Influence of Controlled Substance - From WASHINGTON COUNTY.
+
+## Dollars
+
+Not in the document.
+
+## Votes
+
+Not yet voted.
+
+## Names
+
+Aminah Daliah Holmes.
+
+## Quotes
+
+Not in the document.
+
+## What is not in the record
+
+Minnesota Court Records Online search for this name returned a rejection page on this run. No complaint opened.
+
+## Court record
+
+No court case matched on this run.
