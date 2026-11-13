@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 11/11/2026 7:00 AM, end 11/12/2026 7:00 AM, printed 11/12/2026 07:05:06"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-13"
 ai_generated: true
 briefing: research/2026-11-12-booking-ryan-robert-munson.md
 charge: "Possessing a controlled substance"
