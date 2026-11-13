@@ -5,7 +5,7 @@ slug: 2026-11-10-washington-county-property-purchase
 desk: land
 city: Oak Park Heights
 bodies: ["Washington County Board of Commissioners"]
-status: briefing
+status: filed
 sources:
   - url: https://www.washingtoncountymn.gov/m/newsflash/Home/Detail/4387
     label: "County newsflash, Nov. 10, 2026 Board actions"
