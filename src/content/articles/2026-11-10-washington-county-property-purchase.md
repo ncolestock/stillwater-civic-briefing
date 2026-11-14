@@ -11,7 +11,8 @@ sources:
     label: "Pioneer Press, Nov. 12, 2026 (tip)"
 dollars: "$357,700"
 votes: null
-status: draft
+status: published
+checked: "2026-11-14"
 ai_generated: true
 briefing: research/2026-11-10-washington-county-property-purchase.md
 ---
