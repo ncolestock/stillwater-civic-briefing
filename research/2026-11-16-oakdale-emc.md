@@ -5,7 +5,7 @@ slug: 2026-11-16-oakdale-emc
 desk: meetings
 city: Oakdale
 bodies: ["Oakdale Environmental Management Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_11162026-928
     label: "Environmental Management Commission agenda and materials, Nov. 16, 2026"
