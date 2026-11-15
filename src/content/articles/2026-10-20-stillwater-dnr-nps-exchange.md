@@ -7,11 +7,10 @@ bodies: ["Stillwater City Council"]
 sources:
   - url: https://cityofstillwater.granicus.com/MetaViewer.php?view_id=3&event_id=2010&meta_id=149853
     label: "Resolution Supporting DNR-NPS Property Exchange and DNR letter, Oct. 20, 2026 packet"
-  - url: https://www.twincities.com/2026/11/01/fairy-falls-boom-site-land-swap-stillwater-mn/
-    label: "Pioneer Press story on land swap (tip)"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-15"
 ai_generated: true
 briefing: research/2026-10-20-stillwater-dnr-nps-exchange.md
 ---
