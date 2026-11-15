@@ -5,7 +5,7 @@ slug: 2026-11-17-stillwater-council
 desk: meetings
 city: Stillwater
 bodies: ["Stillwater City Council"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=1819
     label: "City Council agenda, Nov. 17, 2026"

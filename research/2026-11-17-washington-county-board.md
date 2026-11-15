@@ -5,7 +5,7 @@ slug: 2026-11-17-washington-county-board
 desk: meetings
 city: Washington County
 bodies: ["Washington County Board of Commissioners"]
-status: briefing
+status: filed
 sources:
   - url: https://washingtoncomn.portal.civicclerk.com/event/2081/files/agenda/3210
     label: "County Board agenda, Nov. 17, 2026"
