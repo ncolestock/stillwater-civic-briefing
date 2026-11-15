@@ -9,7 +9,8 @@ sources:
     label: "Environmental Management Commission agenda and materials, Nov. 16, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-15"
 ai_generated: true
 briefing: research/2026-11-16-oakdale-emc.md
 upcoming:

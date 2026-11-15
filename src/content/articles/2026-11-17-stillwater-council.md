@@ -9,7 +9,8 @@ sources:
     label: "City Council agenda, Nov. 17, 2026"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-15"
 ai_generated: true
 briefing: research/2026-11-17-stillwater-council.md
 ---
@@ -20,4 +21,4 @@ The agenda also lists a second reading of a zoning text amendment for accessory 
 
 Recognitions include oaths for Officers Troy Edmond, Shawn Milian, and Sean Dobb. Sergeant Stephen Papke and Police Chief Brian Mueller are named in the awards.
 
-The meeting is at 7 p.m. at City Hall. The agenda does not print dollar amounts for the contracts or the task order.
+The meeting is at 7 p.m. The agenda does not print dollar amounts for the contracts or the task order.

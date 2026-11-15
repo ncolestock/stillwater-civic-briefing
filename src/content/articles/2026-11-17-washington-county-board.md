@@ -5,13 +5,14 @@ desk: meetings
 city: Washington County
 bodies: ["Washington County Board of Commissioners"]
 sources:
-  - url: https://washingtoncomn.portal.civicclerk.com/event/2081/files/agenda/3210
+  - url: https://www.washingtoncountymn.gov/AgendaCenter/ViewFile/Agenda/_11172026-1972
     label: "County Board agenda, Nov. 17, 2026"
   - url: https://www.washingtoncountymn.gov/m/newsflash/Home/Detail/4387
     label: "County newsflash, Nov. 10, 2026 Board actions"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-15"
 ai_generated: true
 briefing: research/2026-11-17-washington-county-board.md
 ---
