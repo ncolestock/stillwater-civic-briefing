@@ -14,7 +14,7 @@ sources:
 
 ## What the record says
 
-Gregory Paul Scott Emerfoll was booked 11/15/2026 4:15:00 PM as BENCH WARRANT. Charges: MISDEMEANOR - 609.52.2(a)(1) Theft-Take/Use/Transfer Movable Prop-No Consent - From WOODBURY POLICE DEPARTMENT.
+Gregory Paul Scott Emerfoll was booked 11/15/2026 5:42:12 PM as BENCH WARRANT. Charges: MISDEMEANOR - 609.52.2(a)(1) Theft-Take/Use/Transfer Movable Prop-No Consent - From WOODBURY POLICE DEPARTMENT.
 
 ## Dollars
 
