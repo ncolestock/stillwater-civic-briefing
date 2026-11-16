@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 11/15/2026 7:00 AM, end 11/16/2026 7:00 AM, printed 11/16/2026 07:05:00"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-16"
 ai_generated: true
 briefing: research/2026-11-15-booking-brittany-marie-knoblauch.md
 charge: "Second-degree burglary of a dwelling"
