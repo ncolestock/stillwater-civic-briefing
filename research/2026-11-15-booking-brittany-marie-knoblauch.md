@@ -5,7 +5,7 @@ slug: 2026-11-15-booking-brittany-marie-knoblauch
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://storageaccountwc.blob.core.windows.net/sheriffpublicdata/reports/booking/Monday.pdf
     label: "Adult Daily Book-In Report, start 11/15/2026 7:00 AM, end 11/16/2026 7:00 AM, printed 11/16/2026 07:05:00"
