@@ -11,7 +11,8 @@ sources:
     label: "Pioneer Press, Nov. 16, 2026 (tip)"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-17"
 ai_generated: true
 briefing: research/2026-11-17-senate-district-33-recount.md
 upcoming:

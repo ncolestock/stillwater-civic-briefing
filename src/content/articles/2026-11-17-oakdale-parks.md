@@ -9,7 +9,8 @@ sources:
     label: "Parks and Recreation Commission Meeting Materials, Nov. 17, 2026"
 dollars: "5.5% preliminary tax levy; $500,000 from DNR for Tanners Lake Park; playground upgrades upwards of $30,000; Eberle Park concept pricing up 20-30%"
 votes: null
-status: draft
+status: published
+checked: "2026-11-17"
 ai_generated: true
 briefing: research/2026-11-17-oakdale-parks.md
 upcoming:
