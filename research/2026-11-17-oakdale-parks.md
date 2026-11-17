@@ -5,7 +5,7 @@ slug: 2026-11-17-oakdale-parks
 desk: meetings
 city: Oakdale
 bodies: ["Oakdale Parks and Recreation Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://www.oakdalemn.gov/AgendaCenter/ViewFile/Agenda/_11172026-930
     label: "Parks and Recreation Commission Meeting Materials, Nov. 17, 2026"

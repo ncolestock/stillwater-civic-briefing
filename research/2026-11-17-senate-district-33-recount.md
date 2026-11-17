@@ -5,7 +5,7 @@ slug: 2026-11-17-senate-district-33-recount
 desk: calendar
 city: Washington County
 bodies: ["Washington County"]
-status: briefing
+status: filed
 sources:
   - url: https://www.washingtoncountymn.gov/Calendar.aspx?EID=7523
     label: "Washington County calendar, Senate District 33 Recount, Nov. 17-18, 2026"
