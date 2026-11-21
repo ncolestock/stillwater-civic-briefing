@@ -10,7 +10,8 @@ sources:
 charge: "uninsured vehicle and driving after revocation"
 votes: null
 dollars: null
-status: draft
+status: published
+checked: "2026-11-21"
 ai_generated: true
 briefing: research/2026-11-20-booking-jesus-de-la-torre.md
 ---

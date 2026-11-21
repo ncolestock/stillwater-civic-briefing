@@ -10,7 +10,8 @@ sources:
 charge: "DWI with 0.08 alcohol concentration within two hours"
 votes: null
 dollars: null
-status: draft
+status: published
+checked: "2026-11-21"
 ai_generated: true
 briefing: research/2026-11-20-booking-tracy-dean-alber.md
 ---
