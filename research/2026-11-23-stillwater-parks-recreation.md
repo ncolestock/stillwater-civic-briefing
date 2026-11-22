@@ -5,7 +5,7 @@ slug: 2026-11-23-stillwater-parks-recreation
 desk: meetings
 city: Stillwater
 bodies: ["Stillwater Parks & Recreation Commission"]
-status: briefing
+status: filed
 sources:
   - url: https://cityofstillwater.granicus.com/AgendaViewer.php?view_id=3&event_id=2136
     label: "Parks & Recreation Commission Agenda, November 23, 2026"
