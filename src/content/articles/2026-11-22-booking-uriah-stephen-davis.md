@@ -9,7 +9,8 @@ sources:
     label: "Adult Daily Book-In Report, start 11/22/2026 7:00 AM end 11/23/2026 7:00 AM, printed 11/23/2026 07:05:04"
 dollars: null
 votes: null
-status: draft
+status: published
+checked: "2026-11-24"
 ai_generated: true
 briefing: research/2026-11-22-booking-uriah-stephen-davis.md
 charge: "Driving without proof of insurance, with expired registration, and after license revocation"
