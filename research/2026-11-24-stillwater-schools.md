@@ -5,7 +5,7 @@ slug: 2026-11-24-stillwater-schools
 desk: schools
 city: Stillwater
 bodies: ["Stillwater Area Public Schools Board"]
-status: briefing
+status: filed
 sources:
   - url: https://meetings.boardbook.org/Public/Agenda/2592?meeting=775752
     label: "Regular Business Meeting Agenda, November 24, 2026"

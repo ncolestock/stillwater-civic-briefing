@@ -5,7 +5,7 @@ slug: 2026-11-23-booking-matt-w-fluegel
 desk: blotter
 city: Washington County
 bodies: ["Washington County Jail"]
-status: briefing
+status: filed
 sources:
   - url: https://web1.washingtoncountymn.gov/imageShare/Images/reports/booking/Monday.pdf
     label: "Adult Daily Book-In Report, start 11/22/2026 7:00 AM end 11/23/2026 7:00 AM, printed 11/23/2026 07:05:04"
